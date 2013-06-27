@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/bizapp/CCR
+END
+SMSListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/bizapp/CCR/SMSListAdapter.java
+END
+CCRSettingPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/bizapp/CCR/CCRSettingPage.java
+END
+OldUserCCRPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/bizapp/CCR/OldUserCCRPage.java
+END
+BankItemInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/bizapp/CCR/BankItemInfo.java
+END
+CCRBankCardInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/bizapp/CCR/CCRBankCardInfo.java
+END
+BankSMSInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/bizapp/CCR/BankSMSInfo.java
+END
+BizCCRUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/bizapp/CCR/BizCCRUtil.java
+END
+BizCCR.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/bizapp/CCR/BizCCR.java
+END
+BankNameAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/bizapp/CCR/BankNameAdapter.java
+END
+NewUserCCRPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/bizapp/CCR/NewUserCCRPage.java
+END
+SmsInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/bizapp/CCR/SmsInfo.java
+END
+CCRBankTelMsg.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/bizapp/CCR/CCRBankTelMsg.java
+END
+KnownCCRPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/bizapp/CCR/KnownCCRPage.java
+END
+BankSMSReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/bizapp/CCR/BankSMSReceiver.java
+END
+CCRActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/bizapp/CCR/CCRActivity.java
+END
+SmsQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/bizapp/CCR/SmsQuery.java
+END
+ListUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/bizapp/CCR/ListUtils.java
+END

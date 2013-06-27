@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/AlipayBarCodeDisplayLayout"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:background="@drawable/application_bg" 
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<include 
+		layout="@layout/alipay_subtitle_320_480" />
+	
+	<LinearLayout android:id="@+id/AgentpayAll" 
+	    style="@style/AlipayBGCanvas320x480"
+		android:orientation="vertical"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:layout_below="@id/AlipaySubTitle"
+		android:background="@drawable/application_bg_white"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="3dp">
+			
+		<RelativeLayout android:id="@+id/AgentSomeonePart"
+			android:orientation="horizontal" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:background="@drawable/list_normal"
+			android:gravity="center_vertical" 
+			android:layout_marginTop="5dp"
+			android:layout_marginBottom="2dp"
+			android:layout_marginLeft="2dp"
+			android:layout_marginRight="2dp">
+			
+			<LinearLayout
+				android:id="@+id/agent_one_img_layout"
+		      	android:layout_width="wrap_content"
+		      	android:layout_height="wrap_content"
+			  	android:layout_marginLeft = "3dp"     
+		      	android:layout_alignParentLeft="true"
+		      	>
+		      	
+			    <ImageView android:id="@+id/agent_one_img"
+					android:layout_marginTop="15dp" 
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:layout_marginLeft="2dp"
+					android:layout_marginRight="2dp"
+					android:src="@drawable/agent_pay_someone"/>
+					
+			</LinearLayout>
+			
+			<LinearLayout
+			    android:id="@+id/more2"
+		      	android:layout_width="wrap_content"
+		      	android:layout_height="wrap_content"
+		      	android:layout_marginTop="30dp" 
+		      	android:layout_alignParentRight="true"
+		      	>
+			    <ImageView android:id="@+id/agent_next_img1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:src="@drawable/agent_go_right" 
+					android:layout_gravity="center"/>
+			</LinearLayout>
+
+			<LinearLayout android:id="@+id/AgentSomeoneInfo"
+				android:layout_toRightOf="@id/agent_one_img_layout"
+				android:layout_toLeftOf="@id/more2"
+				android:orientation="vertical" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical" 
+				android:layout_marginTop="3dp"
+				android:layout_marginBottom="3dp"
+				android:layout_marginLeft="5dp">
+			
+				<TextView android:id="@+id/AgentSomeoneTitle" 
+				    android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:textColor="@color/TextColorRed"
+					android:textSize="18sp"
+					android:text="@string/AgentPaySomeone" />
+
+				<TextView android:id="@+id/AgentSomeoneDes" 
+				    android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:textColor="@color/TextColorGrayTrading"
+					android:textSize="14sp"
+					android:text="@string/AgentPaySomeoneDes" />
+
+			</LinearLayout>
+			
+			
+				
+		</RelativeLayout>
+				
+		<RelativeLayout android:id="@+id/AgentAnyLinkPart"
+			android:orientation="horizontal" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:background="@drawable/list_normal"
+			android:gravity="center_vertical" 
+			android:layout_marginTop="5dp"
+			android:layout_marginLeft="2dp"
+			android:layout_marginRight="2dp"
+			android:layout_marginBottom="2dp">
+			
+			<LinearLayout
+				android:id="@+id/agent_any_img_layout"
+		      	android:layout_width="wrap_content"
+		      	android:layout_height="wrap_content"
+			  	android:layout_marginLeft = "3dp"     
+		      	android:layout_alignParentLeft="true"
+		      	>
+		      	
+			    <ImageView android:id="@+id/agent_any_img"
+			    	android:layout_marginTop="15dp"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="2dp"
+					android:layout_marginRight="2dp"
+					android:src="@drawable/agent_pay_anyone"/>
+						
+			</LinearLayout>		
+			
+			<LinearLayout
+		      	android:layout_width="wrap_content"
+		      	android:layout_height="wrap_content"
+		      	android:id="@+id/more"
+		      	android:layout_marginTop="30dp" 
+		      	android:layout_alignParentRight="true"
+		      	>
+			    <ImageView android:id="@+id/agent_next_img2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content" 
+					android:src="@drawable/agent_go_right" 
+					android:layout_gravity="right|center"/>
+			</LinearLayout>	
+					
+			<LinearLayout android:id="@+id/AgentAnyLinkInfo"
+				android:layout_toRightOf="@id/agent_any_img_layout"
+				android:layout_toLeftOf="@id/more"
+				android:orientation="vertical" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical" 
+				android:layout_marginTop="3dp"
+				android:layout_marginBottom="3dp"
+				android:layout_marginLeft="5dp">
+			
+				<TextView android:id="@+id/AgentAnyLinkTitle" 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:textColor="@color/TextColorGreen"
+					android:textSize="18sp"
+					android:text="@string/AgentPayAnylink" />
+		
+				<TextView android:id="@+id/AgentAnyLinkDes"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:textColor="@color/TextColorGrayTrading"
+					android:textSize="14sp"
+					android:text="@string/AgentPayAnylinkDes" />
+			</LinearLayout>
+				
+		</RelativeLayout>
+				
+		<LinearLayout android:id="@+id/AgentDealInfo"
+			android:orientation="vertical" 
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:background="@drawable/agent_pay_pop_top"
+			android:gravity="center_vertical" 
+			android:layout_marginTop="5dp"
+			android:layout_marginBottom="5dp"
+			android:layout_marginLeft="2dp"
+			android:layout_marginRight="2dp">
+					
+			<LinearLayout android:id="@+id/GoodsInfo"
+				android:orientation="horizontal" 
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical" 
+				android:layout_marginTop="5dp"
+				android:layout_marginLeft="5dp">
+				
+				<TextView android:id="@+id/GoodsTitle" 
+				    style="@style/AlipayNormalText320x480"
+					android:layout_width="80dp" 
+					android:layout_height="wrap_content"
+					android:gravity="right"
+					android:text="商品名称：" />
+					
+				<TextView android:id="@+id/GoodsDes" 
+				    style="@style/AlipayNormalText320x480"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content" />
+			</LinearLayout>
+		
+			<LinearLayout android:id="@+id/ReceiverInfo"
+				android:orientation="horizontal" 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical" 
+				android:layout_marginTop="2dp"
+				android:layout_marginLeft="5dp">
+								
+				<TextView android:id="@+id/ReceiverTitle" 
+				    style="@style/AlipayNormalText320x480"
+					android:layout_width="80dp"
+					android:layout_height="wrap_content"
+					android:gravity="right"
+					android:text="收款方：" />
+					
+				<TextView android:id="@+id/ReceiverAccount" 
+				    style="@style/AlipayNormalText320x480"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content" />
+			</LinearLayout>
+								
+			<LinearLayout android:id="@+id/DealAmountInfo"
+				android:orientation="horizontal" 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical" 
+				android:layout_marginTop="2dp"
+				android:layout_marginBottom="5dp"
+				android:layout_marginLeft="5dp">
+					
+				<TextView android:id="@+id/DealAmountTitle" 
+				    style="@style/AlipayNormalText320x480"
+					android:layout_width="80dp" 
+					android:layout_height="wrap_content"
+					android:gravity="right"
+					android:text="应付金额：" />
+
+				<TextView android:id="@+id/DealAmountValue" 
+				    style="@style/AlipayNormalText320x480"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content" />
+			</LinearLayout>
+							
+		</LinearLayout>
+					
+	</LinearLayout>	
+</RelativeLayout>
+				
+				
+		

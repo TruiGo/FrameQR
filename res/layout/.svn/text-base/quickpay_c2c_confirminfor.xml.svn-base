@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:component="http://schemas.android.com/apk/res/com.eg.android.AlipayGphone"
+			    style="@style/application_bg"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res/com.eg.android.AlipayGphone">
+     <!-- 标题 -->
+    <include layout="@layout/alipay_subtitle_320_480"/>
+    <ImageView android:id="@+id/quickpayTop" android:layout_width="fill_parent" android:layout_height="wrap_content" android:background="@drawable/quickpay_confirm_top" android:layout_below="@id/AlipaySubTitle"/>
+        <ScrollView
+        android:id="@+id/LoginScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/AlipaySubTitle"
+        android:isScrollContainer="true" 
+        android:background="#ffffff">
+		         <!-- c2c -->
+		<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/c2cLayout"  android:background="#ffffff" android:orientation="vertical">
+		        <ImageView android:id="@+id/quickpayTop" android:layout_width="fill_parent" android:layout_height="wrap_content" android:background="@drawable/quickpay_confirm_top"/>
+		        <!-- 姓名 -->
+		        <RelativeLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/personnameLayout" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+		               <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#666666"  android:text="姓名" android:layout_alignParentLeft="true" android:textSize="18dp"/>
+		                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#333333" android:layout_alignParentRight="true" android:id="@+id/personNameTextView" android:textSize="18dp"/>
+		        </RelativeLayout>
+		       
+		        <ImageView android:layout_height="wrap_content" android:layout_width="fill_parent" android:background="@drawable/quickpay_confirm_dotteddivideline" android:id="@+id/devide1" android:layout_marginTop="5dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>		       
+		        <!-- 账号 -->
+		        <RelativeLayout android:id="@+id/accountLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp">
+		               <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#666666"  android:text="账号" android:layout_alignParentLeft="true" android:textSize="18dp"/>
+		               <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#333333"  android:layout_alignParentRight="true" android:id="@+id/accountTextView" android:textSize="18dp"/>
+		        </RelativeLayout>
+		      
+		        <ImageView android:layout_height="wrap_content" android:layout_width="fill_parent" android:background="@drawable/quickpay_confirm_dotteddivideline" android:id="@+id/devide2" android:layout_marginTop="5dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+		      
+		        <!-- 金额填写 -->
+		        <RelativeLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_margin="10dp" android:id="@+id/numberPayLayout" >
+		              <!--  <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#666666" android:textSize="18dp"  android:text="金额：" android:layout_alignParentLeft="true" android:gravity="center_vertical" android:layout_centerVertical="true" android:id="@+id/paymentTitle" android:layout_marginRight="15dp"/> -->
+		               <com.alipay.android.comon.component.EditTextWithButton
+						        android:id="@+id/paymentEdit"
+						        android:layout_width="wrap_content"
+						        android:layout_height="wrap_content"
+						        android:addStatesFromChildren="true"
+						        android:background="@drawable/quickpay_edit_bg"
+						        component:inputTextColor="#333333"
+						        component:inputHint="@string/transferMoney"
+				                component:isAlipayMoney="true"
+				                component:inputType="textDecimal"
+				                android:gravity="center_vertical"
+				                component:inputHintTextColor="@color/text_light_gray"/>
+		        </RelativeLayout>
+		        <ImageView android:layout_height="wrap_content" android:layout_width="fill_parent" android:background="@drawable/quickpay_confirm_dotteddivideline"  android:id="@+id/devide3" android:layout_marginTop="5dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+		        <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="确定"  android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginTop="10dp" android:gravity="center" android:id="@+id/creatQuickPay" style="@style/AlipayCashButtonStyle"/>
+		</LinearLayout>
+    </ScrollView>
+</RelativeLayout>

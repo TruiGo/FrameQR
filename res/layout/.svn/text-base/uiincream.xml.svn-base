@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/uiincream" android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<ScrollView android:id="@+id/fakeRootScrollView"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<LinearLayout android:id="@+id/fakeRootLinearLayout"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:orientation="vertical">
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

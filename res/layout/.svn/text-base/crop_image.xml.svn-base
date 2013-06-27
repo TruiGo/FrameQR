@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res/com.eg.android.AlipayGphone"
+	android:layout_width="fill_parent" android:layout_height="fill_parent" 
+	android:background="@drawable/application_bg">
+	
+    <include layout="@layout/alipay_subtitle_320_480"/>
+    
+	<com.alipay.android.ui.personlcard.CropImageView
+		android:id="@+id/crop" android:layout_width="fill_parent" android:layout_below="@+id/AlipaySubTitle"
+		android:layout_height="fill_parent" app:width="240" app:height="240" 
+		/>
+</RelativeLayout>

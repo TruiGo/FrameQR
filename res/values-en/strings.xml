@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">"Alipay"</string>
+<string name="Accept">"Accept"</string>
+<string name="Refuse">"Refuse"</string>
+<string name="Disclaimer">"Disclaimer"</string>
+<string name="DisclaimerContent">"All software and applications are third party products and provided as is. Motorola or its subsidiaries make no representations or warranties, expressly or impliedly. By way of example but not of limitation, Motorola or its subsidiaries make no representations or warranties of merchantability or fitness for a particular purpose, or that the use of  the software and applications will not infringe any intellectual property rights. Motorola or its subsidiaries shall not be liable for any damages of any kind arising out of or relating to the use or inability to use the software and applications and services thereof.  Amendment and availability of these software and applications are subject to change without any prior notice.\n"</string>
+</resources>
+

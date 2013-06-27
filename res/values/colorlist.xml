@@ -1,0 +1,71 @@
+<resources>
+<color name="background_blue">#2277bb</color>
+<color name="text_orange">#ff7700</color>
+<color name="text_gray">#666666</color>
+<color name="text_light_gray">#999999</color>
+<color name="text_green">#388243</color>
+<color name="text_blue">#2277bb</color>
+<color name="dividerColor">#dddddd</color>
+<color name="text_white_gray">#dbdada</color>
+<color name="text_white_dark_gray">#9d9d9d</color>
+<color name="TradeBackGroundColor">#efeeec</color>
+<color name="text_lifepay_title">#4488aa</color>
+<color name="text_lifepay_penalty_hint">#cccccc</color>
+
+
+<color name="AppBackgroundColor">#f3f3f3</color>
+<color name="TextColorBlack">#333333</color>
+<color name="TextColorWhite">#FFFFFF</color>
+<color name="TextColorBlue">#2277bb</color>
+<color name="TextColorGray">#505050</color>
+<color name="TextColorRed">#E26926</color>
+<color name="TextColorGrayTrading">#A0A0A0</color>
+<color name="TextColorTip">#979797</color>
+<color name="TextColorYellow">#ff7700</color>
+<color name="TextColorGrayTwo">#cccccc</color>
+<color name="TextColorGrayThree">#999999</color>
+<color name="MsgButtonBlack">#000000</color>
+<color name="ButtonColorYellow">#884400</color>
+<color name="ButtonColorBlue">#426996</color>
+<color name="AboutColor">#201812</color>
+<color name="CopyrightColor">#9d9d9d</color>
+<color name="listdivierColor">#b0c1e0</color>
+<color name="textHighlightColor">#ff8800</color>
+
+<color name="TextColorGreen">#449900</color>
+
+<!-- BarcodeCaptureActivity -->
+<color name="status_text">#ffffffff</color>
+<color name="transparent">#00000000</color>
+<color name="result_text">#ffffffff</color>
+<color name="result_minor_text">#ffc0c0c0</color>
+<color name="result_view">#b0000000</color>
+<color name="viewfinder_laser">#ffff0000</color>
+<color name="viewfinder_mask">#60000000</color>
+<color name="possible_result_points">#c0ffff00</color> 
+<color name="result_image_border">#ffffffff</color>
+<color name="result_points">#c000ff00</color>
+<color name="encode_view">#ffffffff</color>
+<color name="contents_text">#ff000000</color>
+
+<color name="transparent_background">#50000000</color>  
+<color name="orangecolor">#ffff6600</color>
+
+<color name="LetterListItemGapGray">#f1f5f8</color>
+
+<color name="title_color">#3A393A</color>
+
+<color name="menupanel_color">#c0b9b8</color>
+
+<color name="patterntop_color">#cfc6c3</color>
+<color name="loginedithint_color">#999999</color>
+
+<color name="quickpay_bg_color">#eaecee</color>
+
+<color name="billtopbg_normal">#ffefeeec</color>
+<color name="billtopbg_pressed">#00efeeec</color>
+
+<color name="voucher_available">#fff7e0</color>
+<color name="voucher_unAvailable">#e0e0e0</color>
+
+</resources>

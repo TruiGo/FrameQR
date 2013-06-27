@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    style="@style/application_bg" >
+    <!-- 标题 -->
+	<RelativeLayout style="@style/title" android:id="@+id/titleView" android:layout_marginBottom="8dp">
+		<TextView android:id="@+id/title_text" style="@style/title_text" android:text="@string/usedRecord"/>
+	</RelativeLayout>
+	 
+	<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+	    android:background="@drawable/voucher_detail_back_bg" android:layout_below="@id/titleView" 
+	    android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="8dp">
+	    <com.alipay.android.comon.component.PullRefreshView android:id="@+id/pull" android:layout_width="fill_parent" 
+	        android:layout_height="fill_parent" android:layout_marginTop="8dp">
+			<ListView android:layout_width="fill_parent" android:layout_height="fill_parent"
+			    android:id="@+id/verifyListView" android:cacheColorHint="@android:color/transparent"
+			    android:listSelector="@android:color/transparent" android:scrollbars="none"
+			    android:divider="@color/transparent"/>
+		</com.alipay.android.comon.component.PullRefreshView>
+	</RelativeLayout>
+</RelativeLayout>

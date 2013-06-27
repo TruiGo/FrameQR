@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/application_bg" >
+
+    <include layout="@layout/alipay_subtitle_320_480" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/AlipaySubTitle"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/application_bg_white"
+        android:paddingTop="10dp" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <RelativeLayout
+                android:id="@+id/AlipayAccountBindingCanva1"
+                style="@style/AlipayBGCanvas320x480"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:id="@+id/AlipayAccountBindingName"
+                    style="@style/AlipayNormalText320x480"
+                    android:text="@string/AccountBindingName" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/AccountBindingTip"
+                    style="@style/AlipayNormalText320x480"
+                    android:layout_below="@id/AlipayAccountBindingName"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/AccountBindingTip" >
+                </TextView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/AlipayAccountBindingCanva2"
+                style="@style/AlipayBGCanvas320x480"
+                android:layout_below="@id/AlipayAccountBindingCanva1"
+                android:layout_marginTop="10dp" >
+
+                <!--
+        <TextView
+			style="@style/AlipayNormalText320x480"
+			android:id="@+id/AlipayAccountBindingLoginTip"
+			android:text="@string/AlipayAccountBindingLoginTip">
+		</TextView> 
+		<EditText
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/BindingAccount"
+			android:hint="@string/AliapyAccountTip"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp">
+		</EditText>
+		<EditText
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/BindingPassword"
+			android:layout_below="@id/BindingAccount"
+			android:hint="@string/AlipayPasswordTip"
+			android:password="true"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp">
+		</EditText>
+                -->
+
+                <LinearLayout
+                    android:id="@+id/AlipayRegisterAccountPanel"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:addStatesFromChildren="true"
+                    android:background="@drawable/alipay_input"
+                    android:gravity="center"
+                    android:paddingRight="0dip" >
+
+                    <TextView
+                        style="@style/AlipayInputText"
+                        android:text="@string/AliapyAccountTip"
+                        android:textAppearance="?android:attr/textAppearanceLargeInverse" />
+
+                    <EditText
+                        android:id="@+id/BindingAccount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:singleLine="true"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/AlipayRegisterPasswordPanel"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/AlipayRegisterAccountPanel"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:addStatesFromChildren="true"
+                    android:background="@drawable/alipay_input"
+                    android:gravity="center"
+                    android:paddingRight="0dip" >
+
+                    <TextView
+                        style="@style/AlipayInputText"
+                        android:text="@string/AlipayPasswordTip"
+                        android:textAppearance="?android:attr/textAppearanceLargeInverse" />
+
+                    <EditText
+                        android:id="@+id/BindingPassword"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:password="true"
+                        android:singleLine="true"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/AlipayAccountBindingLoginButton"
+                    style="@style/AlipayNormalButtonStyle320x480"
+                    android:layout_below="@id/AlipayRegisterPasswordPanel"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/BindPhoneNo" >
+                </Button>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/AlipayAccountBindingCanva3"
+                style="@style/AlipayBGCanvas320x480"
+                android:layout_below="@id/AlipayAccountBindingCanva2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp" >
+
+                <TextView
+                    android:id="@+id/AlipayAccountBindingRegisterTip"
+                    style="@style/AlipayNormalText320x480"
+                    android:text="@string/AlipayAccountBindingRegisterTip" >
+                </TextView>
+
+                <Button
+                    android:id="@+id/AlipayAccountBindingRegisterButton"
+                    style="@style/NormalButtonSubStyle"
+                    android:layout_below="@id/AlipayAccountBindingRegisterTip"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/AlipayAccountBindingRegisterButtonName" >
+                </Button>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

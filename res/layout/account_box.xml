@@ -1,0 +1,7 @@
+<EditText xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/PayAccountEditText" android:layout_height="40dp"
+	android:layout_width="fill_parent" android:hint="@string/PayPayingAccountHint"
+	android:layout_marginTop="0dp" android:layout_marginRight="0dp"
+	android:inputType="textEmailAddress" android:paddingLeft="5dip"
+	android:singleLine="true" android:maxLength="64" android:textSize="16sp"
+	android:textColor="@drawable/alipay_input_text" android:background="@drawable/alipay_input" />

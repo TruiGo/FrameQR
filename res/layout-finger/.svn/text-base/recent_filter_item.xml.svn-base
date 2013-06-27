@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="?android:attr/dropDownItemStyle"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="50dp">
+	<TextView android:id="@+id/name"
+		style="?android:attr/dropDownItemStyle"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:layout_gravity="center_vertical"
+		android:singleLine="true"
+		android:textSize="18sp"
+		android:ellipsize="marquee"
+		android:textColor="#ff000000"
+	/>
+	<ImageView
+		android:id="@+id/DeleteImage"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:scaleType="fitXY"
+		android:background="@drawable/comboxdelete"
+		android:layout_centerVertical="true"
+		android:layout_marginRight="3dip">
+	</ImageView>
+	 
+	
+
+</RelativeLayout>

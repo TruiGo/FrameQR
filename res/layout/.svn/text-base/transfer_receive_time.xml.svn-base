@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/application_bg" android:orientation="vertical">
+    <RelativeLayout style="@style/title" >
+        <TextView
+            android:id="@+id/title_text"
+            style="@style/title_text"
+            android:text="@string/receiveTime"/>
+    </RelativeLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" 
+    	android:background="@drawable/title_shadow" />
+    
+    <ScrollView 
+        android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollbars="none"
+        android:layout_marginLeft="10dp" android:layout_marginRight="10dp">
+		<LinearLayout android:orientation="vertical"
+		    android:layout_width="fill_parent" android:layout_height="wrap_content"
+		    android:background="@drawable/application_bg_white"  android:paddingBottom="15dp"
+		    android:paddingLeft="10dp">
+		    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+		        android:text="@string/receiveTimeTip" android:textSize="16sp" android:textColor="#333333"/>
+		    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+		        android:text="@string/twoHourReceive" android:textSize="16sp" android:textColor="#579ACB"/>
+		    <LinearLayout android:id="@+id/twoHourContainer" android:layout_width="fill_parent" android:layout_height="wrap_content"
+		        android:orientation="vertical"/>
+		    
+		    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+		        android:text="@string/nextDayReceive" android:textSize="16sp" android:textColor="#579ACB"
+		        android:layout_marginTop="20dp"/>
+		    
+		    <LinearLayout android:id="@+id/nextDayContainer" android:layout_width="fill_parent" android:layout_height="wrap_content"
+		        android:orientation="vertical" android:paddingBottom="20dp"/>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:orientation="vertical"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent" 
+    android:background="@drawable/application_bg"
+    > 
+    
+    <include layout="@layout/alipay_subtitle_320_480" />
+    
+     
+<RelativeLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_below="@+id/AlipaySubTitle"
+	    android:background="@drawable/application_bg_white_list"
+         android:layout_marginLeft="5dp"
+         android:layout_marginRight="5dp"
+	    >
+    <ListView android:id="@+id/list_view" 
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent"
+		android:layout_below="@+id/AlipaySubTitle"
+		android:divider="@color/LetterListItemGapGray"
+		android:dividerHeight="1dp"
+		android:scrollbars="none"
+		android:cacheColorHint="@android:color/transparent" />
+    <com.alipay.android.client.lifePayment.PaymentCityLetterListView
+    	android:id="@+id/MyLetterListView01" 
+		android:background="@drawable/citylist_right_abc_bg"
+		android:layout_width="30dip" 
+		android:layout_height="fill_parent"
+		android:layout_marginTop="5dip"
+		android:layout_marginBottom="5dip"
+		android:layout_marginRight="3dip"
+		android:layout_alignParentRight="true"
+		android:layout_below="@+id/AlipaySubTitle" />
+   </RelativeLayout>
+</RelativeLayout> 

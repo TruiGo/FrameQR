@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/MsgDetailGroup"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@drawable/application_bg"
+	>
+  
+  <include layout="@layout/alipay_subtitle_320_480" />
+  <LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@drawable/application_bg_white"
+	android:layout_marginLeft="5dp"
+	android:layout_marginRight="5dp"
+	android:layout_marginBottom="3dp"
+	android:padding="10dp"
+	>
+ 	 <WebView
+      android:id="@+id/systemMsgDetailWebView"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:background="@color/transparent"
+      />
+  </LinearLayout>
+</LinearLayout>

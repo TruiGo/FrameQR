@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/welcomeUse"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/welcome_bg" >
+
+    <ImageView
+        android:id="@+id/alipayTopImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/welcome_top" />
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/welcomeMidLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true" >
+
+        <ImageView
+            android:id="@+id/alipayPurse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/purse" />
+
+        <ImageView
+            android:id="@+id/welcomeLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/alipayPurse"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/welcome_logo" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/aboutCopyrightNameThree"
+        android:layout_centerHorizontal="true"
+        android:text="@string/AboutCopyrightNameTwo"
+        android:textColor="@color/CopyrightColor"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/aboutCopyrightNameThree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:text="@string/AboutCopyrightNameThree"
+        android:textColor="@color/CopyrightColor"
+        android:textSize="12dp" />
+
+    <FrameLayout
+        android:id="@+id/guide"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" >
+
+        <WebView
+            android:id="@+id/webGuide"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <View
+            android:id="@+id/skipButton"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right|bottom" />
+    </FrameLayout>
+
+</RelativeLayout>

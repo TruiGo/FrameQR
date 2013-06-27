@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="?android:attr/dropDownItemStyle"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@drawable/alipay_list_iteminfo_bg">
+	<TextView android:id="@+id/account"
+		style="?android:attr/dropDownItemStyle"
+		android:layout_width="230dip"
+		android:layout_height="fill_parent"
+		android:layout_gravity="center_vertical"
+		android:singleLine="true"
+		android:textSize="18sp"
+		android:ellipsize="end"
+		android:textColor="#ff000000"
+	/>
+</LinearLayout>

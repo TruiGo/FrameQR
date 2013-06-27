@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:isScrollContainer="true">
+	
+	<LinearLayout
+	    style="@style/AlipayInputCanvas320x480"
+		android:id="@+id/CardCanvas"
+		android:orientation="vertical">	  	
+	  	 <LinearLayout
+	  	 	android:orientation="vertical"
+	  	 	android:layout_width="fill_parent"
+	  	 	android:layout_height="wrap_content">
+	  	 	<RelativeLayout
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+		       	android:layout_marginTop="10dp"
+		       	android:layout_marginRight="10dp"
+		       	android:layout_marginBottom="10dp"
+		       	android:layout_marginLeft="20dp"
+				android:id="@+id/CardCueTextDisplayArea"
+				android:layout_weight="0">
+				<TextView
+		       		style="@style/AlipayNormalText320x480"
+		       		android:id="@+id/CardMainCueText">
+		   		</TextView>
+			</RelativeLayout>
+			
+	  		<!-- <ImageView style="@style/AlipayCutoffLineStyle320x480"/> -->
+		
+		<RelativeLayout
+		    style="@style/AlipayInputCanvas320x480"
+		    android:layout_width="fill_parent"
+			android:id="@+id/CardInfoDisplayArea"
+			android:layout_weight="1">
+		</RelativeLayout>
+		<ImageView style="@style/AlipayCutoffLineStyle320x480"/>
+		<Button 
+			android:text="@string/CardBankActMsg_NEWItemString"
+			android:id="@+id/ApplyCardButton"
+			style="@style/AlipayNormalButtonStyle320x480"
+			android:layout_width="fill_parent"
+			android:layout_margin="10dp"
+			android:layout_gravity="center"
+			android:textSize="16dp">
+		</Button>
+			<!-- <LinearLayout
+            style="@style/AlipayInputCanvas320x480"
+            android:id="@+id/CardSummaryArea"
+            android:orientation="vertical"
+            android:visibility="invisible"
+            android:layout_weight="0">  
+            <ImageView style="@style/AlipayCutoffLineStyle320x480"/>
+            <TextView
+                style="@style/AlipayNormalText320x480"
+                android:layout_margin="10dp"
+                android:textSize="14dp"
+                android:id="@+id/CardMainSummaryText">
+            </TextView>
+       		</LinearLayout> -->
+	 	 </LinearLayout> 	 	 
+	</LinearLayout>
+
+</RelativeLayout>

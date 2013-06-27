@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="voucherCodeSize">25sp</dimen>
+    <dimen name="voucherIconSize">60dp</dimen>
+</resources>

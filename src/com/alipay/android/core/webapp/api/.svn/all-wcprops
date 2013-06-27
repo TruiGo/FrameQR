@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/core/webapp/api
+END
+Alipay.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/core/webapp/api/Alipay.java
+END
+Navigation.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/core/webapp/api/Navigation.java
+END
+AlipaySession.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/core/webapp/api/AlipaySession.java
+END
+Analysis.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/core/webapp/api/Analysis.java
+END
+GeoLocation.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/core/webapp/api/GeoLocation.java
+END
+Context.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/core/webapp/api/Context.java
+END
+Progress.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/core/webapp/api/Progress.java
+END
+Header.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/core/webapp/api/Header.java
+END
+Map.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/core/webapp/api/Map.java
+END
+Preference.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/core/webapp/api/Preference.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/core/webapp/api/User.java
+END

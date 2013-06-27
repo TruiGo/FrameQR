@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alipay.android.appHall.uiengine.AnimRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/application_bg" android:id="@+id/listContainer" >
+	<include layout="@layout/alipay_subtitle_320_480" />
+	<com.alipay.android.ui.widget.PagedHorizontalLayout android:layout_below="@id/AlipaySubTitle"
+	    android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/tabViewLayout">
+	    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"> 
+		    <com.alipay.android.comon.component.PullRefreshView android:layout_marginLeft="13dp" android:layout_marginRight="13dp"
+				android:id="@+id/availablePull" android:layout_width="fill_parent" android:layout_height="fill_parent">
+				<ListView android:id="@+id/avaiVoucherListView" android:divider="@android:color/transparent"
+				    android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollbars="none"
+				    android:cacheColorHint="@android:color/transparent" android:listSelector="@android:color/transparent"/>
+			</com.alipay.android.comon.component.PullRefreshView>
+			
+		    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+		        android:id="@+id/noAvailableView" android:visibility="gone">
+	            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" 
+				    android:id="@+id/noAvailableView" 
+				    android:text="@string/noAvailableVoucher"  android:layout_centerInParent="true"
+				    android:textSize="18sp" android:textColor="@color/text_light_gray"/>
+				<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+			        android:src="@drawable/no_available_voucher" android:id="@+id/no_available_icon"
+			        android:layout_centerHorizontal="true" android:layout_above="@id/noAvailableView"/>
+				<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" 
+			        android:src="@drawable/no_available_arrow" android:layout_above="@id/no_available_icon"
+			        android:layout_toRightOf="@id/no_available_icon" android:layout_marginBottom="10dp"/>
+		    </RelativeLayout>
+		    
+		    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/listUsed" 
+				   	android:layout_centerVertical="true" android:id="@+id/switchUnAvailable" android:background="@drawable/list_left_tab" 
+				    android:textColor="@color/TextColorWhite"/>
+		</RelativeLayout>
+		
+		<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" >
+		    <com.alipay.android.comon.component.PullRefreshView android:layout_marginLeft="13dp" android:layout_marginRight="13dp"
+				android:id="@+id/unAvailablePull" android:layout_width="fill_parent" android:layout_height="fill_parent">
+				<ListView android:id="@+id/unAvaiVoucherListView" android:divider="@android:color/transparent"
+				    android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollbars="none"
+				    android:cacheColorHint="@android:color/transparent" android:listSelector="@android:color/transparent"/>
+			</com.alipay.android.comon.component.PullRefreshView>
+			
+			<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"
+			    android:id="@+id/noUnAvailableView" android:drawableTop="@drawable/no_unavailable_voucher" 
+			    android:text="@string/noUnavailableVoucher" android:gravity="center" android:visibility="gone"
+			    android:textSize="18sp" android:textColor="@color/text_light_gray"/>
+			
+		    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/listUnUsed"
+		        android:layout_centerVertical="true" android:layout_alignParentRight="true" android:background="@drawable/list_right_tab"
+		        android:id="@+id/switchAvailable" android:textColor="@color/TextColorWhite"/>
+		</RelativeLayout>
+	</com.alipay.android.ui.widget.PagedHorizontalLayout>
+</com.alipay.android.appHall.uiengine.AnimRelativeLayout>

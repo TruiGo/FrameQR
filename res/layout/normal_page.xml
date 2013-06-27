@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/normalPage"
+  	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	style="@style/application_bg"
+	>
+	
+	<!-- title area -->  	
+	<include layout="@layout/web_app_title_layout"/>
+	
+	<ScrollView
+		android:id="@+id/scrollView"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:scrollbars="vertical"
+		android:background="@drawable/application_bg_white"
+		android:layout_margin="5dp"
+		>
+		<LinearLayout
+			android:id="@+id/panel"
+		  	android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="vertical"
+			android:paddingBottom="5dp"
+			>
+			<!-- content area -->
+			<LinearLayout
+				android:id="@+id/formPanel"
+			  	android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:orientation="vertical"
+				/>
+			
+			<!-- confirm area -->
+			<LinearLayout
+				android:id="@+id/confirmBar"
+			  	android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:orientation="horizontal"
+				/>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FeedbackView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/application_bg" >
+
+    <include layout="@layout/alipay_subtitle_320_480" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/AlipaySubTitle"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/application_bg_white"
+        android:fillViewport="true" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="5dp" 
+            android:paddingTop="5dp">
+
+            <EditText
+                android:id="@+id/UserFeedbackContent"
+                android:layout_width="fill_parent"
+                android:layout_height="150dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/alipay_input"
+                android:gravity="top"
+                android:hint="@string/FeedbackText"
+                android:maxLength="240" />
+
+            <TextView
+                android:id="@+id/ContentNumWarningText"
+                style="@style/TextView320x480"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/UserFeedbackContent"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="0dp"
+                android:textColor="@color/TextColorTip"
+                android:textSize="13dp" >
+            </TextView>
+
+            <RelativeLayout
+                android:id="@+id/InputTelNumLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ContentNumWarningText"
+                android:layout_margin="10dp" >
+
+                <EditText
+                    android:id="@+id/InputTelNumber"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/alipay_input"
+                    android:hint="@string/InputTelNumText"
+                    android:phoneNumber="true" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/SubmitFeedbackContentButton"
+                style="@style/AlipayNormalButtonStyle320x480"
+                android:layout_below="@id/InputTelNumLayout"
+                android:layout_margin="10dp"
+                android:text="@string/SubmitFeedbackContentButtonText" />
+            <View
+                android:layout_below="@id/SubmitFeedbackContentButton"
+                android:layout_width="fill_parent"
+                android:layout_height="10dp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

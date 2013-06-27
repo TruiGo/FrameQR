@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:component="http://schemas.android.com/apk/res/com.eg.android.AlipayGphone"
+    android:id="@+id/AlipayLogin"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/application_bg"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+
+    <include layout="@layout/alipay_subtitle_320_480" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/AlipaySubTitle"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/application_bg_white"
+        android:fillViewport="true"
+        android:isScrollContainer="true" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="15dp" >
+
+            <RelativeLayout
+                android:id="@+id/smallLimitLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <RelativeLayout
+                    android:id="@+id/smallLimitTitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp" >
+
+                    <TextView
+                        android:id="@+id/smallLimitTitle_dc"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/express_limit_title_dc_small"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="18sp" 
+                        android:visibility="gone"/>
+
+                    <LinearLayout
+                        android:id="@+id/smallLimitTitle_cc"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content" 
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/express_limit_title_cc_small_start"
+                            android:textColor="@color/TextColorBlack"
+                            android:layout_marginRight="2dp"
+                            android:textSize="18sp" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="18dp"
+                            android:src="@drawable/icon_card" 
+                            android:layout_marginTop="4dp"
+                            android:scaleType="fitXY"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/express_limit_title_cc_small_end"
+                            android:textColor="@color/TextColorBlack"
+                            android:layout_marginLeft="2dp"
+                            android:textSize="18sp" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/smallSingleLimitLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/smallLimitTitle"
+                    android:background="@drawable/express_list_btn_top"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:id="@+id/smallSingleLimit"
+                        style="@style/listitem_text"
+                        android:layout_alignParentLeft="true"
+                        android:text="@string/express_limit_single" />
+
+                    <TextView
+                        android:id="@+id/smallSingleLimitValue"
+                        style="@style/listitem_text"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/smallDailyLimitLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/smallSingleLimitLayout"
+                    android:background="@drawable/express_list_btn_m"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:id="@+id/smallDailyLimit"
+                        style="@style/listitem_text"
+                        android:layout_alignParentLeft="true"
+                        android:text="@string/express_limit_daily" />
+
+                    <TextView
+                        android:id="@+id/smallDailyLimitValue"
+                        style="@style/listitem_text"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/smallMonthlyLimitLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/smallDailyLimitLayout"
+                    android:background="@drawable/express_list_btn_f"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:id="@+id/smallMonthlyLimit"
+                        style="@style/listitem_text"
+                        android:layout_alignParentLeft="true"
+                        android:text="@string/express_limit_monthly" />
+
+                    <TextView
+                        android:id="@+id/smallMonthlyLimitValue"
+                        style="@style/listitem_text"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/bigLimitLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@id/smallLimitLayout"
+                android:layout_marginTop="15dp" >
+
+                <RelativeLayout
+                    android:id="@+id/bigLimitTitle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp" >
+
+                    <TextView
+                        android:id="@+id/bigLimitTitle_dc"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/express_limit_title_dc_big"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="18sp" 
+                        android:visibility="gone"/>
+
+                    <TextView
+                        android:id="@+id/bigLimitTitle_cc"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/express_limit_title_cc_big"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="18sp" 
+                        android:visibility="gone"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/bigSingleLimitLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/bigLimitTitle"
+                    android:background="@drawable/express_list_btn_top"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:id="@+id/bigSingleLimit"
+                        style="@style/listitem_text"
+                        android:layout_alignParentLeft="true"
+                        android:text="@string/express_limit_single" />
+
+                    <TextView
+                        android:id="@+id/bigSingleLimitValue"
+                        style="@style/listitem_text"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/bigDailyLimitLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_below="@id/bigSingleLimitLayout"
+                    android:background="@drawable/express_list_btn_m"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:id="@+id/bigDailyLimit"
+                        style="@style/listitem_text"
+                        android:layout_alignParentLeft="true"
+                        android:text="@string/express_limit_daily" />
+
+                    <TextView
+                        android:id="@+id/bigDailyLimitValue"
+                        style="@style/listitem_text"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/bigMonthlyLimitLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bigDailyLimitLayout"
+                    android:background="@drawable/express_list_btn_f"
+                    android:padding="10dp" >
+
+                    <TextView
+                        android:id="@+id/bigMonthlyLimit"
+                        style="@style/listitem_text"
+                        android:layout_alignParentLeft="true"
+                        android:text="@string/express_limit_monthly" />
+
+                    <TextView
+                        android:id="@+id/bigMonthlyLimitValue"
+                        style="@style/listitem_text"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

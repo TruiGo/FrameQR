@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/appHall/component/accountbox
+END
+AlipaySearchAccountActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 178
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/appHall/component/accountbox/AlipaySearchAccountActivity.java
+END
+SaveAccountListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/appHall/component/accountbox/SaveAccountListener.java
+END
+AlipayTypeListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/appHall/component/accountbox/AlipayTypeListener.java
+END
+AlipayContact.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/appHall/component/accountbox/AlipayContact.java
+END
+AlipaySetContentListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/appHall/component/accountbox/AlipaySetContentListener.java
+END

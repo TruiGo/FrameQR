@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/CardInfoItemCanvas"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:paddingTop="20dp"
+	android:paddingBottom="20dp"
+	android:gravity="center_vertical">
+	
+	<TextView
+		style="@style/AlipayNormalText320x480"
+		android:id="@+id/CardInfoItemBankName"
+		android:textColor="@color/TextColorBlack"
+		android:layout_marginLeft="20dp">
+	</TextView>
+	
+	<TextView
+		style="@style/AlipayNormalText320x480"
+		android:id="@+id/CardInfoItemEndNumber"
+		android:textColor="@color/TextColorBlack"
+		android:layout_toRightOf="@id/CardInfoItemBankName">
+	</TextView>
+
+	<TextView
+		style="@style/AlipayNormalText320x480"
+		android:id="@+id/CardInfoItemState"
+		android:textColor="@color/TextColorBlack"
+		android:layout_alignParentRight="true"
+		android:paddingRight="20dp">
+	</TextView>
+	<ImageView
+	       	android:id="@+id/InfoItemIcon"
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="20dp"
+	        android:visibility="gone"
+	        android:scaleType="fitXY"
+	        android:src="@drawable/alipay_listicon_expand">
+	</ImageView>	
+</RelativeLayout>

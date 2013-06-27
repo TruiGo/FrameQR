@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/withdraw
+END
+ApplyViewController.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/withdraw/ApplyViewController.java
+END
+SmsChecksumViewController.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/withdraw/SmsChecksumViewController.java
+END
+WithdrawRootControllerActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/withdraw/WithdrawRootControllerActivity.java
+END

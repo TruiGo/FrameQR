@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/pattern_alert_background">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tb_discover_fail" 
+        android:id="@+id/tipIcon" android:layout_centerHorizontal="true" android:paddingTop="8dp"/>
+    <TextView android:id="@+id/toastText"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/registByAlipay"
+        android:layout_below="@id/tipIcon" android:textAppearance="@android:style/TextAppearance.Small"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:layout_gravity="center" android:textColor="@android:color/background_light" android:shadowColor="#BB000000" 
+        android:minLines="2"
+        android:maxWidth="150dp"
+        android:shadowRadius="2.75"/>
+</RelativeLayout>

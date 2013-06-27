@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AlipayUserInfoSupplement"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/application_bg" >
+
+    <include layout="@layout/alipay_subtitle_320_480" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/AlipaySubTitle"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/application_bg_white" >
+
+        <RelativeLayout
+            android:id="@+id/AccountSuppleInfoDisplayArea"
+            style="@style/AlipayBGCanvas320x480" >
+
+            <LinearLayout
+                android:id="@+id/DICanvas"
+                style="@style/AlipayBGCanvas320x480"
+                android:orientation="vertical"
+                android:paddingBottom="5dp" >
+
+                <!-- 支付宝账户 -->
+
+                <RelativeLayout
+                    android:id="@+id/UserInfo1"
+                    style="@style/AlipayInputCanvas320x480" >
+
+                    <TextView
+                        android:id="@+id/UserName"
+                        style="@style/AlipayInputLongNameText320x480"
+                        android:text="@string/AccountInputAccountNumber" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/UserNameInfo"
+                        style="@style/AlipayInputContentText320x480"
+                        android:layout_toRightOf="@id/UserName" >
+                    </TextView>
+                </RelativeLayout>
+
+                <!-- 真实姓名 -->
+
+                <LinearLayout
+                    android:id="@+id/UserInfo2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:addStatesFromChildren="true"
+                    android:background="@drawable/alipay_input"
+                    android:gravity="center"
+                    android:paddingRight="0dip" >
+
+                    <TextView
+                        android:id="@+id/RealNameTitle"
+                        style="@style/AlipayInputText"
+                        android:text="@string/ApplyRealNameTitleStr"
+                        android:textAppearance="?android:attr/textAppearanceLargeInverse" />
+
+                    <EditText
+                        android:id="@+id/RealNameInfo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:singleLine="true"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="16dp" />
+                </LinearLayout>
+                <!-- 支付密码 -->
+
+                <LinearLayout
+                    android:id="@+id/UserInfo3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:addStatesFromChildren="true"
+                    android:background="@drawable/alipay_input"
+                    android:gravity="center"
+                    android:paddingRight="0dip" >
+
+                    <TextView
+                        android:id="@+id/PayPassWTitle"
+                        style="@style/AlipayInputText"
+                        android:text="@string/AccountOutputPassword"
+                        android:textAppearance="?android:attr/textAppearanceLargeInverse" />
+
+                    <EditText
+                        android:id="@+id/PayPassWInfo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:maxLength="26"
+                        android:password="true"
+                        android:singleLine="true"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="16dp" />
+                </LinearLayout>
+                <!-- 密码格式提示 -->
+
+                <TextView
+                    android:id="@+id/WarningText"
+                    style="@style/TextView320x480"
+                    android:layout_below="@id/PayPassWInfo"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/WarningInvalidPassword"
+                    android:textColor="@color/TextColorTip"
+                    android:textSize="13dp" >
+                </TextView>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/SupplyButton"
+            style="@style/AlipayNormalButtonStyle320x480"
+            android:layout_below="@id/AccountSuppleInfoDisplayArea"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="@string/Save" >
+        </Button>
+    </RelativeLayout>
+
+</RelativeLayout>

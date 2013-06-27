@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+	 <ImageView android:id="@+id/voucherLogo" android:layout_height="@dimen/voucherIconSize" android:layout_width="@dimen/voucherIconSize" 
+        android:layout_marginLeft="2dp" android:layout_marginTop="8dp" android:background="@drawable/voucher_icon_bg"
+        android:padding="2dp"/>
+    
+  	<TextView android:id="@+id/voucherStatu" style="@style/normal_gray_16" android:layout_alignTop="@id/voucherLogo"
+  	    android:layout_alignParentRight="true" android:layout_marginRight="4dp" android:textSize="14sp"/>
+  	
+  	<TextView android:id="@+id/expireTip" style="@style/normal_16" android:drawableLeft="@drawable/orange_expire_icon" 
+  	    android:layout_alignRight="@id/voucherStatu" android:gravity="center_vertical"
+  	    android:layout_below="@id/voucherStatu" android:layout_marginTop="5dp" 
+  	    android:textColor="@color/text_orange" android:textSize="12sp" android:visibility="invisible"/>
+  	
+  	<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@id/voucherLogo" 
+  	    android:layout_toRightOf="@id/voucherLogo" android:layout_toLeftOf="@id/voucherStatu"
+  	    android:layout_marginRight="10dp" android:layout_marginLeft="10dp" android:orientation="vertical">
+  	    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" 
+  	        android:singleLine="true" android:textColor="@color/TextColorWhite" android:visibility="gone"
+  	        android:id="@+id/storeName" android:ellipsize="end" android:textSize="16sp"/>
+  	    <TextView android:id="@+id/voucherName" style="@style/normal_gray_16" android:singleLine="false"
+  	     	android:textColor="@color/TextColorBlack" android:layout_width="fill_parent" 
+  	     	android:layout_height="wrap_content" android:lines="2" android:ellipsize="end" 
+  	     	android:textSize="14sp"/>
+  	</LinearLayout>
+</merge>

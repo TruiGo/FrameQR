@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 标题 -->
+    <!--
+<style name="title">
+	<item name="android:layout_width">fill_parent</item>
+	<item name="android:layout_height">44dp</item>
+	<item name="android:background">@color/background_blue</item>
+</style>
+<style name="title_text">
+	<item name="android:layout_width">wrap_content</item>
+	<item name="android:layout_height">wrap_content</item>
+	<item name="android:layout_centerInParent">true</item>
+	<item name="android:textColor">@android:color/white</item>
+	<item name="android:singleLine">true</item>
+	<item name="android:ellipsize">end</item>
+	<item name="android:textSize">22sp</item>
+</style>
+    -->
+    <style name="Float" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@drawable/float_bg</item>
+    </style>
+
+    <style name="login_title">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:background">@color/background_blue</item>
+    </style>
+
+    <style name="login_title_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="popwindown_btn">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <style name="listview">
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:divider">@drawable/bill_list_divide</item>
+        <item name="android:dividerHeight">2dp</item>
+    </style>
+
+    <style name="main_button">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">@drawable/main_btn_color</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@drawable/alipay_button_main</item>
+    </style>
+
+    <!-- Styles for 320*480 size -->
+    <style name="AlipayBGCanvas320x480">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginRight">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+    </style>
+
+    <style name="AlipayInputCanvas320x480">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+    </style>
+    
+    <style name="AlipayLifepayCanvas320x480">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+    </style>
+
+    <style name="AlipayInputText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textColor">@color/TextColorBlack</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="AlipayCutoffLineStyle320x480">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#b6bec8</item>
+    </style>
+
+    <style name="AlipayInputNameText320x480">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textColor">@color/text_gray</item>
+        <item name="android:textSize">16dp</item>
+        <!--
+	<item name="android:layout_centerVertical">true</item>
+	<item name="android:singleLine">true</item>
+	<item name="android:ellipsize">marquee</item>
+        -->
+    </style>
+
+    <style name="AlipayInputNameTextLong320x480">
+        <item name="android:layout_width">154dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textColor">@color/TextColorBlack</item>
+        <item name="android:textSize">16dp</item>
+        <!--
+	<item name="android:layout_centerVertical">true</item>
+	<item name="android:singleLine">true</item>
+	<item name="android:ellipsize">marquee</item>
+        -->
+    </style>
+
+    <style name="AlipayDealQueryNameText320x480">
+        <item name="android:layout_width">110dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/TextColorBlack</item>
+    </style>
+
+    <style name="TextView320x480">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">9dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textColor">@color/TextColorGray</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="InputNameTextBeforeEdit320x480">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_marginTop">9dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textColor">@color/TextColorGray</item>
+        <item name="android:textSize">16dp</item>
+        <!--
+	<item name="android:layout_centerVertical">true</item>
+	<item name="android:singleLine">true</item>
+	<item name="android:ellipsize">marquee</item>
+        -->
+    </style>
+
+    <style name="InputLongNameTextBeforeEdit320x480">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_marginTop">9dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textColor">@color/TextColorGray</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="InfoText320x480">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/TextColorRed</item>
+        <item name="android:textSize">16dp</item>
+	--></style>
+
+    <style name="AlipayInputLongNameText320x480">
+        <item name="android:layout_width">110dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textColor">@color/TextColorBlack</item>
+        <item name="android:textSize">16dp</item>
+        <!--
+	<item name="android:layout_centerVertical">true</item>
+	<item name="android:singleLine">true</item>
+	<item name="android:ellipsize">marquee</item>
+        -->
+    </style>
+
+    <style name="InputLongNameBeforeEditText320x480">
+        <item name="android:layout_width">110dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textColor">@color/TextColorGray</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="AlipayInputContentText320x480">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textColor">@color/text_gray</item>
+        <item name="android:textSize">16dp</item>
+        <!--
+	<item name="android:layout_centerVertical">true</item>
+	<item name="android:singleLine">true</item>
+	<item name="android:ellipsize">marquee</item>
+        -->
+    </style>
+
+    <style name="AlipayDealQueryContentText320x480">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/TextColorBlack</item>
+    </style>
+
+    <style name="AlipayNormalText320x480">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/TextColorBlack</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <!-- add by renxl on 2010-07-13 -->
+    <style name="AlipayTabButtonText320x480">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/TextColorBlack</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <!-- add by Bixl on 2010-08-27 -->
+    <style name="AlipayTextInfo320x480">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/TextColorBlack</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="AlipayListInfoMoneyText320x480">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/TextColorBlack</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:textSize">14dp</item>
+        <!--
+	<item name="android:layout_centerVertical">true</item>
+	<item name="android:ellipsize">marquee</item>
+        -->
+    </style>
+
+    <style name="AlipayListInfoCenterText320x480">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/TextColorBlack</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:text">@string/More</item>
+        <!--
+	<item name="android:layout_centerInParent">true</item>
+	<item name="android:ellipsize">marquee</item>
+        -->
+    </style>
+
+    <style name="AlipayListInfoLineText320x480">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/TextColorBlack</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:textSize">16dp</item>
+        <!--
+	<item name="android:textStyle">bold</item>
+	<item name="android:ellipsize">marquee</item>
+        -->
+    </style>
+
+    <style name="AlipayMoneyUnit320x480">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/TextColorBlack</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:text">@string/Yuan</item>
+        <item name="android:textSize">16dp</item>
+        <!-- <item name="android:layout_centerVertical">true</item> -->
+    </style>
+
+    <style name="AlipayInputEditText320x480">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLength">64</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/TextColorBlack</item>
+        <item name="android:background">@drawable/alipay_input</item>
+<!-- 	<item name="android:layout_centerVertical">true</item> -->
+    </style>
+
+    <style name="AlipayLoginPasswordInputEditText320x480">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">38dp</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:password">true</item>
+        <item name="android:textSize">16dp</item>
+<!-- 	<item name="android:layout_centerVertical">true</item> -->
+    </style>
+
+    <style name="AlipayPayingPasswordInputEditText320x480">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">38dp</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:password">true</item>
+        <item name="android:textSize">16dp</item>
+<!-- 	<item name="android:layout_centerVertical">true</item> -->
+    </style>
+
+    <style name="AlipayMoneyInputEditText320x480">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">38dp</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLength">64</item>
+        <item name="android:numeric">decimal</item>
+        <item name="android:textSize">16dp</item>
+<!-- 	<item name="android:layout_centerVertical">true</item> -->
+    </style>
+
+    <style name="AlipayNormalButtonLoginStyle320x480">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">55dip</item>
+        <item name="android:paddingRight">55dip</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">@drawable/main_btn_color</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:background">@drawable/alipay_button_main</item>
+    </style>
+
+    <style name="AlipayNormalButtonStyle320x480">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">@drawable/main_btn_color</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:background">@drawable/alipay_button_main</item>
+    </style>
+
+    <style name="AlipayMyButtonStyle320x480">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">55dip</item>
+        <item name="android:paddingRight">55dip</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@drawable/sub_btn_color</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:background">@drawable/alipay_button_sub</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AlipayButtonStyle320x480NoPadding">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/main_btn_color</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:background">@drawable/alipay_button_main</item>
+    </style>
+
+    <style name="AlipayAgentPayButtonStyle320x480">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/sub_btn_color</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:background">@drawable/alipay_button_sub</item>
+    </style>
+
+    <style name="AlipayRadioButtonStyle320x480">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/TextColorBlack</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="AlipayInfoText320x480">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/TextColorBlack</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="AlipayTradingMsgTextTop320x480">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@drawable/alipay_list_trading_textcolor_top</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="AlipayTradingMsgTextBottom320x480">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@drawable/alipay_list_trading_textcolor_bottom</item>
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="AlipayMsgButton320x480">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:background">@drawable/alipay_msg_button_backgroud</item>
+        <item name="android:textColor">@drawable/alipay_msg_button_color</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="AlipayTabLeftButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/alipay_tab_left_button_background</item>
+        <item name="android:textColor">@drawable/alipay_msg_button_color</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="AlipayTabRightButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/alipay_tab_right_button_background</item>
+        <item name="android:textColor">@drawable/alipay_msg_button_color</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="AlipayTabCenterButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/alipay_tab_center_button_background</item>
+        <item name="android:textColor">@drawable/alipay_msg_button_color</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="AlipayYellowButton">
+        <item name="android:textColor">@color/ButtonColorYellow</item>
+        <item name="android:textSize">19dp</item>
+    </style>
+
+    <style name="AlipayBlueButton">
+        <item name="android:textColor">@color/ButtonColorBlue</item>
+        <item name="android:textSize">19dp</item>
+    </style>
+
+    <style name="AutoCompleteTextViewStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/alipay_input</item>
+        <item name="android:dropDownVerticalOffset">-4dip</item>
+        <item name="android:popupBackground">@drawable/input_dropdown_list_bg</item>
+    </style>
+
+    <style name="AutoCompleteTextViewStyle_Half">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/alipay_input_half</item>
+        <item name="android:dropDownVerticalOffset">-4dip</item>
+        <item name="android:popupBackground">@drawable/input_dropdown_list_bg</item>
+    </style>
+
+    <style name="AlipayCashButtonStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@drawable/main_btn_color</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:background">@drawable/alipay_button_main</item>
+    </style>
+
+    <style name="AlipaySystemMsgDetailButtonStyle320x480">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:background">@drawable/alipay_button_sub</item>
+        <item name="android:textColor">@drawable/sub_btn_color</item>
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="AlipayPrePaifText320x480">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:textColor">@color/TextColorBlack</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="AlipayInputNameTextThin320x480">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textColor">@color/text_gray</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="AlipayInputContentTextThin320x480">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">2dp</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+        <item name="android:textColor">@color/TextColorBlack</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <!-- add by xuey on 2010-10-19 -->
+
+    <style name="AlipayCalAmountText320x480">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/TextColorBlack</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="AlipayMainButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@drawable/main_btn_color</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:background">@drawable/alipay_button_main</item>
+    </style>
+
+    <style name="AlipayTransparent">
+        <item name="android:windowBackground">@color/transparent_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+
+    <style name="dialogActivity" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="NormalButtonMainStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">43dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:textColor">@drawable/main_btn_color</item>
+        <item name="android:textSize">19dp</item>
+        <item name="android:background">@drawable/alipay_button_main</item>
+    </style>
+
+    <style name="NormalButtonSubStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">43dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:textColor">@drawable/sub_btn_color</item>
+        <item name="android:textSize">19dp</item>
+        <item name="android:background">@drawable/alipay_button_sub</item>
+    </style>
+
+    <style name="NormalEditTextStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:textColor">@color/TextColorBlack</item>
+        <item name="android:background">@drawable/alipay_input</item>
+    </style>
+
+    <style name="CCEditTextStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:textColor">@color/TextColorBlack</item>
+        <item name="android:background">@drawable/alipay_input</item>
+    </style>
+
+    <style name="dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="AlipayTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:panelFullBackground">@color/menupanel_color</item>
+<!--         <item name="android:windowBackground">@android:color/transparent</item> -->
+<!--         <item name="android:colorBackgroundCacheHint">@null</item> -->
+<!--         <item name="android:windowIsTranslucent">true</item> -->
+    </style>
+
+    <style name="AlipayMainTheme" parent="android:Theme.DeviceDefault.Light">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowActionBar">true</item>
+<!--         <item name="android:windowBackground">@android:color/transparent</item> -->
+<!--         <item name="android:colorBackgroundCacheHint">@null</item> -->
+<!--         <item name="android:windowIsTranslucent">true</item> -->
+    </style>
+
+    <style name="menuitem">
+        <item name="android:panelFullBackground">@drawable/alipay_button_main</item>
+        <item name="android:itemBackground">@android:color/white</item>
+    </style>
+
+    <style name="UINormalEditTextStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:textColor">@color/TextColorBlack</item>
+        <item name="android:background">@drawable/alipay_input</item>
+    </style>
+
+    <style name="NormalMultiEditTextStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:lines">4</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:lineSpacingExtra">7dp</item>
+        <item name="android:textColor">@color/TextColorBlack</item>
+        <item name="android:background">@drawable/alipay_input</item>
+    </style>
+
+    <style name="SubButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">43dp</item>
+        <item name="android:textColor">@drawable/sub_btn_color</item>
+        <item name="android:textSize">19dp</item>
+        <item name="android:background">@drawable/alipay_button_sub</item>
+    </style>
+
+    <style name="carryInfoBlackStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:textColor">@color/TextColorBlack</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="carryInfoGreyStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#999999</item>
+    </style>
+
+    <style name="dialog_with_no_title_style" parent="android:Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:windowBackground">@drawable/window_corner_bg</item>
+    </style>
+
+    <style name="editText_with_button_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:addStatesFromChildren">true</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">@drawable/alipay_input</item>
+    </style>
+
+    <style name="PopupWindowAni">
+        <item name="android:windowEnterAnimation">@android:anim/fade_out</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_in</item>
+    </style>
+
+    <style name="Transparent" parent="@style/AlipayTheme">
+        <item name="android:windowBackground">@color/transparent_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="WindowTransparent" parent="@style/AlipayTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="free_flow_blue_text">
+        <item name="android:textColor">@color/background_blue</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="free_flow_normal_text">
+        <item name="android:textColor">#ABABAB</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="accredit_popupwindow_animation">
+        <item name="android:windowEnterAnimation">@anim/accredit_popupwindow_in</item>
+        <item name="android:windowExitAnimation">@anim/accredit_popupwindow_out</item>
+    </style>
+
+    <style name="voucher_detail_container">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">12dp</item>
+        <item name="android:layout_marginRight">12dp</item>
+    </style>
+
+    <!-- 应用背景 -->
+    <style name="application_bg">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@drawable/application_bg</item>
+    </style>
+    <!-- 标题 -->
+    <style name="title">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">44dp</item>
+    </style>
+    <!-- 标题文字 -->
+    <style name="title_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">@color/TextColorWhite</item>
+    </style>
+    <!-- 普通文字, 16sp -->
+    <style name="normal_16">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <!-- 普通文字 灰色,16sp -->
+    <style name="normal_gray_16" parent="@style/normal_16">
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">#666666</item>
+    </style>
+
+    <style name="listitem_texttop">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawableRight">@drawable/list_right_arrow</item>
+        <item name="android:background">@drawable/list_btn_top</item>
+    </style>
+
+    <style name="listitem_textmid">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawableRight">@drawable/list_right_arrow</item>
+        <item name="android:background">@drawable/list_btn_m</item>
+    </style>
+
+    <style name="listitem_textbottom">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawableRight">@drawable/list_right_arrow</item>
+        <item name="android:background">@drawable/list_btn_f</item>
+    </style>
+
+    <style name="listitem_textsingle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawableRight">@drawable/list_right_arrow</item>
+        <item name="android:background">@drawable/list_btn_single</item>
+    </style>
+
+    <style name="listitem_textnormal">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawableRight">@drawable/list_right_arrow</item>
+    </style>
+
+    <style name="listitem_justtext">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="listitem_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textColor">#666666</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>

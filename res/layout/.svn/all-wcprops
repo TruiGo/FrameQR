@@ -1,0 +1,1313 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/android-alipayclient/!svn/ver/2591/branches/ali00592607_CP_20130219_android-alipayclient/res/layout
+END
+alipay_express_cardlimit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_express_cardlimit.xml
+END
+alipay_userfeedback.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_userfeedback.xml
+END
+normal_page.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/normal_page.xml
+END
+withdrawals_case.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/withdrawals_case.xml
+END
+alipay_scorelist_320_480.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_scorelist_320_480.xml
+END
+alipay_login_320_480.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_login_320_480.xml
+END
+lifepay_history_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/lifepay_history_item.xml
+END
+offline_store_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/offline_store_list.xml
+END
+alipay_phonebinding_checkcode.xml
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_phonebinding_checkcode.xml
+END
+alipass_preview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipass_preview.xml
+END
+mainactivity_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/mainactivity_layout.xml
+END
+alipay_cashcard_add_320_480.xml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_cashcard_add_320_480.xml
+END
+alipay_waitconfirm_320_480.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_waitconfirm_320_480.xml
+END
+alipay_agent_anylink_320_480.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_agent_anylink_320_480.xml
+END
+alipay_agent_someone_320_480.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_agent_someone_320_480.xml
+END
+message_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/message_item.xml
+END
+button_small.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/button_small.xml
+END
+uipickeditbox.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/uipickeditbox.xml
+END
+card_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/card_list.xml
+END
+uilistview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/uilistview.xml
+END
+coupon_detail_back.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/coupon_detail_back.xml
+END
+transfer_simple_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/transfer_simple_list_item.xml
+END
+welcome_use.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/welcome_use.xml
+END
+uibaoling.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/uibaoling.xml
+END
+alipay_detailinfoitem_320_480.xml
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_detailinfoitem_320_480.xml
+END
+number_flow_indicator.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/number_flow_indicator.xml
+END
+verify_result_toast.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/verify_result_toast.xml
+END
+alipay_cashcard_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_cashcard_list_item.xml
+END
+verifyrecord_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/verifyrecord_item.xml
+END
+ccr_select_teleponeperators.xml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/ccr_select_teleponeperators.xml
+END
+custom_alertdialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/custom_alertdialog.xml
+END
+alipay_pucinputinfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_pucinputinfo.xml
+END
+push_status_widget_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/push_status_widget_layout.xml
+END
+alipay_toast_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_toast_view.xml
+END
+alipay_safepay_setting.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_safepay_setting.xml
+END
+detailinfo_wap.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/detailinfo_wap.xml
+END
+check_box.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/check_box.xml
+END
+digit_ssq.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/digit_ssq.xml
+END
+buttonlistitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/buttonlistitem.xml
+END
+getmoney_adapter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/getmoney_adapter.xml
+END
+express_card_gold.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/express_card_gold.xml
+END
+contact_picker.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/contact_picker.xml
+END
+alipay_about_320_480.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_about_320_480.xml
+END
+alipay_operationinfo_320_480.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_operationinfo_320_480.xml
+END
+list_more.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/list_more.xml
+END
+coupon_detail_front.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/coupon_detail_front.xml
+END
+alipay_cashcard_manage_320_480.xml
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_cashcard_manage_320_480.xml
+END
+alipay_patterncomponent.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_patterncomponent.xml
+END
+alipay_deal_detail_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_deal_detail_info.xml
+END
+paipailayout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/android-alipayclient/!svn/ver/2582/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/paipailayout.xml
+END
+alipay_barcode_display_320_480.xml
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_barcode_display_320_480.xml
+END
+transfer_state_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/transfer_state_item.xml
+END
+alipay_contactview_320_480.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_contactview_320_480.xml
+END
+express_card_silver.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/express_card_silver.xml
+END
+voucher_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/voucher_list.xml
+END
+uidatepicker.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/uidatepicker.xml
+END
+uiscrollgroup.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/uiscrollgroup.xml
+END
+alipay_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_list.xml
+END
+contact_other_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/contact_other_dialog.xml
+END
+search_transform_contact.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/search_transform_contact.xml
+END
+voucher_detail_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/voucher_detail_item.xml
+END
+alipay_express_verify.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_express_verify.xml
+END
+local_contact_view_320_480.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/local_contact_view_320_480.xml
+END
+alipay_account_binding_choice_320_480.xml
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_account_binding_choice_320_480.xml
+END
+page_ccr_known.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/page_ccr_known.xml
+END
+alipay_push_wapview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_push_wapview.xml
+END
+htmlactivity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/htmlactivity.xml
+END
+alipay_notification_setting.xml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_notification_setting.xml
+END
+progress_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/progress_dialog.xml
+END
+button_sub.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/button_sub.xml
+END
+alipay_scorelist_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_scorelist_item.xml
+END
+ccr_sms_setting.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/ccr_sms_setting.xml
+END
+alipay_card_320_480.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_card_320_480.xml
+END
+single_line_adapter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/single_line_adapter.xml
+END
+message_editor.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/message_editor.xml
+END
+phone_charge_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/phone_charge_list_item.xml
+END
+alipay_dealinfo_320_480.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_dealinfo_320_480.xml
+END
+more_setting.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/more_setting.xml
+END
+verify_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/verify_layout.xml
+END
+payment_city_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/payment_city_layout.xml
+END
+alipay_notification_timeperiod_setting.xml
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_notification_timeperiod_setting.xml
+END
+patternalert.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/patternalert.xml
+END
+alipay_setting_iteminfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_setting_iteminfo.xml
+END
+webapp_view.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/webapp_view.xml
+END
+alipay_contact_320_480.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_contact_320_480.xml
+END
+alipay_logintitle.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_logintitle.xml
+END
+alipay_express_delete.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_express_delete.xml
+END
+alipay_express_stepthree.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_express_stepthree.xml
+END
+personlcard.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/personlcard.xml
+END
+alipay_express_steptwo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_express_steptwo.xml
+END
+dynamic_carryinfo_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/dynamic_carryinfo_item.xml
+END
+button_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/button_main.xml
+END
+app_autho.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/app_autho.xml
+END
+share_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/share_item.xml
+END
+image.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/image.xml
+END
+alipay_trading_remind_item_320_480.xml
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_trading_remind_item_320_480.xml
+END
+alipay_card_active_320_480.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_card_active_320_480.xml
+END
+voucher_corner.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/voucher_corner.xml
+END
+alipay_userinfosupplement_320_480.xml
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_userinfosupplement_320_480.xml
+END
+voucher_item_elements.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/voucher_item_elements.xml
+END
+store_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/store_list.xml
+END
+alipay_card_apply_320_480.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_card_apply_320_480.xml
+END
+lottery_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/lottery_list.xml
+END
+alipay_getpasswerd_smstransfer_320_480.xml
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_getpasswerd_smstransfer_320_480.xml
+END
+crop_image_action.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/crop_image_action.xml
+END
+more.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/more.xml
+END
+alipay_multiedittext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_multiedittext.xml
+END
+recent_filter_item_for_picker.xml
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/recent_filter_item_for_picker.xml
+END
+alipay_modifypassword.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_modifypassword.xml
+END
+alipay_pattern_setting.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_pattern_setting.xml
+END
+alipay_subtitle_320_480.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_subtitle_320_480.xml
+END
+uitag.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/uitag.xml
+END
+alipay_carryinfo_320_480.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_carryinfo_320_480.xml
+END
+subitem_layout_homepage.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/subitem_layout_homepage.xml
+END
+incream_control_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/incream_control_layout.xml
+END
+voucher_detail_back.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/voucher_detail_back.xml
+END
+web_app.xml
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/web_app.xml
+END
+alipay_getpassword_320_480.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_getpassword_320_480.xml
+END
+alipay_phone_binding_320_480.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_phone_binding_320_480.xml
+END
+bd_map.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/bd_map.xml
+END
+barcode_capture.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/android-alipayclient/!svn/ver/2591/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/barcode_capture.xml
+END
+alipay_push_notification.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_push_notification.xml
+END
+alipay_agent_pay_320_480.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_agent_pay_320_480.xml
+END
+alipay_barcodepay_guide.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_barcodepay_guide.xml
+END
+quickpay_c2b_confirminfor.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/quickpay_c2b_confirminfor.xml
+END
+large_avatar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/large_avatar.xml
+END
+voucher_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/voucher_item.xml
+END
+guide.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/guide.xml
+END
+editalertdialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/editalertdialog.xml
+END
+subitem_layout_appcenter_adapter_728_800_854.xml
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/subitem_layout_appcenter_adapter_728_800_854.xml
+END
+alipay_accountmanager_new.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_accountmanager_new.xml
+END
+alipay_searchlist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_searchlist.xml
+END
+alipay_register_320_480.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_register_320_480.xml
+END
+uiprogressbarstyleinverse.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/uiprogressbarstyleinverse.xml
+END
+voucher_detail_front.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/voucher_detail_front.xml
+END
+quickpay_sendsound.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/quickpay_sendsound.xml
+END
+transfer_index.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/transfer_index.xml
+END
+discover_result.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/discover_result.xml
+END
+alipay_pattern.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_pattern.xml
+END
+transfer_input_new.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/transfer_input_new.xml
+END
+uiincream.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/uiincream.xml
+END
+sms_response.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/sms_response.xml
+END
+simple_spinner_dropdown_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/simple_spinner_dropdown_item.xml
+END
+three_sms_list_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/three_sms_list_layout.xml
+END
+image_and_text_listitem.xml
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/image_and_text_listitem.xml
+END
+uiprogressbarstylehorizontal.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/uiprogressbarstylehorizontal.xml
+END
+layout_coupon_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/layout_coupon_detail.xml
+END
+phone_contact.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/phone_contact.xml
+END
+mainactivity_layout_adapter_800_854.xml
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/mainactivity_layout_adapter_800_854.xml
+END
+quickpay_c2c_confirminfor.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/quickpay_c2c_confirminfor.xml
+END
+layout_voucher_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/layout_voucher_detail.xml
+END
+alipay_card_main_320_480.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_card_main_320_480.xml
+END
+alipay_newexpresscard.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_newexpresscard.xml
+END
+voucher_item_no_corner.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/voucher_item_no_corner.xml
+END
+contact_search_head.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/contact_search_head.xml
+END
+quickpay_billlist_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/quickpay_billlist_item.xml
+END
+contact_box.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/contact_box.xml
+END
+account_box.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/account_box.xml
+END
+barscanview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/android-alipayclient/!svn/ver/2495/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/barscanview.xml
+END
+lifepay_history_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/lifepay_history_list.xml
+END
+shouzhi_pop.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/shouzhi_pop.xml
+END
+mainactivity_layout_adapter_1280.xml
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/mainactivity_layout_adapter_1280.xml
+END
+alipay_pattern_check.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_pattern_check.xml
+END
+store_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/store_item.xml
+END
+barcode_encode.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/barcode_encode.xml
+END
+bank_card_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/bank_card_list_item.xml
+END
+card_details.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/card_details.xml
+END
+payment_city_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/payment_city_list_item.xml
+END
+message_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/message_list.xml
+END
+alipay_card_infoitem_320_480.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_card_infoitem_320_480.xml
+END
+alert_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alert_dialog.xml
+END
+edittext_with_clearbutton.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/edittext_with_clearbutton.xml
+END
+alipay_express_edit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_express_edit.xml
+END
+subitem_layout_appcenter_adapter_1184_1280.xml
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/subitem_layout_appcenter_adapter_1184_1280.xml
+END
+alipay_agent_detail_320_480.xml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_agent_detail_320_480.xml
+END
+verifyrecord_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/verifyrecord_list.xml
+END
+list_divide.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/list_divide.xml
+END
+page_ccr_setting.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/page_ccr_setting.xml
+END
+quickpay_billlist_headview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/quickpay_billlist_headview.xml
+END
+transfer_receive_time.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/transfer_receive_time.xml
+END
+transfer_service.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/transfer_service.xml
+END
+crop_image.xml
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/crop_image.xml
+END
+subitem_layout_appcenter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/subitem_layout_appcenter.xml
+END
+free_flow.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/free_flow.xml
+END
+drop_down_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/drop_down_item.xml
+END
+alipay_accountquery_320_480_new.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_accountquery_320_480_new.xml
+END
+record_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/record_list.xml
+END
+activity_capture_content.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/android-alipayclient/!svn/ver/2591/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/activity_capture_content.xml
+END
+voucher_verify_info.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/voucher_verify_info.xml
+END
+page_ccr_newuser.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/page_ccr_newuser.xml
+END
+transfer_confirm_userinfo.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/transfer_confirm_userinfo.xml
+END
+web_app_title_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/web_app_title_layout.xml
+END
+incream_items_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/incream_items_layout.xml
+END
+label.xml
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/label.xml
+END
+alipay_express_stepone.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_express_stepone.xml
+END
+withdrawals_check.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/withdrawals_check.xml
+END
+charge_remind.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/charge_remind.xml
+END
+uishowbox.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/uishowbox.xml
+END
+contact_search_box.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/contact_search_box.xml
+END
+common_edittext_with_button.xml
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/common_edittext_with_button.xml
+END
+ccr_bankinfo_item_adapter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/ccr_bankinfo_item_adapter.xml
+END
+spinner_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/spinner_item.xml
+END
+page_ccr_olduser.xml
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/page_ccr_olduser.xml
+END
+alipay_card_waitsignup_320_480.xml
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_card_waitsignup_320_480.xml
+END
+llistview_bottombutton.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/llistview_bottombutton.xml
+END
+pull_refresh_header.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/pull_refresh_header.xml
+END
+incream_getmoney_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/incream_getmoney_item.xml
+END
+alipay_scoreintro_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_scoreintro_dialog.xml
+END
+alipay_help_320_480.xml
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_help_320_480.xml
+END
+payment_city_overlay.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/payment_city_overlay.xml
+END
+baseapp_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/baseapp_layout.xml
+END
+nfd_receiver_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/nfd_receiver_item.xml
+END
+list_item_records.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/list_item_records.xml
+END
+alipay_system_msg_detail.xml
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/alipay_system_msg_detail.xml
+END
+personl_edit_menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/personl_edit_menu.xml
+END
+sms_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/sms_list_item.xml
+END
+custom_listview_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/custom_listview_dialog.xml
+END
+sound_agreement.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/res/layout/sound_agreement.xml
+END

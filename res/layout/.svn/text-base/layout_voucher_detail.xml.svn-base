@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/application_bg" android:orientation="vertical">
+    <include layout="@layout/alipay_subtitle_320_480" android:id="@+id/titleView"/>
+   
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:id="@+id/container" android:layout_marginLeft="10dp"
+        android:layout_marginBottom="6dp" android:layout_marginRight="10dp">
+        <include layout="@layout/voucher_detail_front" android:id="@+id/frontPage"/>
+    
+   		<include layout="@layout/voucher_detail_back" android:id="@+id/backPage"
+   		    android:visibility="gone"/>
+    </RelativeLayout>
+</LinearLayout>
+

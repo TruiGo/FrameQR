@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/log
+END
+StorageManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/log/StorageManager.java
+END
+AlipayLogAgent.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/log/AlipayLogAgent.java
+END
+StorageStateInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/log/StorageStateInfo.java
+END
+LogSendManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/log/LogSendManager.java
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/log/Constants.java
+END
+LogBaseHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/log/LogBaseHelper.java
+END

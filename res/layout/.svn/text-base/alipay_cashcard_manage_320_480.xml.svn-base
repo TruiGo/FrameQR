@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/application_bg">
+	
+	<include layout="@layout/alipay_subtitle_320_480" />
+	<!-- 
+	<ScrollView
+		android:id="@+id/CashcardAllCanvas"
+		android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_below="@+id/AlipaySubTitle">
+	 -->
+	     
+    	<LinearLayout
+			android:id="@+id/CashcardInfoLayout"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_below="@+id/AlipaySubTitle"
+			android:layout_above="@+id/CashcardAddButton"
+			android:orientation="vertical">
+			
+	    	<ListView
+				android:id="@+id/CashcardListViewCanvas"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="2dp"
+				android:cacheColorHint="#00000000"
+				android:divider="@drawable/list_divider"
+				>
+			</ListView>
+			
+			<TextView
+				android:id="@+id/EmptyCanvas"
+				style="@style/AlipayInputContentText320x480"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_alignParentTop="true"
+				android:layout_marginTop="20dp"
+				android:layout_centerHorizontal="true"
+				android:gravity="center"
+				android:textSize="18dp"
+				android:text="@string/CashcardEmpty"
+				android:visibility="invisible">
+			</TextView>
+		</LinearLayout>
+
+	<!-- 
+	</ScrollView>	
+	 -->
+	 
+	<Button
+		android:id="@+id/CashcardAddButton"
+		android:layout_marginTop="15dp"
+		android:layout_marginBottom="15dp"
+		android:text="@string/CashcardAdding"
+		style="@style/AlipayNormalButtonStyle320x480"
+		android:layout_alignParentBottom="true">
+	</Button>
+</RelativeLayout>

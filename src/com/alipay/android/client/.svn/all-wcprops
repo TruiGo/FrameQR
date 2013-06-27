@@ -1,0 +1,299 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/android-alipayclient/!svn/ver/2609/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client
+END
+UpdateActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/UpdateActivity.java
+END
+PushDistributer.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/PushDistributer.java
+END
+ShareAppListAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/ShareAppListAdapter.java
+END
+AlipayApplication.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/AlipayApplication.java
+END
+AlipayUserInfoSupplement.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/AlipayUserInfoSupplement.java
+END
+SubItemScoreListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/SubItemScoreListActivity.java
+END
+AlipayPushLinkService.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/AlipayPushLinkService.java
+END
+AlipayCashcardManage.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/AlipayCashcardManage.java
+END
+RecentAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/RecentAdapter.java
+END
+NfcCallBack.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/NfcCallBack.java
+END
+PayData.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/PayData.java
+END
+PatternMonitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/PatternMonitor.java
+END
+AlipayBarcodeDisplay.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/AlipayBarcodeDisplay.java
+END
+AlipayAccountManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/AlipayAccountManager.java
+END
+SubItemAccountQueryActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/SubItemAccountQueryActivity.java
+END
+MessageFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/MessageFilter.java
+END
+InnerSocketBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/InnerSocketBuilder.java
+END
+BarcodeTradeInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/BarcodeTradeInfo.java
+END
+AlipayContact.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/AlipayContact.java
+END
+AlipayPassWordCipher.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/AlipayPassWordCipher.java
+END
+RootActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/RootActivity.java
+END
+SubItemAccountDetailInfoActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/SubItemAccountDetailInfoActivity.java
+END
+FrameLayoutNew.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/FrameLayoutNew.java
+END
+SchemeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/SchemeHandler.java
+END
+PatternLockActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/PatternLockActivity.java
+END
+AlipayTradeStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/AlipayTradeStatus.java
+END
+AlipayBarcodePayGuideActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/AlipayBarcodePayGuideActivity.java
+END
+InnerSSLSocket.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/InnerSSLSocket.java
+END
+SubItemPucPayActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/SubItemPucPayActivity.java
+END
+AlipayAgentPay.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/AlipayAgentPay.java
+END
+Login.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/Login.java
+END
+AnimationData.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/AnimationData.java
+END
+AlipaySystemMsgDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/AlipaySystemMsgDetail.java
+END
+IAlipayPushLinkService.aidl
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/IAlipayPushLinkService.aidl
+END
+ScreenHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/ScreenHelper.java
+END
+SubItemCardActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/SubItemCardActivity.java
+END
+AlipayPushMsgData.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/AlipayPushMsgData.java
+END
+AlipayCashcardAdd.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/AlipayCashcardAdd.java
+END
+Main.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/Main.java
+END
+AlipayAgentAnylink.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/AlipayAgentAnylink.java
+END
+AlipayAgentSomeone.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/AlipayAgentSomeone.java
+END
+WebViewActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/WebViewActivity.java
+END
+FreeFlowActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/FreeFlowActivity.java
+END
+PromotionHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/PromotionHelper.java
+END
+LifePayHistoryActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/LifePayHistoryActivity.java
+END
+AlipayAgentPayDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/AlipayAgentPayDetail.java
+END
+AlipayDataCacheHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/AlipayDataCacheHelper.java
+END
+SoundAgreementActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/SoundAgreementActivity.java
+END
+ProgressDialogNew.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/ProgressDialogNew.java
+END

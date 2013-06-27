@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/application_bg"
+    android:orientation="vertical">
+    <!-- 标题占位不可见 -->
+    <include layout="@layout/alipay_subtitle_320_480"/>
+    <include layout="@layout/contact_search_head" android:id="@+id/searchLayout"/>
+    <ImageView android:layout_width="fill_parent" android:layout_height="1dp"
+        android:background="@drawable/list_line" android:layout_marginTop="15dp"/>
+    <ListView 
+        android:id="@+id/contactListView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="#cfc3bc"
+        android:dividerHeight="1dp"
+        android:visibility="gone"
+        android:cacheColorHint="@android:color/transparent"
+        android:background="@drawable/application_bg_white_list"
+        android:layout_marginTop="10dp" android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <TextView 
+        android:id="@+id/noMatchedContactView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textSize="20sp"
+        android:gravity="center"/>
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/alipay_list_iteminfo_bg">
+    
+    <LinearLayout
+		android:id="@+id/BankLogoLayout"
+      	android:layout_width="wrap_content"
+      	android:layout_height="wrap_content"
+      	android:gravity="center"
+      	android:layout_alignParentLeft="true"
+      	android:layout_marginLeft = "3dp" 
+      	>
+	    <ImageView android:id="@+id/BankLogo"
+			android:layout_marginTop="5dp" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_marginLeft="2dp"
+			android:layout_marginRight="2dp"
+			android:src="@drawable/alipay_account_management_selected"
+			/>
+	</LinearLayout>	
+	
+	<LinearLayout
+		android:id="@+id/BankInfoLayout"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="5dp"
+		android:layout_marginRight="5dp"
+		android:orientation="vertical"
+		android:layout_toRightOf="@id/BankLogoLayout"
+		>
+		
+		<RelativeLayout
+			android:id="@+id/BankInfoLayout"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="5dp"
+			android:layout_alignParentLeft="true"
+			>	
+			<TextView
+				android:id="@+id/CashcardBankInfo"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:singleLine="true"	
+				android:textColor="@color/TextColorBlue"
+				android:textSize="16sp"				
+				android:layout_alignParentLeft="true"
+				/>
+			<TextView
+				android:id="@+id/CashcardPriority"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				style="@style/AlipayTradingMsgTextBottom320x480"
+				android:layout_marginRight="5dp"	
+				android:layout_toRightOf="@id/CashcardBankInfo"
+				/>
+		</RelativeLayout>
+		
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			<TextView
+				android:text="@string/CheckMoney"
+				android:textSize="12dp"
+				android:textColor="@color/TextColorTip"
+				style="@style/AlipayInfoText320x480"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="5dp">
+			</TextView>
+			<TextView
+				android:id="@+id/CashcardLimitInfo"
+				android:textSize="12dp"
+				android:textColor="@color/TextColorYellow"
+				style="@style/AlipayInfoText320x480"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+			</TextView>
+		</LinearLayout>	
+		
+		<TextView
+			android:id="@+id/CashcardTimeInfo"
+			android:textSize="12dp"
+			android:textColor="@color/TextColorTip"
+			style="@style/AlipayInfoText320x480"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:singleLine="true"
+			android:ellipsize="marquee"
+			android:layout_marginTop="2dp"
+			android:layout_marginLeft="5dp"
+			>
+		</TextView>
+	</LinearLayout>		
+	
+	<LinearLayout
+      	android:layout_width="wrap_content"
+      	android:layout_height="wrap_content"  
+      	android:layout_centerVertical="true"
+      	android:gravity="center"
+      	android:layout_alignParentRight="true"
+      	android:layout_marginRight="2dp"
+      	>
+	    <ImageView android:id="@+id/BankAction"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:src="@drawable/searchicon_bg_pressed"/>
+	</LinearLayout>
+	
+	<TextView
+		style="@style/AlipayListInfoCenterText320x480"
+		android:id="@+id/MoreItem"
+		android:visibility="invisible"
+		/> 
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost android:id="@+id/mtabhost" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<TabWidget android:id="@android:id/tabs"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:visibility="gone"></TabWidget>
+		<LinearLayout android:id="@+id/TypeButtonTitleOther"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:orientation="horizontal" android:gravity="center_horizontal|center_vertical">
+			<LinearLayout android:id="@+id/TypeButtonTitleContent" android:background="@drawable/title_filter_bg" 
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:gravity="center_horizontal|center_vertical"></LinearLayout>
+
+
+		</LinearLayout>
+		<FrameLayout android:id="@android:id/tabcontent" android:paddingLeft="5dp" android:paddingRight="5dp"
+			android:layout_width="fill_parent" android:layout_height="fill_parent">
+		</FrameLayout>
+	</LinearLayout>
+</TabHost>

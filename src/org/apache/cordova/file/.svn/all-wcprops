@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/org/apache/cordova/file
+END
+EncodingException.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/org/apache/cordova/file/EncodingException.java
+END
+TypeMismatchException.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/org/apache/cordova/file/TypeMismatchException.java
+END
+NoModificationAllowedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/org/apache/cordova/file/NoModificationAllowedException.java
+END
+InvalidModificationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/org/apache/cordova/file/InvalidModificationException.java
+END
+FileExistsException.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/org/apache/cordova/file/FileExistsException.java
+END

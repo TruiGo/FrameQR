@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/push/connection
+END
+Connection.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/push/connection/Connection.java
+END
+XMPPException.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/push/connection/XMPPException.java
+END
+PacketWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/push/connection/PacketWriter.java
+END
+XMPPConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/push/connection/XMPPConnection.java
+END
+ConnectionListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/push/connection/ConnectionListener.java
+END
+PacketInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/push/connection/PacketInterceptor.java
+END
+SmackConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/push/connection/SmackConfiguration.java
+END
+ConnectionConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/push/connection/ConnectionConfiguration.java
+END
+ConnectionCreationListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/push/connection/ConnectionCreationListener.java
+END
+PacketReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/push/connection/PacketReader.java
+END
+PacketFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/push/connection/PacketFilter.java
+END

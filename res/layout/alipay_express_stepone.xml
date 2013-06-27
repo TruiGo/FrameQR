@@ -1,0 +1,32 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:component="http://schemas.android.com/apk/res/com.eg.android.AlipayGphone"
+    android:id="@+id/cardNoInputLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.alipay.android.comon.component.EditTextWithButton
+        android:id="@+id/cardNoEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:addStatesFromChildren="true"
+        android:background="@drawable/alipay_input"
+        android:gravity="center"
+        component:inputHint="@string/express_inputcardno"
+        component:inputHintTextColor="@color/loginedithint_color"
+        component:inputTextColor="#0000ff"
+        component:inputType="textNumber"
+        component:maxLength="23" />
+
+    <Button
+        android:id="@+id/next"
+        style="@style/AlipayCashButtonStyle"
+        android:layout_below="@id/cardNoEditText"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:enabled="false"
+        android:text="@string/PayYourAccountCheckButtonString" >
+    </Button>
+
+</RelativeLayout>

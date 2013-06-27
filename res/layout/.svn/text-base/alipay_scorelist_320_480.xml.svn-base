@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@drawable/application_bg">
+	
+	
+	<include layout="@layout/alipay_subtitle_320_480" />
+	 
+
+	
+	<RelativeLayout
+		android:id="@+id/DealQueryCanvas"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="@drawable/application_bg_white_list">
+		<ListView
+			android:id="@+id/ListViewCanvas"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="3dp"
+			android:cacheColorHint="@color/transparent"
+			android:divider="@drawable/list_divider"
+			>
+		</ListView>
+		
+		<!-- <Button
+			android:id="@+id/MoreButton"
+			android:text="@string/More"
+			android:visibility="invisible"
+			android:layout_marginTop="15dp"
+			style="@style/AlipayNormalButtonStyle320x480"
+			android:background="@drawable/alipay_button_sub"
+			android:textColor="@color/ButtonColorBlue"
+			android:layout_below="@id/ListViewCanvas"
+			/> -->
+		<TextView
+		android:id="@+id/EmptyCanvas"
+		style="@style/AlipayInputContentText320x480"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_marginTop="20dp"
+		android:layout_centerHorizontal="true"
+		android:gravity="center"
+		android:textSize="18dp"
+		android:text="@string/nopointerr"
+		android:visibility="invisible">
+	</TextView>
+		
+	</RelativeLayout>
+</LinearLayout>

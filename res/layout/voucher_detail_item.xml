@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="wrap_content" 
+    android:paddingLeft="8dp" android:paddingRight="8dp"
+    android:focusableInTouchMode="false">
+    <TextView style="@style/normal_16" android:id="@+id/voucherCode"
+        android:layout_centerHorizontal="true" android:textSize="@dimen/voucherCodeSize"
+        android:layout_marginBottom="7dp" android:textColor="@color/TextColorBlack"
+        android:singleLine="true"/>
+    
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:layout_below="@id/voucherCode">
+        <ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content"
+	       android:src="@drawable/btn_sound_use" android:background="@color/transparent" 
+	       android:layout_centerHorizontal="true" android:id="@+id/soundWave"/>
+        
+        
+	    <TextView style="@style/normal_gray_16" android:text="@string/guideText"
+	       android:layout_marginTop="5dp" android:layout_below="@id/soundWave"
+	       android:layout_centerHorizontal="true" android:id="@+id/soundWaveTip"
+	       android:visibility="invisible"/>
+	    
+	    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+	        android:id="@+id/voucherBarcode" android:layout_centerHorizontal="true" 
+	        android:layout_alignBottom="@id/soundWaveTip"
+	        android:visibility="invisible"/>
+	        
+	    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true" android:layout_alignBottom="@id/soundWaveTip"
+	        android:src="@drawable/use_sound_icon" android:id="@+id/use_sound_icon"
+	        android:visibility="invisible"/>
+		<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true" android:layout_alignBottom="@id/soundWaveTip"
+	        android:src="@drawable/voucher_barcode" android:id="@+id/voucher_barcode_icon"
+	        android:visibility="invisible"/>
+    </RelativeLayout>
+</RelativeLayout>

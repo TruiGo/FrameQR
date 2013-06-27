@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:background="@drawable/application_bg">
+	<!-- 标题 -->
+	<include layout="@layout/alipay_subtitle_320_480" />
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical"
+	    android:background="@drawable/application_bg_white"
+         android:layout_marginLeft="5dp"
+         android:layout_marginRight="5dp"
+         android:layout_marginBottom="3dp"
+	    >
+	<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_height="50dp"
+        >
+        <TextView 
+            android:id="@+id/CCRSmsReadTitle"
+            style="@style/AlipayTextInfo320x480"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:textSize="18dp"
+            android:textColor="#666666"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/CCR_SMS_READ_AUTCHORIZE"/>   
+        <CheckBox
+        	android:id="@+id/SmsQueryAutchorizeCheckBox" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:button="@drawable/btn_check"
+            android:layout_alignParentRight="true"
+            />
+    </LinearLayout>
+    <TextView 
+            android:id="@+id/CCRSmsReadTip"
+            style="@style/AlipayTextInfo320x480"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:textSize="16dp"
+            android:textColor="@color/text_light_gray"
+            android:text="@string/CCR_SMS_READ_TIP"/> 
+    </LinearLayout>
+</LinearLayout>

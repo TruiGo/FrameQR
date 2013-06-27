@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:component="http://schemas.android.com/apk/res/com.eg.android.AlipayGphone" 
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    android:background="@drawable/application_bg">
+	<include layout="@layout/alipay_subtitle_320_480" />
+    <ScrollView 
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_marginTop="3dp"
+	    android:layout_marginBottom="3dp"
+	    android:layout_marginLeft="5dp"
+	    android:layout_marginRight="5dp"
+	    android:paddingTop="10dp"
+	    android:background="@drawable/application_bg_white"
+		android:layout_below="@id/AlipaySubTitle">
+
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+
+			<RelativeLayout android:id="@+id/GetPaySMSLayout1"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_marginTop="10dp">
+
+				<Button android:id="@+id/GetSmsCheckCodeButton" style="@style/AlipayNormalButtonStyle320x480"
+					android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+					android:text="@string/GetSmsCheckcode"/>
+			</RelativeLayout>
+
+			<RelativeLayout android:id="@+id/GetPaySMSLayout2"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_below="@id/GetPaySMSLayout1">
+
+				<com.alipay.android.comon.component.EditTextWithButton
+					android:id="@+id/SmsCheckCodeEditText" android:layout_width="fill_parent"
+					android:layout_height="40dp" android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp" android:layout_marginTop="10dp"
+					android:addStatesFromChildren="true" android:background="@drawable/alipay_input"
+					android:gravity="center" component:inputHint="@string/InputCheckCodeHint" />
+
+				<TextView android:id="@+id/HintForInputSmsCheckCode" style="@style/AlipayTextInfo320x480"
+					android:layout_below="@id/SmsCheckCodeEditText"
+					android:layout_marginLeft="10dp" android:textSize="14dp" />
+			</RelativeLayout>
+
+			<Button android:id="@+id/ValidateSmsCheckCodeButton" style="@style/AlipayNormalButtonStyle320x480"
+				android:layout_below="@id/GetPaySMSLayout2"
+				android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+				android:layout_marginTop="10dp" android:background="@drawable/alipay_button_main"
+				android:enabled="false" android:text="@string/CardApplyNext"
+				android:textColor="@color/TextColorBlack" android:textSize="20dp"/>
+		</RelativeLayout>
+	</ScrollView>
+</RelativeLayout>

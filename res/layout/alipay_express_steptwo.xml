@@ -1,0 +1,211 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardDetailsInputLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/bankInfoLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/bankIcon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/bankName"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/bankIcon"
+            android:scaleType="fitXY" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/solidLine"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LoginLayout"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/dotlinerepeat" />
+
+    <TextView
+        android:id="@+id/cardNoText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:textColor="@color/TextColorBlack"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/cardTypeText"
+        style="@style/AlipayNormalText320x480"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="left" />
+
+    <TextView
+        android:id="@+id/realNameText"
+        style="@style/AlipayNormalText320x480"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="left"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/idText"
+        style="@style/AlipayNormalText320x480"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:gravity="left"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/ccInfoLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+
+        <LinearLayout
+            android:id="@+id/ccDateInfoLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/ccDateLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/monthEditText"
+                    style="@style/CCEditTextStyle"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:gravity="left|center_vertical"
+                    android:hint="@string/month"
+                    android:inputType="numberDecimal"
+                    android:maxLength="2"
+                    android:singleLine="true" />
+
+                <EditText
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/yearEditText"
+                    style="@style/CCEditTextStyle"
+                    android:layout_weight="1"
+                    android:gravity="left|center_vertical"
+                    android:hint="@string/year"
+                    android:inputType="numberDecimal"
+                    android:maxLength="2"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/ccDateAlert"
+                style="@style/AlipayNormalText320x480"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ccDateLayout"
+                android:layout_marginTop="5dp"
+                android:gravity="left"
+                android:text="@string/express_sign_ccdatealert"
+                android:textColor="@color/loginedithint_color" />
+        </LinearLayout>
+
+        <EditText
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/cvv2EditText"
+            style="@style/NormalEditTextStyle"
+            android:layout_below="@id/ccDateInfoLayout"
+            android:hint="@string/cvv2"
+            android:inputType="numberDecimal"
+            android:maxLength="3"
+            android:visibility="gone"
+            android:singleLine="true" />
+    </RelativeLayout>
+
+    <EditText
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/applicantNameEditText"
+        style="@style/NormalEditTextStyle"
+        android:gravity="left|center_vertical"
+        android:hint="@string/express_accountname"
+        android:singleLine="true"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/noCertifiedInfoLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+
+        <EditText
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/applicantIdEditText"
+            style="@style/NormalEditTextStyle"
+            android:layout_below="@id/applicantNameEditText"
+            android:gravity="left|center_vertical"
+            android:hint="@string/express_accountID"
+            android:singleLine="true" />
+    </RelativeLayout>
+
+    <EditText
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mobileEditText"
+        style="@style/NormalEditTextStyle"
+        android:gravity="left|center_vertical"
+        android:hint="@string/express_mobiebinded"
+        android:inputType="phone"
+        android:maxLength="11"
+        android:singleLine="true" />
+
+    <RelativeLayout
+        android:id="@+id/agreeLayout"
+        style="@style/AlipayInputCanvas320x480"
+        android:layout_marginTop="10dp" >
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/btn_check"
+            android:checked="true"
+            android:text="@string/express_agree"
+            android:textColor="@color/TextColorBlack" >
+        </CheckBox>
+
+        <TextView
+            android:id="@+id/checkBoxTextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/checkBox"
+            android:focusable="true"
+            android:text="@string/Read"
+            android:textColor="#408CD9"
+            android:textSize="16dp" >
+        </TextView>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/signButton"
+        style="@style/AlipayCashButtonStyle"
+        android:layout_marginTop="20dp"
+        android:enabled="false"
+        android:text="@string/Ensure" >
+    </Button>
+
+</LinearLayout>

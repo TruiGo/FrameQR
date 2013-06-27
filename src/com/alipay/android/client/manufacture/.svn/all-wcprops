@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/manufacture
+END
+InterceptorFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/manufacture/InterceptorFactory.java
+END
+AppUpgradeInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/manufacture/AppUpgradeInterceptor.java
+END
+LaunchCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/manufacture/LaunchCallback.java
+END
+AppLaunchInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/manufacture/AppLaunchInterceptor.java
+END
+ZtencUpgradeInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/manufacture/ZtencUpgradeInterceptor.java
+END
+ManuConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/manufacture/ManuConstants.java
+END
+ZtencLaunchInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/client/manufacture/ZtencLaunchInterceptor.java
+END

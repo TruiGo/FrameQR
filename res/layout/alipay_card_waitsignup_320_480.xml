@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+	<TextView
+	  	style="@style/AlipayNormalText320x480"
+	  	android:id="@+id/CardWaitCueText1"
+	  	android:text="@string/WaitSignupSummary"
+	  	android:layout_marginTop="10dp"
+	  	android:layout_marginLeft="10dp"
+	  	android:layout_marginRight="10dp">
+	</TextView>
+	<TextView
+	  	style="@style/AlipayNormalText320x480"
+	  	android:id="@+id/CardWaitCueText2"
+	  	android:text="@string/WaitSignupSummaryTwo"
+	  	android:layout_marginTop="10dp"
+	  	android:layout_marginLeft="10dp"
+	  	android:layout_marginRight="10dp"
+	  	>
+	</TextView>
+	<TextView
+	  	style="@style/AlipayNormalText320x480"
+	  	android:id="@+id/CardWaitCueText3"
+	  	android:layout_marginTop="10dp"
+	  	android:layout_marginLeft="10dp"
+	  	android:layout_marginRight="10dp">
+	</TextView>
+	<TextView
+	  	style="@style/AlipayNormalText320x480"
+	  	android:id="@+id/CardWaitCueText4"
+	  	android:layout_marginTop="10dp"
+	  	android:layout_marginLeft="10dp"
+	  	android:layout_marginRight="10dp">
+	</TextView>
+</LinearLayout>

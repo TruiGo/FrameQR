@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/aniutil
+END
+ExpandAnimation.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/aniutil/ExpandAnimation.java
+END
+RotateAnimationListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/aniutil/RotateAnimationListener.java
+END
+Rotate3dAnimation.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/aniutil/Rotate3dAnimation.java
+END
+Rotate3dAnimationListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/aniutil/Rotate3dAnimationListener.java
+END

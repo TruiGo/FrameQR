@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:component="http://schemas.android.com/apk/res/com.eg.android.AlipayGphone"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/application_bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/alipay_subtitle_320_480" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/application_bg_white" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp" >
+
+            <Spinner
+                android:id="@+id/WithdrawalsCaseBankList"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/alipay_dropdown_button"
+                android:prompt="@string/SelectBank"
+                android:textColor="@color/TextColorBlack" />
+
+            <TextView
+                android:id="@+id/BankTip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:singleLine="false"
+                android:textColor="@color/TextColorTip"
+                android:textSize="12dp" />
+
+            <com.alipay.android.comon.component.EditTextWithButton
+                android:id="@+id/WithdrawalsMoney"
+                android:layout_width="fill_parent"
+                android:gravity="center_vertical"
+                android:layout_height="wrap_content"
+                android:background="@drawable/alipay_input"
+                android:hint="@string/AccountOutputCountAmount"
+                component:inputType="textDecimal"
+                component:maxLength="30"
+                component:isAlipayMoney="true"/>
+
+            <LinearLayout
+                android:id="@+id/AllowWithdrawalsCaseLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/AllowWithdrawalsCashTip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="@string/AccountMoneyNumberNote"
+                    android:textColor="@color/TextColorTip"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/AllowWithdrawalsCash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:textColor="@color/TextColorRed"
+                    android:textSize="12dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/WithdrawalsCashTip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:singleLine="false"
+                android:textColor="@color/TextColorTip"
+                android:textSize="12dp" />
+
+            <EditText
+                android:id="@+id/PaymentPassword"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/alipay_input"
+                android:hint="@string/PaymentPassword"
+                android:password="true"
+                android:singleLine="true" />
+
+            <Button
+                android:id="@+id/WithdrawalsEnsure"
+                style="@style/AlipayNormalButtonStyle320x480"
+                android:layout_marginTop="20dp"
+                android:text="@string/AccountOutputEnsureStr" >
+            </Button>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

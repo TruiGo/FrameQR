@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/push/util
+END
+LogUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/push/util/LogUtil.java
+END
+Notifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/push/util/Notifier.java
+END
+ConnectParamConstant.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/push/util/ConnectParamConstant.java
+END
+StreamError.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/push/util/StreamError.java
+END
+GZipUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/push/util/GZipUtil.java
+END
+StringUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/push/util/StringUtils.java
+END
+DataHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/push/util/DataHelper.java
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/push/util/Constants.java
+END
+InvalidFormatException.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/push/util/InvalidFormatException.java
+END
+XMPPError.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/push/util/XMPPError.java
+END

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/application_bg" >
+
+    <include layout="@layout/alipay_subtitle_320_480" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/AlipaySubTitle" 
+        android:background="@drawable/application_bg_white"
+        android:layout_marginLeft="5dp"
+         android:layout_marginRight="5dp"
+         android:layout_marginBottom="3dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/UserNameTitle"
+                    android:text="@string/UserNameTitle"
+                    style="@style/TextView320x480"
+                    android:layout_marginLeft="10dp"
+                    >
+                   </TextView>
+                   
+                <TextView
+                    android:id="@+id/UserName"
+                    style="@style/TextView320x480"
+                    android:layout_marginTop="10dp">
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/BankNumberTitle"
+                    style="@style/TextView320x480"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/BankNumberTitle"/>
+
+                <TextView
+                    android:id="@+id/BankNumber"
+                    style="@style/TextView320x480"
+                    android:layout_marginTop="10dp"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/SetPush"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                >
+
+                <RelativeLayout
+                    android:id="@+id/pushsetting"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <ImageView 
+                        android:id="@+id/PushSetTopLine"
+                        style="@style/AlipayCutoffLineStyle320x480" />
+
+                    <TextView
+                        android:id="@+id/PushSetTitle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@+id/PushSetTopLine"
+                        android:text="@string/CRPromotion"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="16dp" >
+                    </TextView>
+                    
+                     <CheckBox
+                    android:id="@+id/PushSettingCB"
+                    android:button="@drawable/btn_check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/PushSetTitle"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp" />   
+                  </RelativeLayout>   
+                  
+                    <RelativeLayout 
+                        android:id="@+id/PushSetTimeRelativeLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/pushsetting"
+                    android:visibility="gone"
+                        >
+                        <LinearLayout
+                            android:id="@+id/PushSetTimeLinearLayout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@+id/pushsetting"
+                        android:addStatesFromChildren="true"
+                        android:background="@drawable/alipay_dropdown_button"
+                        android:paddingRight="0dip" 
+                        >
+
+                        <TextView
+                            style="@style/AlipayTextInfo320x480"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/PushSetTimeTitle"
+                            android:textAppearance="?android:attr/textAppearanceLargeInverse" >
+                        </TextView>
+
+                        <Spinner
+                            android:id="@+id/PushSetTimeSpinner"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:background="@null"
+                            android:prompt="@string/SetPustTime"
+                            android:textColor="@color/TextColorBlack" >
+                        </Spinner>
+                    </LinearLayout>
+                        
+                    </RelativeLayout>
+                    
+                         <TextView
+                        style="@style/TextView320x480"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_below="@+id/PushSetTimeRelativeLayout"
+                        android:text="@string/CRHint"
+                        android:textColor="@color/TextColorTip"
+                        android:textSize="12dp" >
+                    </TextView>
+                    
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/SetSMS"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/SMSsetting"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:orientation="vertical" >
+
+                    <ImageView style="@style/AlipayCutoffLineStyle320x480" />
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/GetSMS"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="16dp" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/SetSMSTip"
+                        style="@style/TextView320x480"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/GetSMSHint"
+                        android:textColor="@color/TextColorTip"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+                <CheckBox
+                    android:id="@+id/SMSsettingCB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp" />
+
+                <ImageView
+                    style="@style/AlipayCutoffLineStyle320x480"
+                    android:layout_below="@+id/SMSsetting" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/Finish"
+                style="@style/AlipayCashButtonStyle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/CCRCountTip"
+                android:layout_margin="10dp"
+                android:text="@string/Finish" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

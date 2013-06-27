@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/application_bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/alipay_subtitle_320_480" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/AlipaySubTitle"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/application_bg_white"
+        android:paddingTop="10dp" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/SafePaySettingLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <!--
+          <RelativeLayout
+	  		android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp">
+			<TextView
+				style="@style/AlipayTextInfo320x480"
+	  			android:text="@string/SafePay"
+	  			android:textSize="14dp"
+	  			android:layout_marginLeft="5dp">
+			</TextView>
+	  	</RelativeLayout>
+	  	<RelativeLayout
+	  		android:id="@+id/PayLayout"
+	  		android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:layout_marginBottom="10dp">
+			<TextView
+				style="@style/AlipayTextInfo320x480"
+	  			android:text="@string/Pay"
+	  			android:id="@+id/PayTextView"
+	  			android:textSize="20dp"
+	  			android:layout_marginLeft="10dp">
+			</TextView>
+			<CheckBox
+				android:layout_width="wrap_content"
+	  			android:layout_height="wrap_content"
+	  			android:layout_marginRight="5dp"
+	  			android:layout_alignParentRight="true"
+	  			android:id="@+id/PayButton">
+			</CheckBox>
+			<TextView
+				style="@style/AlipayTextInfo320x480"
+	  			android:text="@string/PayTip"
+	  			android:textSize="12dp"
+	  			android:textColor="@color/TextColorGray"
+	  			android:layout_below="@id/PayTextView"
+	  			android:layout_marginLeft="10dp"
+	  			android:layout_toLeftOf="@id/PayButton">
+			</TextView>
+	  	</RelativeLayout>
+	  	<ImageView style="@style/AlipayCutoffLineStyle320x480"/>
+                -->
+
+                <RelativeLayout
+                    android:id="@+id/NoPWPayLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp" >
+
+                    <TextView
+                        android:id="@+id/NoPWTextView"
+                        style="@style/AlipayTextInfo320x480"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/NoPWPay"
+                        android:textSize="20dp" >
+                    </TextView>
+
+                    <CheckBox
+                        android:id="@+id/NoPWPayButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
+                        android:button="@drawable/btn_check" >
+                    </CheckBox>
+
+                    <TextView
+                        android:id="@+id/NoPWPayNumTip"
+                        style="@style/AlipayTextInfo320x480"
+                        android:layout_below="@id/NoPWTextView"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/NoPWPayTip"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="12dp" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/NoPWPayNumTextView"
+                        style="@style/AlipayTextInfo320x480"
+                        android:layout_below="@id/NoPWTextView"
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@id/NoPWPayNumTip"
+                        android:textColor="@color/TextColorBlue"
+                        android:textSize="12dp" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/NoPWPayMemoTextView"
+                        style="@style/AlipayTextInfo320x480"
+                        android:layout_below="@id/NoPWPayNumTextView"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/TextColorGray"
+                        android:textSize="12dp" >
+                    </TextView>
+                </RelativeLayout>
+
+                <ImageView style="@style/AlipayCutoffLineStyle320x480" />
+
+                <RelativeLayout
+                    android:id="@+id/SafePayLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/SafePayInfoText"
+                        style="@style/AlipayTextInfo320x480"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="50dp"
+                        android:text="@string/SafePayInfo"
+                        android:textSize="20dp" >
+                    </TextView>
+
+                    <CheckBox
+                        android:id="@+id/SafePayButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="5dp"
+                        android:button="@drawable/btn_check" >
+                    </CheckBox>
+
+                    <TextView
+                        style="@style/AlipayTextInfo320x480"
+                        android:layout_below="@id/SafePayInfoText"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="50dp"
+                        android:text="@string/SafePayTip"
+                        android:textColor="@color/TextColorGray"
+                        android:textSize="12dp" >
+                    </TextView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/SafePayButtonLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="bottom"
+                    android:visibility="gone" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp" >
+
+                        <Button
+                            android:id="@+id/SaveButton"
+                            style="@style/AlipayBlueButton"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/alipay_button_sub"
+                            android:text="@string/Save" />
+
+                        <Button
+                            android:id="@+id/CancelButton"
+                            style="@style/AlipayBlueButton"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/alipay_button_sub"
+                            android:text="@string/Cancel" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/NOInstallLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp"
+                android:visibility="gone" >
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/NOSafeTitle"
+                    android:textColor="@color/TextColorBlack"
+                    android:textSize="16dp" >
+                </TextView>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/NOSafeContent"
+                    android:textColor="@color/TextColorBlack"
+                    android:textSize="14dp" >
+                </TextView>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/CurrentVersion"
+                    android:textColor="@color/TextColorBlack"
+                    android:textSize="14dp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/LastVersionId"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/LastVersion"
+                    android:textColor="@color/TextColorBlack"
+                    android:textSize="14dp" >
+                </TextView>
+
+                <Button
+                    android:id="@+id/InstallSafeButton"
+                    style="@style/AlipayNormalButtonStyle320x480"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/Install" >
+                </Button>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:background="#F0F0F0"> 
+	<LinearLayout 
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"> 
+		
+	    <LinearLayout 
+	        android:layout_width="wrap_content" 
+			android:layout_height="fill_parent"
+			android:background="#F0F0F0"> 
+			
+			<ImageView 
+				android:id="@+id/push_app_image" 
+				android:layout_width="36dp" 
+				android:layout_height="36dp"
+				android:scaleType="fitXY" 
+				android:layout_gravity="center"
+				android:layout_marginLeft="6dp"
+				android:layout_marginRight="8dp"/>
+		</LinearLayout>
+		
+		<LinearLayout android:id="@+id/push_msg"
+			android:orientation="vertical"
+			android:layout_gravity="center_vertical"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:background="#F0F0F0">
+			
+			<RelativeLayout android:id="@+id/push_msg"
+				android:orientation="horizontal"
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content">
+				<TextView android:id="@+id/push_msg_title"
+					android:layout_marginTop="3dp"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:textSize="16sp"
+					android:textColor="#202020">
+				</TextView>
+				<TextView android:id="@+id/push_msg_time"
+					android:layout_alignParentRight="true"
+					android:layout_centerVertical="true"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:layout_marginRight="5dp"
+					android:textSize="12sp"
+					android:textColor="#333333">	
+				</TextView>
+			</RelativeLayout>
+			
+			<!-- 
+					android:textStyle="bold"
+			<com.eg.android.AlipayGphone.MarqueeText
+				android:id="@+id/push_msg_body"
+				android:layout_marginTop="2dp"
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:singleLine="true"
+				android:focusable="true"
+				android:focusableInTouchMode="true"
+				android:ellipsize="marquee"
+				android:scrollHorizontally="true" 
+				android:marqueeRepeatLimit="marquee_forever" 
+				android:textColor="#000" />
+				 -->
+	
+			<TextView android:id="@+id/push_msg_body"
+				android:layout_marginTop="1dp"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:textSize="13sp"
+				android:ellipsize="end"
+				android:maxLines="2"
+				android:textColor="#303030"> 
+			</TextView>
+			
+		</LinearLayout>			
+	</LinearLayout> 
+</RelativeLayout>

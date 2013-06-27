@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/application_bg">
+	
+	<include  layout="@layout/alipay_subtitle_320_480"/>
+	
+	<RelativeLayout
+		android:id="@+id/AlipayAboutCanvas"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_below="@+id/AlipaySubTitle"
+		android:fitsSystemWindows="true"
+		android:background="@drawable/application_bg_white"
+         android:layout_marginLeft="5dp"
+         android:layout_marginRight="5dp"
+         android:layout_marginBottom="3dp">
+		<!--
+		<TextView
+			android:id="@+id/AboutCopyrightName"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:layout_marginLeft="20dp"
+			android:textColor="@color/TextColorBlack"
+			android:text="@string/AboutCopyrightName">
+		</TextView>-->
+
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentLeft="true"
+		    android:layout_alignParentTop="true"
+		    android:orientation="vertical" >
+
+		    <ImageView
+		        android:id="@+id/AboutImage"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginBottom="7dp"
+		        android:layout_marginLeft="25dp"
+		        android:layout_marginTop="20dp"
+		        android:src="@drawable/alipay" />
+
+		    <TextView
+		        android:id="@+id/AlipayAboutTitle"
+		        style="@style/AlipayNormalText320x480"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="25dp"
+		        android:text="@string/AboutVersion"
+		        android:textColor="@color/TextColorBlack"
+		        android:textStyle="bold" />
+
+		    <TextView
+		        android:id="@+id/AboutVersion"
+		        style="@style/AlipayNormalText320x480"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="25dp"
+		        android:textColor="@color/TextColorBlack"
+		        android:textStyle="bold" />
+
+		    <TextView
+		        android:id="@+id/AboutVersionInfo"
+		        style="@style/AlipayNormalText320x480"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginBottom="15dp"
+		        android:layout_marginLeft="25dp"
+		        android:text="@string/AboutCopyright"
+		        android:textColor="@color/AboutColor"
+		        android:textSize="14sp" />
+
+		    <ImageView
+		        style="@style/AlipayCutoffLineStyle320x480"
+		        android:layout_marginLeft="25dp"
+		        android:layout_marginRight="25dp" />
+
+		    <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginBottom="15dp"
+		        android:layout_marginTop="15dp"
+		        android:orientation="vertical" >
+
+		        <TextView
+		            style="@style/AlipayNormalText320x480"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_marginBottom="7dp"
+		            android:layout_marginLeft="25dp"
+		            android:text="@string/ServiePhoneNumberTitle"
+		            android:textColor="@color/TextColorBlack"
+		            android:textStyle="bold" />
+
+		        <Button
+		            android:id="@+id/AlipayServicePhoneNumberButton"
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_marginLeft="25dp"
+		            android:layout_marginRight="25dp"
+		            android:background="@drawable/alipay_button_sub"
+		            android:text="@string/ServiePhoneNumber"
+		            android:textColor="@color/ButtonColorBlue"
+		            android:textSize="16dp" />
+		    </LinearLayout>
+
+		    <ImageView
+		        style="@style/AlipayCutoffLineStyle320x480"
+		        android:layout_marginLeft="25dp"
+		        android:layout_marginRight="25dp" />
+
+		    <TextView
+		        style="@style/AlipayNormalText320x480"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="25dp"
+		        android:layout_marginTop="15dp"
+		        android:text="@string/AboutCopyrightNameOne"
+		        android:textColor="@color/AboutColor"
+		        android:textSize="12dp" />
+
+		    <TextView
+		        style="@style/AlipayNormalText320x480"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="25dp"
+		        android:text="@string/AboutCopyrightNameTwo"
+		        android:textColor="@color/AboutColor"
+		        android:textSize="12dp" />
+
+		    <TextView
+		        style="@style/AlipayNormalText320x480"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="25dp"
+		        android:text="@string/AboutCopyrightNameThree"
+		        android:textColor="@color/AboutColor"
+		        android:textSize="12dp" />
+		</LinearLayout>
+
+	</RelativeLayout>
+	
+</RelativeLayout>

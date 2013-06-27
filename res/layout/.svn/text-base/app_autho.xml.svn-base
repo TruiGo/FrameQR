@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@color/TextColorBlack"
+  android:layout_margin="5dp"
+  android:orientation="vertical">
+
+
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical" android:paddingTop="8dp" android:paddingBottom="8dp">
+	<TextView android:drawableLeft="@drawable/searchicon_bg_pressed" android:drawablePadding="5dp" android:id="@+id/title_name" android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:textColor="@color/TextColorWhite" android:gravity="center_vertical" android:textSize="18sp" android:paddingLeft="10dp" android:text="@string/app_autho_tittle"/>
+</LinearLayout>
+
+<View android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:background="@color/TextColorWhite" android:layout_width="fill_parent" android:layout_height="1dp"/>
+
+<TextView android:padding="8dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/app_autho_text" android:textColor="@color/TextColorWhite" />
+
+<LinearLayout
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@color/TextColorWhite">
+	<Button android:text="@string/Ensure" android:id="@+id/ok_btn" style="@style/AlipayButtonStyle320x480NoPadding" android:layout_width="fill_parent" android:layout_weight="1" android:layout_height="wrap_content" android:layout_margin="5dp"/>
+	<Button android:text="@string/Cancel" android:id="@+id/cancel_btn" style="@style/AlipayAgentPayButtonStyle320x480" android:layout_width="fill_parent" android:layout_weight="1" android:layout_height="wrap_content" android:layout_margin="5dp"/>
+</LinearLayout>
+</LinearLayout>

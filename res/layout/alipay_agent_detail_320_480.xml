@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/agent_detail_all_layout" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<LinearLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:orientation="vertical" 
+		android:paddingBottom="20dp">
+
+		<LinearLayout android:id="@+id/agent_detail_prompt_layout"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_marginLeft="3dp" 
+			android:layout_marginRight="3dp"
+			android:layout_marginTop="5dp" 
+			android:background="@drawable/agent_prompt_bg">
+			<TextView android:id="@+id/agent_detail_prompt" 
+			    style="@style/AlipayNormalText320x480"
+				android:layout_marginTop="5dp" 
+				android:layout_marginLeft="5dp"
+				android:layout_height="wrap_content" 
+				android:layout_width="fill_parent"
+				android:text="@string/AgentPayDetailPrompt" android:textStyle="bold"
+				android:textColor="@color/TextColorRed">
+			</TextView>
+		</LinearLayout>
+
+		<LinearLayout android:id="@+id/agent_detail_info_layout"
+			style="@style/AlipayBGCanvas320x480" android:layout_width="fill_parent"
+			android:orientation="vertical">
+
+			<!-- 代付申请人名称 -->
+			<LinearLayout android:id="@+id/agent_detail_applicant_name"
+				android:orientation="horizontal" style="@style/AlipayInputCanvas320x480"
+				android:gravity="fill_horizontal">
+				<TextView android:id="@+id/agentApplicantNameTitle"
+					android:text="@string/AgentPayApplicantName" style="@style/AlipayInputNameTextThin320x480"
+					android:gravity="right">
+				</TextView>
+				<TextView android:id="@+id/agentApplicantName"
+					style="@style/AlipayInputContentTextThin320x480">
+				</TextView>
+				<TextView android:id="@+id/agentApplicantAccount"
+					style="@style/AlipayInputContentTextThin320x480"
+					android:layout_width="fill_parent">
+				</TextView>
+			</LinearLayout>
+
+			<!-- 代付金额 -->
+			<LinearLayout android:id="@+id/agent_detail_money"
+				android:orientation="horizontal" style="@style/AlipayInputCanvas320x480">
+				<TextView android:id="@+id/agentPayMoneyTitle"
+					android:text="@string/AgentPayMoney" style="@style/AlipayInputNameTextThin320x480">
+				</TextView>
+				<TextView android:id="@+id/agentPayMoney"
+					style="@style/AlipayInputContentTextThin320x480">
+				</TextView>
+			</LinearLayout>
+
+			<!-- 代付留言 -->
+			<LinearLayout android:id="@+id/agent_detail_memo"
+				android:orientation="horizontal" style="@style/AlipayInputCanvas320x480">
+				<TextView android:id="@+id/agentPayMemoTitle" android:text="@string/AgentPayApplyMemo"
+					style="@style/AlipayInputNameTextThin320x480">
+				</TextView>
+				<TextView android:id="@+id/agentPayMemo"
+					style="@style/AlipayInputContentTextThin320x480">
+				</TextView>
+			</LinearLayout>
+
+			<!-- 商品名称 -->
+			<LinearLayout android:id="@+id/agent_detail_goods_name"
+				android:orientation="horizontal" style="@style/AlipayInputCanvas320x480">
+				<TextView android:id="@+id/agentGoodsNameTitle"
+					android:text="@string/AgentPayGoodsName" style="@style/AlipayInputNameTextThin320x480">
+				</TextView>
+				<TextView android:id="@+id/agentGoodsName"
+					style="@style/AlipayInputContentTextThin320x480">
+				</TextView>
+			</LinearLayout>
+
+			<!-- 收款方 -->
+			<LinearLayout android:id="@+id/agent_detail_seller_name"
+				android:orientation="horizontal" style="@style/AlipayInputCanvas320x480">
+				<TextView android:id="@+id/agentSellerNameTitle"
+					android:text="@string/AgentPaySellerName" style="@style/AlipayInputNameTextThin320x480">
+				</TextView>
+				<TextView android:id="@+id/agentSellerName"
+					style="@style/AlipayInputContentTextThin320x480">
+				</TextView>
+			</LinearLayout>
+
+			<!-- 交易号 -->
+			<LinearLayout android:id="@+id/agent_detail_trade_number"
+				android:orientation="horizontal" style="@style/AlipayInputCanvas320x480">
+				<TextView android:id="@+id/agentTradeNoTitle" android:text="@string/AgentPayTradeNo"
+					style="@style/AlipayInputNameTextThin320x480">
+				</TextView>
+				<TextView android:id="@+id/agentTradeNo"
+					style="@style/AlipayInputContentTextThin320x480">
+				</TextView>
+			</LinearLayout>
+
+			<!-- 创建时间 -->
+			<LinearLayout android:id="@+id/agent_detail_created_time"
+				android:orientation="horizontal" style="@style/AlipayInputCanvas320x480">
+				<TextView android:id="@+id/agentPayCreatedTimeTitle"
+					android:text="@string/AgentPayCreatedTime" style="@style/AlipayInputNameTextThin320x480">
+				</TextView>
+				<TextView android:id="@+id/agentPayCreatedTime"
+					style="@style/AlipayInputContentTextThin320x480">
+				</TextView>
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout android:id="@+id/agentButtonLayout"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:orientation="vertical" android:gravity="center_horizontal">
+			<Button android:id="@+id/agentPayButton"
+				android:layout_marginTop="20dp" android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+				style="@style/AlipayButtonStyle320x480NoPadding"
+				android:layout_width="fill_parent" android:textColor="@color/ButtonColorYellow" />
+
+			<Button android:id="@+id/cancelbutton"
+				android:layout_marginTop="20dp" android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp" style="@style/AlipayAgentPayButtonStyle320x480"
+				android:layout_width="fill_parent" android:textColor="@color/ButtonColorBlue" />
+		</LinearLayout>
+
+
+	</LinearLayout>
+</ScrollView>

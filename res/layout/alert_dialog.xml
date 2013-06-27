@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/parentPanel" android:layout_width="fill_parent"
+	android:layout_height="wrap_content" android:orientation="vertical"
+	android:background="@drawable/popwindow_bg">
+	<ScrollView android:id="@+id/scrollView"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:padding="10dp">
+		<TextView android:id="@+id/message" android:textColor="@color/text_gray" android:gravity="center"
+			android:textSize="16sp" android:layout_width="fill_parent" android:minLines="2"
+			android:layout_height="fill_parent" />
+	</ScrollView>
+	<LinearLayout android:layout_width="fill_parent" android:layout_gravity="bottom"
+		android:layout_height="wrap_content">
+		<Button android:id="@+id/button1" style="@style/popwindown_btn" />
+		<Button android:id="@+id/button2" style="@style/popwindown_btn"/>
+	</LinearLayout>
+</LinearLayout>

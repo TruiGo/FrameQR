@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/bankcard_bg_goldfull"
+    android:padding="20dp" >
+
+    <ImageView
+        android:id="@+id/BankCardIcon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:id="@+id/BankCardName"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/BankCardIcon"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/cardType"
+        style="@style/AlipayNormalText320x480"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/BankCardName"
+        android:textColor="#333333"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <View
+        android:id="@+id/solidLine"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BankCardIcon"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bankcard_line_gold" />
+
+    <com.alipay.android.comon.component.NumberView
+        android:id="@+id/BankCardNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/solidLine"
+        android:layout_marginTop="40dp" />
+    <RelativeLayout
+        android:id="@+id/holderLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/BankCardNumber"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" >
+
+        <TextView
+            android:id="@+id/holderText"
+            style="@style/AlipayNormalText320x480"
+            android:layout_centerVertical="true"
+            android:text="@string/UserNameTitle"
+            android:textColor="#74571a"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/holderNameText"
+            style="@style/AlipayNormalText320x480"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/holderText"
+            android:textColor="#74571a"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/expressLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/BankCardNumber"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/express_logo_big"
+        android:visibility="gone" />
+
+</RelativeLayout>

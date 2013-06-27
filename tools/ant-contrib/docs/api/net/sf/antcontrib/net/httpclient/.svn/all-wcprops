@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/api/net/sf/antcontrib/net/httpclient
+END
+Params.DoubleParam.html
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/api/net/sf/antcontrib/net/httpclient/Params.DoubleParam.html
+END
+HttpClientType.html
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/api/net/sf/antcontrib/net/httpclient/HttpClientType.html
+END
+HostParams.html
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/api/net/sf/antcontrib/net/httpclient/HostParams.html
+END
+Params.Param.html
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/api/net/sf/antcontrib/net/httpclient/Params.Param.html
+END
+Params.BooleanParam.html
+K 25
+svn:wc:ra_dav:version-url
+V 178
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/api/net/sf/antcontrib/net/httpclient/Params.BooleanParam.html
+END
+ClientParams.html
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/api/net/sf/antcontrib/net/httpclient/ClientParams.html
+END
+Params.html
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/api/net/sf/antcontrib/net/httpclient/Params.html
+END
+MethodParams.html
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/api/net/sf/antcontrib/net/httpclient/MethodParams.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/api/net/sf/antcontrib/net/httpclient/package-tree.html
+END
+AbstractHttpStateTypeTask.html
+K 25
+svn:wc:ra_dav:version-url
+V 184
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/api/net/sf/antcontrib/net/httpclient/AbstractHttpStateTypeTask.html
+END
+GetCookieTask.html
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/api/net/sf/antcontrib/net/httpclient/GetCookieTask.html
+END
+AbstractMethodTask.ResponseHeader.html
+K 25
+svn:wc:ra_dav:version-url
+V 192
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/api/net/sf/antcontrib/net/httpclient/AbstractMethodTask.ResponseHeader.html
+END
+Credentials.html
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/api/net/sf/antcontrib/net/httpclient/Credentials.html
+END
+Params.LongParam.html
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/api/net/sf/antcontrib/net/httpclient/Params.LongParam.html
+END
+PurgeExpiredCookiesTask.html
+K 25
+svn:wc:ra_dav:version-url
+V 182
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/api/net/sf/antcontrib/net/httpclient/PurgeExpiredCookiesTask.html
+END
+GetMethodTask.html
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/api/net/sf/antcontrib/net/httpclient/GetMethodTask.html
+END
+HostConfig.html
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/api/net/sf/antcontrib/net/httpclient/HostConfig.html
+END
+PostMethodTask.html
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/api/net/sf/antcontrib/net/httpclient/PostMethodTask.html
+END
+Params.StringParam.html
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/api/net/sf/antcontrib/net/httpclient/Params.StringParam.html
+END
+PostMethodTask.FilePartType.html
+K 25
+svn:wc:ra_dav:version-url
+V 186
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/api/net/sf/antcontrib/net/httpclient/PostMethodTask.FilePartType.html
+END
+HttpStateType.html
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/api/net/sf/antcontrib/net/httpclient/HttpStateType.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/api/net/sf/antcontrib/net/httpclient/package-frame.html
+END
+PostMethodTask.TextPartType.html
+K 25
+svn:wc:ra_dav:version-url
+V 186
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/api/net/sf/antcontrib/net/httpclient/PostMethodTask.TextPartType.html
+END
+HeadMethodTask.html
+K 25
+svn:wc:ra_dav:version-url
+V 173
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/api/net/sf/antcontrib/net/httpclient/HeadMethodTask.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/api/net/sf/antcontrib/net/httpclient/package-summary.html
+END
+ClearCookiesTask.html
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/api/net/sf/antcontrib/net/httpclient/ClearCookiesTask.html
+END
+AbstractMethodTask.html
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/api/net/sf/antcontrib/net/httpclient/AbstractMethodTask.html
+END
+ClearCredentialsTask.html
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/api/net/sf/antcontrib/net/httpclient/ClearCredentialsTask.html
+END
+AddCredentialsTask.html
+K 25
+svn:wc:ra_dav:version-url
+V 177
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/api/net/sf/antcontrib/net/httpclient/AddCredentialsTask.html
+END
+Params.IntParam.html
+K 25
+svn:wc:ra_dav:version-url
+V 174
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/api/net/sf/antcontrib/net/httpclient/Params.IntParam.html
+END
+AddCookieTask.html
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/api/net/sf/antcontrib/net/httpclient/AddCookieTask.html
+END

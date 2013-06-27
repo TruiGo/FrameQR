@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/ContactInfoItemCanvas"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:padding="10dp"
+  android:background="@color/AppBackgroundColor">
+	<TextView
+		android:id="@+id/ContactInfoItemName"
+		android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:textColor="@color/TextColorBlack"
+		android:singleLine="true">
+	</TextView>
+	<TextView
+		android:id="@+id/ContactInfoItemAccount"
+		android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:textColor="@color/TextColorBlack"
+		android:singleLine="true"
+		android:layout_below="@id/ContactInfoItemName">
+	</TextView>
+	<TextView
+		android:id="@+id/RefreshContacts"
+		android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:textColor="@color/TextColorBlack"
+		android:singleLine="true"
+		android:layout_centerHorizontal="true"
+		android:padding="10dp">
+	</TextView>
+</RelativeLayout>

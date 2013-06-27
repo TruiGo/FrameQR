@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:orientation="horizontal" android:gravity="center_vertical">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:src="@drawable/pre_voucher_detail" android:id="@+id/indicator_left"/>
+    <TextView style="@style/normal_16" android:layout_marginLeft="8dp"
+         android:textSize="14sp" android:textColor="@color/orangecolor" android:id="@+id/currentPage"/>
+	<TextView style="@style/normal_16" android:text="/" android:paddingLeft="5dp"
+	    android:paddingRight="5dp" android:textColor="@color/text_gray" android:textSize="14sp"/>
+	<TextView style="@style/normal_16" android:textSize="14sp"
+         android:id="@+id/totalPage" android:textColor="@color/text_gray"/>
+	<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:src="@drawable/next_voucher_detail" android:id="@+id/indicator_right"
+        android:layout_marginLeft="8dp"/>
+</LinearLayout>

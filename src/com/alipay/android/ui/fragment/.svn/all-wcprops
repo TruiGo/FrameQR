@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/fragment
+END
+DialogWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/fragment/DialogWrapper.java
+END
+PopCancelCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/fragment/PopCancelCallback.java
+END
+CustomAlertDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/fragment/CustomAlertDialog.java
+END
+FragmentHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/fragment/FragmentHelper.java
+END
+MultiPhoneNumPop.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/fragment/MultiPhoneNumPop.java
+END
+PopTeleponeOperators.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/fragment/PopTeleponeOperators.java
+END
+TransferReasonPop.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/fragment/TransferReasonPop.java
+END
+ContactOtherPop.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/fragment/ContactOtherPop.java
+END

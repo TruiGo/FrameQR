@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/menuItem"
+  android:layout_width="fill_parent"
+  android:layout_height="60dp"
+  android:background="@drawable/alipay_list_iteminfo_bg">
+	<ImageView
+		android:id="@+id/menuItem_Icon"
+		android:layout_width="60dp"
+		android:layout_height="fill_parent"
+		android:textColor="@color/TextColorBlack"
+		android:padding="10dp"
+	/>
+	<TextView
+		android:id="@+id/menuItem_Name"
+		android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:textColor="@color/TextColorBlack"
+		android:singleLine="true"
+		android:layout_gravity="center"
+		android:layout_marginLeft="10dp"
+		android:textSize="22sp"
+		>
+	</TextView>
+</LinearLayout>

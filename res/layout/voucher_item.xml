@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:id="@+id/item" android:paddingLeft="8dp" android:paddingRight="6dp">
+	        <include layout="@layout/voucher_item_no_corner" />
+        </RelativeLayout>
+        
+		<ImageView android:layout_width="fill_parent" android:layout_height="fill_parent"
+		    android:layout_alignParentTop="@id/item" android:layout_alignBottom="@id/item"
+	    	android:background="@drawable/voucher_foreground" android:scaleType="fitXY"/>
+    </RelativeLayout>
+    
+	<include layout="@layout/voucher_corner"/>
+</RelativeLayout>

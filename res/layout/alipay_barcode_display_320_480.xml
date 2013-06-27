@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AlipayBarCodeDisplayLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/application_bg" >
+
+    <!-- android:background="@color/TextColorWhite" -->
+
+    <include layout="@layout/alipay_subtitle_320_480" />
+
+    <RelativeLayout
+        android:id="@+id/BarCodeGatherLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/AlipaySubTitle"
+        android:background="@drawable/application_bg_white" >
+
+        <RelativeLayout
+            android:id="@+id/BarCodeDisplayBG"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/AlipaySubTitle" >
+
+            <ImageView
+                android:id="@+id/barcode_img"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="8dp"
+                android:padding="0dp"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/qrcode_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true" />
+
+            <ImageView
+                android:id="@+id/barcode_background"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/barcode_curaccount"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/alipay_current_account"
+                android:textColor="@color/TextColorBlack"
+                android:textSize="16dp" />
+            <!-- android:gravity="center" -->
+
+            <TextView
+                android:id="@+id/bar_code_prompt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/barcode_curaccount"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="@string/barcode_wait_scan" />
+
+            <ProgressBar
+                android:id="@+id/TimerProgressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="10dip"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="8dp" >
+            </ProgressBar>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/BottomButtonLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="3dp"
+            android:layout_marginRight="3dp"
+            android:visibility="gone" >
+
+            <Button
+                android:id="@+id/ButtonUserGuide"
+                style="@style/AlipayBlueButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/alipay_button_main"
+                android:paddingBottom="6dp"
+                android:paddingTop="2dp"
+                android:text="@string/MenuTxt_Guide"
+                android:textColor="@color/TextColorBlack"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/BarcodeSwitchLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dp" >
+
+            <RelativeLayout
+                android:id="@+id/LeftPointLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/left_point_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="25dp"
+                    android:padding="0dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RightPointLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/right_point_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="25dp"
+                    android:padding="0dp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/BarcodeNumberLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/BarcodeSwitchLayout"
+            android:layout_marginBottom="3dp" >
+
+            <TextView
+                android:id="@+id/barcode_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/TextColorBlue"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

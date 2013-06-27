@@ -1,0 +1,1059 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<!-- About View Strings -->
+<string name="AboutVersionName">"版本号：V"</string>
+<string name="AboutVersion">支付宝钱包</string>
+<string name="AboutCopyrightNameOne">支付宝 版权所有</string>
+<string name="AboutCopyrightNameTwo">"Copyright © 2004 - 2013 Alipay.com co.,ltd"</string>
+<string name="AboutCopyrightNameThree">All Rights Reserved.</string>
+<string name="AboutCopyright">适用于Android2.0及以上操作系统 。</string>
+<string name="AboutCopyrightDialog">"客服邮箱:\nservice-mobile@alipay.com\n\n支付宝 版权所有\nCopyright © 2004-2013\nAlipay.com.All Rights Reserved."</string>
+
+<!-- User Feedback Strings -->
+<string name="FeedbackText">"请输入你的问题或意见："</string>
+<string name="SubmitFeedbackContentButtonText">"提交反馈"</string>
+<string name="InputTelNumText">"请输入你的手机号码"</string>
+<string name="FeedbackContentWarning">"/240字"</string>
+
+<!-- update setting -->
+<string name="DownloadProcessing">"正在下载"</string>
+<string name="CancelDownload">"你是否确定要退出下载更新？"</string>
+<string name="FailSaveFile">"保存文件失败。"</string>
+<string name="FailDownloadFile">"下载失败。"</string>
+
+<!-- Normal Strings -->
+<string name="LoginTaobaoHint">"账户名(手机号/会员名)"</string>
+<string name="LoginAlipayHint">"账户名(邮箱/手机号)     "</string>
+<string name="LoginPwdHint">"登录密码"</string>
+<string name="IdCardHint">"身份证号码"</string>
+<string name="IdCardTip">"请输入你进行实名认证时使用的证件号码"</string>
+
+
+<string name="app_name">"支付宝钱包"</string>
+<string name="UserLoginProcessing">"正在登录..."</string>
+<string name="marketUpgrading">"正在升级%s..."</string>
+<string name="tipsForUnInitedVoucher">"您还没有卡券，快去“%s”找找。"</string>
+<string name="ExitDialogInfo">"你是否要退出支付宝钱包?"</string>
+<string name="Yuan">元</string>
+<string name="Yes">"是"</string>
+<string name="No">"否"</string>
+<string name="Ensure">"确 定"</string>
+<string name="Cancel">"取 消"</string>
+<string name="More">"更 多..."</string>
+<string name="WarningDataCheck">"因当前手机的日期和时间不对，造成连接网络失败，请检查设置。"</string>
+<string name="Register">"注册"</string>
+<string name="Retrieve">"找回登录密码"</string>
+<string name="ReadProtocol">"阅读注册协议"</string>
+<string name="DeleteAccountTitle">"提示"</string>
+<string name="DeleteAccountMessage">"是否从列表中删除此账户?"</string>
+
+<!-- Title Strings -->
+<!-- Error Message Strings -->
+<string name="PleaseWait">请稍候...</string>
+<string name="WarngingString">"提 醒"</string>
+<string name="ErrorString">"错误"</string>
+<string name="NoEmptyFeedbackContent">"输入的反馈内容不能为空。"</string>
+<string name="NoEmptyFeedbackTelNum">"手机号码不能为空。"</string>
+<string name="SubmitingFeedbackContent">"正在提交，请稍候..."</string>
+<string name="SubmitFeedbackContentFail">"提交反馈失败，请稍后再试。"</string>
+<string name="SubmitFeedbackContentSucceed">"意见反馈成功。"</string>
+<string name="ErrorInputTelNum">"手机号码应为11位数字。"</string>
+<string name="NoEmptyAccountName">账户不能为空。</string>
+<string name="NoEmptyPassword">"密码不能为空。"</string>
+<string name="CheckNetwork">"无法连接网络，请检查设置。"</string>
+<string name="PayPasswordEmpty">"请输入支付密码。"</string>
+<string name="AmountEmpty">"充值金额不能为空。"</string>
+<string name="PhoneNOEmpty">手机号码不能为空。</string>
+<string name="WarningInvalidAccountName">账户必须是手机号码或email。</string>
+<string name="WarningInvalidLoginPassword">"密码由6-20个英文字母、数字或符号组成。"</string>
+<string name="WarningPhoneNumberFormatError">手机号码应为11位数字。</string>
+<string name="WarningRealNameEmpty">"真实姓名不能为空"</string>
+<string name="WarningInvalidRealName">"用户名只能由汉字和大写字母构成。"</string>
+<string name="WarningCCRInvalidRealName">"用户名只能由大写字母、汉字、空格和.构成。"</string>
+<string name="WarningRealNameOutRange">"真实姓名长度必须在2到32位以内，请重新填写。"</string>
+<string name="WarningCCRAcountOutRange">"真实姓名长度必须在2到20位以内，请重新填写。"</string>
+<string name="WarningIdCardEmpty">"身份证号不能为空"</string>
+<string name="WarningInvalidIdCard">"身份证号码格式不正确。"</string>
+<string name="WarningBankIdEmpty">"银行账号不能为空"</string>
+<string name="WarningInvalidBankId">"银行账号格式不正确。"</string>
+
+<!-- String for Menu -->
+<string name="MenuHome">"主页"</string>
+<string name="MenuNologin">"登录/注册"</string>
+<string name="MenuStart">"登录"</string>
+<string name="MenuRegistration">"注册"</string>
+<string name="MenuUpdate">"检测更新"</string>
+<string name="MenuHelp">"帮助"</string>
+<string name="MenuNotifiSetting">"通知设置"</string>
+<string name="MenuUserFeedback">"用户反馈"</string>
+<string name="MenuAbout">"关于"</string>
+<string name="MenuExit">"退 出"</string>
+<string name="Save">"保存"</string>
+<!-- add by renxl on 2010-08-18 -->
+<string name="MenuLogOut">账号退出</string>
+<string name="switchAccount">切换账户</string>
+<string name="RecommendApp">推荐应用</string>
+<string name="ON">开</string>
+<string name="OFF">关</string>
+
+<!-- 接收通知设置 -->
+<string name="NotificationReceive">"是否接收通知"</string>
+<string name="NotificationVibratorRemind">"震动提醒"</string>
+<string name="NotificationVoiceRemind">"声音提醒"</string>
+<string name="NotificationTimePeriod">"设置接收时间段："</string>
+<string name="NotificationDialogTitle">"设置接收通知时间段"</string>
+<string name="TimeInputError1">"请输入0-24之间的整数。"</string>
+<string name="TimeInputError2">"开始时间需小于结束时间。"</string>
+<string name="DefaultTimePeriod">"9:00-23:00"</string>
+<string name="DialogFrontTimeText">":00  至    "</string>
+<string name="DialogBehindTimeText">":00"</string>
+<string name="DialogSetting">"设置"</string>
+<string name="DialogCancel">"取消"</string>
+<string name="PushSettingError">"无法连接到网络，设置修改失败"</string>
+
+<!-- Sub Item String -->
+
+<!-- Pay Activity Strings -->
+<string name="PayYourAccountCheckButtonString">"下一步"</string>
+<string name="PayPayingPassword">"支付密码："</string>
+<string name="PayPayingPasswordHint">"请输入支付密码"</string>
+<string name="PayPayingAccountHint">"对方支付宝账户"</string>
+
+<!-- Account Query Activity Strings -->
+<string name="AccountQueryAccountDetail">"单笔收支明细"</string>
+
+<string name="AccountQueryInfoToday">"当天收支"</string>
+<string name="AccountQueryInfoThisWeek">"最近一周收支"</string>
+<string name="AccountQueryInfoThisMonth">"最近一月收支"</string>
+
+<string name="AccountQueryFlowNumber">"    流水号："</string>
+<string name="AccountQueryType">"        类型："</string>
+
+<string name="AccountQueryMoney">"        收入："</string>
+<string name="AccountQueryOut">"        支出："</string>
+<string name="AccountQuerySite">"支付方式："</string>
+<string name="AccountQueryTime">"        时间："</string>
+<string name="AccountQueryBalance">"        余额："</string>
+<string name="AccountQueryNote">"        备注："</string>
+<!-- Deal Query Activity Strings -->
+<string name="DealQueryGetingDetailInfo">"读取详细信息中，请稍候..."</string>
+<string name="DealQueryDealOK">"交易成功"</string>
+<string name="DealQueryDealInfo">"交易信息"</string>
+<string name="DealQueryWareName">"商品名称："</string>
+<string name="DealQueryDealMoney">"金        额："</string>
+<string name="DealQueryDealAction">"交易行为："</string>
+<string name="DealQueryDealStatus">"交易状态："</string>
+<string name="DealQueryDealAgent">"代付人："</string>
+<string name="DealQueryFrom">"来        自："</string>
+<string name="DealQueryDealObject">"交易对方："</string>
+<string name="DealQueryDealType">"交易类型："</string>
+<string name="DealQueryOrderNumber">"订  单  号："</string>
+<string name="DealQueryDealNumber">"交  易  号："</string>
+<string name="DealQueryDealTime">"成交时间："</string>
+<string name="DealQueryCarryInfo">"物流信息"</string>
+<string name="DealQueryReceiveAddress">"收货地址："</string>
+<string name="DealQueryCarryCo">"物流公司："</string>
+<string name="DealQueryYourName">"你的户名："</string>
+<string name="DealQueryPaidMoney">"应付总价："</string>
+<string name="DealQueryUseableBalance">"可用余额："</string>
+<string name="DealQueryPayingPasswordHint">"支付密码："</string>
+<string name="DealQueryEnsurePaying">"确认付款"</string>
+<string name="LifepayQueryEnsurePaying">"确认缴费"</string>
+<string name="DealQueryConfirmReceived">"确认收货"</string>
+<string name="DealQueryRemindSeller">"提醒卖家发货"</string>
+<string name="RemindReceiver">"提醒对方收款"</string>
+
+<string name="DealQueryWaitPayingResult">"WAIT_BUYER_PAY"</string>
+<string name="DealQueryWaitSellerConfirmTradResult">"WAIT_SELLER_CONFIRM_TRADE"</string>
+<string name="DealQueryWaitSysConfirmPayResult">"WAIT_SYS_CONFIRM_PAY"</string>
+<string name="DealQueryWaitSellerSendGoodsResult">"WAIT_SELLER_SEND_GOODS"</string>
+<string name="DealQueryWaitBuyerConfirmGoodsResult">"WAIT_BUYER_CONFIRM_GOODS"</string>
+<string name="DealQueryWaitSysPaySellerResult">"WAIT_SYS_PAY_SELLER"</string>
+<string name="DealQueryTradeFinishedResult">"TRADE_FINISHED"</string>
+<string name="DealQueryTradeClosedResult">"TRADE_CLOSED"</string>
+<string name="DealQueryTradeRefuseResult">"TRADE_REFUSE"</string>
+<string name="DealQueryTradeRefuseDealingResult">"TRADE_REFUSE_DEALING"</string>
+<string name="DealQueryTradeCancelResult">"TRADE_CANCEL"</string>
+<string name="DealQueryTradePendingResult">"TRADE_PENDING"</string>
+<string name="DealQueryTradeSuccessResult">"TRADE_SUCCESS"</string>
+<string name="DealQueryBuyerPreAuthResult">"BUYER_PRE_AUTH"</string>
+<string name="DealQueryCODWaitSellerSendGoodsResult">"COD_WAIT_SELLER_SEND_GOODS"</string>
+<string name="DealQueryCODWaitBuyerPayResult">"COD_WAIT_BUYER_PAY"</string>
+<string name="DealQueryCODWaitSysPaySellerResult">"COD_WAIT_SYS_PAY_SELLER"</string>
+
+<!-- Account Money Input Activity Strings -->
+
+<string name="AccountInputAccountNumber">"账户名："</string>
+
+<!-- Phone Money Input Activity String -->
+<string name="PhoneInputNext">"下一步"</string>
+
+<!-- Phone Phone Binding Activity String -->
+<string name="PhoneBindingHint">请输入需要绑定的手机号码</string>
+<string name="PhoneBindingEnsureButtonName">确定</string>
+<string name="PhoneBindingSuccessful">"绑定手机成功"</string>
+<string name="AccountBindingOK">"账户绑定成功"</string>
+<string name="PhoneBindingWaitingMessage">"绑定中，请稍候..."</string>
+
+<!-- Phone Cash Register Activity String -->
+<string name="CashRegisterTitle">"支付宝收银台"</string>
+<string name="PucPayReLogin">登录超时，请重新登录</string>
+
+<!-- Memo remapping String -->
+<string name="MEMO_411">"请补全你的资料，否则将不能启用你的支付宝账户。"</string>
+<string name="Save_Success">"保存成功。你的支付宝账户已启用。"</string>
+<string name="Save_Success_Title">"补全成功"</string>
+
+
+<!-- Card Operation String -->
+<string name="CardActiveMsg1">"未激活"</string>
+<string name="CardActiveMsg2">"等待签约"</string>
+<!-- Card Active String-->
+<string name="CardActive">激 活</string>
+<string name="CardActiveSucess">成功激活</string>
+<string name="HaveCardsText">"你已拥有的支付宝卡通："</string>
+<string name="NoCardsText">"你还未拥有支付宝卡通："</string>
+<string name="CardActiveSucessInfo">你现在可以方便的使用支付宝卡通来充值、付款、取现等服务。</string>
+<!-- Card Apply String-->
+<string name="CardApplyStartAccount">"“支付宝卡通”服务，需要和银行签约才能开通，请选择银行开始签约申请流程；"</string>
+<string name="CardApplyAccount">你选择申请的是</string>
+<string name="CardApplyAccount2">卡通。</string>
+<string name="CardApplyEffer">"你申请"</string>
+<string name="CardApplyEffer1">"信息已提交，还剩最后一步。"</string>
+<string name="CardApplyUserName">支付宝账户：</string>
+<string name="ApplyRealNameTitleStr">真实姓名：</string>
+<string name="ApplyIdentifyNumberStr">身份证号：</string>
+<string name="CardApplyNext">下一步</string>
+<string name="ApplyCardApply">提交申请</string>
+<string name="ApplyCardApplySuccess">成功提交卡通申请</string>
+<string name="CardBankActMsg_ACTIVATION">"已开通"</string>
+<string name="CardBankActMsg_UNACTIVATION">"未激活"</string>
+<string name="CardBankActMsg_WAITSIGNUP">"等待签约"</string>
+<string name="CardBankActMsg_NEW">"开通卡通"</string>
+<string name="CardBankActMsg_NEWItemString">"开通新支付宝卡通"</string>
+<string name="WaitSignupSummary">"请你携带身份证到银行柜台签约，并填写“支付宝卡通”服务申请单。"</string>
+<string name="WaitSignupSummaryTwo">请牢记你的支付宝账户，因为银行柜台申请时需要填写。</string>
+<string name="ACTIVATION_Cue">"请你填写下列信息，以完成卡通的激活"</string>
+<string name="ACTIVATION_BankId_Hint">"支付宝卡通签约银行卡号"</string>
+<string name="ACTIVATION_Password_Hint">"支付宝账户支付密码"</string>
+<string name="CardInfoPreStr">"**************"</string>
+<string name="CardInfoPreStr1">"***********"</string>
+<string name="ProtocolMessage">"请你携带身份证去银行柜台办理签约。签约分为两个步骤："</string>
+<string name="ProtocolMessage1">"1、填写银行卡申请单，申领支持支付宝卡通服务的银行卡。"</string>
+<string name="ProtocolMessage2">"2、填写"支付宝卡通服务签约单"，签约支付宝卡通服务。"</string>
+
+<!-- Account Output String -->
+<string name="AccountOutputCountAmount">提现金额</string>
+<string name="AccountMoneyNumberNote">可提现金额为：</string>
+<string name="AccountOutputPassword">支付密码：</string>
+<string name="PaymentPassword">支付密码</string>
+<string name="AccountOutputEnsureStr">确认</string>
+
+<string name="RegisterTitle">用户注册</string>
+<string name="RegisterPhonenumber">手机号码：</string>
+<string name="RegisterName">真实姓名：</string>
+<string name="RegisterLoginPassword">设置登录密码：</string>
+<string name="RegisterPayPassword">设置支付密码：</string>
+<string name="RegisterCheckImage">验证码：</string>
+<string name="RegisterCheckBoxInfo">同意注册协议</string>
+<string name="RegisterCheckBoxNotSelected">必须同意注册协议</string>
+<string name="RegisterGetImage">正在获取数据，请稍候...</string>
+<string name="RegisterCheckNotNull">验证码不能为空</string>
+<string name="RegisterCheckIsError">验证码输入错误</string>
+<string name="RegisterCheckFormateWrong">输入验证码格式错误</string>
+<string name="RegisterCheckAgain">获取验证码失败，点击确定重新获取</string>
+<string name="RegisterSuccess">注册成功</string>
+<string name="UserInfoSupplementInfo">"资料补全"</string>
+<string name="WarningInvalidPassword">"密码由6-20个英文字母、数字或符号组成。"</string>
+
+<string name="WarningGiveUpGetPayPSW">"你确定要放弃找回支付密码操作吗？"</string>
+<string name="WarningGiveUpFeedbackContent">"你填写的信息将丢失，确定要放弃吗？"</string>
+
+<string name="MenuBack">返回</string>
+
+<string name="BarcodePay">条码支付</string>
+
+<string name="ContactInfoText">"选择支付宝账户"</string>
+<string name="GetContactLoading">正在获取联系人信息，请稍候...</string>
+<string name="NoContact">你的支付宝联系人为空。</string>
+
+
+<string name="NetBankGetInfo">"正在获取信息，请稍候..."</string>
+<string name="CheckMoney">限额：</string>
+
+<string name="UseCoponYuan">元</string>
+
+
+
+<string name="StrConfirmPayTitle">"提示"</string>
+
+<string name="StrCardNoIsEmpty">"充值卡号不能为空。"</string>
+<string name="StrCardNoError">"充值卡号格式不正确。"</string>
+<string name="StrCardPassIsEmpty">"充值卡密码不能为空。"</string>
+<string name="StrCardPassError">"充值卡密码格式不正确。"</string>
+<string name="StrMoneyFormatError">"金额格式不正确。"</string>
+
+<string name="GetPayPassword">"找回支付密码"</string>
+<string name="GetLoginPassword">"找回登录密码"</string>
+<string name="ResetPW">"输入新密码"</string>
+<string name="SendSMSForP2P">"免费短信通知对方"</string>
+<string name="GetSmsButtonText">"获取短信"</string>
+<string name="RepeatSendText">"如果没有收到短信，请"</string>
+<string name="ReplySMSNoticeText">"请你回复短信后，再点击“下一步：设置密码”。回复短信仅由运营商收取相关短信费。"</string>
+<string name="GetSMSResultNoticeText">"已向你绑定的手机152****1234发送短信，请按提示操作。"</string>
+<string name="GetSMSResultNoticeTextFront">"已向你绑定的手机"</string>
+<string name="GetSMSResultNoticeTextBehind">"发送短信，请按提示操作。"</string>
+<string name="GoSettingPayPassWordButoonText">"下一步：设置密码"</string>
+
+<string name="CurrentPassword">"当前密码："</string>
+<string name="NewPassword">"新密码："</string>
+<string name="ModifyLoginPassword">"修改登录密码"</string>
+<string name="ModifyPayPassword">"修改支付密码"</string>
+<string name="InputCheckCodePrompt">"验证码："</string>
+<string name="InputCheckCode">"验证码:"</string>
+<string name="InputCheckCodeHint">"输入校验码"</string>
+<string name="InputSmsCheckCodeNoticeText">"请输入右侧验证码获取短信"</string>
+<string name="WithDrawal">提现</string>
+<string name="SelectBank">"选择提现的银行："</string>
+<string name="CheckCashSuccess">实时提现成功</string>
+<string name="CheckCashApplySuccess">提现申请提交成功</string>
+<string name="ModifySuccess">"修改密码成功"</string>
+<string name="UseNewPasswordLogin">请使用新设置的密码登录</string>
+<string name="UseNewPasswordPay">请使用新设置的密码支付</string>
+<string name="GetLoginSuccessTitle">找回登录密码成功</string>
+<string name="GetLoginSuccessInfo">请使用重新设置的密码登录。</string>
+<string name="GetPaySuccessTitle">找回支付密码成功</string>
+<string name="GetPaySuccessInfo">请使用重新设置的支付密码进行支付。</string>
+<string name="CardManager">银行卡管理</string>
+
+<string name="InputPhone">请输入你手机</string>
+<string name="ReceiveSMScode">收到的短信校验码</string>
+<string name="StrDealing">"正在处理中，请稍侯..."</string>
+<!--useragent是为厂商内置而做的标记，如果是内置请填入厂商的英文名称  -->
+<string name="useragent">""</string>
+
+<!-- add by renxl on 2010-07-13 -->
+<string name="WaterRate">水费</string>
+<string name="PowerRate">电费</string>
+<string name="GasRate">燃气费</string>
+<string name="PhoneAndWideBand">固话/宽带</string>
+<string name="CreditCardRepay">信用卡还款</string>
+<string name="PaipaiPay">悦享拍</string>
+<string name="SystemMsg">消息详情</string>
+
+<string name="TITLE_ACCOUNT_BINDING">绑定账户</string>
+<string name="AccountBindingName">欢迎你，$</string>
+<string name="AccountBindingTip">你正在登录的淘宝账户没有和支付宝绑定,请进行以下操作来完成绑定.</string>
+<string name="AlipayAccountBindingRegisterTip">没有支付宝账户</string>
+<string name="AlipayAccountBindingRegisterButtonName">注册</string>
+<string name="AliapyAccountTip">支付宝账户：</string>
+<string name="AlipayPasswordTip">登录密码：</string>
+<string name="GetPassTipViewOne">仅支持绑定手机号码的用户</string>
+<!--  <string name="GetPassTipViewOne">·仅支持绑定手机号码的用户\n\n·你的手机将收到校验码。本服务完全免费。</string>-->
+<string name="GetPassTipViewTwoInfo2">重新获取校验码</string>
+<string name="GetPassTipViewTwoInfo4">重新发送</string>
+<string name="CheckcodeNotNull">短信校验码不能用空</string>
+<string name="GetSmsCheckcode">获取短信校验码</string>
+<string name="WantToLogOut">"你确定要退出当前登录账号吗？"</string>
+<string name="NotBindPhoneNo">你没有绑定手机号码，无法使用此功能</string>
+<string name="NotBindPhoneNoError">你还没有绑定手机，请先绑定手机再继续修改密码。</string>
+<string name="BindPhoneNo">绑定</string>
+
+<string name="InputAlipayAccount">请输入支付宝账户</string>
+<string name="NoContactPhoneNo">无法获取电话号码，请输入</string>
+<string name="SelectContact">请选择电话号码</string>
+<string name="LastNumber">尾号</string>
+<string name="DisplayPassword">密码可见</string>
+<string name="MyAccount">我的账户</string>
+<string name="PhoneAbsence">缺货</string>
+
+
+
+
+<string name="TradingDetail">交易详情</string>
+
+
+<string name="HaveNoConsumptionRecords">当前没有消费账单</string>
+<string name="HaveNoBalanceRecords">当前没有收支明细</string>
+<string name="ServiePhoneNumberTitle">客服电话：</string>
+<string name="ServiePhoneNumber">0571-88156688</string>
+<string name="NoCarryInfo">此交易无物流信息</string>
+
+<string name="Disclaimer">"免责声明"</string>
+<string name="DisclaimerContent">"你将要开始的应用是由支付宝（中国）网络技术有限公司开发、拥有、运营的联网应用。摩托罗拉不承担该应用任何方面的任何责任，包括但不限于其性能、知识产权、支持、服务、内容及收费。该应用在使用过程中可能产生数据流量，该费用请参看移动运营商公布的收费标准。本服务的联网查询目前只面向已开通移动互联网服务的用户。"</string>
+<string name="Accept">"同意"</string>
+<string name="Refuse">"拒绝"</string>
+<string name="confirm_install_hint">"安装提示"</string>	
+<string name="confirm_install_pay">"为保证你的交易安全，需要你安装支付宝快捷支付服务，才能进行支付。\n\n点击确定，立即安装。"</string>
+<string name="confirm_install_charge">为保证你的资金安全，需要你安装支付宝快捷支付服务，才能进行充值。\n\n点击确定，立即安装。"</string>
+<string name="NoPWPay">免输密码支付</string>
+<string name="NoPWPayTip">每日限额：</string>
+<string name="SafePayInfo">该账户在其他手机上的支付功能</string>
+<string name="SafePayTip">关闭后，账户(#)在另外%台移动终端上的支付功能将同时关闭,这些终端上将不能使用支付功能。</string>
+<string name="GetSettingStatusInfo">正在获取快捷支付设置信息。</string>
+<string name="InstallSafePay">支付宝温馨提示你，快捷支付服务已经有了新版本，为确保支付过程更安全，建议你进行版本升级。</string>
+
+<string name="InstallSafePaytitle">支付宝快捷支付升级</string>
+<string name="confirm_update_hint">"强制升级提示"</string>	
+<string name="delete_success">"删除成功"</string>
+<string name="install_shortcut_tip">创建桌面图标，使你更快捷的登录支付宝钱包。</string>
+<string name="add_to_contacts">添加为支付宝联系人</string>
+<string name="AgreeService">同意服务协议</string>
+<string name="AgreePayService">同意缴费服务协议</string>
+<string name="ServiceInfo">服务协议</string>
+<string name="PayServiceInfo">缴费服务协议</string>
+<string name="Read"><u>阅读</u></string>
+<string name="SelectRegion">选择缴费地区和单位</string>
+<string name="FillPaymentInfo">填写缴费单中相关信息</string>
+<string name="InputPWsafe">请输入支付密码完成设置</string>
+<string name="NOSafeTitle">检测到当前机器还没有安装快捷支付服务\n</string>
+<string name="NOSafeContent">为了保障交易安全，你需要安装支付宝快捷支付服务模块，才能进行支付。\n快捷支付服务是支付宝钱包的支付核心模块。所有交易都需要安装此服务才能完成支付功能。</string>
+<string name="Install">立即安装</string>
+<string name="CurrentVersion">当前版本：没有安装</string>
+<string name="LastVersion">最新版本：</string>
+<string name="SelectChargeCity">选择缴费城市</string>
+<string name="SelectChargeCompany">选择缴费公司</string>
+<string name="SelectChargeWay">选择缴费方式</string>
+<string name="SelectChargeWayText">缴费方式:</string>
+<string name="AgreeServiceOk">请同意服务协议才能进行后续的操作</string>
+<string name="SelectedBill">选择欠费账单</string>
+<string name="ConfirmBill">缴费确认</string>
+<string name="Region">缴费地区：</string>
+<string name="ChargeCompany">收费单位：</string>
+<string name="ArrearsBill">欠费账单：</string>
+<string name="Payment">缴费金额：</string>
+<string name="PaymentWithout">缴费金额</string>
+<string name="PaymentError">输入金额必须为整数。</string>
+<string name="UpdateLoginInfo">提交登录信息，请稍候...</string>
+<string name="ConfirmAccountPassword">验证账号和密码，请稍候...</string>
+<string name="AgentPayModeCompanyTipText">本代缴服务由支付宝提供，3个工作日内到账，每笔收取手续费1.00元。</string>
+<string name="PhoneBindingNotice">需要绑定手机后才可使用提醒功能。</string>
+<string name="TotalPayment">总共支付：</string>
+<string name="ServiceCharge">手续费：</string>
+<string name="LifeAgentPaySuccedTip">缴费申请已提交</string>
+<string name="LifeAgentPaySuccedText">正在处理中。3个工作日内将会完成相关缴费，如未完成，则会将剩余款项打入您的支付宝中。</string>
+<string name="GettingHistory">正在获取历史缴费账号，请稍候...</string>
+<string name="RemindMe">每月提醒我缴费</string>
+<string name="SelectRemindTime">选择提醒日期</string>
+
+<!-- 固话宽带的提醒 -->
+<string name="ZhejiangAll">浙江全省</string>
+<string name="ZhejiangUniTip1">同时支持固话和宽带充值；</string>
+<string name="ZhejiangUniTip2">请输入固话号码或宽带号码（如ap...）进行缴费。</string>
+<string name="ZhejiangCtBroadbandTip">宽带号码前必须加上区号。\n例如：0571hzhz12345678或者0571057112345678。</string>
+<string name="ZhejiangCtPhoneTip">固话号码前必须加上区号。</string>
+
+
+
+
+
+<string name="share_content">支付宝钱包，可轻松管理账户，实现充值提现、淘宝订单付款、查询过往消费记录等功能、更能随时随地充话费、信用卡还款、买彩票，水电煤气宽带缴费，随时随地，非常便利，经我鉴定，非常实用，赶紧下载体验吧：https://wap.alipay.com/help/queryMobilePlat.htm?client=Android</string>
+<string name="NoInputPayPassword">免输密码支付</string>
+<string name="share_content2">支付宝钱包能充值提现,信用卡还款,充话费,买彩票与水电煤宽带缴费等。下载点击https://wap.alipay.com/help/queryMobilePlat.htm?client=Android</string>
+<string name="share_choose">分享给朋友</string>
+<string name="score_bao">集分宝</string>
+<string name="score_info">集分宝介绍</string>
+<string name="score_content">集分宝是支付宝提供的积分服务，可以抵扣现金、兑换礼品、参加抽奖等。惊喜连连哦。</string>
+<string name="Copy_to_share">复制分享链接</string>
+<string name="Copy_by_qq">可粘贴到手机QQ，MSN等</string>
+<string name="Refresh_contact">刷新联系人</string>
+<string name="getting_scorelist">正在获取集分宝列表...</string>
+<string name="addGetpeople"><u>添加更多收款人</u></string>
+<string name="totalmoney">总金额</string>
+<string name="deleteitem"><u>删除</u></string>
+<string name="lessthanone">收款人不能少于一人。</string>
+<string name="totalcount">%.2f</string>
+<string name="usePoint">(%s)</string>
+<string name="includeErr">不能只向自己收款。</string>
+<string name="nopointerr">你没有积分记录</string>
+<string name="infotitle">提醒</string>
+<string name="getMoneyHint">"收款金额"</string>
+<string name="delsuccess">删除成功</string>
+<string name="backGetinfo">你填写的信息将丢失，请确定要放弃吗？</string>
+<string name="copytoclip">已复制至剪贴板</string>
+<string name="shareClient">分享支付宝钱包</string>
+
+<!-- added by yong.xue for 代付功能 -->
+<string name="AgentPayTitle">找人代付</string>
+<string name="AgentPaySomeone">指定一个人为你代付</string>
+<string name="AgentPayAnylink">获取链接请任何人为你代付</string>
+<string name="AgentPaySomeoneDes">建议先联系好值得信任的代付人，\n代付人必须是支付宝用户。</string>
+<string name="AgentPayAnylinkDes">你可以获取链接发送到微博、短信、\nQQ等，任何人都可以帮你付款。</string>
+
+<string name="AgentAnylinkCreated">代付链接已经生成。</string>
+<string name="AgentAnylinkMemoTitle">给代付人留言：</string>
+<string name="AgentAnylinkMemoInfo">你付，或者不付，我就在那里，不离不弃；来帮我代付，或者，给我转账；满满感激，必定回报！\n</string>
+<string name="AgentSomeoneMemoInfo">给对方留言，最多100字。选填。\n</string>
+
+<string name="AgentPayActionNext">下一步</string>
+<string name="AgentPayActionCancel">取消代付</string>
+<string name="AgentPayActionSubmit">提 交</string>
+
+<string name="AgentPayLittleMoney">不支持金额小于1元的代付申请。</string>
+
+<string name="CreatePayTradeInfo">正在创建交易订单，请稍候...</string>
+<string name="AgentPayGetTradeInfo">正在获取交易订单详情，请稍候...</string>
+<string name="AgentPayCreateSomeone">正在设置指定用户代付，请稍候...</string>
+<string name="AgentPayGetAnyLink">正在生成代付链接，请稍候...</string>
+<string name="AgentPayCancel">正在取消代付申请，请稍候...</string>
+
+<string name="AgentPayLinkShareTitle">江湖救急</string>
+<string name="AgentPayButtonPrompt">找人代付</string>
+
+<string name="AgentPayConfirmPrompt">成功提示</string>
+<string name="AgentPayErrorPrompt">错误</string>
+
+<string name="ConsumptionRecordDetailTitle">消费记录详情</string>
+<string name="LifePayDetailTitle">缴费单确认</string>
+<string name="DealQueryEnsureSelfPaying">自己付款</string>
+
+<string name="AgentPayDetailTitle">代付详情</string>
+<string name="AgentPayDetailPrompt">以下付款是为他人付款，商品或者服务不归你所有，请仔细确认信息后再付款，以免造成资金损失。</string>
+<string name="AgentPayActionPaying">确认为他付款</string>
+<string name="AgentPayActionRefuse">拒绝付款</string>
+<string name="AgentPayActionCopyLink">复制代付链接</string>
+<string name="AgentPayCopyLinkHint">代付信息复制成功，请把它粘贴到你的短信／QQ／微博上，让好友帮你代付。</string>
+
+<string name="AgentDetailPeerPayInitResult">PEERPAY_INIT</string>
+<string name="AgentDetailPeerPayCancelResult">PEERPAY_CANCEL</string>
+<string name="AgentDetailPeerPayRefuseResult">PEERPAY_REFUSE</string>
+<string name="AgentDetailPeerPayAbortResult">PEERPAY_ABORT</string>
+<string name="AgentDetailPeerPayFailResult">PEERPAY_FAIL</string>
+<string name="AgentDetailPeerPaySuccessResult">PEERPAY_SUCCESS</string>
+
+<string name="AgentPayApplicantName">代付申请人：</string>
+<string name="AgentPayMoney">金额：</string>
+<string name="AgentPayApplyMemo">留言：</string>
+<string name="AgentPayStatus">代付状态：</string>
+<string name="AgentPayGoodsName">商品名称：</string>
+<string name="AgentPaySellerName">收款方：</string>
+<string name="AgentPayTradeNo">交易号：</string>
+<string name="AgentPayCreatedTime">创建时间：</string>
+
+<string name="AgentAccountError">账户输入有误，请重新输入</string>
+<string name="AgentAccountErrorEmpty">代付人账户不能为空，请输入有效账户</string>
+<string name="AgentAccountErrorFormat">代付人账户格式有误，请重新输入</string>
+<string name="AgentAccountErrorSelf">代付人账户不能是你的账户，请重新填写</string>
+
+<!-- BarcodePay Application added by yong.xue 2011-03-02-->
+<string name="PermissionDesCription">service for alipay application</string>
+
+<!-- BarcodeCaptureActivity -->
+  <string name="msg_default_format">Format</string>
+  <string name="msg_default_type">type</string>
+  <string name="msg_default_time">Time</string>
+  <string name="msg_default_meta">Metadata</string>
+  <string name="button_google_shopper">Google Shopper</string>
+  <string name="msg_intent_failed">Sorry, the requested application could not be launched. The barcode contents may be invalid.</string>
+  <string name="button_ok">OK</string>
+  <string name="result_text">Found plain text</string>
+  <string name="msg_not_our_results">You are leaving this application. The search results you will see are not related to this application.</string>
+  <string name="msg_encode_contents_failed">Could not encode a barcode from the data provided.</string>
+  <string name="msg_encode_barcode_failed">Could not generate the requested barcode.</string>
+  
+  <string name="barcode_pay_title">条码支付</string>
+  <string name="barcode_wait_scan">正等待对方扫描...</string>
+  
+  <string name="barcode_wait_timeout">等待扫描超时,请重试</string>
+  
+  <string name="MenuTxt_Setting">设置</string>
+  <string name="MenuTxt_Guide">使用\n向导</string>
+  
+  
+  <string name="msg_capture_type_qrcode">请扫描对方手机上显示的二维码</string>
+  <string name="msg_capture_type_pubcharge">将条码放置于镜头范围内进行扫描</string>
+ 
+  <string name="barcode_deal_notice">交易提示</string>
+  <string name="barcode_wap_unsupport">此功能不支持wap接入，请在网络设置中选择WLAN或net方式接入</string>  
+  
+  <string name="barcode_safepay_update">"为保证使你能使用条码支付，需要你升级支付宝快捷支付服务到v%1$s以上版本。\n\n请点击确定，立即安装，取消将退出应用。"</string>
+  
+  <!-- 条码支付用户向导 -->
+  <string name="barcode_guide_next">下一步</string>
+  
+  <string name="BarcodeGuideShow">下次不再显示</string>
+  
+  <string name="BarcodeSafepayResult">正在等待快捷支付结果，请稍候...</string>
+  <string name="BarcodeSafepayInit">正在检查账户状态，请稍候...</string>
+  <string name="BarcodeGetRequest">正在从服务端获取条码，请稍候...</string>
+  <string name="BarcodePushCheck">正在检查服务状态，请稍候...</string>
+  
+  <string name="QrcodeTradeCreate">正在处理，请稍候...</string>
+
+  <string name="GetMoneyResultSuccess">收款成功</string>
+  <string name="BarcodePushStatusError">未能和服务器建立有效连接，请稍后再试</string>
+  
+  <string name="QrcodeCreateTradeWarning">创建交易失败，未经授权的交易。</string>
+  
+  <string name="alipay_current_account">当前账户</string>
+  <!-- 条码收银 -->
+  
+  <!-- 悦享拍 -->
+  
+  <string name="PaipaiCopyofQrcodeCopy">二维码已成功复制到剪贴板。</string>
+  
+  
+  
+  <!-- 绑定手机 -->
+  <string name="AccountBindingPhone">绑定手机</string>
+  <string name="BindingPhoneFreePrompt">* 绑定手机是完全免费的。</string>
+  <string name="BindingPhonePrivatePrompt">* 支付宝会对你的手机信息严格保密。</string>
+  <string name="BindingPhoneCheckCode">输入校验码</string>
+  <string name="BindingPhoneGetCheckCode">正在从服务端获取校验码，请稍候...</string>
+  <string name="WarningCheckCodeFormatError">校验码格式不正确，请重新输入。</string>
+  <string name="WarningCheckCodeEmpty">校验码为空，请输入有效校验码。</string>
+  <string name="WarningCheckCodeOutRange">校验码长度不正确，请输入有效校验码。</string>
+  <string name="WarningPayPwdFormatError">支付密码格式不正确，请重新输入。</string>
+  <string name="WarningPayPwdEmpty">支付密码为空,请重新输入。</string>
+  
+  <!-- 提现管理 -->
+  <string name="CashcardAdding">添加提现银行卡</string>
+  <string name="CashcardBankType">银行账户类型：</string>
+  <string name="CashcardAccountName">开户人真实姓名：</string>
+  <string name="CashcardAccountCity">开户银行所在城市：</string>
+  <string name="CashcardAccountCityPrompt">如果找不到所在城市，可以选择所在地区或者上级城市。</string>
+  <string name="CashcardSelectedBank">选择银行：</string>
+  <string name="CashcardNumber">银行卡号：</string>
+  <string name="CashcardAddNewPrompt">此银行卡的开户名必须为“<xliff:g id="username">%s</xliff:g>”，否则提现会失败。提现银行卡不必开通网银。</string>
+  
+  <string name="CashcardManaging">提现银行卡管理</string>
+  <string name="CashcardEmpty">你没有已添加的银行卡</string>
+  
+  <!-- 信用卡管理-->
+  
+  
+  <!-- web App -->
+  <string name="app_autho_text"><b>该商户是支付宝的签约合作商家！</b>\n\n彩票购买需要你先输入姓名和身份证号。如果你同意将支付宝的实名信息自动填写到支付宝合作商家处，则无须自己填写。如果同意，请点击确定。</string>
+  <string name="app_autho_tittle">实名信息授权</string>
+  <string name="app_autho_loading">授权处理中...</string>
+  
+  <string name="app_lottery">其他彩票</string>
+  <string name="checkcodeerr">验证码不能为空。</string>
+  <string name="getAccountSuccess">已识别对方账户</string>
+<string name="scanQRTip">请扫描支付宝二维码</string>
+<string name="scanAccountCode">请扫描账单上的条形码</string>
+
+
+<string name="BarcodeGather">条码收银</string>
+  <!-- 选择联系人UI控件 -->
+  <string name="selectPeerAccount">对方支付宝账户</string>
+  <string name="selectQRcodeAccount">扫描二维码</string>
+  <string name="selectContactsAccount">支付宝联系人</string>
+  <string name="localContactsAccount">手机通讯录</string>
+  
+   <!-- 话费充值 -->
+
+  <string name="Hint">提示</string>
+  <string name="Ok">成功</string>
+  <string name="Error">错误</string>
+  
+  <string name="processing">"正在处理，请稍候..."</string>
+  
+  
+  <string name="day">天</string>
+  <string name="hour">小时</string>
+  <string name="minute">分</string>
+  
+  
+  <string name="red_ball">红球：</string>
+  <string name="blue_ball">蓝球：</string>
+  <string name="get_money_no_account">请输入被收款人的账号。</string>
+  <string name="get_money_no_money">请输入收款金额。</string>
+  
+    <!-- 运营相关 -->
+  <string name="channels"></string>
+  <string name="package_verify_error">业务应用包已被损坏</string>
+  <string name="package_version_lower">当前版本不支持此功能，请你将支付宝钱包升级到最新版本后再使用。</string>
+  
+  <string name="GettingInfo">正在获取信息，请稍候...</string>
+  <string name="give_up_input">你填写的信息将丢失，请确定要放弃吗？</string>
+  <string name="next_time">下次再说</string>
+  <string name="Update">升级</string>
+  <string name="GetingSafepayversion">"正在检测快捷支付服务版本"</string>
+  <!-- 厂商定制相关 -->
+  <string name="systemInfo"><font size="26">系统提示</font></string>
+  <string name="notRemindAgain">不再显示提醒！</string>
+  <string name="ZTEDisclaimerContent">"        欢迎使用支付宝钱包，客户端使用完全免费，在使用过程中会产生流量费，流量费请咨询当地运营商，是否允许应用建立连接。"</string>
+  <string name="ZTEUpdateRemind">"检测到新版本，但未经全面兼容测试，请谨慎选择是否升级！"</string>
+  <string name="ZTEEnsureButton">确定</string>
+  <string name="ZTEExitButton">退出</string>
+  
+  <string name="nfcEntrance">nfc入口</string>
+  
+  <!-- 消费记录 -->
+  <string name="query_loading">加载中...</string>
+  <string name="query_fail">加载失败,点击重试。</string>
+  <string name="release_refresh">放开可以刷新</string>
+  <string name="pull_refresh">下拉可以刷新</string>
+  <string name="refresh_loading">加载中...</string>
+  <string name="AlipayCardNum">证件号码：</string>
+    
+  <string name="sendingRemindMessage">"正在发送提醒..."</string>
+  <string name="DealQueryCarryNO">"运单号码："</string>
+  <string name="remindSuccess">"提醒发送成功"</string>
+  <string name="remindReceiverSuccess">"收款提醒短信已发送"</string>
+  <string name="hasNoMatchOrder">"未指定运单号"</string>
+  
+  <string name="hasBarcode1">"条形码"</string>
+  <string name="hasBarcode2">"条码"</string>
+  <string name="balance">"余额: "</string>
+<string name="CCRApp">"信用卡还款"</string>
+  <string name="BankAccount">"卡号"</string>
+  <string name="CCRAccountHint">" 信用卡卡号必须是15至16位数字。"</string>
+  <string name="UserNameHint">"持卡人姓名"</string>
+  <string name="UserNamestr">"姓名必须与该信用卡在银行保留的持卡人姓名一致。"</string>
+  <string name="SelectBankHint">"选择发卡银行"</string>
+  <string name="SelectCCR">"选择信用卡"</string>
+  <string name="MyCC">"我的信用卡"</string>
+  <string name="NewCC">"其他信用卡"</string>
+  <string name="CRPromotion">"还款提醒"</string>
+  <string name="CRHint">"将以通知消息方式提醒，你可以在支付宝网站修改提醒方式。"</string>
+  <string name="GetSMS">"同意获取银行发送的短信账单"</string>
+  <string name="GetSMSHint">"用于还款时向你提示应还金额。"</string>
+  <string name="UserNameTitle">持卡人：</string>
+  <string name="BankNumberTitle">信用卡：</string>
+  <string name="Finish">完成</string>
+  <string name="PushSetTimeTitle">提醒时间：每月</string>
+  <string name="SetPustTime">设置每月提醒日期</string>
+  <string name="BankTelDes">"还款金额查询"</string>
+  <string name="CountHint">还款金额</string>
+  <string name="Bracket">"(%s)"</string>
+  <string name="MoneyFormatError">还款金额必须为大于0的数字，请重新输入。</string>
+  <string name="MoneyEmpty">"金额不能为空。"</string>
+  <string name="MoneyOver">"每笔还款金额不能大于10000。"</string>
+  <string name="CCRRemindSet">提醒设置</string>
+  <string name="BankMoneyLimitTip">每日累计可还10000.00元。</string>
+  <string name="CCR_SMS_QUERY_AUTCHORIZE">短信账单设置</string>
+  <string name="shake_setting_text">摇一摇被发现开关</string>
+  <string name="CCR_SMS_READ_AUTCHORIZE">查看信用卡账单短信</string>
+  <string name="CCR_SMS_READ_TIP">在你还款时通过查询银行信用卡账单短信，提醒你应还金额。</string>
+  <string name="AuthorizeSmsQuery">请允许我们查询你的信用卡账单短信，用来提示你应还金额。你可以在更多--设置中关闭查询功能。</string>
+  <string name="Allow">允许</string>
+  <string name="LoadSmsText">正在检索信用卡短信账单</string>
+  <string name="SmsNullTip">你尚无该信用卡账单短信</string>
+  <string name="TelType">选择您的运营商</string>
+  <string name="NoSupportSendMsg">电信手机号暂时不支持</string>
+  <string name="CCRtiyanjin">信用卡还款体验金</string>
+  <string name="credit_card">"信用卡"</string>
+  <string name="with_draw_card">"提现卡"</string>
+  
+  <string name="LoginTypeTaobao">使用淘宝账户登录</string>
+  <string name="LoginTypeAlipay">使用支付宝账户登录</string>
+  
+  <string name="Sub_ItemAccountInput">充值</string>
+  <string name="Sub_ItemAccountOutput">提现</string>
+  <string name="Sub_ItemPasswordSetting">密码管理</string>
+  
+  <string name="POINTBALANCE">集分宝:</string>
+  <string name="REDBAG">红包:</string>
+  
+  <string name="AppMore">更多</string>
+  
+  <string name="msg_get_error">信息获取失败,请稍后再试。</string>
+  
+  
+  
+  <string name="no_system_msg">当前没有系统消息。</string>
+  
+  <string name="delete_now">立即删除</string>
+  
+  <string name="message">消息</string>
+  
+  
+  <string name="no_msg_to_delete">无可删的系统消息。</string>
+  
+  <string name="operation_center">运营中心</string> 
+  
+  <string name="uilistView_delete_item_msg">确定要删除此项？</string> 
+  
+  
+  
+  
+  <string name="message_title">消息</string> 
+  
+  
+    <!-- 超级转账 -->
+  <string name="searchContact">搜索收款人</string>
+  <string name="phoneNumAmount">(等$s个)</string>
+  <string name="transferPhoneNumber">对方手机号</string>
+  <string name="receiverInputHint">对方手机号码/支付宝账户</string>
+  <string name="transferUserName">对方真实姓名</string>
+  <string name="transferMoney">付款金额</string>
+  <string name="confirmInfo">确认信息</string>
+  <string name="transferResonText">付款理由(选填)</string>
+  <string name="transferReason">付款理由</string>
+  <string name="transfer">转账</string>
+  <string name="goodsPay">货款</string>
+  <string name="luanch">午餐</string>
+  <string name="songForWeekDay">周末K歌</string>
+  <string name="receiverInput">新收款人</string>
+  <string name="chargeFee">手续费:</string>
+  <string name="recent_contact">最近收款人</string>
+  <string name="zeroRMB">0.00元</string>
+  <string name="noResult">无结果</string>
+  <string name="wait_to_pay">等待付款</string>
+  <string name="wait_to_receive">等待对方收款</string>
+  <string name="commit_bank_process">提交银行处理</string>
+  <string name="wait_bank_process">等待银行处理</string>
+  <string name="transfer_fail">交易失败</string>
+  <string name="transfer_state_fail">银行到账失败，付款已退回</string>
+  <string name="no_recent_receiver">暂无最近收款人</string>
+  <string name="no_receiver">暂无联系人</string>
+  <string name="phone_format_tip">手机号应为11位数字，请重新输入。</string>
+  <string name="phone_format_error">手机号格式有误，请重新输入。</string>
+  <string name="transfer_ammount_min_tip">转账金额不可小于1.00元。</string>
+  <string name="userName_format_error">姓名格式不正确。</string>
+  <string name="realName_format_error">真实姓名不能包含数字和符号，请重新输入。</string>
+  <string name="account_format_tip">支付宝账户应为email地址或手机号码，请重新输入。</string>
+  <string name="pay_success">已付款</string>
+  <string name="transfer_success">到账成功</string>
+  <string name="not_confirm_transfer">对方未确认，付款已退回</string>
+  <string name="confirm_receive">对方确认收款</string>
+  <string name="contact_book">通讯录</string>
+  <string name="select_receiver">选择收款人</string>
+  <string name="super_transfer">手机转账</string>
+  <string name="contact_tip">支付宝已短信通知收款人,你可联系对方说明:</string>
+  <string name="call_other">"拨打收款人电话$s"</string>
+  <string name="btn_close_text">关闭</string>
+  <string name="to_account_minlimit">转账金额不可小于0.01元。</string>
+  <string name="loading_local_contact">正在加载通讯录...</string>
+  <string name="loading_recent_contact">正在加载收款人...</string>
+  <string name="charge_standar">收费标准</string>
+  <string name="freeNow">免费</string>
+  <string name="freeFlowText">免费流量。</string>
+  <string name="verifingAccount">支付宝正在进行账户检测...</string>
+  <string name="receiverOpenClientTip">一起摇一摇，快速找到对方</string>
+  <string name="discoverTip">摇摇找人秘笈：\r\n\n1、请对方开启客户端摇晃。\r\n\n2、请对方使用最新版支付宝钱包。</string>
+  <string name="registByAlipay">摇摇失败！请使用支付宝账户登录再试</string>
+  
+  <string name="inputReceiver">输入收款人</string>
+  <string name="shakeReceiver">摇摇找人</string>
+  <string name="discovering">正在查找...</string>
+  <string name="discoverAgain">如果没有找到他，再摇一次试试</string>
+  <string name="continuDiscovering">继续查找中...</string>
+  <string name="receiveTime">到账时间</string>
+  <string name="receiveTimeTip">收款方回复不同的银行储蓄卡，到账时间不同\n</string>
+  <string name="twoHourReceive">回复后两小时内到账银行</string>
+  <string name="nextDayReceive">回复后次日到账银行</string>
+  <string name="found_total_receiver">找到$s$位收款人</string>
+  <string name="total_recent_receiver">共$s$位最近收款人</string>
+  <string name="transfer_service_text">手机转账到卡服务协议</string>
+  <string name="payToOther">向他付款</string>
+  
+  <string name="dealDetail">交易详情</string>
+  <string name="dealProcess">交易进程</string>
+
+  
+  <!-- 流量使用信息 -->
+  <string name="vipAccount">金账户用户</string>
+  <string name="realNameAccount">实名认证用户</string>
+  <string name="normalAccount">非实名人认证用户</string>
+  <!-- 金账户 -->
+  <string name="free_for_vip">"免费交易流量：          20000元/月"</string>
+  <string name="charge_for_service">"超出金额服务费率：  0.5%"</string>
+  <string name="max_for_service">"服务费上限：              25.00元/笔"</string>
+  <string name="min_for_service">"服务费下限：              1.00元/笔"</string>
+  <!-- 实名认证用户 -->
+  <string name="free_for_realName">"免费交易流量：          10000元/月"</string>
+  <!-- 非实名认证用户 -->
+  <string name="free_for_normal">"免费交易流量：          1000元/月"</string>
+  
+  <string name="ccr_nopush_promotion">"抱歉，当前帐户没有设置信用卡提醒。"</string>    
+  <string name="pls_install_bundle">请升级、安装%s功能后再试。</string>    
+  <string name="deleted_bundle">操作失败，%s功能已经下线啦。</string>  
+  <string name="SmsCheckCode">短信校验码</string>  
+  <string name="AmountFormatError">金额格式错误</string>
+  <string name="PayAmountEmpty">金额不能为空</string>
+  
+  <string name="TaoBaoBindAlipayTip">当前淘宝账户没有绑定支付宝账户。</string>
+  
+  
+  <string name="user_accredit_content">用户授权协议</string>  
+  <string name="upgrade_for_scheme">请升级客户端才能执行相应的操作。</string>    
+  <string name="webapp_error">业务出错了！</string>
+  
+  <string name="bank_card">银行卡</string>
+  
+  <string name="pattern_pleaseIntputPattern">请输入手势密码</string>  
+  <string name="pattern_forgetPattern">忘记手势密码？</string>   
+  <string name="pattern_setPattern">设置手势解锁</string>  
+  <string name="pattern_drawPattern">绘制解锁图案</string>  
+  <string name="pattern_drawPatternAgain">请再次绘制解锁图案</string>    
+  <string name="pattern_passwordIsWrong_limit">密码错误，还可以再输入%1$d次</string> 
+  <string name="pattern_passwordIsWrong">密码错误，请重新输入！</string>
+  <string name="pattern_passwordTooShort">密码太短，最少4位，请重新输入！</string> 
+  <string name="pattern_passwordDifferent">与上次输入不一致</string> 
+  <string name="pattern_passwordDifferentAgain">与上次输入不一致，请重新输入！</string> 
+  <string name="pattern_pattern">手势解锁</string> 
+  <string name="pattern_resetPatternPassword">重新设置手势密码</string> 
+  <string name="pattern_resetPattern">重新设置手势</string> 
+  <string name="skip">跳过</string> 
+  <string name="pattern_inputLoginPassword_alipay">支付宝登录密码</string> 
+  <string name="pattern_inputLoginPassword_taobao">淘宝登录密码</string> 
+  <string name="autologin">自动登录</string> 
+  <string name="patternTip">设置手势解锁登录更安全方便哦～</string> 
+  <string name="alertAfterSkipPattern">如要设置手势解锁，请到我的账户－密码管理－手势解锁里设置。</string> 
+  <string name="patterSetSuccess">设置成功</string> 
+  <string name="patterInputAlipayLoginPassword">请先输入支付宝登录密码。</string> 
+  <string name="patterInputTaobaoLoginPassword">请先输入淘宝登录密码。</string>
+  <string name="patterResetMessage">你已连续5次输错手势，手势解锁已关闭，请重新登录。</string> 
+  <string name="alertAfterForgetPassword">忘记手势密码，需重新登录。</string> 
+  
+  <string name="networkfailed">无法连接网络，请检查设置。</string> 
+  <string name="pattern_reset">重新登录</string> 
+  <string name="userSetting">客户端设置</string>
+  <string name="userHelp">帮助</string>
+  <string name="userFeedback">意见反馈</string>
+    
+  <string name="get_walk_route_erro">获取步行路线错误:</string>  
+  <string name="get_transit_route_error">获取公交路线错误:</string>  
+  <string name="get_driving_route_error">获取驾车路线错误:</string>  
+  <string name="get_city_error">获取城市错误:</string>  
+  <string name="authorization_error">授权验证错误:</string>  
+  <string name="net_error">网络错误:</string>  
+  <string name="map">地图</string>  
+  <string name="select_lines">选择路线</string>
+  <string name="goodDetail">商品详情</string>
+
+  <string name="voucherAmount">面值</string>
+  <string name="amountUnit">份数</string>
+  <string name="availableAmout">可用份数</string>
+  <string name="usedRecord">使用记录</string>
+  <string name="monetary">购买金额:</string>
+  <string name="buyAmount">购买份数:</string>
+  <string name="useAddress">使用地址:</string>
+  <string name="myVoucher">我的卡券</string>
+  <string name="voucherDetail">卡券详情</string>
+  <string name="voucherIndex">券列表</string>
+  <string name="availableStore">适用商户</string>
+  <string name="guideText">离收款机30cm内使用</string>
+  <string name="addressText">地址:</string>
+  <string name="verifySuccess">消费成功</string>
+  <string name="verifyFail">消费失败，请用券码重新尝试。</string>
+  <string name="recordListView">消费记录</string>
+  <string name="voucherCode">券码</string>
+  <string name="headsetTip">请拔出耳机线</string>
+  
+  
+  
+
+  <string name="no_bank_list">当前没有银行卡列表</string>
+  <string name="repayment">还款</string>
+  <string name="debit">储蓄卡</string>
+  <string name="credit">信用卡</string>
+  <string name="bill_title">我的账单</string>
+  <string name="welcome">欢迎使用支付宝</string>
+  <string name="express_open">开通快捷支付</string>  
+  <string name="month">月份</string>  
+  <string name="year">年份</string>  
+  <string name="cvv2">卡背面三位数字</string> 
+  <string name="express_inputcardno">请输入银行卡号</string> 
+  <string name="express_mobiebinded">此卡在银行预留的手机号码</string> 
+  <string name="express_accountname">银行卡开户姓名</string> 
+  <string name="express_agree">同意支付宝快捷支付协议</string> 
+  <string name="express_accountID">身份证号</string> 
+  <string name="express_card_detail">卡详情</string> 
+  <string name="express_delete_description">删除后，如重新使用，需重新填写卡号、身份证号码等信息。</string> 
+  <string name="express_mobile_add">添加银行卡手机号</string> 
+  <string name="express_mobile_add_description">手机号码必须是此卡在银行预留的手机号码，否则将添加失败。</string> 
+  <string name="express_mobile_add_hint">输入银行预留手机</string> 
+  <string name="express_mobile_edit_hint">新银行预留手机</string> 
+  <string name="express_mobile_edit">修改银行卡手机号</string> 
+  <string name="express_mobile_edit_description">请确认您已在该银行修改过手机号码，否则修改手机号码将失败。</string> 
+  <string name="express_limit_title_dc_small">1.购买淘宝网实物类商品</string> 
+  <string name="express_limit_title_dc_big">2.购买淘宝网虚拟类商品</string> 
+  <string name="express_limit_title_cc_small_start">1.购买淘宝网带“</string> 
+  <string name="express_limit_title_cc_small_end">”标签的商品</string> 
+  <string name="express_limit_title_cc_big">2.购买普通淘宝网商品</string> 
+  <string name="express_limit_single">单笔限额</string> 
+  <string name="express_limit_daily">每日限额</string> 
+  <string name="express_limit_monthly">每月限额</string> 
+  <string name="express_limit_title">该卡手机限额</string> 
+  <string name="express_limit_mobile">手机付款限额</string> 
+  <string name="express_sign_ccdatealert">输入卡正面有效期，如06／12</string> 
+  <string name="express_deletethiscard">确定要删除该银行卡？</string> 
+  <string name="express_agree_noccfund">不再为本张信用卡还款</string> 
+  <string name="express_agree_nowidthdrawal">不再用本张银行卡提现</string> 
+  <string name="express_sign_err_nameblank">银行卡开户姓名不能为空！</string> 
+  <string name="express_sign_choose_term">选择阅读协议</string> 
+  <string name="express_sign_alipay_term">支付宝快捷支付服务协议</string> 
+  <string name="express_sign_bank_term">银行开通快捷支付协议</string> 
+  <string name="express_delete_success">删除成功</string> 
+  <string name="express_delete_title">删除银行卡</string> 
+  <string name="express_delete_katong">请电脑访问www.alipay.com，在‘账户管理 > 银行卡’中，查看“如何关闭”的详细介绍。</string> 
+  <string name="cc_err_cvv2">信用卡背面末三位数字不足三位！</string> 
+  <string name="cc_err_invaliddate">请填写正确的信用卡有效期。</string> 
+    
+  <string name="ccdc_err_CARD_NOT_SUPPORT">该卡暂时不能签约快捷支付，请检查输入的卡号。</string> 
+  <string name="ccdc_err_CARD_NO_BLANK">卡号为空</string> 
+  <string name="ccdc_err_AREA_GROUP_NOT_EXIST">地区匹配失败，不存在该卡BIN的地区分组信息</string> 
+  <string name="ccdc_err_AREA_EXT_NOT_EXIST">地区匹配失败，不存在该卡BIN的地区扩展信息</string> 
+  <string name="ccdc_err_SYS_ERROR">系统异常</string> 
+  <string name="ccdc_err_SERVICE_ACCESS_FAILURE">服务端访问失败</string> 
+  <string name="ccdc_err_AREA_MAPPING_NOT_EXIST">地区匹配失败，该卡BIN分组信息存在，但未找到该号段的映射关系</string> 
+  <string name="ccdc_err_CARDCHECKFAILED">卡号校验失败</string> 
+  <string name="IDNO_dot">"身份证号：%s"</string>  
+  <string name="cardType_dot">"卡类型：%s"</string>  
+  <string name="realname_dot">"真实姓名：%s"</string>  
+  <string name="express_afterSmsSent">"已向手机号码%s发送短信校验码。若60秒内没有收到，可点击按钮重新获取。"</string>
+  <string name="express_resend_afterSmsSent">"(%d秒)可重新获取短信"</string>
+  <string name="express_resend_enabled">"重新获取短信"</string>
+  <string name="add_bank_text">添加快捷银行卡</string>
+  <string name="add_new_credit_card">给新信用卡还款</string>
+  <string name="saveAvatar">上传头像</string>
+
+  <string name="update_now">现在升级</string>
+  <string name="update_later">以后再说</string>
+  
+  <string name="quickpay">付钱</string> 
+  <string name="quickpay_headseton_notice">请拔下耳机再使用</string>
+  <string name="quickpay_loadfailed_notice">网络异常，点击重试</string>
+  <string name="searchfailed_notice">没发现目标？请靠近重试</string>
+  <string name="supportReceivepayeeBottomtipTex">"请对方扫二维码或使用“付钱”xx"</string>
+  <string name="unsupportReceivepayeeBottomtipTex">"扫描二维码，给我付款"</string>
+  <string name="checkConnect">"网络异常，请检查设置"</string>
+  <string name="payTome">"给我付款"</string>
+  <string name="searching">"正在搜索收款人..."</string>
+  <string name="inputPaymentErr">"付款金额不能小于0.01元。"</string>
+  <string name="connectting">"连接中..."</string>
+  <string name="createPayFail">"创建交易失败，请重试"</string>
+  <string name="receivePay">"已收到付钱请求"</string>
+ 
+  
+  <string name="mTip">凭此二维码电子凭证，您可至中国大陆地区部分麦当劳餐厅成功验证后，兑换草莓新地1个，不再提供发票。限上午10时后兑换。有效期截至【2013年1月22日】，过期无效。查询麦当劳餐厅地址，请登录www.mcdonalds.com.cn。</string>
+  <string name="sampleTip">您在第三方应用购买优惠券后，可以添加到这里，此券是样券。您在店铺出示券，商家可通过券码或二维码使用券。</string>
+  
+  
+  <string name="china_mobile">中国移动</string>
+  <string name="china_unicom">中国联通</string>
+  <string name="china_telecom">中国电信</string>
+  
+  <string name="creditcard_inquire">"还款金额查询"</string>
+  <string name="creditcard_inquire_by_phone">"电话查询"</string>           
+  <string name="creditcard_inquire_by_sms">"短信查询"</string>
+  
+  <string name="bill_list_seperator">以上为待缴费的账单</string>
+  <string name="lifepay_region">"缴费地区："</string>
+  <string name="divider">divider</string>
+  <string name="lifepay_company">"收费单位："</string>
+  <string name="lifepay_username">"户名："</string>
+  <string name="lifepay_tradeno">"客户编号："</string>
+  <string name="lifepay_amount">"缴费金额："</string>
+  <string name="lifepay_fee">"手续费："</string>
+  <string name="lifepay_penalty">"滞纳金："</string>
+  <string name="lifepay_totalamount">"总共支付："</string>
+  <string name="lifepay_notices">账单可能因超过缴费时限而产生滞纳金。</string>
+  <string name="sync_apps_ing">更新应用状态中。</string>
+  
+  <string name="add">添加</string>
+  <string name="freeDetail">优惠详情</string>
+  <string name="storeList">可用门店</string>
+  <string name="disclaimer">免责声明</string>
+  <string name="listUsed">已\n用\n券</string>
+  <string name="listUnUsed">可\n用\n券</string>
+  
+  <string name="noUnavailableVoucher">你没有已使用的券</string>
+  <string name="noAvailableVoucher">你没有可用卡券，点击这里去找</string>
+  
+  <string name="clientPaying">请先关闭移动快捷支付再试</string>
+</resources>

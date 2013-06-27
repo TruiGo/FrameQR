@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="voucherCodeSize">25sp</dimen>
+    <dimen name="voucherIconSize">50dp</dimen>
+    <dimen name="coupon_bootom_margin">6dp</dimen>
+</resources>

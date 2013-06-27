@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+        <!-- 标题 -->
+    <RelativeLayout style="@style/title" >
+        <TextView
+            android:id="@+id/title_text"
+            style="@style/title_text"
+            android:text="@string/user_accredit_content"/>
+    </RelativeLayout>
+	<WebView 
+	    android:id="@+id/soundAgreementWebView"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:paddingLeft="10dp"
+	    android:paddingTop="10dp"/>
+</LinearLayout>

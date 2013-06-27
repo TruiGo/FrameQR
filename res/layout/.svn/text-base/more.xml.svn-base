@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:background="@drawable/application_bg">
+	<!-- 标题 -->
+	<include layout="@layout/alipay_subtitle_320_480" />
+
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:gravity="center_horizontal"
+			android:padding="10dp" >
+			
+		       <TextView
+                    android:id="@+id/setting_title"
+                    style="@style/listitem_texttop"
+                    android:text="@string/userSetting" />
+
+                <TextView
+                    android:id="@+id/share"
+                    style="@style/listitem_textmid"
+                    android:text="@string/share_choose" />
+
+                <TextView
+                    android:id="@+id/recommend_app"
+                    style="@style/listitem_textmid"
+                    android:text="@string/RecommendApp" />
+
+                <TextView
+                    android:id="@+id/update"
+                    style="@style/listitem_textmid"
+                    android:text="@string/MenuUpdate" />
+
+                <TextView
+                    android:id="@+id/userFeedback"
+                    style="@style/listitem_textbottom"
+                    android:text="@string/MenuUserFeedback" />    
+                			
+		       <TextView
+                    android:id="@+id/about"
+                    style="@style/listitem_texttop"
+                    android:text="@string/MenuAbout" 
+                    android:layout_marginTop="10dp"/>
+
+		       <TextView
+                    android:id="@+id/help"
+                    style="@style/listitem_textbottom"
+                    android:text="@string/MenuHelp" />
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>		

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@drawable/application_bg" android:orientation="vertical">
+
+	<include
+	    android:layout_height="wrap_content"
+	    layout="@layout/alipay_subtitle_320_480" />
+
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:id="@+id/CarryButtonLayout"
+		android:background="@drawable/title_filter_bg"
+		android:gravity="center_vertical"
+		android:layout_marginBottom="10dp"
+		android:visibility="gone">
+		<Button android:text="@string/TradingDetail"
+			android:id="@+id/DetailButton"
+			android:layout_width="fill_parent" 
+			android:textSize="18sp"
+			android:textColor="@drawable/tab_text_color" 
+			android:layout_height="wrap_content"
+			android:background="@drawable/tab_selector"
+			android:gravity="center"
+			android:layout_weight="1" />
+		<Button android:text="@string/DealQueryCarryInfo"
+			android:id="@+id/DistributionButton"
+			android:layout_width="fill_parent" 
+			android:textSize="18sp"
+			android:gravity="center"
+			android:textColor="@drawable/tab_text_color" 
+			android:layout_height="wrap_content"
+			android:background="@drawable/tab_selector"
+			android:layout_weight="1" />
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent"
+	    android:background="@drawable/bill_list_background"
+	    android:orientation="vertical"
+	    android:layout_marginRight="10dp"
+		android:layout_marginLeft="10dp">
+	    <include layout="@layout/list_divide" android:layout_height="wrap_content"/>
+	    <RelativeLayout android:id="@+id/DealQueryCanvas"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		>
+	</RelativeLayout>
+	</LinearLayout>
+</LinearLayout>

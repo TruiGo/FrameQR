@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" 
+	style="@style/application_bg">
+
+
+
+	<include layout="@layout/alipay_subtitle_320_480" />
+
+
+	<LinearLayout android:id="@+id/AlipayEditSearchLayout"
+		android:background="@drawable/application_bg_white"
+		android:layout_below="@id/AlipaySubTitle" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:orientation="vertical">
+
+		<RelativeLayout android:id="@+id/AlipayEditAccountLayout"
+			android:layout_below="@id/AlipaySubTitle" android:layout_width="fill_parent"
+			android:layout_height="60dp" android:orientation="horizontal">
+
+			<Button android:id="@+id/AccountEnsure" android:text="@string/PhoneBindingEnsureButtonName"
+				style="@style/AlipayAgentPayButtonStyle320x480"
+				android:layout_centerVertical="true"
+				android:layout_alignParentRight="true" android:textColor="#5a7594"
+				android:padding="6dp" android:layout_marginLeft="5dp"
+				android:layout_marginRight="5dp" android:focusable="true">
+			</Button>
+
+			<!-- Pretty hint text, and maxLines -->
+			<EditText android:id="@+id/search_box" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:inputType="text"
+				android:hint="@string/PayPayingAccountHint" style="@style/AlipayInputEditText320x480"
+				android:maxLines="1" android:imeOptions="actionDone"
+				android:layout_marginTop="5dp" android:layout_marginBottom="5dp"
+				android:layout_marginLeft="6dp" android:layout_marginRight="2dp"
+				android:gravity="center_vertical" android:layout_centerVertical="true"
+				android:layout_toLeftOf="@id/AccountEnsure" android:layout_weight="1">
+			</EditText>
+
+			<ImageButton android:id="@+id/clear_box" android:padding="3dp"
+				android:background="@android:color/transparent" android:src="@drawable/edit_delete"
+				android:layout_alignRight="@id/search_box" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_centerVertical="true"
+				android:visibility="gone" />
+		</RelativeLayout>
+
+		
+
+		<!-- Set height to 0, and let the weight param expand it -->
+		<!-- Note the use of the default ID! This lets us use a ListActivity still! -->
+		<ListView android:id="@android:id/list" android:layout_width="fill_parent"
+			android:layout_marginTop="3dp" android:layout_marginLeft="5dp"
+			android:layout_marginRight="5dp" android:layout_height="0dip"
+			android:layout_weight="1" android:divider="@drawable/list_divider"
+			android:cacheColorHint="@color/TextColorWhite"></ListView>
+
+		<LinearLayout android:id="@+id/PayAccountInputType"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:orientation="horizontal" android:layout_alignParentBottom="true"
+			android:layout_marginTop="2dp" android:layout_marginBottom="2dp"
+			android:layout_marginLeft="5dp" android:layout_marginRight="5dp">
+
+			<LinearLayout android:id="@+id/PayAccountSearchButton"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_gravity="center" android:background="@drawable/alipay_button_contact"
+				android:layout_weight="1" android:gravity="center">
+				<!-- <LinearLayout android:id="@+id/PayAccountSearchLayout" android:layout_width="fill_parent" 
+					android:layout_height="wrap_content" android:orientation="horizontal" android:padding="5dp" 
+					android:gravity="center" android:duplicateParentState="true" android:layout_centerInParent="true"> 
+					<ImageView android:id="@+id/PayAccountSearchIcon" android:layout_width="wrap_content" 
+					android:layout_height="wrap_content" android:scaleType="fitXY" android:padding="2dp" 
+					android:duplicateParentState="true" android:background="@drawable/search_account_contact_select"> 
+					</ImageView> </LinearLayout> -->
+				<TextView android:id="@+id/PayAccountSearchText"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="@string/selectContactsAccount" android:textSize="14dp"
+					android:textColor="#5a7594" android:focusable="false"
+					android:clickable="false">
+				</TextView>
+			</LinearLayout>
+			
+			<LinearLayout android:id="@+id/PayQrcodeGetButton"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_marginLeft="2dp" android:layout_gravity="center"
+				android:background="@drawable/alipay_button_qrcode"
+				android:layout_weight="1" android:gravity="center">
+				<!-- <LinearLayout android:id="@+id/PayQrcodeGetLayout" android:layout_width="fill_parent" 
+					android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center" 
+					android:padding="5dp" android:duplicateParentState="true" android:layout_centerInParent="true"> 
+					<ImageView android:id="@+id/PayQrcodeGetIcon" android:layout_width="wrap_content" 
+					android:layout_height="wrap_content" android:scaleType="fitXY" android:padding="2dp" 
+					android:duplicateParentState="true" android:background="@drawable/search_account_qrcode_select"> 
+					</ImageView> </LinearLayout> -->
+				<TextView android:id="@+id/PayQrcodeGetText"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="@string/selectQRcodeAccount" android:textSize="14dp"
+					android:textColor="#5a7594" android:focusable="false"
+					android:clickable="false">
+				</TextView>
+			</LinearLayout>
+
+
+			<LinearLayout android:id="@+id/PayLocalGetButton"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:layout_marginLeft="2dp" android:layout_gravity="center"
+				android:background="@drawable/alipay_button_qrcode"
+				android:layout_weight="1" android:gravity="center">
+				<!-- <LinearLayout android:id="@+id/PayLocalGetLayout" android:layout_width="fill_parent" 
+					android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center" 
+					android:padding="5dp" android:duplicateParentState="true" android:layout_centerInParent="true"> 
+					<ImageView android:id="@+id/PayLocalGetIcon" android:layout_width="wrap_content" 
+					android:layout_height="wrap_content" android:scaleType="fitXY" android:padding="2dp" 
+					android:duplicateParentState="true" android:background="@drawable/search_book_select"> 
+					</ImageView> </LinearLayout> -->
+				<TextView android:id="@+id/PayLocalGetText"
+					android:layout_width="wrap_content" android:layout_height="wrap_content"
+					android:text="@string/localContactsAccount" android:textSize="14dp"
+					android:textColor="#5a7594" android:focusable="false"
+					android:clickable="false">
+				</TextView>
+			</LinearLayout>
+
+			
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>
+	

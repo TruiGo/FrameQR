@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/application_bg"
+     >
+    <include layout="@layout/alipay_subtitle_320_480"/>
+    
+    <ListView 
+        android:layout_below="@id/AlipaySubTitle"
+        android:id="@+id/CardList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@android:color/transparent"
+        android:background="@android:color/transparent"
+        android:divider="@color/transparent"
+        android:dividerHeight="10dp"
+        android:visibility="visible"
+        android:layout_above="@+id/AddCard"
+        android:listSelector="@android:color/transparent"
+        >
+    </ListView>
+    <TextView 
+        android:id="@+id/CardListEmpty"	
+        android:layout_centerInParent="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:visibility="gone"
+        android:textSize="18sp" 
+        android:drawablePadding="10dp"
+        android:textColor="@color/text_light_gray"
+        android:drawableTop="@drawable/no_bank_list"
+        android:text="@string/no_bank_list"
+        />
+    <TextView 
+        android:id="@+id/AddCard"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingTop="10dp"
+        android:textColor="@color/transparent"
+        android:background="@drawable/add_card_background"
+        />
+    <TextView 
+        android:id="@+id/AddCardText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:drawableLeft="@drawable/add_bank"
+        android:drawablePadding="5dp"
+        android:text="@string/add_bank_text"
+        android:textSize="21sp"
+        android:textColor="@color/TextColorWhite"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        />
+
+</RelativeLayout>

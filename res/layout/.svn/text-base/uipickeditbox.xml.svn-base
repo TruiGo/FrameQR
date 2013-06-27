@@ -1,0 +1,11 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/AlipayLoginAccountInput" android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<AutoCompleteTextView android:completionThreshold="2"
+		android:id="@+id/editContent" android:textColor="@color/TextColorBlack"
+		android:textSize="16dp" style="@style/AutoCompleteTextViewStyle">
+	</AutoCompleteTextView>
+	<ImageView android:id="@+id/editImage"
+		android:layout_gravity="center_vertical|right" android:background="@drawable/picker_btn"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</FrameLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/application_bg" android:orientation="vertical" >
+    <!-- 标题 -->
+	<RelativeLayout style="@style/title">
+		<TextView android:id="@+id/title_text" style="@style/title_text" android:text="@string/charge_standar"/>
+	</RelativeLayout>
+	
+	<ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" 
+   		android:background="@drawable/title_shadow" android:layout_below="@id/titleView"/>
+	<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+    	android:layout_margin="10dp" android:background="@drawable/application_bg_white"
+    	android:layout_marginTop="0dp" android:scrollbars="none">
+		<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+		    android:orientation="vertical">
+		    <!-- 金账户 -->
+			<TextView android:text="@string/vipAccount" style="@style/free_flow_blue_text"/>
+			<TextView android:text="@string/free_for_vip" style="@style/free_flow_normal_text"/>
+			<TextView android:text="@string/charge_for_service" style="@style/free_flow_normal_text"/>
+			<TextView android:text="@string/max_for_service" style="@style/free_flow_normal_text"/>
+			<TextView android:text="@string/min_for_service" style="@style/free_flow_normal_text"/>
+			
+			<!-- 实名认证用户 -->
+			<TextView android:text="@string/realNameAccount" style="@style/free_flow_blue_text" android:layout_marginTop="30dp"/>
+			<TextView android:text="@string/free_for_realName" style="@style/free_flow_normal_text"/>
+			<TextView android:text="@string/charge_for_service" style="@style/free_flow_normal_text"/>
+			<TextView android:text="@string/max_for_service" style="@style/free_flow_normal_text"/>
+			<TextView android:text="@string/min_for_service" style="@style/free_flow_normal_text"/>
+			
+			<!-- 非实名认证用户 -->
+			<TextView android:text="@string/normalAccount" style="@style/free_flow_blue_text" android:layout_marginTop="30dp"/>
+			<TextView android:text="@string/free_for_normal" style="@style/free_flow_normal_text"/>
+			<TextView android:text="@string/charge_for_service" style="@style/free_flow_normal_text"/>
+			<TextView android:text="@string/max_for_service" style="@style/free_flow_normal_text"/>
+			<TextView android:text="@string/min_for_service" style="@style/free_flow_normal_text"/>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <FrameLayout
+        android:id="@+id/item_icon"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        
+        <ImageView
+            android:id="@+id/SubItemIconBg"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="16dp"
+            android:layout_marginTop="3dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="3dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/appcenter_item_bg"
+            />
+
+        <ImageView
+            android:id="@+id/SubItemIcon"
+            android:layout_width="66dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="4dp"
+            android:layout_marginTop="3dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="10dp"
+            android:scaleType="fitXY"
+            />
+
+        <ImageView
+            android:id="@+id/overlay"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="-3dp"
+            android:background="@drawable/app_item_overlay" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/icon_pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/item_icon"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:paddingTop="16dp"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:id="@+id/icon_preaction"
+        android:layout_width="58dp"
+        android:layout_height="20dp"
+        android:layout_alignBottom="@id/item_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/SubItemText"
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:layout_below="@id/item_icon"
+        android:layout_marginTop="-2dp"
+        android:ellipsize="marquee"
+        android:gravity="bottom|center_horizontal"
+        android:singleLine="true"
+        android:textColor="#dfc1af"
+        android:textSize="13sp" />
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="fill_parent"
+        android:layout_height="8dp"
+        android:layout_alignTop="@id/SubItemText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="5dp"
+        android:indeterminateDrawable="@android:drawable/progress_indeterminate_horizontal"
+        android:indeterminateOnly="false"
+        android:max="100"
+        android:progressDrawable="@drawable/progress_appitem" />
+
+    <TextView
+        android:id="@+id/AdvertText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/SubItemIcon"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/bubble_bg"
+        android:gravity="center_horizontal"
+        android:singleLine="true"
+        android:textColor="@color/TextColorRed"
+        android:textSize="12sp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/advertImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/item_icon"
+        android:layout_marginTop="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="4dp"
+        android:src="@drawable/icon_hot"
+        android:visibility="invisible" />
+
+</RelativeLayout>

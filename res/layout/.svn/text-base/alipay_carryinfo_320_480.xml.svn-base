@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/DealQueryCarryInfoCanvas"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <!-- 
+    android:background="@drawable/login_bigbg">
+     -->
+    
+    <RelativeLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent">
+    	<LinearLayout 
+    	    android:orientation="vertical"
+    	    android:id="@+id/dynamicCarryInfoCanvas"
+    	    style="@style/AlipayBGCanvas320x480"
+    	    android:paddingTop="5dp"
+    	    android:visibility="gone"/>
+    	<ImageView 
+    	    android:id="@+id/dynamicCarryInfoDevider"
+    	    android:layout_below="@id/dynamicCarryInfoCanvas"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="fill_parent"
+    	    android:visibility="gone"
+    	    android:background="@drawable/node_devider_bg"/>
+    	<LinearLayout
+    		android:orientation="vertical"
+    		android:paddingBottom="20dp"
+    		android:layout_margin="5dp"
+    		android:id="@+id/HaveCarryInfoLayout"
+    		style="@style/AlipayBGCanvas320x480"
+    		android:layout_below="@id/dynamicCarryInfoDevider"
+    		android:layout_alignWithParentIfMissing="true">
+	    	<RelativeLayout
+				android:id="@+id/CarryInfo1"
+				style="@style/AlipayInputCanvas320x480">
+				<TextView
+					android:id="@+id/ReceiveAddressTitle"
+					android:text="@string/DealQueryReceiveAddress"
+					style="@style/AlipayInputNameText320x480">
+				</TextView>
+				<TextView
+					android:id="@+id/ReceiveAddress"
+					android:layout_toRightOf="@id/ReceiveAddressTitle"
+					style="@style/AlipayInputContentText320x480">
+				</TextView>
+			<!-- 	
+			<ImageView android:layout_below="@id/ReceiveAddress" style="@style/AlipayCutoffLineStyle320x480"/>
+			 -->
+			</RelativeLayout>
+			
+			<RelativeLayout
+				android:id="@+id/CarryInfo2"
+				style="@style/AlipayInputCanvas320x480">
+				<TextView
+					android:id="@+id/CarryCoTitle"
+					android:text="@string/DealQueryCarryCo"
+					style="@style/AlipayInputNameText320x480">
+				</TextView>
+				<TextView
+					android:id="@+id/CarryCo"
+					android:layout_toRightOf="@id/CarryCoTitle"
+					style="@style/AlipayInputContentText320x480">
+				</TextView>
+			<!--	
+			<ImageView android:layout_below="@id/CarryCo" style="@style/AlipayCutoffLineStyle320x480"/>
+			-->
+			</RelativeLayout>
+			<RelativeLayout
+				android:id="@+id/CarryInfo3"
+				android:layout_below="@id/CarryInfo2"
+				style="@style/AlipayInputCanvas320x480">
+				<TextView
+					android:id="@+id/CarryNOTitle"
+					android:text="@string/DealQueryCarryNO"
+					style="@style/AlipayInputNameText320x480">
+				</TextView>
+				<TextView
+					android:id="@+id/CarryNO"
+					android:layout_toRightOf="@id/CarryNOTitle"
+					style="@style/AlipayInputContentText320x480">
+				</TextView>
+			<!--	
+			<ImageView android:layout_below="@id/CarryType" style="@style/AlipayCutoffLineStyle320x480"/>
+			-->
+			</RelativeLayout>
+    	</LinearLayout>
+    	
+    	 
+    	<Button
+			android:id="@+id/SwitchToDealInfoButton"
+			android:layout_marginTop="4dp"
+			android:layout_below="@id/HaveCarryInfoLayout"
+			android:text="@string/DealQueryDealInfo"
+			style="@style/AlipayNormalButtonStyle320x480"
+			android:visibility="gone">
+		</Button>
+		 <LinearLayout
+		android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+		android:layout_marginTop="20dp"
+    	android:visibility="gone"
+    	android:id="@+id/NoCarryInfoLayout"
+    	android:gravity="center"
+		>
+		<TextView
+			android:id="@+id/CarryNoteTitle"
+			android:text="@string/NoCarryInfo"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="@color/MsgButtonBlack"
+			android:textSize="18dp">
+		</TextView>
+	</LinearLayout>
+	</RelativeLayout>
+	
+</ScrollView>

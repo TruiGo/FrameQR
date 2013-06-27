@@ -1,0 +1,26 @@
+K 10
+svn:ignore
+V 17
+bin
+gen
+lint.xml
+
+K 13
+svn:mergeinfo
+V 874
+/branches/XYKhuankuan-0425-20120305:4-496
+/branches/ali00319802_Other_20120315_android-alipayclient:15-53
+/branches/ali00453721_CP_OTHER_20120822_android-alipayclient:959-1475
+/branches/ali00491344_P_OTHER_20121112_android-alipayclient:1771-1992
+/branches/ali00507930_CP_OTHER_20121013_android-alipayclient:1380-1476
+/branches/ali00517703_CP_OTHER_20121022_android-alipayclient:2208-2306
+/branches/ali00532123_CP_OTHER_20121102_android-alipayclient:1746-2045
+/branches/ali00580896_CP_OTHER_20130109_android-alipayclient:2229-2467
+/branches/ali00589980_CP_20130121_android-alipayclient:2313-2470
+/branches/ali00591734_CP_20130124_android-alipayclient:2324-2483
+/branches/ali00596591_CP_20130219_android-alipayclient:2374-2460
+/tags/ali00400024_release_20120719:866-958
+/tags/ali00444594_release_20121011:1529-1745
+/tags/ali00444875_release_20120920:1209-1379
+/trunk:2211-2581
+END

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:component="http://schemas.android.com/apk/res/com.eg.android.AlipayGphone"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:gravity="center_horizontal">
+    <com.alipay.android.comon.component.EditTextWithButton
+        android:id="@+id/searchEditText"
+        style="@style/editText_with_button_style"
+        android:layout_margin="13dp"
+        android:background="@drawable/alipay_input"
+        component:inputHint="@string/searchContact"/>
+</RelativeLayout>

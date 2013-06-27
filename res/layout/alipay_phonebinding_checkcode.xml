@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:component="http://schemas.android.com/apk/res/com.eg.android.AlipayGphone"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/GetPayPassword"
+    android:background="@drawable/application_bg">
+	
+	<include layout="@layout/alipay_subtitle_320_480" />
+	
+	<ScrollView
+		android:id="@+id/RetrieveAndInputSmsCheckCodeView"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_below="@id/AlipaySubTitle"
+		android:layout_marginBottom="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+		android:background="@drawable/application_bg_white"
+		>
+		
+		<RelativeLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+				
+			<RelativeLayout
+				android:id="@+id/GetSMSCheckCodeLayout"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="15dp"
+				android:layout_marginBottom="10dp">
+				<Button
+					android:id="@+id/GetSmsCheckCodeButton"
+					style="@style/AlipayNormalButtonStyle320x480"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp"
+					android:text="@string/GetSmsCheckcode">
+				</Button>
+			</RelativeLayout>
+			<RelativeLayout
+				android:id="@+id/InputCheckCodeLayout"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_below="@id/GetSMSCheckCodeLayout"
+				android:layout_marginTop="12dp">	
+				<com.alipay.android.comon.component.EditTextWithButton
+					android:id="@+id/InputCheckCodeEditText"
+					android:layout_width="fill_parent"
+					android:layout_height="40dp"
+					android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp"
+			        android:addStatesFromChildren="true"
+			        android:gravity="center"
+			        android:background="@drawable/alipay_input"
+			        component:inputHint="@string/InputCheckCodeHint"
+			       />
+				<TextView
+					android:id="@+id/HintForInputSmsCheckCode"
+					style="@style/AlipayTextInfo320x480"
+					android:layout_marginLeft="10dp"
+					android:layout_below="@id/InputCheckCodeEditText"
+					android:textSize="14dp">
+				</TextView>
+			</RelativeLayout>
+			
+			<com.alipay.android.comon.component.EditTextWithButton
+				android:id="@+id/PayPasswordEdit"
+				android:password="true"
+				android:layout_below="@id/InputCheckCodeLayout"
+		        android:layout_width="fill_parent"
+		        android:layout_height="40dp"
+		        android:addStatesFromChildren="true"
+		        android:gravity="center"
+				android:layout_marginTop="12dp"
+				android:layout_marginLeft="10dp"
+				android:layout_marginRight="10dp"
+		        android:background="@drawable/alipay_input"
+		        component:inputHint="@string/PayPayingPasswordHint"
+		        />
+			
+			<Button
+				android:id="@+id/BindingSubmitButton"
+			    style="@style/AlipayNormalButtonStyle320x480"
+				android:textSize="20dp"
+				android:layout_below="@id/PayPasswordEdit"
+				android:layout_marginTop="25dp"
+				android:layout_marginLeft="30dp"
+				android:layout_marginRight="30dp"
+				android:text="@string/barcode_guide_next">
+			</Button>
+		</RelativeLayout>
+  	</ScrollView>
+
+</RelativeLayout>

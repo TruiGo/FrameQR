@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/nfd
+END
+DiscoveredResultSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/nfd/DiscoveredResultSet.java
+END
+SensorData.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/nfd/SensorData.java
+END
+UDPTransMsg.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/nfd/UDPTransMsg.java
+END
+LbsThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/nfd/LbsThread.java
+END
+IpConversionUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/nfd/IpConversionUtil.java
+END
+NFDBaseCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/nfd/NFDBaseCallback.java
+END
+WlanOberverPeerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/nfd/WlanOberverPeerImpl.java
+END
+LanScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/nfd/LanScanner.java
+END
+LBSObserverPeerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/nfd/LBSObserverPeerImpl.java
+END
+NFDUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/nfd/NFDUtils.java
+END
+NFDService.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/nfd/NFDService.java
+END
+NfdBinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/nfd/NfdBinder.java
+END
+NFDReceiver.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/nfd/NFDReceiver.java
+END
+WlanScannerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/nfd/WlanScannerImpl.java
+END
+LbsRequestParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/nfd/LbsRequestParams.java
+END
+RegistType.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/nfd/RegistType.java
+END
+NfdTypeConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/nfd/NfdTypeConfig.java
+END
+NFDBaseClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/nfd/NFDBaseClient.java
+END
+BlueToothScannerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/nfd/BlueToothScannerImpl.java
+END
+UdpSendIpMsg.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/nfd/UdpSendIpMsg.java
+END
+ClientObserverPeer.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/nfd/ClientObserverPeer.java
+END
+DispatchDiscoveryTaskThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/nfd/DispatchDiscoveryTaskThread.java
+END
+IClientObserverPeer.aidl
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/nfd/IClientObserverPeer.aidl
+END
+LbsLocation.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/nfd/LbsLocation.java
+END
+BlueToothObserverPeerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/nfd/BlueToothObserverPeerImpl.java
+END
+LBSScannerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/nfd/LBSScannerImpl.java
+END
+PhoneInfoManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/nfd/PhoneInfoManager.java
+END
+ClientScanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/nfd/ClientScanner.java
+END
+ShakeProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/nfd/ShakeProcessor.java
+END
+IClientCallback.aidl
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/nfd/IClientCallback.aidl
+END
+NFDReceiverAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/nfd/NFDReceiverAdapter.java
+END

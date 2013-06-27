@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AlipayLogin"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/application_bg"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+
+    <include layout="@layout/alipay_subtitle_320_480" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/AlipaySubTitle"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+            
+            <ViewStub                 
+                android:id="@+id/cardDetailsLayout"
+                android:inflatedId="@+id/cardDetailsLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <com.alipay.android.comon.component.ButtonList
+                android:id="@+id/cardActionList"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@id/cardDetailsLayout"
+                android:layout_marginTop="10dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

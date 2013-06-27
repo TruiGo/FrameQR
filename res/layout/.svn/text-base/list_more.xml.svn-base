@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content" android:clickable="true"
+  android:paddingLeft="10dp"
+  android:paddingRight="10dp">
+  
+  <LinearLayout android:id="@+id/list_more_loading" android:layout_width="fill_parent" android:layout_height="55dp" android:gravity="center_vertical|center_horizontal">
+  	<ProgressBar android:layout_width="26sp" android:layout_height="26sp" android:layout_marginRight="10dp" android:indeterminateDrawable="@drawable/progress_small"/>
+  	<TextView android:text="@string/query_loading" android:textColor="@color/text_light_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_vertical"/>
+  </LinearLayout>
+  
+  <RelativeLayout android:id="@+id/list_more_fail" android:layout_width="fill_parent" android:layout_height="55dp" android:visibility="gone">
+  	<TextView android:text="@string/query_fail" android:textColor="@color/text_light_gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_centerHorizontal="true"/>
+  </RelativeLayout>
+</FrameLayout>

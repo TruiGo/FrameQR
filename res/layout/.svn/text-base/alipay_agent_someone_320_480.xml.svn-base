@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/application_bg" >
+
+    <include layout="@layout/alipay_subtitle_320_480" />
+
+    <ScrollView
+        android:id="@+id/PayStartCanvas"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/AlipaySubTitle" 
+        android:background="@drawable/application_bg_white"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="3dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <RelativeLayout
+                android:id="@+id/AgentOneContactLayout"
+                style="@style/AlipayInputCanvas320x480"
+                android:layout_height="49dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="20dp" >
+
+				<ImageView
+					android:id="@+id/AgentOneContactImg"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:scaleType="fitXY"
+					android:layout_alignParentRight="true"
+					android:layout_marginTop="2dp"
+					android:layout_marginLeft="6dp"				
+					android:src="@drawable/alipay_button_search"
+					android:focusable="true"
+					>
+				</ImageView>
+				<AutoCompleteTextView
+					android:completionThreshold="1"
+					android:id="@+id/AgentOneContactText"
+					android:layout_height="fill_parent"
+					android:layout_toLeftOf="@id/AgentOneContactImg"
+					android:hint="@string/PayPayingAccountHint"
+					style="@style/AlipayInputEditText320x480"
+					android:layout_marginTop="0dp"
+					android:layout_marginRight="0dp"
+					android:dropDownAnchor="@+id/AgentOneContactText"
+					android:inputType="textEmailAddress"
+					android:paddingLeft="5dip"
+					android:imeOptions="actionNext"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/AgentOneMemoLayout"
+                style="@style/AlipayInputCanvas320x480"
+                android:layout_height="80dp"
+                android:layout_alignLeft="@id/AgentOneContactLayout"
+                android:layout_below="@id/AgentOneContactLayout"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="15dp" >
+
+                <EditText
+                    android:id="@+id/AgentOneMemoText"
+                    style="@style/AlipayInputEditText320x480"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+                    android:gravity="top"
+                    android:hint="@string/AgentSomeoneMemoInfo"
+                    android:imeOptions="actionDone"
+                    android:maxLength="100"
+                    android:paddingLeft="5dip"
+                    android:singleLine="false"
+                    android:textSize="16dp" >
+                </EditText>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/AgentBottomLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/AgentOneMemoLayout"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/AgentOneAddContactLayout"
+                    style="@style/AlipayInputCanvas320x480" >
+
+                    <CheckBox
+                        android:id="@+id/AgentOneAddContactCheckBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:button="@drawable/btn_check"
+                        android:checked="true" >
+                    </CheckBox>
+
+                    <TextView
+                        android:id="@+id/AgentOneAddContactDes"
+                        style="@style/AlipayDealQueryNameText320x480"
+                        android:layout_width="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_toRightOf="@id/AgentOneAddContactCheckBox"
+                        android:text="@string/add_to_contacts" >
+                    </TextView>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/AgentOneButtonLayout"
+                    style="@style/AlipayInputCanvas320x480"
+                    android:layout_marginTop="10dp" >
+
+                    <Button
+                        android:id="@+id/AgentOneSubmitButton"
+                        style="@style/AlipayCashButtonStyle"
+                        android:layout_margin="15dp"
+                        android:text="@string/AgentPayActionSubmit" >
+                    </Button>
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

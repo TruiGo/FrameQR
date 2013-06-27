@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/application_bg" >
+    <include layout="@layout/alipay_subtitle_320_480"/>
+    <RelativeLayout android:id="@+id/bg_layout" android:layout_below="@+id/AlipaySubTitle" android:layout_width="fill_parent" android:layout_height="fill_parent" >
+    <!-- <ImageView android:id="@+id/user_avatar" android:layout_width="240dp" android:layout_height="240dp" android:layout_centerInParent="true" android:scaleType="fitXY"/> -->
+    <ImageView android:id="@+id/user_avatar" android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="matrix"/>
+    
+    </RelativeLayout>
+</RelativeLayout>

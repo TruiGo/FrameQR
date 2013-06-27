@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/application_bg">
+    
+    <include layout="@layout/alipay_subtitle_320_480"/>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/application_bg_white"
+        android:layout_marginLeft="5dp"
+         android:layout_marginRight="5dp"
+         android:layout_marginBottom="3dp"
+        >
+        <Button 
+            android:id="@+id/GetSmsCheckCodeButton"
+			style="@style/AlipayNormalButtonStyle320x480"
+            />
+        <EditText 
+            android:id="@+id/SmsCheckCode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/SmsCheckCode"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/alipay_input"
+            />
+        <TextView 
+            android:id="@+id/CheckCodeTip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/TextColorGray"
+            />
+        <Button
+			android:id="@+id/NextButton"
+			style="@style/AlipayNormalButtonStyle320x480"
+			android:text="@string/barcode_guide_next">
+		</Button>
+    </LinearLayout>
+
+    
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- 数据源（接口）？？？该部分的内容是否单独存放升级 -->
+<!--接口id：应用id+接口id-->
+<InterfaceList version="">
+	<!--获取RSA和时间戳-->
+	<Interface id="10" url="https://mobilecsprod.alipay.com/mobilecs.htm" relAccount="false">
+		<Param>{"operationType":"getRSAPKey"}</Param>
+	</Interface>
+	
+	<Interface id="11" url="https://mobilecsprod.alipay.com/mobilecs.htm" relAccount="false">
+      <Param>{"operationType":"login","loginAccount":"@1","rsaLoginPassword":"@2","loginType":"@3","productID":"@4","productVersion":"@5","userAgent":"@6","loginTaobao":"@7","checkCode":"@8","checkCodeId":"@9","loginCheckCode":"@10","channels":"@11","osVersion":"@12","screenWidth":"@13","screenHigh":"@14","awid":"@15"}</Param>
+   </Interface>
+	
+	<!--业务功能状态对比-->
+	<Interface id="13" url="http://mobilecsprod.alipay.com/mtk.htm" relAccount="false">
+		<Param>{"operationType":"syncFuncStatus", "platform":"Android", "productID":"@1","productVersion":"@2", "userAgent":"@3", "funcList":@4, "resolution":"@5"}</Param>
+	</Interface>
+<!-- 	<Interface id="13" url="https://mobilecsprod.alipay.com/mobilecs.htm" relAccount="false">
+		<Param>{"operationType":"syncFuncStatus", "platform":"Android", "productID":"@1","productVersion":"@2", "userAgent":"@3", "funcList":@4, "resolution":"@5"}</Param>
+	</Interface> -->
+	
+	<!--用户注册-用户请求注册-->
+	<Interface id="14" url="https://mobilecsprod.alipay.com/mobilecs.htm" relAccount="false">
+		<Param>{"operationType":"preRegister","productID":"@1","productVersion":"@2"}</Param>
+	</Interface>	
+	
+	<!--用户注册-用户输入并提交-->
+	<Interface id="15" url="https://mobilecsprod.alipay.com/mobilecs.htm" relAccount="false">
+		<Param>{"operationType":"register","phoneNO":"@1","realName":"@2","checkCode":"@3","loginPassword":"@4","payPassword":"@5","cardType":"@6","certNo":"@7","productID":"@8"}</Param>
+	</Interface>
+
+	<!--通知服务-用户删除本地登录用户信息-->
+	<Interface id="16" url="https://mobilecsprod.alipay.com/mobilecs.htm" relAccount="false">
+		<Param>{"operationType":"removePushRecord","userId":"@1","productID":"@2","productVersion":"@3","prevUserId":"@4"}</Param>
+	</Interface>
+	
+	<!--通知服务-用户更新通知服务设置信息-->
+	<Interface id="17" url="https://mobilecsprod.alipay.com/mobilecs.htm" relAccount="false">
+		<Param>{"operationType":"updatePushRecord","productID":"@1","productVersion":"@2","isPush":"@3","pushStartTime":"@4","pushEndTime":"@5"}</Param>
+	</Interface>
+</InterfaceList>

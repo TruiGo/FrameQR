@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/AlipayCardActive"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/CardActiveLayout">
+		<RelativeLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+	       	android:layout_marginTop="10dp"
+	       	android:layout_marginRight="10dp"
+	       	android:layout_marginBottom="10dp"
+	       	android:layout_marginLeft="20dp"
+			android:id="@+id/CardActiveCueTextDisplayArea">
+			<TextView
+	       		style="@style/AlipayNormalText320x480"
+	       		android:id="@+id/CardActiveCueText">
+	   		</TextView>
+		</RelativeLayout>
+		<!-- <ImageView android:layout_below="@id/CardActiveCueTextDisplayArea" style="@style/AlipayCutoffLineStyle320x480"/> -->
+		<RelativeLayout
+	        style="@style/AlipayInputCanvas320x480"
+	        android:id="@+id/KTBankIdCanvas"
+	        android:layout_below="@id/CardActiveCueTextDisplayArea">
+	        <EditText
+	            android:id="@+id/KTBankId"
+	            android:hint="@string/ACTIVATION_BankId_Hint"
+	            android:background="@drawable/alipay_input"
+	            android:maxLength="21"
+	            android:layout_marginTop="5dp"
+	            android:layout_marginBottom="5dp"
+	            android:layout_marginLeft="10dp"
+	            style="@style/AlipayInputEditText320x480">
+	        </EditText>
+	    </RelativeLayout>
+	    <!-- <ImageView android:layout_below="@id/KTBankIdCanvas" style="@style/AlipayCutoffLineStyle320x480"/> -->
+	
+	    <RelativeLayout
+	        style="@style/AlipayInputCanvas320x480"
+	        android:layout_below="@id/KTBankIdCanvas"
+	        android:id="@+id/KTBankPassWordCanvas"
+	        android:layout_marginTop="10dp">
+	        <EditText
+	            android:id="@+id/KTBankPassWord"
+	            android:hint="@string/ACTIVATION_Password_Hint"
+	            android:layout_marginLeft="10dp"
+	            android:layout_marginTop="5dp"
+	            android:layout_marginBottom="5dp"
+	            android:password="true"
+	            android:background="@drawable/alipay_input"
+	            style="@style/AlipayInputEditText320x480">
+	        </EditText>
+	    </RelativeLayout>
+	    <!-- <ImageView android:layout_below="@id/KTBankPassWordCanvas" style="@style/AlipayCutoffLineStyle320x480"/> -->
+		<RelativeLayout
+	            style="@style/AlipayInputCanvas320x480"
+	            android:layout_below="@id/KTBankPassWordCanvas"
+	            android:id="@+id/CardActiveSummaryArea"
+	            android:orientation="vertical"
+	            android:visibility="invisible">  
+	           <!--  <ImageView style="@style/AlipayCutoffLineStyle320x480"/>-->
+	            <TextView
+	                style="@style/AlipayNormalText320x480"
+	                android:layout_margin="10dp"
+	                android:textSize="14dp"
+	                android:id="@+id/CardActiveSummaryText">
+	            </TextView>
+	    </RelativeLayout>
+    </RelativeLayout>
+	<Button
+        android:id="@+id/CardActiveDetailButton"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+		android:layout_below="@id/CardActiveLayout"
+        style="@style/AlipayNormalButtonStyle320x480">
+    </Button>
+</RelativeLayout>
+

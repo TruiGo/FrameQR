@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/core
+END
+Style.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/core/Style.java
+END
+Runtime.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/core/Runtime.java
+END
+ActivityShell.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/core/ActivityShell.java
+END
+MsgAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/core/MsgAction.java
+END
+MsgHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/core/MsgHandler.java
+END
+Engine.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/core/Engine.java
+END
+Loader.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/core/Loader.java
+END
+MBus.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/core/MBus.java
+END
+ParamString.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/core/ParamString.java
+END
+EngineConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/core/EngineConfig.java
+END
+ManifestDoc.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/core/ManifestDoc.java
+END
+NativeLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/core/NativeLoader.java
+END

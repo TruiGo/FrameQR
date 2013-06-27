@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/application_bg">
+	
+	<include layout="@layout/alipay_subtitle_320_480" />
+	
+	<ScrollView
+		android:id="@+id/AgentAnylinkPayAll"
+		android:layout_below="@+id/AlipaySubTitle"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="@drawable/application_bg_white"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="3dp">
+		
+		<RelativeLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+			
+			<LinearLayout android:id="@+id/AgentLinkLayout"
+				android:background="@drawable/agent_pay_pop_bottom"
+				android:orientation="vertical" 
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dp"
+				android:layout_marginBottom="10dp"
+				android:layout_marginLeft="5dp"
+				android:layout_marginRight="5dp">
+			
+				<TextView android:id="@+id/AgentLinkTitle" 
+				    android:layout_width="wrap_content" 
+					android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+					android:textColor="@color/TextColorBlack"
+					android:textSize="18dp"
+					android:textStyle="bold"/>
+
+				<TextView android:id="@+id/AgentLinkInfo" 
+				    android:layout_width="wrap_content" 
+				    android:layout_height="wrap_content"
+				    android:layout_marginTop="3dp"
+				    android:layout_marginBottom="5dp"
+				    android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp"
+				    android:singleLine="false"
+					android:textColor="@color/TextColorGrayTrading"
+					android:textSize="16dp"/>
+
+			</LinearLayout>
+			
+			<TextView android:id="@+id/AgentLinkMemoTitle" 
+				android:layout_below="@+id/AgentLinkLayout"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:layout_marginTop="6dp"
+				android:layout_marginBottom="5dp"
+				android:layout_marginLeft="8dp"
+				android:textColor="@color/TextColorBlack"
+				android:textSize="18dp"
+				android:textStyle="bold"
+				android:text="@string/AgentAnylinkMemoTitle" />
+			
+			<RelativeLayout
+				android:id="@+id/AgentLinkMemoLayout"
+				android:layout_below="@id/AgentLinkMemoTitle"
+				style="@style/AlipayInputCanvas320x480"
+				android:layout_height="80dp"
+				android:layout_alignLeft="@id/AgentLinkLayout"
+				android:layout_marginTop="2dp"
+				android:layout_marginRight="6dp"
+				>			 
+				<EditText
+					android:id="@+id/AgentLinkMemoText"
+					style="@style/AlipayInputEditText320x480"
+					android:maxLength="100"
+					android:singleLine="false"
+					android:layout_marginTop="0dp"
+					android:layout_marginLeft="2dp"
+					android:layout_marginRight="0dp"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:hint="@string/AgentAnylinkMemoInfo"
+					android:textSize="16dp"
+					android:gravity="top"
+					android:paddingLeft="5dip"
+					android:imeOptions="actionDone">												
+				</EditText>
+				
+			</RelativeLayout>
+				
+			<RelativeLayout
+				android:layout_marginTop="30dp"
+				android:id="@+id/AgentLinkButtonLayout"
+				android:layout_below="@id/AgentLinkMemoLayout"
+				style="@style/AlipayInputCanvas320x480">			
+				<Button 
+					android:id="@+id/AgentLinkNextButton"
+					style="@style/AlipayButtonStyle320x480NoPadding"
+					android:layout_width="160dp"
+					android:text="@string/AgentPayActionNext">
+				</Button>
+				<Button 
+					android:id="@+id/AgentLinkCancelButton"
+					android:layout_below="@id/AgentLinkNextButton"
+					style="@style/AlipayButtonStyle320x480NoPadding"
+					android:layout_width="160dp"
+					android:background="@drawable/alipay_button_sub"
+					android:layout_marginTop="10dp"
+					android:textColor="@color/ButtonColorBlue"
+					android:text="@string/AgentPayActionCancel">
+				</Button>
+			</RelativeLayout>
+			
+		</RelativeLayout>
+		
+	</ScrollView>
+
+</RelativeLayout>			

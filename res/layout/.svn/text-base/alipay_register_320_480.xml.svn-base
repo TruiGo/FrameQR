@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:component="http://schemas.android.com/apk/res/com.eg.android.AlipayGphone"
+    android:id="@+id/AlipayRegisterLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/application_bg" >
+
+    <include layout="@layout/alipay_subtitle_320_480" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/AlipaySubTitle"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/application_bg_white" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <RelativeLayout
+                android:id="@+id/RegisterBG"
+                style="@style/AlipayBGCanvas320x480" >
+
+                <com.alipay.android.comon.component.EditTextWithButton
+                    android:id="@+id/AlipayRegisterPhonenumber"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:addStatesFromChildren="true"
+                    android:background="@drawable/alipay_input"
+                    android:gravity="center"
+                    component:inputName="@string/RegisterPhonenumber" />
+
+                <com.alipay.android.comon.component.EditTextWithButton
+                    android:id="@+id/AlipayRegisterName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/AlipayRegisterPhonenumber"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:addStatesFromChildren="true"
+                    android:background="@drawable/alipay_input"
+                    android:gravity="center"
+                    component:inputName="@string/RegisterName" />
+
+                <Spinner
+                    android:id="@+id/AlipayCardType"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/AlipayRegisterName"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/alipay_dropdown_button"
+                    android:gravity="center"
+                    android:textColor="@color/TextColorBlack" />
+
+                <com.alipay.android.comon.component.EditTextWithButton
+                    android:id="@+id/AlipayRegisterCardNum"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/AlipayCardType"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:addStatesFromChildren="true"
+                    android:background="@drawable/alipay_input"
+                    android:gravity="center"
+                    component:inputName="@string/AlipayCardNum" />
+
+                <com.alipay.android.comon.component.EditTextWithButton
+                    android:id="@+id/RegisterLoginPasswordEditText"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/AlipayRegisterCardNum"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:addStatesFromChildren="true"
+                    android:background="@drawable/alipay_input"
+                    android:gravity="center"
+                    component:inputName="@string/RegisterLoginPassword" />
+
+                <TextView
+                    android:id="@+id/RegisterLoginPasswordTip"
+                    style="@style/AlipayInputContentText320x480"
+                    android:layout_below="@id/RegisterLoginPasswordEditText"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/WarningInvalidPassword"
+                    android:textColor="@color/TextColorTip"
+                    android:textSize="12dp" >
+                </TextView>
+
+                <com.alipay.android.comon.component.EditTextWithButton
+                    android:id="@+id/AlipayRegisterPayPassword"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/RegisterLoginPasswordTip"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:addStatesFromChildren="true"
+                    android:background="@drawable/alipay_input"
+                    android:gravity="center"
+                    component:inputName="@string/RegisterPayPassword" />
+
+                <TextView
+                    android:id="@+id/RegisterPayPasswordTip"
+                    style="@style/AlipayInputContentText320x480"
+                    android:layout_below="@id/AlipayRegisterPayPassword"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/WarningInvalidPassword"
+                    android:textColor="@color/TextColorTip"
+                    android:textSize="12dp" />
+
+                <LinearLayout
+                    android:id="@+id/PasswordLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/RegisterPayPasswordTip"
+                    android:orientation="horizontal" >
+
+                    <CheckBox
+                        android:id="@+id/PasswordCheckBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:button="@drawable/btn_check"
+                        android:text="@string/DisplayPassword"
+                        android:textColor="@color/TextColorBlack" >
+                    </CheckBox>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/AlipayRegisterCheckImage"
+                    style="@style/AlipayInputCanvas320x480"
+                    android:layout_below="@id/PasswordLayout"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="6dp" >
+
+                    <com.alipay.android.comon.component.EditTextWithButton
+                        android:id="@+id/RegisterCheckPanel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/PasswordLayout"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:addStatesFromChildren="true"
+                        android:background="@drawable/alipay_input"
+                        android:gravity="center"
+                        component:inputName="@string/RegisterCheckImage" />
+
+                    <ImageView
+                        android:id="@+id/icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_toRightOf="@id/RegisterCheckPanel" >
+                    </ImageView>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/AlipayRegisterCheckB"
+                    style="@style/AlipayInputCanvas320x480"
+                    android:layout_below="@id/AlipayRegisterCheckImage" >
+
+                    <CheckBox
+                        android:id="@+id/OkCheckBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:button="@drawable/btn_check"
+                        android:checked="true"
+                        android:text="@string/RegisterCheckBoxInfo"
+                        android:textColor="@color/TextColorBlack" >
+                    </CheckBox>
+
+                    <TextView
+                        android:id="@+id/ReadProtoco"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/TextColorBlue"
+                        android:textSize="16dp" >
+                    </TextView>
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/AlipayRegisterButton"
+                style="@style/AlipayNormalButtonStyle320x480"
+                android:layout_width="fill_parent"
+                android:layout_below="@id/RegisterBG"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="14dip"
+                android:text="@string/MenuRegistration" >
+            </Button>
+            <!--
+        <Button 
+				android:text="@string/ReadProtocol"
+				android:layout_below="@id/AlipayRegisterButton"
+				android:id="@+id/AlipayRegisterProtocolButton"
+				android:layout_width="180dp"
+				android:layout_height="48dp"
+				android:textSize="16dp"
+				android:layout_centerInParent="true"				
+				>				
+		</Button>
+            -->
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <WebView
+        android:id="@+id/registerWebView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/AlipaySubTitle" />
+
+</RelativeLayout>

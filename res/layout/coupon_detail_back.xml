@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android" 
+     android:layout_width="fill_parent" android:layout_height="fill_parent">
+     <TextView
+         android:id="@+id/voucherFromText"
+         style="@style/normal_gray_16"
+         android:textSize="12sp"
+         android:layout_alignParentBottom="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="10dp"/>
+	 <ImageView
+	     android:id="@+id/voucher_back"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:layout_alignParentRight="true"
+	     android:layout_alignParentBottom="true"
+	     android:background="@drawable/page_transfer_back_dark_icon" />
+ 
+ <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  	android:fillViewport="true" android:layout_above="@id/voucher_back">
+   <RelativeLayout 
+       android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:paddingLeft="16dp" android:paddingRight="16dp">
+       <TextView style="@style/normal_16" android:textColor="@color/text_gray" 
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="10dp" android:layout_marginBottom="10dp"
+           android:id="@+id/back_title"/>
+       
+        <ImageView android:layout_width="fill_parent" android:layout_height="2dp"
+	        android:id="@+id/divider2" android:background="@drawable/divider2_user_define"
+	        android:layout_below="@id/back_title"/>
+        
+    	<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+    	    android:orientation="vertical" android:layout_below="@id/divider2">
+    		<!-- 优惠详情 -->
+		      <RelativeLayout android:id="@+id/freeDetailContainer" android:layout_width="fill_parent" android:layout_height="wrap_content"
+		     	android:background="@drawable/list_btn_single" android:paddingTop="15dp" android:paddingBottom="15dp"  
+		     	android:layout_marginTop="10dp" android:paddingLeft="10dp">
+			    <TextView style="@style/normal_gray_16" android:textSize="16sp" android:textColor="@color/TextColorBlack"
+			        android:text="@string/freeDetail" android:id="@+id/detailText" android:layout_marginRight="10dp"/>
+			    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/list_right_arrow"
+			        android:layout_alignParentRight="true" android:layout_marginTop="5dp" android:id="@+id/detail_arrow"
+			        android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+			    
+			    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+			        android:id="@+id/detailView" android:layout_below="@id/detailText"
+			        android:orientation="vertical">
+			        <ImageView android:layout_width="fill_parent" android:layout_height="2dp"
+				        android:id="@+id/divider2" android:background="@drawable/divider2_user_define"
+				        android:layout_marginTop="5dp"/>
+			        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/text_gray" 
+			            android:textSize="14sp" android:layout_marginTop="10dp"
+			            android:singleLine="false" android:id="@+id/detailDescription" />
+			    </LinearLayout>
+			  </RelativeLayout>
+			  
+		      <!-- 可用门店 -->
+		      <RelativeLayout android:id="@+id/storeListContainer" android:layout_width="fill_parent" android:layout_height="wrap_content"  
+		     	android:background="@drawable/list_btn_single" android:paddingLeft="10dp"  
+		     	android:paddingTop="15dp" android:paddingBottom="15dp" android:layout_below="@id/freeDetailContainer"
+		     	android:layout_marginTop="10dp" android:visibility="gone">
+			    <TextView style="@style/normal_gray_16" android:textSize="16sp" android:textColor="@color/TextColorBlack"
+			        android:text="@string/storeList" android:layout_centerVertical="true"/>
+			    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/list_right_arrow"
+			        android:layout_alignParentRight="true" android:layout_marginTop="5dp" android:id="@+id/store_arrow"
+			        android:layout_marginRight="10dp"/>
+			  </RelativeLayout>
+			  
+		      <!-- 免责声明 -->
+		      <RelativeLayout android:id="@+id/disclaimer" android:layout_width="fill_parent" android:layout_height="wrap_content"
+		     	android:background="@drawable/list_btn_single" android:layout_marginTop="10dp" android:paddingLeft="10dp"
+		     	android:paddingTop="15dp" android:paddingBottom="15dp" android:layout_below="@id/storeListContainer" >
+			    <TextView style="@style/normal_gray_16" android:textSize="16sp" android:textColor="@color/TextColorBlack"
+			        android:text="@string/disclaimer" android:id="@+id/disclaimerTextView" android:layout_marginRight="10dp"/>
+			    
+			    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/list_right_arrow"
+			        android:layout_alignParentRight="true" android:layout_marginTop="5dp"
+			        android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+			        android:id="@+id/disclaimer_arrow"/>
+			    
+		        <ImageView android:layout_width="fill_parent" android:layout_height="2dp"
+			        android:id="@+id/disclaimer_divider" android:background="@drawable/divider2_user_define"
+			        android:layout_below="@id/disclaimerTextView"
+			        android:layout_marginTop="5dp" android:visibility="gone"/>
+		        <TextView style="@style/normal_gray_16" android:textSize="14sp" android:layout_marginTop="10dp" android:visibility="gone"
+	            	android:singleLine="false" android:id="@+id/disclaimerText" android:layout_below="@id/disclaimer_divider"/>
+			  </RelativeLayout>
+    	</LinearLayout>
+   </RelativeLayout>
+  </ScrollView>
+    
+   <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent"
+    	android:background="@drawable/voucher_foreground" android:scaleType="fitXY"/>
+   <include layout="@layout/voucher_corner"/>
+</RelativeLayout>

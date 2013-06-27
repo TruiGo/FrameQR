@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/transfer
+END
+SupportBankListViewController.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/transfer/SupportBankListViewController.java
+END
+TransferViewController.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/transfer/TransferViewController.java
+END
+TransferServiceViewController.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/transfer/TransferServiceViewController.java
+END
+TransferType.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/transfer/TransferType.java
+END
+TransferRootControllerActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/transfer/TransferRootControllerActivity.java
+END
+ConfirmViewController.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/transfer/ConfirmViewController.java
+END
+NewReceiverViewController.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/transfer/NewReceiverViewController.java
+END
+SearchContactActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/transfer/SearchContactActivity.java
+END

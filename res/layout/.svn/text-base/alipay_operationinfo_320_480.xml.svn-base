@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/InfoItemCanvas"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/application_bg">
+	<include layout="@layout/alipay_subtitle_320_480"/>
+	<LinearLayout 
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@drawable/bill_list_background"
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginRight="10dp"
+	    >
+	    <include layout="@layout/list_divide"/>
+	
+	<LinearLayout
+		android:id="@+id/AQOInfo1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="15dp"
+		android:layout_marginTop="5dp"
+		>
+		<TextView
+			android:id="@+id/AQOFlowTitle"
+			android:text="@string/AccountQueryFlowNumber"
+			style="@style/AlipayTextInfo320x480"
+	  		>
+		</TextView>
+		<TextView
+			android:id="@+id/AQOFlow"
+			style="@style/AlipayTextInfo320x480">
+		</TextView>
+	</LinearLayout>
+	<!-- <ImageView android:layout_below="@id/AQOInfo1" style="@style/AlipayCutoffLineStyle320x480"/> -->
+	<LinearLayout
+		android:id="@+id/AQOInfo2"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="15dp"
+		>
+		<TextView
+			android:id="@+id/AQOTypeTitle"
+			android:text="@string/AccountQueryType"
+			style="@style/AlipayTextInfo320x480"
+	  		>
+		</TextView>
+		<TextView
+			android:id="@+id/AQOType"
+			style="@style/AlipayTextInfo320x480"
+			android:layout_marginLeft="0dp">
+		</TextView>
+	</LinearLayout>
+	<!--<ImageView android:layout_below="@id/AQOInfo2" style="@style/AlipayCutoffLineStyle320x480"/> -->
+	<LinearLayout
+		android:id="@+id/AQOInfo3"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="15dp"
+		>
+		<TextView
+			android:id="@+id/AQOMoneyTitle"
+			android:text="@string/AccountQueryMoney"
+			style="@style/AlipayTextInfo320x480"
+			>
+		</TextView>
+		<TextView
+			android:id="@+id/AQOMoney"
+			style="@style/AlipayTextInfo320x480"
+			>
+		</TextView>
+	</LinearLayout>
+	<!--<ImageView android:layout_below="@id/AQOInfo3" style="@style/AlipayCutoffLineStyle320x480"/> -->
+	<LinearLayout
+		android:id="@+id/AQOInfo4"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="15dp"
+		>
+		<TextView
+			android:id="@+id/AQOSiteTitle"
+			android:text="@string/AccountQuerySite"
+			style="@style/AlipayTextInfo320x480"
+			
+			>
+		</TextView>
+		<TextView
+			android:id="@+id/AQOSite"
+			style="@style/AlipayTextInfo320x480"
+			>
+		</TextView>
+	</LinearLayout>
+	<!--<ImageView android:layout_below="@id/AQOInfo4" style="@style/AlipayCutoffLineStyle320x480"/> -->
+	<LinearLayout
+		android:id="@+id/AQOInfo5"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="15dp"
+		>
+		<TextView
+			android:id="@+id/AQOTimeTitle"
+			android:text="@string/AccountQueryTime"
+			style="@style/AlipayTextInfo320x480"
+			
+			>
+		</TextView>
+		<TextView
+			android:id="@+id/AQOTime"
+			style="@style/AlipayTextInfo320x480"
+			>
+		</TextView>
+	</LinearLayout>
+	<LinearLayout
+		android:id="@+id/AQOInfo7"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="15dp"
+		>
+		<TextView
+			android:id="@+id/AQOBalanceTitle"
+			android:text="@string/AccountQueryBalance"
+			style="@style/AlipayTextInfo320x480"
+			
+			>
+		</TextView>
+		<TextView
+			android:id="@+id/AQOBalance"
+			style="@style/AlipayTextInfo320x480"
+			>
+		</TextView>
+	</LinearLayout>
+	<!--<ImageView android:layout_below="@id/AQOInfo5" style="@style/AlipayCutoffLineStyle320x480"/> -->
+	<LinearLayout
+		android:id="@+id/AQOInfo6"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="15dp"
+		>
+		<TextView
+			android:id="@+id/AQONoteTitle"
+			android:text="@string/AccountQueryNote"
+			style="@style/AlipayTextInfo320x480"
+			>
+		</TextView>
+		<TextView
+			android:id="@+id/AQONote"
+			style="@style/AlipayTextInfo320x480"
+			>
+		</TextView>
+	</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

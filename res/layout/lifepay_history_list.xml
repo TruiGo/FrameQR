@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/application_bg"
+    android:orientation="vertical"
+    android:id="@+id/historyLayout" >
+    
+    <include layout="@layout/alipay_subtitle_320_480" />
+     
+    <ListView 
+        android:id="@+id/lifepayHistoryList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent"
+        android:scrollbars="none"
+        android:listSelector="@android:color/transparent"/>
+</LinearLayout>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:component="http://schemas.android.com/apk/res/com.eg.android.AlipayGphone"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/application_bg" >
+    <!-- 标题 -->
+    <RelativeLayout style="@style/title" android:id="@+id/confirmTitle">
+        <TextView android:id="@+id/title_text" style="@style/title_text" android:text="@string/transfer"/>
+    </RelativeLayout>
+	<ImageView 
+        android:id="@+id/transfer_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@id/confirmTitle"
+        android:padding="0dp"
+        android:layout_margin="0dp"/>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/transfer_bg"
+        android:background="@drawable/application_bg_white"
+        android:layout_margin="10dp">
+        <LinearLayout
+            android:id="@+id/transformInfo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <com.alipay.android.comon.component.EditTextWithButton
+                android:id="@+id/recvAccount"
+                style="@style/editText_with_button_style"
+                android:background="@drawable/input_not_enable_bg"
+                component:inputTextColor="@color/TextColorBlack"
+                component:inputHint="@string/transferPhoneNumber" 
+                component:inputHintTextColor="@color/text_light_gray"/>
+
+            <RelativeLayout
+                android:id="@+id/userNameLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp">
+                <AutoCompleteTextView
+                     android:id="@+id/receiverUserNameInput"
+                     style="@style/AutoCompleteTextViewStyle"
+                     android:layout_height="40dp"
+                     android:completionThreshold="100"
+                     android:maxLength="20"
+                     android:hint="@string/transferUserName"
+                     android:singleLine="true"
+                     android:textSize="16dp" />
+                <ImageButton
+                    android:id="@+id/cleanButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/edit_delete"
+                    android:layout_alignParentRight="true"
+                    android:visibility="gone"
+                    android:layout_marginRight="5dp"/>
+            </RelativeLayout>
+
+            <com.alipay.android.comon.component.EditTextWithButton
+                android:id="@+id/transformMoneyInput"
+                style="@style/editText_with_button_style"
+                component:inputType="textDecimal"
+                component:isAlipayMoney="true"
+                component:maxLength="20"
+                component:inputHint="@string/transferMoney" 
+                component:inputHintTextColor="@color/text_light_gray"/>
+            
+            <LinearLayout 
+                android:orientation="horizontal"
+                android:id="@+id/chargeFeeLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="5dp" >
+                <TextView 
+                    android:id="@+id/chargeFeeTipText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="@string/chargeFee"/>
+                <TextView
+	                android:id="@+id/rateTip"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:textColor="#727272"
+	                android:textSize="16sp"
+	                android:visibility="gone"/>
+                
+                <ProgressBar
+	                android:id="@+id/chargeFeeProgessBar"
+	                style="?android:attr/progressBarStyleSmall"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginLeft="10dp"
+	                android:layout_marginTop="5dp"
+	                android:visibility="gone" />
+                
+                <TextView 
+                    android:id="@+id/receiveTime" android:layout_width="fill_parent" android:layout_height="wrap_content"
+                    android:textSize="16sp" android:textColor="@color/TextColorBlue" android:gravity="right"
+                    android:text="@string/receiveTime"  android:layout_marginRight="10dp"/>
+            </LinearLayout>
+            
+            <TextView 
+                android:id="@+id/free_flow_tip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_marginLeft="10dp"
+			    android:layout_marginRight="10dp"
+			    android:layout_marginTop="5dp"
+			    android:visibility="gone"/>
+            
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp" >
+                <ImageView
+                    android:id="@+id/reasonButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center_vertical|right"
+                    android:background="@drawable/picker_btn"
+                    android:clickable="true" />
+                <com.alipay.android.comon.component.EditTextWithButton
+                    android:id="@+id/transformResonInput"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/alipay_input"
+                    android:layout_toLeftOf="@id/reasonButton"
+                    android:layout_marginRight="8dp"
+                    android:gravity="center_vertical"
+                    component:inputHint="@string/transferResonText"
+                    component:inputTextColor="@color/TextColorBlack"
+                    component:inputHintTextColor="@color/text_light_gray"
+                    component:inputTextSize="16dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/receiverPhoneLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical" >
+                <CheckBox
+                    android:id="@+id/inputPhoneNumberCheckBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="16sp"
+                    android:button="@drawable/btn_check"
+                    android:textColor="@color/text_gray"
+                    android:text="@string/SendSMSForP2P"
+                    android:checked="false" />
+                <com.alipay.android.comon.component.ContactPickerView
+                    android:id="@+id/notifyPhoneNum"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/inputPhoneNumberCheckBox"
+                    android:layout_margin="10dp"
+                    android:visibility="gone" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/agreeServiceLayout"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="6dp"
+				android:layout_marginLeft="10dp">
+				<CheckBox
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:id="@+id/transferServiceCheck"
+					android:text="@string/AgreeService"
+					android:textColor="@color/TextColorBlack"
+					android:layout_centerVertical="true"
+					android:button="@drawable/btn_check"
+					android:checked="true">
+				</CheckBox>
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:id="@+id/PucRead"
+					android:text="@string/Read"
+					android:textColor="@color/TextColorBlue"
+					android:layout_toRightOf="@id/transferServiceCheck"
+					android:layout_marginLeft ="6dp"
+					android:layout_centerVertical="true"
+					android:textSize="16dp">
+				</TextView>
+			</RelativeLayout>
+            <Button
+                android:id="@+id/confirmTransformInfoButton"
+		        style="@style/main_button"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_margin="10dp"
+                android:text="@string/confirmInfo" />
+        </LinearLayout>
+    </ScrollView>
+    <ImageView 
+	    android:layout_width="fill_parent" android:layout_height="fill_parent"
+	    android:id="@+id/guideView" android:fadingEdgeLength="0dp" android:visibility="gone"
+	    android:alwaysDrawnWithCache="false"/>
+</RelativeLayout>

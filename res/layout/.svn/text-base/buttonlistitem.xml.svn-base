@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/buttonListItem"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/itemIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="14dp" />
+
+    <TextView
+        android:id="@+id/itemText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@+id/itemIcon"
+        android:text="@string/MenuLogOut"
+        android:textColor="#666666"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/itemImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/list_right_arrow" />
+
+    <TextView
+        android:id="@+id/itemTextExtra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/itemImage"
+        android:textColor="#666666"
+        android:textSize="18sp" />
+
+</RelativeLayout>

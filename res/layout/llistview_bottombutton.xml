@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/creatNewBill"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:background="@drawable/debitnote_add_bg"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+           <ImageView
+	        android:id="@+id/ListEnd"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/bill_list_add_title"/>
+	        <ImageView 
+	            android:id="@+id/addNewBill"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/debitnote_add_text"
+	            android:layout_gravity="center_vertical"
+	            android:layout_marginTop="10dp"
+	            />
+<!-- 	        <TextView 
+	            android:layout_toRightOf="@id/addNewBill"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/CreatNewBill"
+	            android:textSize="16sp"/> -->
+        </LinearLayout>
+        <ImageView 
+		    android:id="@+id/billListDivide3"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:background="@drawable/lifepay_history_bottom"
+			android:layout_marginTop="0dp"/>
+        
+<!-- 	    <Button 
+	        android:id="@+id/creatNewBill"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/CreatNewBill"
+	        android:layout_gravity="center_horizontal" 
+	        />    -->
+    </LinearLayout>

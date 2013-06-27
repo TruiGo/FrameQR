@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@drawable/accountmanager_user_info_bg" />
+    <item android:right="0dp" android:top="0dp">
+        <bitmap android:src="@drawable/account_light" android:gravity="top|right"/>
+    </item>
+</layer-list>

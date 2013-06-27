@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/ContactInfoItemCanvas"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:background="@drawable/alipay_list_iteminfo_bg">
+	<ImageView
+		android:id="@+id/LocalContactIcon"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textColor="@color/TextColorBlack"
+		android:layout_marginLeft="10dp"
+		android:src ="@drawable/contact_pop"
+	/>
+	<TextView
+		android:id="@+id/ContactInfoItemAccount"
+		android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+		android:textColor="@color/TextColorBlack"
+		android:singleLine="true"
+		android:layout_marginLeft="10dp"
+		>
+	</TextView>
+</LinearLayout>

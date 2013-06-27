@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:layout_above="@+id/timeAndBack"
+    android:id="@+id/voucher_detail_view">
+
+    <include
+        android:id="@+id/voucher_item" layout="@layout/voucher_item_no_corner"
+        android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"/>
+
+    <ImageView
+        android:id="@+id/divider1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/voucher_item"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/avai_voucher_divider" />
+
+    <LinearLayout
+        android:id="@+id/voucherQueryFail"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/divider1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/refreshView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/voucher_detail_refresh" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/query_fail"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/voucherDetailInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/divider1"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/priceText"
+            style="@style/normal_16"
+            android:textColor="@color/text_gray"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/voucherPrice"
+            style="@style/normal_16"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-8dp"
+            android:includeFontPadding="false"
+            android:textColor="@color/text_green" />
+
+        <ImageView
+            android:id="@+id/priceCodeDivider"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/voucher_divider_2"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/unAvailableContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/refoundAmount"
+                style="@style/normal_gray_16"
+                android:text="18sp" />
+
+            <TextView
+                android:id="@+id/refoundTimes"
+                style="@style/normal_gray_16"
+                android:layout_marginTop="10dp"
+                android:text="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/availableContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:visibility="gone" 
+            android:paddingRight="8dp">
+            <TextView
+                android:id="@+id/voucherText"
+                style="@style/normal_16"
+                android:layout_marginTop="3dp"
+                android:singleLine="true"
+                android:text="@string/voucherCode"
+                android:textColor="@color/text_gray"
+                android:textSize="17sp" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewflow"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.alipay.android.ui.widget.NumberFlowIndicator
+                android:id="@+id/viewIndicator"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:gravity="center_horizontal" />
+            
+            <TextView style="@style/normal_16" android:textSize="12sp"  android:id="@+id/mTip"
+	            android:textColor="@color/TextColorBlack" android:layout_above="@id/timeAndBack"
+	            android:ellipsize="none"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

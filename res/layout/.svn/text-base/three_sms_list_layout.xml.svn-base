@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/SMSListView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/Content1Layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/Content1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:autoLink="web"
+            android:textColor="@color/TextColorBlack"
+            android:textSize="14dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sms_list_divider" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Content2Layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/Content2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:autoLink="web"
+            android:textColor="@color/TextColorBlack"
+            android:textSize="14dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/sms_list_divider" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Content3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:autoLink="web"
+        android:textColor="@color/TextColorBlack"
+        android:textSize="14dp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/SmsProgressLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <ProgressBar
+            android:id="@+id/QueryBarProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/LoadText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/LoadSmsText"
+            android:textColor="@color/TextColorBlack"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+</LinearLayout>

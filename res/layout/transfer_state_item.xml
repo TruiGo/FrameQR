@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+    <LinearLayout
+       	android:orientation="vertical"
+        android:id="@+id/status_dateTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp">
+        <TextView
+		    android:id="@+id/status_date"
+		    style="@style/carryInfoGreyStyle"/>
+		<TextView 
+		    android:id="@+id/status_time"
+		    android:layout_gravity="right"
+		    style="@style/carryInfoGreyStyle"/>
+    </LinearLayout>
+	<ImageView 
+	    android:id="@+id/nodeImage"
+	    android:layout_width="wrap_content"
+	    android:layout_height="fill_parent"
+	    android:layout_marginLeft="15dp"
+	    android:layout_marginRight="15dp"/>
+	<TextView
+	    android:id="@+id/status_desc"
+        style="@style/carryInfoBlackStyle"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"/>
+</LinearLayout>

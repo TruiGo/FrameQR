@@ -1,0 +1,114 @@
+package com.alipay.android.core.expapp;
+
+public class AppUiElementType {
+    public static final String AccountBox = "AccountBox";
+    public static final String Button = "Button";
+    public static final String InputBox = "InputBox";
+    public static final String onClick = "onClick";
+    public static final String Monitor = "monitor";
+    public static final String Reference = "@";
+    public static final String id = "id";
+    public static final String title = "title";
+    public static final String preAppear = "preAppear";
+    public static final String onAppear = "onAppear";
+    public static final String onRefresh = "onRefresh";
+    public static final String text = "text";
+    public static final String type = "type";
+    public static final String classs = "class";
+    public static final String hint = "hint";
+    public static final String isSave = "isSave";
+    public static final String width = "width";
+    public static final String height = "height";
+    public static final String desc = "desc";
+    public static final String emptyDesc = "emptyDesc";
+    public static final String visible = "visible";
+    public static final String image = "image";
+    public static final String lines = "lines";
+    public static final String saveNum = "saveNum";
+    public static final String statistics = "statistics";
+    
+    public static final String expressionTag = "$";
+    public static final int key_for_id = 0x10000000;
+    public static final int key_for_text = 0x10000001;  
+    public static final int key_for_comboBox_value = 0x10000010;  
+    public static final String TRUE = "true";
+    public static final String enable = "enable";
+    public static final String regex = "regex";
+    public static final String marginLeft = "marginLeft";
+    public static final String marginRight = "marginRight";
+    public static final String marginTop = "marginTop";
+    public static final String marginBottom = "marginBottom";
+    public static final String Label = "Label";
+    public static final String MultiEditBox = "MultiEditBox";
+    public static final String CheckBox = "CheckBox";
+    public static final String checked = "checked";
+    public static final String onCheckedChange = "onCheckedChange";
+    public static final String ContactBox = "ContactBox";
+    public static final String fontSize = "fontSize";
+    public static final String fontColor = "fontColor";
+    public static final String src = "src";
+    public static final String Row = "Row";
+    public static final String Rule = "Rule";
+    public static final String gravity = "gravity";
+    public static final String Tab = "Tab";
+    public static final String IncrementBox = "IncrementBox";
+    public static final String ComboBox = "ComboBox";
+    public static final String List = "List";
+    public static final String Value = "value";
+    public static final String adapter = "adapter";
+    public static final String DigitPicker = "DigitPicker";
+    public static final String Picker = "Picker";
+    public static final String CDTimer = "CDTimer";
+    public static final String time = "time";
+    public static final String Alternatives = "alternatives";
+    public static final String MinNum = "minNum";
+    public static final String MaxNum = "maxNum";
+    public static final String PerNum = "perNum";
+    public static final String Distinguish = "distinguish";
+    public static final String Name = "name";
+    public static final String deletable = "deletable";
+    public static final String delExp = "delExp";
+    
+    public static final String buttonClass = "submit";
+    
+    public static final String MonthPicker = "MonthPicker";
+    public static final String Calculator = "Calculator";
+    public static final String RichTextBox = "RichTextBox";
+    public static final String ShowBox = "ShowBox";
+    public static final String Image = "Image";
+    public static final String PickerEditBox = "PickerEditBox";
+    public static final String onItemSelected = "onItemSelected";
+    public static final String onMoreRequested = "onMoreRequested";
+    public static final String Data = "data";
+    public static final String Deletable = "deletable";
+    public static final String emptyMsg = "emptyMsg";
+    public static final String Exps = "exps";
+    public static final String ONFINISHED = "onFinished"; 
+    
+    public static final String useQR = "useQR";
+    public static final String useLN = "useLN";
+    
+    public static final String GET_MONEY_TOTAL_COUNT = "getMoneyTotalCount";
+    public static final String GET_MONEYPEOPLE_COUNT = "getMoneypeopleCount";
+    public static final String IS_CONTAIN_SELF = "isContainSelf";
+    public static final String onFinished = "onFinished";
+    public static final String minCharNum = "minCharNum";
+    public static final String maxCharNum = "maxCharNum";
+    public static final String onInputFinish = "onInputFinished";
+    public static final String OnCancel = "onCancel";
+    public static final String Group = "Group";
+    public static final String style = "style";
+    public static final String scroll = "scroll";
+    public static final String Progress = "progressbar";
+    public static final String ProgressMax = "max";
+    public static final String ProgressRepeat = "repeat";
+    
+    public static final String SafeTokenBox = "safetokenbox";
+    
+    public static final String inputName = "inputName";
+    public static final String imageVisible = "imageVisible";
+    public static final String unit = "unit";
+    public static final String CancelCheckInput = "CancelCheckInput";
+    public static final String WebBox = "WebBox";
+    public static final String url = "url";
+}

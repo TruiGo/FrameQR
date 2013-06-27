@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/push/connection/proxy
+END
+ProxyException.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/push/connection/proxy/ProxyException.java
+END
+SocksProxySocketFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/push/connection/proxy/SocksProxySocketFactory.java
+END
+DirectSocketFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/push/connection/proxy/DirectSocketFactory.java
+END
+ProxyInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/push/connection/proxy/ProxyInfo.java
+END

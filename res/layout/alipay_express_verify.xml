@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/topDescription"
+        style="@style/AlipayNormalText320x480" />
+
+    <com.alipay.android.comon.component.TimerButton
+        android:id="@+id/resendButton"
+        style="@style/NormalButtonSubStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:textSize="18sp" 
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:addStatesFromChildren="true"
+        android:background="@drawable/alipay_input"
+        android:hint="@string/InputCheckCodeHint"
+        android:textColorHint="@color/loginedithint_color"
+        />
+
+    <Button
+        android:id="@+id/confirmButton"
+        style="@style/AlipayCashButtonStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:enabled="false"
+        android:text="@string/Ensure" >
+    </Button>
+
+</LinearLayout>

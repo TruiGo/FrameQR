@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:background="@drawable/application_bg">
+	<!-- 标题 -->
+	<include layout="@layout/alipay_subtitle_320_480" />
+	
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical"
+	    android:background="@drawable/application_bg_white"
+         android:layout_marginLeft="5dp"
+         android:layout_marginRight="5dp"
+         android:layout_marginBottom="3dp"
+         android:paddingTop="10dp"
+	    >
+	
+	<RelativeLayout android:id="@+id/notification_setting"
+				android:layout_width="fill_parent" android:layout_height="50dp"
+				android:background="@drawable/list_btn_m" android:gravity="center"
+				android:focusable="true">
+				<TextView android:id="@+id/notification_setting_title"
+					android:text="@string/MenuNotifiSetting" android:layout_width="wrap_content"
+					android:layout_height="fill_parent" android:layout_alignParentLeft="true"
+					android:textSize="18sp" android:padding="10dp" android:textColor="#666666"
+					android:gravity="center_vertical" />
+				<TextView android:id="@+id/notification_setting_status"
+					android:layout_width="wrap_content" android:layout_height="fill_parent"
+					android:layout_alignParentRight="true" android:gravity="center_vertical"
+					android:text="开" android:padding="10dp" android:textSize="18sp" android:textColor="#666666"/>
+			</RelativeLayout>
+	<ImageView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:visibility="gone"
+				android:background="@drawable/solid_line" />
+	
+	<RelativeLayout android:id="@+id/query_sms_setting"
+				android:layout_width="fill_parent" 
+				android:layout_height="50dp"
+				android:background="@drawable/list_btn_m" 
+				android:gravity="center"
+				android:focusable="true">
+				<TextView 
+				    android:id="@+id/sms_setting_title"
+					android:text="@string/CCR_SMS_QUERY_AUTCHORIZE"
+					android:layout_width="wrap_content"
+					android:layout_height="fill_parent" 
+					android:layout_alignParentLeft="true"
+					android:textSize="18sp" 
+					android:padding="10dp" 
+					android:textColor="#666666"
+					android:gravity="center_vertical" />
+				<TextView 
+				    android:id="@+id/sms_setting_status"
+					android:layout_width="wrap_content" 
+					android:layout_height="fill_parent"
+					android:layout_alignParentRight="true" 
+					android:gravity="center_vertical"
+					android:text="关" 
+					android:padding="10dp" 
+					android:textSize="18sp" 
+					android:textColor="#666666"/>
+			</RelativeLayout>
+	<ImageView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" 
+				android:visibility="gone"
+				android:background="@drawable/solid_line" />
+
+	<RelativeLayout android:id="@+id/shake_setting"
+				android:layout_width="fill_parent" 
+				android:layout_height="50dp"
+				android:background="@android:drawable/list_selector_background" 
+				android:gravity="center"
+				android:focusable="true">
+				<TextView 
+				    android:id="@+id/shake_setting_text"
+					android:text="@string/shake_setting_text"
+					android:layout_width="wrap_content"
+					android:layout_height="fill_parent" 
+					android:layout_alignParentLeft="true"
+					android:textSize="18sp" 
+					android:padding="10dp" 
+					android:textColor="#666666"
+					android:gravity="center_vertical" />
+				<CheckBox 
+				     android:id="@+id/shake_setting_status"
+					android:layout_width="wrap_content" 
+					android:layout_height="fill_parent"
+					android:layout_alignParentRight="true" 
+					android:gravity="center_vertical"
+					android:checked="true"
+					android:padding="10dp" 
+					android:textSize="18sp" 
+					android:button="@drawable/btn_check"
+					android:textColor="#666666"/>
+			</RelativeLayout>
+	<!-- <ImageView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:background="@drawable/solid_line" /> -->
+</LinearLayout>
+</LinearLayout>		

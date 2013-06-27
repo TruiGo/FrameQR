@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout-1280x720
+END
+verify_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout-1280x720/verify_layout.xml
+END
+subitem_layout_appcenter.xml
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout-1280x720/subitem_layout_appcenter.xml
+END
+subitem_layout_homepage.xml
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/res/layout-1280x720/subitem_layout_homepage.xml
+END
+mainactivity_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/res/layout-1280x720/mainactivity_layout.xml
+END

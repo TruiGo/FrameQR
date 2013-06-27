@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home" android:title="@string/MenuHome" android:icon="@drawable/menu_home"></item>
+    <item android:id="@+id/update" android:title="@string/MenuUpdate" android:icon="@drawable/menu_update"></item>
+    <item android:id="@+id/userFeedback" android:title="@string/userFeedback" android:icon="@drawable/menu_feedback"></item>
+    <item  android:id="@+id/help" android:title="@string/userHelp" android:icon="@drawable/menu_help"></item>
+    <item android:id="@+id/more" android:title="@string/AppMore" android:icon="@drawable/menu_more"></item>
+	<item android:id="@+id/menuLogout" android:title="@string/MenuNologin" android:icon="@drawable/menu_login"></item>
+</menu>

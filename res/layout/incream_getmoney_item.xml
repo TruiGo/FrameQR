@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:paddingTop="15dp" android:paddingBottom="0dp"
+	android:orientation="horizontal">
+
+	<LinearLayout android:id="@+id/accountbox"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+	</LinearLayout>
+
+	<LinearLayout android:id="@+id/delarea" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_below="@+id/accountbox"
+		android:orientation="horizontal">
+		<RelativeLayout android:id="@+id/GetAllAccountInput"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"
+			android:layout_alignParentLeft="true">
+			<EditText android:id="@+id/increamGetMoneyCountEditText"
+				android:layout_height="40dp" android:layout_width="wrap_content"
+				android:singleLine="true" android:hint="@string/getMoneyHint"
+				android:paddingLeft="5dip" android:inputType="number|numberSigned|numberDecimal"
+				android:maxLength="7" android:layout_marginTop="10dp"
+				android:textSize="16dp"
+				android:focusable="true" android:textColor="@color/TextColorBlack"
+				android:background="@drawable/alipay_input" />
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:layout_toRightOf="@id/increamGetMoneyCountEditText"
+				android:layout_marginTop="25dp" android:padding="3dp"
+				android:textSize="16dp" android:textColor="@color/TextColorBlack"
+				android:text="@string/Yuan" android:focusable="false" />
+		</RelativeLayout>
+
+		<RelativeLayout android:id="@+id/DelContactView"
+			android:layout_height="49dp" android:layout_width="wrap_content"
+			android:layout_alignParentRight="true" android:layout_marginTop="10dp"
+			android:focusable="true">
+			<TextView android:id="@+id/DelContactTextview"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_alignParentRight="true" android:layout_marginTop="10dp"
+				android:textSize="16dp" android:textColor="@drawable/alipay_text_color"
+				android:text="@string/deleteitem" android:duplicateParentState="true" />
+			<ImageView android:id="@+id/DelContactimg"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:scaleType="fitXY" android:layout_toLeftOf="@id/DelContactTextview"
+				android:layout_marginTop="12dp" android:layout_marginRight="6dp"
+				android:src="@drawable/alipay_button_delcontact"
+				android:duplicateParentState="true">
+			</ImageView>
+		</RelativeLayout>
+	</LinearLayout>
+
+	<View android:layout_below="@id/delarea"
+		android:layout_width="fill_parent" android:layout_height="1dp"
+		android:layout_marginTop="10dp" android:background="@color/listdivierColor"></View>
+</RelativeLayout>

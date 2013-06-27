@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:componet="http://schemas.android.com/apk/com.eg.android.AlipayGphone"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/expireTimeText"
+        style="@style/normal_gray_16"
+        android:textSize="12sp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp" 
+        android:layout_alignParentBottom="true"/>
+    <ImageView
+        android:id="@+id/voucher_front"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/page_transfer_dark_icon" />
+    
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+	    android:layout_above="@id/voucher_front" android:fillViewport="true" >
+        <RelativeLayout 
+		    android:layout_width="fill_parent" android:layout_height="fill_parent"
+	    	android:id="@+id/frontScrollView">
+		    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+		        android:id="@+id/title_content" android:paddingLeft="8dp" android:paddingRight="6dp">
+		        <include layout="@layout/voucher_item_no_corner"/>
+		    </RelativeLayout>
+		 	
+		    <ImageView
+		        android:id="@+id/divider1"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@id/title_content"
+		        android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+		        android:background="@drawable/divider1_user_define" />
+		    
+		    <TextView android:id="@+id/voucher_title" style="@style/normal_16"
+		        android:textColor="@color/text_gray" android:layout_centerHorizontal="true" 
+		        android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+		        android:layout_below="@id/divider1" android:layout_marginTop="18dp" 
+		        android:singleLine="true" android:layout_marginBottom="18dp"/>
+		    
+		    <ImageView android:layout_width="fill_parent" android:layout_height="2dp"
+		        android:id="@+id/divider2" android:layout_below="@id/voucher_title" android:layout_marginLeft="10dp" 
+		        android:layout_marginRight="10dp" android:background="@drawable/divider2_user_define"/>
+		    
+		    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+		        android:layout_below="@id/divider2" android:layout_marginTop="28dp">
+			    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent"
+			         android:id="@+id/bodyContainer" android:scaleType="fitXY" 
+			         android:layout_gravity="center"/>
+			    
+			    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" 
+		            android:id="@+id/coupon_stamp" android:layout_centerHorizontal="true"
+		            android:layout_gravity="center_horizontal" />
+		    </FrameLayout>
+		    
+		    <LinearLayout
+		        android:id="@+id/voucherQueryFail"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:layout_below="@id/divider1"
+		        android:gravity="center"
+		        android:orientation="vertical"
+		        android:visibility="gone" >
+		
+		        <ImageView
+		            android:id="@+id/refreshView"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:src="@drawable/voucher_detail_refresh" />
+		
+		        <TextView
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/query_fail"
+		            android:textSize="16sp" />
+		    </LinearLayout>
+		    
+		    <LinearLayout android:id="@+id/codeSoundContainer" android:layout_width="fill_parent" 
+		        android:layout_height="fill_parent" android:orientation="vertical" 
+		        android:paddingRight="8dp" android:visibility="gone" android:layout_below="@id/divider2"
+		        android:layout_marginTop="25dp">
+			     <TextView android:id="@+id/voucherText" style="@style/normal_16" android:layout_marginTop="3dp"
+			         android:singleLine="true" android:text="@string/voucherCode" android:textColor="@color/TextColorWhite"
+			         android:textSize="17sp" android:layout_marginLeft="10dp"/>
+			
+			     <android.support.v4.view.ViewPager android:id="@+id/viewflow" android:layout_width="fill_parent"
+			         android:layout_height="wrap_content"/>
+			
+			     <com.alipay.android.ui.widget.NumberFlowIndicator android:id="@+id/viewIndicator" android:layout_width="fill_parent"
+			         android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:layout_marginTop="8dp"
+			         android:gravity="center_horizontal" componet:leftTextColor="@color/TextColorWhite" 
+			         componet:rightTextColor="@color/TextColorWhite"/>
+		 	</LinearLayout>
+		</RelativeLayout>
+    </ScrollView>
+	
+   <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent"
+	    android:background="@drawable/voucher_foreground" android:scaleType="fitXY"
+	    android:id="@+id/frontBg"/>
+   
+   <include layout="@layout/voucher_corner"/>
+</RelativeLayout>

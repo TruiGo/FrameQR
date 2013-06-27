@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">   
+    <item android:drawable="@drawable/application_bg_middle_nomal" />
+    <item android:left="0dp" android:right="0dp" android:top="0dp" android:bottom="44dp">
+        <bitmap 
+            android:src="@drawable/application_bg_top_nomal"
+            android:gravity="top|fill_horizontal"
+            />
+    </item>   
+</layer-list> 

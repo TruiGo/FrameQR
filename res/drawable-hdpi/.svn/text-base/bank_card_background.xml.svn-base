@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">   
+    <item android:drawable="@drawable/card_background_gold" />   
+    <item android:drawable="@drawable/bank_light_gold" 
+        android:top="0dp"
+        android:right="160dp"/>
+    <item android:drawable="@drawable/card_list_shadow" 
+        android:top="92dp"
+        android:left="0dp"
+        android:right="0dp"
+        android:bottom="0dp"/>    
+</layer-list>  

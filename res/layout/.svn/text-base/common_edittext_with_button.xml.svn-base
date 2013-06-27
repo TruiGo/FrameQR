@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:addStatesFromChildren="true">
+	<TextView android:id="@+id/contentName" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_marginLeft="5dp"
+		android:textSize="18dp" android:textColor="@color/TextColorBlack"
+		android:gravity="center_vertical" android:layout_centerVertical="true"
+		android:visibility="gone" android:focusable="false" android:focusableInTouchMode="false"/>
+	<TextView android:id="@+id/unit" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentRight="true"
+		android:layout_marginRight="3dp" android:gravity="center_vertical"
+		android:layout_centerVertical="true" android:textSize="18sp"
+		android:visibility="gone" android:focusable="false" android:focusableInTouchMode="false"/>
+	<ImageButton android:id="@+id/clearButton"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:background="@drawable/edit_delete" android:layout_toLeftOf="@id/unit"
+		android:layout_alignWithParentIfMissing="true" android:gravity="center_vertical"
+		android:layout_centerVertical="true" android:layout_marginRight="5dp"
+		android:visibility="gone"/>
+	<ImageButton android:id="@+id/funcButton"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_toLeftOf="@id/unit" android:layout_alignWithParentIfMissing="true" 
+		android:gravity="center_vertical" android:layout_centerVertical="true" 
+		android:layout_marginRight="10dp" android:visibility="gone" 
+		android:layout_marginTop="4dp" android:layout_marginBottom="4dp"/>
+	<EditText android:id="@+id/content" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_toRightOf="@id/contentName"
+		android:layout_alignWithParentIfMissing="true" android:singleLine="true"
+		android:textColor="@color/TextColorBlack" android:layout_marginLeft="2dp"
+		android:background="@null" android:gravity="center_vertical"
+		android:layout_centerVertical="true" android:layout_toLeftOf="@id/clearButton"
+		android:layout_marginRight="5dp" android:focusable="true" android:focusableInTouchMode="true"/>
+</RelativeLayout>

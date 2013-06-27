@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent" >
+    <LinearLayout android:layout_width="fill_parent" android:orientation="vertical"
+        android:layout_height="fill_parent" android:background="@drawable/voucher_detail_back_bg">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:id="@+id/moneyView" android:paddingLeft="10dp" android:paddingRight="5dp">
+            <TextView style="@style/normal_16"
+                android:text="@string/monetary" android:textColor="@color/TextColorBlack"/>
+            <TextView style="@style/normal_16" android:id="@+id/buyMoney"
+            	android:textSize="18sp" android:layout_alignParentRight="true" 
+            	android:textColor="@color/text_green"/>
+        </RelativeLayout>
+        
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:id="@+id/amountView" android:layout_marginTop="2dp"
+            android:paddingLeft="10dp" android:paddingRight="5dp">
+            <TextView style="@style/normal_16"
+                android:text="@string/buyAmount" android:textColor="@color/TextColorBlack"/>
+            
+            <TextView style="@style/normal_16" android:id="@+id/buyAmount"
+            	android:textSize="18sp" android:layout_alignParentRight="true"
+            	android:textColor="@color/TextColorBlack"/>
+        </RelativeLayout>
+        
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:id="@+id/useAddressView" android:layout_marginTop="2dp"
+            android:paddingLeft="10dp" android:paddingRight="5dp">
+            <TextView style="@style/normal_16"
+                android:text="@string/useAddress" android:textColor="@color/TextColorBlack"
+                android:id="@+id/addressText"/>
+            
+            <TextView style="@style/normal_16" android:id="@+id/useAddress" 
+            	android:layout_width="fill_parent"
+            	android:singleLine="false" android:maxLines="2" 
+            	android:textColor="@color/TextColorBlack" android:layout_toRightOf="@id/addressText"/>
+        </RelativeLayout>
+        
+        <ImageView
+             android:id="@+id/imageDivider"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:background="@drawable/unavai_voucher_divider"
+             android:layout_marginTop="5dp"
+             android:layout_marginBottom="5dp"/>
+        
+        <RelativeLayout android:id="@+id/goodsDetailContainer" android:layout_width="fill_parent" android:layout_height="wrap_content"  
+	     	android:background="@drawable/list_btn_single" android:paddingLeft="10dp" android:paddingRight="10dp"
+	     	android:visibility="gone">
+		    <TextView style="@style/normal_gray_16" android:textColor="@color/TextColorBlack"
+		        android:text="@string/goodDetail" android:layout_centerVertical="true"/>
+		    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/list_right_arrow"
+		        android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+		</RelativeLayout>
+		
+        <RelativeLayout android:id="@+id/usedRecordContainer" android:layout_width="fill_parent" android:layout_height="wrap_content"  
+	     	android:background="@drawable/list_btn_single" android:paddingLeft="10dp" android:paddingRight="10dp"
+	     	android:layout_marginTop="8dp" android:visibility="gone">
+		    <TextView style="@style/normal_gray_16" android:textColor="@color/TextColorBlack"
+		        android:text="@string/usedRecord" android:layout_centerVertical="true"/>
+		    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/list_right_arrow"
+		        android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+		</RelativeLayout>
+		
+        <RelativeLayout android:id="@+id/storeListContainer" android:layout_width="fill_parent" android:layout_height="wrap_content"  
+	     	android:background="@drawable/list_btn_single" android:paddingLeft="10dp" android:paddingRight="10dp" 
+	     	android:layout_marginTop="8dp" android:visibility="gone">
+		    <TextView style="@style/normal_gray_16" android:textColor="@color/TextColorBlack"
+		        android:text="@string/availableStore" android:layout_centerVertical="true"/>
+		    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/list_right_arrow"
+		        android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+		</RelativeLayout>
+        
+        <LinearLayout android:id="@+id/storeQueryFail" android:gravity="center" 
+            android:layout_width="fill_parent" android:layout_height="wrap_content"
+            android:visibility="gone" android:orientation="vertical">
+            <ImageView
+                android:id="@+id/refreshView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/voucher_detail_refresh" />
+            
+            <TextView android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"
+	             android:text="@string/query_fail"
+	             android:textSize="16sp"
+	             android:layout_marginTop="15dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" 
+        android:layout_marginBottom="4dp">
+        <TextView
+            android:id="@+id/voucherFromText"
+            style="@style/normal_gray_16"
+            android:textSize="12sp"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+	        android:id="@+id/voucher_back"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="2dp"
+	       	android:background="@drawable/page_transfer_back_icon" />
+    </RelativeLayout>
+</RelativeLayout>

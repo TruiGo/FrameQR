@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/application_bg">
+	
+	<include layout="@layout/alipay_subtitle_320_480" />
+	
+	<ScrollView
+		android:id="@+id/BindingPhoneLayout"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_below="@+id/AlipaySubTitle"
+		android:layout_marginBottom="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+		android:background="@drawable/application_bg_white" >
+		
+		<LinearLayout
+			android:id="@+id/PhoneNumberlayout"
+	   		android:layout_width="fill_parent"
+	   		android:layout_height="wrap_content"
+	   		android:orientation="vertical"
+	   		android:layout_marginLeft = "3dp"
+			android:layout_marginRight = "3dp"
+			android:layout_marginTop = "3dp">
+
+			<TextView
+				android:id="@+id/PhoneNumberInputPrompt"
+				style="@style/AlipayNormalText320x480"
+				android:layout_marginTop = "5dp"
+				android:layout_marginLeft="5dp"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="@string/PhoneBindingHint">
+			</TextView>
+			
+			<EditText
+				android:id="@+id/PhoneNumberEdit"
+				style="@style/AlipayInputEditText320x480"
+				android:layout_marginTop="5dp"
+				android:layout_marginLeft="5dp"
+				android:layout_marginRight="5dp"
+				android:maxLength="11">
+			</EditText>
+			
+			<TextView
+				android:id="@+id/PayPasswordPrompt"
+				style="@style/AlipayNormalText320x480"
+				android:layout_marginTop = "15dp"
+				android:layout_marginLeft="5dp"
+				android:layout_height="wrap_content"
+				android:layout_width="fill_parent"
+				android:text="@string/PayPayingPassword"
+				android:textColor="@color/TextColorRed"
+				android:visibility="gone">
+			</TextView>
+			
+			<EditText
+				android:id="@+id/PayPasswordEdit"
+				style="@style/AlipayInputEditText320x480"
+				android:layout_marginTop="5dp"
+				android:layout_marginLeft="5dp"
+				android:layout_marginRight="5dp"
+				android:visibility="gone">
+			</EditText>
+			
+			<Button
+				android:id="@+id/PhoneBindingEnsureButton"
+				android:layout_marginTop="25dp"
+				android:layout_gravity="center_horizontal"
+				android:gravity="center"
+				android:text="@string/barcode_guide_next"
+				style="@style/AlipayNormalButtonStyle320x480">
+			</Button>
+			
+			<LinearLayout
+                android:id="@+id/PhoneBindingPromptLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft ="5dp"
+                android:layout_marginRight ="5dp"
+                android:layout_marginTop = "20dp"
+                android:background="@drawable/list_normal"
+                >
+               
+                <TextView
+                    android:layout_marginLeft ="5dp"
+                    android:layout_marginRight ="5dp"
+                    android:layout_marginTop = "2dp"
+                    android:textSize="16dp"
+                    style="@style/AlipayNormalText320x480"
+                    android:text="@string/BindingPhoneFreePrompt">
+                </TextView>
+                
+                <TextView
+                    android:layout_marginLeft ="5dp"
+                    android:layout_marginRight ="5dp"
+                    android:layout_marginTop = "10dp"
+                    android:layout_marginBottom = "2dp"
+                    android:textSize="16dp"
+                    style="@style/AlipayNormalText320x480"
+                    android:text="@string/BindingPhonePrivatePrompt">
+                </TextView>
+            </LinearLayout>
+			
+		</LinearLayout>
+	
+	</ScrollView>
+
+</RelativeLayout>

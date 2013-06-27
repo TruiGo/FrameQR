@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/application_bg" android:orientation="vertical" >
+        <!-- 标题 -->
+    <RelativeLayout style="@style/title" >
+        <TextView
+            android:id="@+id/title_text" style="@style/title_text"
+            android:text="@string/transfer_service_text"/>
+    </RelativeLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" 
+    	android:background="@drawable/title_shadow" />
+    
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+        android:layout_marginLeft="10dp" android:background="@drawable/application_bg_white"
+        android:layout_marginTop="0dp" android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp">
+        <WebView 
+		    android:id="@+id/transferServiceWebView"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:component="http://schemas.android.com/apk/res/com.eg.android.AlipayGphone"
+    style="@style/application_bg"
+    android:orientation="vertical" >
+    <!-- 标题 -->
+    <RelativeLayout style="@style/title" android:focusable="false" >
+        <TextView android:id="@+id/title_text" style="@style/title_text" android:text="@string/receiverInput" />
+    </RelativeLayout>
+	<!-- 刷选条件 -->
+	<LinearLayout 
+     	android:id="@+id/filter" android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:background="@drawable/title_filter_bg" android:layout_below="@id/title_text">
+		<Button android:text="@string/inputReceiver" android:background="@drawable/tab_selector"
+			android:id="@+id/inputReceiver" android:layout_width="0dp"
+			android:paddingTop="10dp" android:paddingBottom="12dp"
+			android:textSize="18sp" android:textColor="@drawable/tab_text_color"
+			android:layout_height="wrap_content" android:layout_weight="1"/>
+		<Button android:text="@string/shakeReceiver" android:background="@drawable/tab_selector"
+			android:id="@+id/shakeReceiver" android:layout_width="0dp"
+			android:paddingTop="10dp" android:paddingBottom="12dp"
+			android:textSize="18sp" android:textColor="@drawable/tab_text_color"
+			android:layout_height="wrap_content" android:layout_weight="1" />
+	</LinearLayout>   
+	<LinearLayout android:id="@+id/inputReceiverCanvas"
+	    android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+	    android:background="@drawable/application_bg_white" android:layout_margin="10dp">
+	    <com.alipay.android.comon.component.EditTextWithButton
+	        android:id="@+id/receiverAccountInput"
+	        style="@style/editText_with_button_style"
+	        android:focusable="true"
+	        component:inputHint="@string/receiverInputHint" />
+	    <Button
+	        android:id="@+id/confirmTransformInfoButton"
+	        style="@style/main_button"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="10dp"
+	        android:text="@string/PhoneInputNext" />
+    </LinearLayout>
+    
+	<LinearLayout 
+	    android:id="@+id/discoverReceiverCanvas" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	    <include layout="@layout/discover_result"/>
+        
+	    <LinearLayout android:id="@+id/loadingCanvas" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	        <LinearLayout android:id="@+id/loadingView" android:orientation="vertical" android:layout_width="fill_parent" 
+	            android:layout_height="fill_parent" android:gravity="center" >
+		        <ImageView android:id="@+id/discovering_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40dp"/>
+		        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal" 
+		            android:gravity="center">
+		            <ProgressBar android:id="@+id/discoverLoadingBar" style="?android:attr/progressBarStyleSmall" android:layout_width="wrap_content" 
+			            android:layout_height="wrap_content" android:indeterminateDrawable="@drawable/progress_bar_style"/>
+			        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/discovering" 
+			            android:textSize="16sp" android:layout_marginLeft="8dp"/>
+		        </LinearLayout>
+		    </LinearLayout>
+		    
+            <LinearLayout android:orientation="vertical" android:id="@+id/resultView" android:layout_width="fill_parent" 
+		        android:layout_height="fill_parent" android:gravity="center_horizontal">
+		        <TextView android:id="@+id/discoverResult" android:layout_width="fill_parent" android:layout_height="wrap_content" 
+		            android:paddingLeft="8dp" android:paddingTop="4dp" android:paddingBottom="4dp"
+		            android:text="@string/found_total_receiver" android:textColor="#9d9d9d"/>
+		        <ImageView android:layout_width="fill_parent" android:layout_height="1dp" android:background="@drawable/list_line"/>
+			    <ListView android:id="@+id/discoveredResultList" android:layout_width="fill_parent" android:layout_height="wrap_content" 
+			        android:cacheColorHint="@android:color/transparent" android:divider="@drawable/list_line" android:dividerHeight="1dp"/>
+			    <ImageView android:layout_width="fill_parent" android:layout_height="2dp" android:background="@drawable/solid_line"/>
+			   	<LinearLayout android:id="@+id/discoverLoading" android:orientation="vertical" android:layout_width="fill_parent" 
+		     	    android:layout_height="wrap_content" android:gravity="center" android:layout_marginTop="8dp">
+			        <ProgressBar android:id="@+id/resultLoadingBar" style="?android:attr/progressBarStyleSmall" android:indeterminateDrawable="@drawable/progress_bar_style"
+		           		android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+			        <TextView android:id="@+id/resultLoadingText" android:layout_width="wrap_content" android:layout_height="wrap_content"
+			            android:text="@string/continuDiscovering" android:textSize="16sp" android:layout_marginLeft="8dp" android:textColor="#9d9d9d"/>
+		        </LinearLayout>
+		        <TextView android:layout_width="fill_parent" android:layout_height="fill_parent" android:gravity="center" android:text="@string/discoverAgain"
+		            android:id="@+id/discoverAgainText" android:visibility="gone" android:textColor="#9d9d9d" android:textSize="18sp"/>
+			</LinearLayout>
+	    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

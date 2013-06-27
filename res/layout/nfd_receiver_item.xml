@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+    <TextView 
+        android:id="@+id/receiverUserName" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textSize="18sp" android:paddingTop="8dp" android:paddingLeft="15dp" android:paddingRight="15dp"
+        android:textColor="#dbdada"/>
+    <TextView 
+        android:id="@+id/receiverUserAccount" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textSize="16sp" android:paddingBottom="8dp" android:paddingLeft="15dp" android:paddingRight="15dp"
+        android:layout_below="@id/receiverUserName" android:textColor="#9d9d9d"/>
+    <TextView 
+        android:id="@+id/payTip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textSize="16sp" android:layout_centerVertical="true" android:textColor="#dbdada" 
+        android:layout_alignParentRight="true" android:text="@string/payToOther" android:paddingRight="15dp"/>
+</RelativeLayout>

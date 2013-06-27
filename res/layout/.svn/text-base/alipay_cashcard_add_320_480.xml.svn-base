@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/application_bg">
+	
+	<include layout="@layout/alipay_subtitle_320_480" />
+	
+	<ScrollView
+		android:id="@+id/CashcardAllCanvas"
+		android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_below="@+id/AlipaySubTitle">
+	    
+	    <RelativeLayout
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="fill_parent">
+	    	
+	    	<LinearLayout
+				android:id="@+id/CashcardInfoLayout"
+				style="@style/AlipayInputCanvas320x480"
+				android:orientation="vertical">
+				
+				<LinearLayout
+					android:id="@+id/CashcardAccountTypeLayout"
+					android:orientation="horizontal" 
+					style="@style/AlipayInputCanvas320x480"
+					android:layout_marginTop="3dp">
+					<TextView
+						android:id="@+id/CashcardAccountTypeTitle"
+						android:text="@string/CashcardBankType"
+						style="@style/AlipayInputNameTextLong320x480"
+						android:gravity="right">
+					</TextView>
+					<TextView
+						android:id="@+id/CashcardAccountType"
+						style="@style/AlipayInputContentText320x480">
+					</TextView>
+	    		</LinearLayout>
+	    		
+	    		<LinearLayout
+					android:id="@+id/CashcardAccountTypeLayout"
+					android:orientation="horizontal" 
+					style="@style/AlipayInputCanvas320x480"
+					android:layout_marginTop="3dp">
+					<TextView
+						android:id="@+id/CashcardUserNameTitle"
+						android:text="@string/CashcardAccountName"
+						style="@style/AlipayInputNameTextLong320x480"
+						android:singleLine="true"
+						android:gravity="right">
+					</TextView>
+					<TextView
+						android:id="@+id/CashcardUserName"
+						style="@style/AlipayInputContentText320x480">
+					</TextView>
+	    		</LinearLayout>
+	    		
+	    		<!-- 城市选择 -->
+	    		<TextView
+					android:id="@+id/CashcardAccountCity"
+					android:textSize="16dp"
+					style="@style/AlipayInfoText320x480"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="8dp"
+					android:layout_marginLeft="8dp"
+					android:text="@string/CashcardAccountCity">
+				</TextView>
+				
+				<Spinner
+					android:id="@+id/SelectCitySpinner"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="6dp"
+					android:prompt="@string/SelectBank"
+					android:layout_marginLeft="8dp"
+					android:layout_marginRight="8dp"
+					android:background="@drawable/alipay_dropdown_button"
+					android:textColor="@color/TextColorBlack">
+				</Spinner>
+				
+				<TextView
+					android:id="@+id/CashcardAccountCityPrompt"
+					android:textSize="14dp"
+					android:textColor="@color/TextColorTip"
+					style="@style/AlipayInfoText320x480"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="3dp"
+					android:layout_marginLeft="8dp"
+					android:text="@string/CashcardAccountCityPrompt">
+				</TextView>
+				
+				<!-- 银行选择 -->
+				<TextView
+					android:id="@+id/CashcardSelectedBank"
+					android:textSize="16dp"
+					style="@style/AlipayInfoText320x480"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="8dp"
+					android:layout_marginLeft="8dp"
+					android:text="@string/CashcardSelectedBank">
+				</TextView>
+				
+				<Spinner
+					android:id="@+id/SelectBankSpinner"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="6dp"
+					android:prompt="@string/SelectBank"
+					android:layout_marginLeft="8dp"
+					android:layout_marginRight="8dp"
+					android:background="@drawable/alipay_dropdown_button"
+					android:textColor="@color/TextColorBlack">
+				</Spinner>
+				
+				<LinearLayout
+					android:id="@+id/CashcardNumberLayour"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:addStatesFromChildren="true"
+					android:gravity="center_vertical"
+					android:paddingRight="0dip"
+					android:background="@drawable/alipay_input"
+					android:layout_margin="8dp">
+			        <TextView
+			           style="@style/AlipayInputText"
+			           android:text="@string/CashcardNumber"
+			           android:textAppearance="?android:attr/textAppearanceLargeInverse"
+			        />
+			        <EditText
+			       	   android:id="@+id/CashcardNumberInput"
+			           android:layout_width="wrap_content"
+			           android:layout_height="wrap_content"
+			           android:layout_weight="1"
+			           android:singleLine="true"
+			           android:background="@null"
+			           android:password="true"
+			           android:layout_marginRight="5dp"
+			           android:textSize="16dp"
+			           android:textColor="@color/TextColorBlack"
+			        />
+			    </LinearLayout>	
+				
+				<TextView
+					android:id="@+id/CashcardAddNewPrompt"
+					android:textSize="14dp"
+					android:textColor="@color/TextColorTip"
+					style="@style/AlipayInfoText320x480"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="3dp"
+					android:layout_marginLeft="8dp"
+					android:text="@string/CashcardAddNewPrompt">
+				</TextView>
+	    		
+	    	</LinearLayout>
+	    	
+	    	<Button
+				android:id="@+id/CashcardAddButton"
+				android:layout_marginTop="25dp"
+				android:layout_marginLeft="50dp"
+				android:layout_marginRight="50dp"
+				android:layout_marginBottom="10dp"
+				android:layout_below="@id/CashcardInfoLayout"
+				android:text="@string/AccountOutputEnsureStr"
+				style="@style/AlipayNormalButtonStyle320x480">
+			</Button>
+	    	
+		</RelativeLayout>
+	</ScrollView>	
+</RelativeLayout>

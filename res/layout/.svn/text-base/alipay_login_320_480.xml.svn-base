@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:component="http://schemas.android.com/apk/res/com.eg.android.AlipayGphone"
+    android:id="@+id/AlipayLogin"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/application_bg"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+
+    <include
+        android:id="@+id/logintitle"
+        layout="@layout/alipay_logintitle" />
+
+    <ScrollView
+        android:id="@+id/LoginScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/logintitle"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:paddingTop="10dp"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:isScrollContainer="true" 
+        android:background="@drawable/application_bg_white" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/LoginLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/LoginAccountBG"
+                    style="@style/AlipayBGCanvas320x480"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1" >
+
+                    <LinearLayout
+                        android:id="@+id/AlipayLoginAccountInput"
+                        style="@style/AlipayInputCanvas320x480" >
+
+                        <com.alipay.android.comon.component.SmartInputTextView
+                            android:id="@+id/LoginAccountEditText"
+                            style="@style/AutoCompleteTextViewStyle_Half"
+                            android:layout_width="wrap_content"
+                            android:layout_weight="1"
+                            android:completionThreshold="1"
+                            android:dropDownAnchor="@+id/offline"
+                            android:textColor="@color/TextColorBlack"
+                            android:textColorHint="@color/loginedithint_color"
+                            android:textSize="16dp" />
+
+                        <ImageView
+                            android:id="@+id/LoginAccountButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@id/LoginAccountEditText"
+                            android:layout_gravity="center_vertical|right"
+                            android:background="@drawable/comboxbutton" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/offline"
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:layout_below="@id/AlipayLoginAccountInput" >
+                    </TextView>
+
+                    <com.alipay.android.comon.component.EditTextWithButton
+                        android:id="@+id/LoginPasswordEditText"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@id/AlipayLoginAccountInput"
+                        android:layout_marginTop="10dp"
+                        android:addStatesFromChildren="true"
+                        android:background="@drawable/alipay_input"
+                        android:gravity="center"
+                        component:inputHintTextColor="@color/loginedithint_color"
+                        component:inputHint="@string/LoginPwdHint"
+                        component:inputType="textPassword" />
+
+                    <LinearLayout
+                        android:id="@+id/AlipayLoginBottomLayout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/LoginPasswordEditText"
+                        android:orientation="vertical" >
+
+                        <RelativeLayout
+                            android:id="@+id/InputCheckCodeLayout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginTop="5dp"
+                            android:visibility="gone" >
+
+                            <ImageView
+                                android:id="@+id/CheckCodeImage"
+                                android:layout_width="wrap_content"
+                                android:layout_height="44dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginRight="2dp"
+                                android:layout_marginTop="10dp"
+                                android:padding="5dip"
+                                android:scaleType="fitXY" >
+                            </ImageView>
+
+                            <LinearLayout
+                                android:id="@+id/AlipayLoginCheckCodeInput"
+                                android:layout_width="fill_parent"
+                                android:layout_height="40dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_toLeftOf="@id/CheckCodeImage"
+                                android:layout_weight="1"
+                                android:addStatesFromChildren="true"
+                                android:background="@drawable/alipay_input"
+                                android:gravity="center" >
+
+                                <TextView
+                                    android:id="@+id/CheckCodeName"
+                                    style="@style/AlipayInputText"
+                                    android:layout_gravity="center_vertical|left"
+                                    android:text="@string/InputCheckCodePrompt" />
+
+                                <EditText
+                                    android:id="@+id/ImageCheckCodeEditText"
+                                    style="@style/AlipayLoginPasswordInputEditText320x480"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:background="@null"
+                                    android:imeOptions="actionDone"
+                                    android:maxLength="10"
+                                    android:password="false"
+                                    android:singleLine="true"
+                                    android:textColor="@color/TextColorBlack"
+                                    android:textSize="16dp" >
+                                </EditText>
+                            </LinearLayout>
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:id="@+id/AlipayButtonLayout"
+                            style="@style/AlipayInputCanvas320x480"
+                            android:layout_marginTop="15dp" >
+
+                            <Button
+                                android:id="@+id/AlipayLoginButton"
+                                style="@style/AlipayCashButtonStyle"
+                                android:layout_width="fill_parent"
+                                android:layout_weight="1"
+                                android:padding="0dp"
+                                android:text="@string/MenuStart" >
+                            </Button>
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/AlipayLoginSPCanva"
+                            style="@style/AlipayInputCanvas320x480"
+                            android:layout_marginTop="10dp" >
+
+                            <CheckBox
+                                android:id="@+id/LoginStoredPasswordCheckBox"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:button="@drawable/btn_check"
+                                android:checked="false"
+                                android:text="@string/autologin"
+                                android:textColor="@color/TextColorBlack" >
+                            </CheckBox>
+
+                            <TextView
+                                android:id="@+id/AlipayRetrieveTextview"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginTop="5dp"
+                                android:focusable="true"
+                                android:textColor="#408CD9"
+                                android:textSize="16dp" >
+                            </TextView>
+                        </RelativeLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/solidLine"
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/LoginLayout"
+                android:background="@drawable/dotlinerepeat" />
+
+            <LinearLayout
+                android:id="@+id/LoginType"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@id/solidLine"
+                android:orientation="vertical"
+                android:gravity="bottom">
+                <Button
+                    android:id="@+id/signupbutton"
+                    style="@style/NormalButtonSubStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/logintypebutton"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:text="@string/Register"
+                    android:textSize="18sp" />
+                
+                <Button
+                    android:id="@+id/logintypebutton"
+                    style="@style/NormalButtonSubStyle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/LoginImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:visibility="gone" >
+    </ImageView>
+
+    <ViewStub
+        android:id="@+id/welcomeuse"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:inflatedId="@+id/welcomeuse"
+        android:layout="@layout/welcome_use" />
+
+    <ViewStub
+        android:id="@+id/pattern"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:inflatedId="@+id/pattern"
+        android:layout="@layout/alipay_patterncomponent" />
+
+</RelativeLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="EditTextWithButton">
+		<attr name="inputName" format="string|reference"/>
+		<attr name="inputNameTextSize" format="dimension"/>
+		<attr name="inputTextSize" format="dimension"/>
+		<attr name="inputId" format="integer|reference"/>
+		<attr name="buttonBackgound" format="integer|reference"/>
+		<attr name="buttonVisiable" format="boolean"/>
+		<attr name="inputHint" format="string|reference"/>
+		<attr name="inputHintTextColor" format="color|reference"/>
+		<attr name="inputTextColor" format="color|reference"/>
+		<attr name="maxLength" format="integer"/>
+		<attr name="isAlipayMoney" format="boolean"/>
+		<attr name="inputType">
+		    <flag name="textNormal" value="0x1"/>
+		    <flag name="textNumber" value="0x2"/>
+		    <flag name="textDecimal" value="0x2002"/>
+		    <flag name="textPassword" value="0x81"/>
+		</attr>
+	</declare-styleable>
+	<declare-styleable name="LockView">
+	    <attr name="gridFocused" format="integer|reference" />
+	    <attr name="gridNormal" format="integer|reference" />
+	</declare-styleable>
+	<declare-styleable name="LockIndicator">
+	    <attr name="gridFocused"/>
+	    <attr name="gridNormal"/>
+	</declare-styleable>
+	<declare-styleable name="Pattern">
+	    <attr name="patternStyle" format="string"/>
+	</declare-styleable>
+	<declare-styleable name="NumberView">
+	    <attr name="text" format="string|reference" />
+	    <attr name="type" >
+	        <enum name = "gold" value = "0"></enum>
+	        <enum name = "silver" value = "1"></enum>
+	    </attr> 
+	</declare-styleable>
+	
+	
+	
+	<declare-styleable name="ViewFlow">
+        <attr name="sidebuffer" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="CircleFlowIndicator">
+        <attr name="activeColor" format="color" />
+        <attr name="inactiveColor" format="color" />
+        <attr name="radius" format="dimension" />
+		<attr name="centered" format="boolean" />
+		<attr name="fadeOut" format="integer" />
+		<attr name="inactiveType">
+			<flag name="stroke" value="0" />
+			<flag name="fill" value="1" />
+		</attr>
+		<attr name="activeType">
+			<flag name="stroke" value="0" />
+			<flag name="fill" value="1" />
+		</attr>
+    </declare-styleable>
+    
+    <declare-styleable name="NumberIndicator">
+		<attr name="leftIndicator" format="reference"/>
+		<attr name="rightIndicator" format="reference"/>
+		<attr name="leftTextSize" format="dimension"/>
+		<attr name="rightTextSize" format="dimension"/>
+		<attr name="leftTextColor" format="color|reference"/>
+		<attr name="rightTextColor" format="color|reference"/>
+    </declare-styleable>
+    
+    <declare-styleable name="TitleFlowIndicator">
+        <attr name="titlePadding" format="dimension" />
+        <!-- Left/right padding of not active view titles. -->
+        <attr name="clipPadding" format="dimension" />
+        <attr name="selectedColor" format="color" />
+        <attr name="selectedBold" format="boolean" />
+        <attr name="selectedSize" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="footerLineHeight" format="dimension" />
+        <attr name="footerColor" format="color" />
+        <attr name="footerTriangleHeight" format="dimension" />
+        <attr name="customTypeface" format="string" />
+    </declare-styleable>    
+	<declare-styleable name="CropImage">
+		<attr name="width" format="integer" min="0"/>
+		<attr name="height" format="integer" min="0"/>
+	</declare-styleable>
+	
+	<declare-styleable name="SlidingDrawer">
+        <!-- Identifier for the child that represents the drawer's handle. -->
+        <attr name="handle" format="reference" />
+        <!-- Identifier for the child that represents the drawer's content. -->
+        <attr name="content" format="reference" />
+        <!-- Orientation of the SlidingDrawer. -->
+        <attr name="orientation" format="string"/>
+        <!-- Extra offset for the handle at the bottom of the SlidingDrawer. -->
+        <attr name="bottomOffset" format="dimension"  />
+        <!-- Extra offset for the handle at the top of the SlidingDrawer. -->
+        <attr name="topOffset" format="dimension"  />
+        <!-- Indicates whether the drawer can be opened/closed by a single tap
+             on the handle.  (If false, the user must drag or fling, or click
+             using the trackball, to open/close the drawer.)  Default is true. -->
+        <attr name="allowSingleTap" format="boolean" />
+        <!-- Indicates whether the drawer should be opened/closed with an animation
+             when the user clicks the handle. Default is true. -->
+        <attr name="animateOnClick" format="boolean" />
+    </declare-styleable>
+</resources>

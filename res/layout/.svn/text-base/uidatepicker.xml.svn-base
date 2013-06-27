@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/linearLayout1" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:orientation="vertical">
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/linearLayout2" android:orientation="horizontal" >
+		<AnalogClock android:id="@+id/analogClock1"
+			android:layout_width="60dp" android:layout_height="60dp" android:layout_marginLeft="4dp"></AnalogClock>
+		<TextView android:layout_weight="1" android:text="TextView" android:id="@+id/currentTime"
+			android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center_horizontal|center_vertical"
+			android:gravity="center_horizontal"></TextView>
+	</LinearLayout>
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/linearLayout3" android:gravity="center_horizontal">
+		<DatePicker android:id="@+id/datePicker1" android:layout_width="wrap_content" android:layout_height="wrap_content"></DatePicker>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AlipayLogin"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/application_bg"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+
+    <include layout="@layout/alipay_subtitle_320_480"/>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/AlipaySubTitle"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+        android:background="@drawable/application_bg_white"
+        android:fillViewport="true"
+        android:isScrollContainer="true"
+        android:paddingTop="10dp" >
+        
+        <include layout="@layout/alipay_express_verify" />
+
+    </ScrollView>
+
+</RelativeLayout>

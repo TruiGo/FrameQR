@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:component="http://schemas.android.com/apk/res/com.eg.android.AlipayGphone"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:scrollbars="vertical" android:background="@drawable/application_bg">
+
+	<include layout="@layout/alipay_subtitle_320_480" />
+	<LinearLayout 
+			    android:id="@+id/TabLayout"
+			    android:layout_below="@+id/AlipaySubTitle"
+			    android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:background="@drawable/title_filter_bg">
+				<Button android:text="@string/MyCC" 
+				    android:background="@drawable/tab_selector"
+					android:id="@+id/OldUserButton" 
+					android:layout_width="fill_parent"
+					android:paddingTop="10dp" 
+					android:paddingBottom="12dp"
+					android:textSize="18sp" 
+					android:textColor="@drawable/tab_text_color"
+					android:layout_height="wrap_content" android:layout_weight="1" />
+				<Button android:text="@string/NewCC" 
+					android:id="@+id/NewUserButton" 
+					android:layout_width="fill_parent"
+					android:paddingTop="10dp" 
+					android:paddingBottom="12dp"
+					android:textSize="18sp" 
+					android:background="@drawable/tab_selector"
+					android:layout_height="wrap_content" 
+					android:textColor="@drawable/tab_text_color"
+					android:layout_weight="1" />
+			</LinearLayout>
+	
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:layout_below="@+id/TabLayout"
+		android:background="@drawable/application_bg_white"
+        	android:layout_marginLeft="5dp"
+         	android:layout_marginRight="5dp"
+         	android:layout_marginBottom="3dp"
+         	android:layout_marginTop="3dp">
+		<LinearLayout 
+		    android:layout_width="fill_parent"
+			android:layout_height="fill_parent" 
+			android:orientation="vertical"
+			>
+			<RelativeLayout 
+			    android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:paddingBottom="10dp"
+				>
+				<com.alipay.android.comon.component.EditTextWithButton
+					android:id="@+id/BankAccountEditText" 
+					android:layout_width="fill_parent"
+					android:layout_height="40dp" 
+					android:addStatesFromChildren="true"
+					android:gravity="center" 
+					android:layout_marginTop="10dp"
+					android:layout_marginLeft="10dp" 
+					android:layout_marginRight="10dp"
+					android:background="@drawable/alipay_input" 
+					component:inputHint="@string/BankAccount"
+					component:inputType="textNumber" 
+					component:inputTextColor="#0000ff"
+					component:maxLength="19" />
+
+				<TextView android:id="@+id/AccountHint"
+					android:layout_below="@id/BankAccountEditText" android:textColor="@color/TextColorTip"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:layout_alignParentLeft="true" android:layout_marginTop="5dp"
+					android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+					android:textSize="12dp" android:text="@string/CCRAccountHint">
+				</TextView>
+				<Spinner 
+				    android:layout_width="fill_parent"
+					android:layout_height="wrap_content" 
+					android:layout_below="@id/AccountHint"
+					android:layout_marginLeft="10dp" 
+					android:layout_marginRight="10dp"
+					android:layout_marginTop="10dp" 
+					android:id="@+id/SelectBank"
+					android:prompt="@string/SelectBankHint" 
+					android:contentDescription="@string/SelectBankHint"
+					android:layout_gravity="center_vertical" 
+					android:background="@drawable/alipay_dropdown_button"
+					android:textColor="@color/TextColorBlack">
+				</Spinner>
+				<TextView 
+				    android:id="@+id/SelectBankHint"
+					android:layout_below="@id/SelectBank" 
+					android:textColor="@color/TextColorTip"
+					android:layout_width="fill_parent" 
+					android:layout_height="wrap_content"
+					android:layout_alignParentLeft="true" 
+					android:layout_marginTop="5dp"
+					android:layout_marginLeft="10dp" 
+					android:layout_marginRight="10dp"
+					android:textSize="12dp" >
+				</TextView>
+
+				<com.alipay.android.comon.component.EditTextWithButton
+					android:id="@+id/UserNameEditText" 
+					android:layout_below="@id/SelectBankHint"
+					android:layout_width="fill_parent" android:layout_height="40dp"
+					android:layout_marginTop="10dp" android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp" android:addStatesFromChildren="true"
+					android:gravity="center" android:background="@drawable/alipay_input"
+					component:inputHint="@string/UserNameHint" component:maxLength="32">
+				</com.alipay.android.comon.component.EditTextWithButton>
+				<TextView android:id="@+id/UserNameHint"
+					android:layout_below="@id/UserNameEditText" android:textColor="@color/TextColorTip"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:layout_alignParentLeft="true" android:layout_marginTop="5dp"
+					android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+					android:textSize="12dp" android:text="@string/UserNamestr">
+				</TextView>
+				<com.alipay.android.comon.component.EditTextWithButton
+					android:id="@+id/CCRCount" android:layout_below="@id/UserNameHint"
+					android:layout_width="fill_parent" android:layout_height="40dp"
+					android:layout_marginTop="10dp" android:layout_marginLeft="10dp"
+					android:layout_marginRight="10dp" android:maxLength="10"
+					android:layout_weight="1" android:addStatesFromChildren="true"
+					android:background="@drawable/alipay_input" component:inputType="textDecimal"
+					component:inputHint="@string/CountHint" component:maxLength="10">
+				</com.alipay.android.comon.component.EditTextWithButton>
+				<TextView android:id="@+id/LimitHint" android:layout_below="@id/CCRCount"
+					android:textColor="@color/TextColorTip" android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_alignParentLeft="true" android:layout_marginTop="5dp"
+					android:layout_marginLeft="10dp" android:layout_marginRight="10dp"
+					android:textSize="12dp" android:text="@string/BankMoneyLimitTip">
+				</TextView>
+				<LinearLayout android:id="@+id/CCRCountTip"
+					android:layout_width="fill_parent" android:layout_height="wrap_content"
+					android:layout_below="@id/LimitHint" android:orientation="horizontal" android:layout_marginTop="5dp">
+					<TextView android:id="@+id/BankSearchTelephone"
+						android:textColor="@color/TextColorTip" android:textSize="12dp"
+						android:layout_width="wrap_content" android:layout_height="wrap_content"
+						android:layout_alignParentLeft="true" android:layout_marginLeft="10dp"
+					>
+					</TextView>
+					<ImageView android:layout_marginLeft="5dp" android:layout_width="63dp"
+					    android:id="@+id/BankPhoneIcon"
+						android:layout_height="12dp" android:background="@drawable/tel_icon"
+						android:layout_gravity="center" android:visibility="gone"/>
+					<TextView android:id="@+id/BankPhone"
+						android:layout_width="wrap_content" android:layout_height="11dp"
+						android:textColor="@color/TextColorBlue" android:layout_gravity="center" android:visibility="gone"/>
+					<ImageView android:id="@+id/SendBankMsgIcon" android:layout_width="wrap_content"
+						android:layout_height="12dp" android:background="@drawable/sms_icon"
+						android:layout_gravity="center" android:layout_marginLeft="5dp" android:visibility="gone"/>
+				</LinearLayout>
+				<Button android:text="@string/PayYourAccountCheckButtonString"
+					android:layout_margin="15dp" android:id="@+id/next"
+					android:layout_below="@id/CCRCountTip" style="@style/AlipayCashButtonStyle"
+					android:layout_gravity="center_horizontal">
+				</Button>
+				<ImageView android:id="@+id/CCRtiyanjin" android:layout_below="@id/next" android:layout_width="wrap_content" 
+						android:layout_height="wrap_content" android:background="@drawable/alipay_ccr_tiyanjin"
+						android:layout_gravity="center" android:layout_marginTop="5dp"
+					android:visibility="gone"/>
+			</RelativeLayout>
+			</LinearLayout>
+	</ScrollView>
+
+</RelativeLayout>

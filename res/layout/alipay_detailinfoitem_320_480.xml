@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/DetailInfoItemCanvas"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bill_list_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/Line1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="9dp"
+		android:layout_marginRight="9dp"
+		android:layout_marginTop="10dp"
+		android:layout_marginBottom="5dp"
+		android:paddingLeft="3dp"
+		android:paddingRight="3dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/DetailInfoItemUpperLine1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/TextColorBlack"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/DetailInfoItemLowerLine1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/text_gray"
+            android:textSize="14dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="3dp"
+		android:paddingRight="3dp"
+        android:layout_marginLeft="9dp"
+		android:layout_marginRight="9dp"
+		android:layout_marginBottom="10dp"
+		android:paddingBottom="5dp" >
+
+        <TextView
+            android:id="@+id/accountBalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/text_gray"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/DetailInfoItemRightCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/text_gray"
+            android:textSize="14dp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/ShouzhiListDivide"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bill_list_divide" />
+
+    <TextView
+        android:id="@+id/DealMore"
+        style="@style/AlipayListInfoCenterText320x480"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/DetailInfoItemIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:scaleType="centerInside"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/ListEnd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/bill_list_title"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:paddingLeft="15dp" android:paddingRight="15dp" android:id="@+id/list_item"
+	android:layout_width="fill_parent" android:layout_height="60dp">
+	<RelativeLayout android:layout_height="fill_parent"
+		android:layout_width="fill_parent" android:layout_weight="1">
+		<TextView android:id="@+id/lottery_title" android:text="aaaaaa" android:textSize="16sp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:textColor="@color/TextColorBlack"/>
+		<TextView android:id="@+id/lottery_status" android:text="aaaaaa" android:textSize="16sp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_alignParentRight="true" android:layout_centerVertical="true" android:textColor="@color/TextColorYellow" />
+	</RelativeLayout>
+
+	<RelativeLayout android:layout_height="fill_parent"
+		android:layout_width="fill_parent" android:layout_weight="1">
+		<TextView android:id="@+id/lottery_date" android:text="aaaaaa" android:textSize="16sp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+		<TextView android:id="@+id/lottery_amount" android:text="aaaaaa" android:textSize="16sp"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+	</RelativeLayout>
+</LinearLayout>

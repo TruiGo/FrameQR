@@ -1,0 +1,393 @@
+# view res/layout/coupon_detail_front.xml #generated:89
+# view res/layout/voucher_verify_info.xml #generated:111
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:132
+-keep class com.alipay.android.appHall.component.accountbox.AlipayContact { <init>(...); }
+
+# view AndroidManifest.xml #generated:127
+-keep class com.alipay.android.appHall.component.accountbox.AlipaySearchAccountActivity { <init>(...); }
+
+# view res/layout/alipay_accountmanager_new.xml #generated:2
+# view res/layout/record_list.xml #generated:2
+# view res/layout/voucher_list.xml #generated:2
+-keep class com.alipay.android.appHall.uiengine.AnimRelativeLayout { <init>(...); }
+
+# view 1184x720/res/layout-1184x720/mainactivity_layout.xml #generated:2
+# view 1280x720/res/layout-1280x720/mainactivity_layout.xml #generated:2
+# view 1280x768/res/layout-1280x768/mainactivity_layout.xml #generated:2
+# view 1280x800/res/layout-1280x800/mainactivity_layout.xml #generated:2
+# view 320x240/res/layout-320x240/mainactivity_layout.xml #generated:2
+# view 480x320/res/layout-480x320/mainactivity_layout.xml #generated:2
+# view 728x480/res/layout-728x480/mainactivity_layout.xml #generated:2
+# view 800x480/res/layout-800x480/mainactivity_layout.xml #generated:2
+# view 854x480/res/layout-854x480/mainactivity_layout.xml #generated:2
+# view 888x540/res/layout-888x540/mainactivity_layout.xml #generated:2
+# view 960x540/res/layout-960x540/mainactivity_layout.xml #generated:2
+# view 960x640/res/layout-960x640/mainactivity_layout.xml #generated:2
+# view res/layout/mainactivity_layout.xml #generated:2
+-keep class com.alipay.android.appHall.uiengine.CacheFrameLayout { <init>(...); }
+
+# view AndroidManifest.xml #generated:375
+-keep class com.alipay.android.bizapp.CCR.CCRActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:234
+-keep class com.alipay.android.client.AlipayAccountManager { <init>(...); }
+
+# view AndroidManifest.xml #generated:320
+-keep class com.alipay.android.client.AlipayAgentAnylink { <init>(...); }
+
+# view AndroidManifest.xml #generated:315
+-keep class com.alipay.android.client.AlipayAgentPay { <init>(...); }
+
+# view AndroidManifest.xml #generated:325
+-keep class com.alipay.android.client.AlipayAgentSomeone { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.alipay.android.client.AlipayApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:364
+-keep class com.alipay.android.client.AlipayBarcodeDisplay { <init>(...); }
+
+# view AndroidManifest.xml #generated:360
+-keep class com.alipay.android.client.AlipayBarcodePayGuideActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:332
+-keep class com.alipay.android.client.AlipayCashcardAdd { <init>(...); }
+
+# view AndroidManifest.xml #generated:337
+-keep class com.alipay.android.client.AlipayCashcardManage { <init>(...); }
+
+# view AndroidManifest.xml #generated:200
+-keep class com.alipay.android.client.AlipayContact { <init>(...); }
+
+# view AndroidManifest.xml #generated:559
+-keep class com.alipay.android.client.AlipayPushLinkService { <init>(...); }
+
+# view AndroidManifest.xml #generated:388
+-keep class com.alipay.android.client.AlipaySystemMsgDetail { <init>(...); }
+
+# view AndroidManifest.xml #generated:205
+-keep class com.alipay.android.client.AlipayUserInfoSupplement { <init>(...); }
+
+# view AndroidManifest.xml #generated:407
+-keep class com.alipay.android.client.FreeFlowActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:184
+-keep class com.alipay.android.client.LifePayHistoryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:70
+-keep class com.alipay.android.client.Login { <init>(...); }
+
+# view AndroidManifest.xml #generated:268
+-keep class com.alipay.android.client.Main { <init>(...); }
+
+# view AndroidManifest.xml #generated:76
+-keep class com.alipay.android.client.PatternLockActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:510
+-keep class com.alipay.android.client.PushDistributer { <init>(...); }
+
+# view AndroidManifest.xml #generated:431
+-keep class com.alipay.android.client.SoundAgreementActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:190
+-keep class com.alipay.android.client.SubItemAccountDetailInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:158
+-keep class com.alipay.android.client.SubItemAccountQueryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:163
+-keep class com.alipay.android.client.SubItemCardActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:178
+-keep class com.alipay.android.client.SubItemPucPayActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:153
+-keep class com.alipay.android.client.SubItemScoreListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:465
+-keep class com.alipay.android.client.UpdateActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:459
+-keep class com.alipay.android.client.WebViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:106
+-keep class com.alipay.android.client.advert.AdvertDetail { <init>(...); }
+
+# view AndroidManifest.xml #generated:112
+-keep class com.alipay.android.client.baseFunction.AlipayAbout { <init>(...); }
+
+# view AndroidManifest.xml #generated:301
+-keep class com.alipay.android.client.baseFunction.AlipayAccountBindingChoice { <init>(...); }
+
+# view AndroidManifest.xml #generated:421
+-keep class com.alipay.android.client.baseFunction.AlipayCCRSmsSetting { <init>(...); }
+
+# view AndroidManifest.xml #generated:296
+-keep class com.alipay.android.client.baseFunction.AlipayDealDetailInfoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:117
+-keep class com.alipay.android.client.baseFunction.AlipayFeedBack { <init>(...); }
+
+# view AndroidManifest.xml #generated:210
+-keep class com.alipay.android.client.baseFunction.AlipayGetLoginPassword { <init>(...); }
+
+# view AndroidManifest.xml #generated:216
+-keep class com.alipay.android.client.baseFunction.AlipayGetPaymentPassword { <init>(...); }
+
+# view AndroidManifest.xml #generated:222
+-keep class com.alipay.android.client.baseFunction.AlipayGetPaymentPasswordSMSTransfer { <init>(...); }
+
+# view AndroidManifest.xml #generated:142
+-keep class com.alipay.android.client.baseFunction.AlipayHelp { <init>(...); }
+
+# view AndroidManifest.xml #generated:228
+-keep class com.alipay.android.client.baseFunction.AlipayModifyPassword { <init>(...); }
+
+# view AndroidManifest.xml #generated:122
+-keep class com.alipay.android.client.baseFunction.AlipayNotifiSetting { <init>(...); }
+
+# view AndroidManifest.xml #generated:168
+-keep class com.alipay.android.client.baseFunction.AlipayPhoneBinding { <init>(...); }
+
+# view AndroidManifest.xml #generated:173
+-keep class com.alipay.android.client.baseFunction.AlipayPhoneBindingCheckcode { <init>(...); }
+
+# view AndroidManifest.xml #generated:64
+-keep class com.alipay.android.client.baseFunction.AlipayRegister { <init>(...); }
+
+# view AndroidManifest.xml #generated:98
+-keep class com.alipay.android.client.baseFunction.MessageEditor { <init>(...); }
+
+# view AndroidManifest.xml #generated:90
+-keep class com.alipay.android.client.baseFunction.MessageList { <init>(...); }
+
+# view AndroidManifest.xml #generated:383
+-keep class com.alipay.android.client.baseFunction.More { <init>(...); }
+
+# view AndroidManifest.xml #generated:481
+-keep class com.alipay.android.client.baseFunction.SendSMSCodeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:416
+-keep class com.alipay.android.client.baseFunction.SettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:196
+-keep class com.alipay.android.client.lifePayment.PaymentCity { <init>(...); }
+
+# view res/layout/payment_city_layout.xml #generated:28
+-keep class com.alipay.android.client.lifePayment.PaymentCityLetterListView { <init>(...); }
+
+# view AndroidManifest.xml #generated:349
+-keep class com.alipay.android.client.webapp.AuthoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:344
+-keep class com.alipay.android.client.webapp.webActivity { <init>(...); }
+
+# view res/layout/alipay_patterncomponent.xml #generated:1
+-keep class com.alipay.android.comon.component.AlipayPattern { <init>(...); }
+
+# view res/layout/card_details.xml #generated:36
+-keep class com.alipay.android.comon.component.ButtonList { <init>(...); }
+
+# view 1184x720/res/layout-1184x720/mainactivity_layout.xml #generated:799
+# view 320x240/res/layout-320x240/mainactivity_layout.xml #generated:799
+# view 480x320/res/layout-480x320/mainactivity_layout.xml #generated:811
+# view 728x480/res/layout-728x480/mainactivity_layout.xml #generated:801
+# view 888x540/res/layout-888x540/mainactivity_layout.xml #generated:808
+# view 960x540/res/layout-960x540/mainactivity_layout.xml #generated:809
+# view 960x640/res/layout-960x640/mainactivity_layout.xml #generated:759
+# view res/layout/mainactivity_layout_adapter_1280.xml #generated:767
+# view res/layout/mainactivity_layout_adapter_800_854.xml #generated:757
+# view res/layout/transfer_index.xml #generated:139
+-keep class com.alipay.android.comon.component.CommonGallery { <init>(...); }
+
+# view res/layout/transfer_confirm_userinfo.xml #generated:165
+-keep class com.alipay.android.comon.component.ContactPickerView { <init>(...); }
+
+# view res/layout/alipay_express_stepone.xml #generated:9
+# view res/layout/alipay_getpassword_320_480.xml #generated:188
+# view res/layout/alipay_getpassword_320_480.xml #generated:26
+# view res/layout/alipay_getpassword_320_480.xml #generated:51
+# view res/layout/alipay_getpassword_320_480.xml #generated:97
+# view res/layout/alipay_login_320_480.xml #generated:80
+# view res/layout/alipay_modifypassword.xml #generated:28
+# view res/layout/alipay_modifypassword.xml #generated:39
+# view res/layout/alipay_phonebinding_checkcode.xml #generated:47
+# view res/layout/alipay_phonebinding_checkcode.xml #generated:67
+# view res/layout/alipay_pucinputinfo.xml #generated:163
+# view res/layout/alipay_pucinputinfo.xml #generated:187
+# view res/layout/alipay_pucinputinfo.xml #generated:219
+# view res/layout/alipay_pucinputinfo.xml #generated:480
+# view res/layout/alipay_register_320_480.xml #generated:104
+# view res/layout/alipay_register_320_480.xml #generated:152
+# view res/layout/alipay_register_320_480.xml #generated:31
+# view res/layout/alipay_register_320_480.xml #generated:43
+# view res/layout/alipay_register_320_480.xml #generated:68
+# view res/layout/alipay_register_320_480.xml #generated:81
+# view res/layout/contact_picker.xml #generated:14
+# view res/layout/contact_search_head.xml #generated:7
+# view res/layout/page_ccr_known.xml #generated:64
+# view res/layout/page_ccr_newuser.xml #generated:102
+# view res/layout/page_ccr_newuser.xml #generated:118
+# view res/layout/page_ccr_newuser.xml #generated:53
+# view res/layout/page_ccr_olduser.xml #generated:92
+# view res/layout/quickpay_c2c_confirminfor.xml #generated:39
+# view res/layout/sms_response.xml #generated:33
+# view res/layout/transfer_confirm_userinfo.xml #generated:135
+# view res/layout/transfer_confirm_userinfo.xml #generated:30
+# view res/layout/transfer_confirm_userinfo.xml #generated:65
+# view res/layout/transfer_input_new.xml #generated:28
+# view res/layout/withdrawals_case.xml #generated:46
+-keep class com.alipay.android.comon.component.EditTextWithButton { <init>(...); }
+
+# view AndroidManifest.xml #generated:137
+-keep class com.alipay.android.comon.component.HtmlActivity { <init>(...); }
+
+# view res/layout/alipay_pattern_setting.xml #generated:37
+-keep class com.alipay.android.comon.component.LockIndicator { <init>(...); }
+
+# view res/layout/alipay_pattern.xml #generated:43
+-keep class com.alipay.android.comon.component.LockView { <init>(...); }
+
+# view res/layout/bank_card_list_item.xml #generated:24
+# view res/layout/express_card_gold.xml #generated:40
+# view res/layout/express_card_silver.xml #generated:40
+-keep class com.alipay.android.comon.component.NumberView { <init>(...); }
+
+# view res/layout/alipay_accountquery_320_480_new.xml #generated:28
+# view res/layout/message_list.xml #generated:22
+# view res/layout/record_list.xml #generated:27
+# view res/layout/store_list.xml #generated:13
+# view res/layout/transfer_index.xml #generated:35
+# view res/layout/verifyrecord_list.xml #generated:12
+# view res/layout/voucher_list.xml #generated:35
+# view res/layout/voucher_list.xml #generated:8
+-keep class com.alipay.android.comon.component.PullRefreshView { <init>(...); }
+
+# view res/layout/transfer_index.xml #generated:127
+-keep class com.alipay.android.comon.component.SelectionBar { <init>(...); }
+
+# view res/layout/alipay_login_320_480.xml #generated:53
+-keep class com.alipay.android.comon.component.SmartInputTextView { <init>(...); }
+
+# view res/layout/page_ccr_known.xml #generated:46
+# view res/layout/page_ccr_olduser.xml #generated:74
+-keep class com.alipay.android.comon.component.ThreeSMSListView { <init>(...); }
+
+# view res/layout/alipay_express_delete.xml #generated:38
+# view res/layout/alipay_express_verify.xml #generated:11
+-keep class com.alipay.android.comon.component.TimerButton { <init>(...); }
+
+# view AndroidManifest.xml #generated:368
+-keep class com.alipay.android.core.ActivityShell { <init>(...); }
+
+# view AndroidManifest.xml #generated:312
+-keep class com.alipay.android.longlink.VerifyLinkService { <init>(...); }
+
+# view AndroidManifest.xml #generated:426
+-keep class com.alipay.android.map.baidu.BMapActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:540
+-keep class com.alipay.android.nfd.NFDService { <init>(...); }
+
+# view AndroidManifest.xml #generated:487
+-keep class com.alipay.android.push.BroadcastActionReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:518
+-keep class com.alipay.android.push.NotificationService { <init>(...); }
+
+# view AndroidManifest.xml #generated:528
+-keep class com.alipay.android.push.config.ConfigService { <init>(...); }
+
+# view AndroidManifest.xml #generated:306
+-keep class com.alipay.android.safepay.AlipaySafePaySetting { <init>(...); }
+
+# view AndroidManifest.xml #generated:453
+-keep class com.alipay.android.ui.bill.BillManagerRootControllerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:448
+-keep class com.alipay.android.ui.card.CardManagerRootControllerActivity { <init>(...); }
+
+# view res/layout/crop_image.xml #generated:9
+-keep class com.alipay.android.ui.personlcard.CropImageView { <init>(...); }
+
+# view AndroidManifest.xml #generated:289
+-keep class com.alipay.android.ui.personlcard.GetAvatarActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:282
+-keep class com.alipay.android.ui.personlcard.LargeAvatarActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:276
+-keep class com.alipay.android.ui.personlcard.PersonlCardRootControllerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:476
+-keep class com.alipay.android.ui.pushwebView.PushWebViewRootControllerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:471
+-keep class com.alipay.android.ui.quickpay.QuickPayRootControllerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:411
+-keep class com.alipay.android.ui.transfer.SearchContactActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:393
+-keep class com.alipay.android.ui.transfer.TransferRootControllerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:443
+-keep class com.alipay.android.ui.voucher.VoucherDetailActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:436
+-keep class com.alipay.android.ui.voucher.VoucherIndexActivity { <init>(...); }
+
+# view res/layout/coupon_detail_front.xml #generated:92
+# view res/layout/voucher_verify_info.xml #generated:116
+-keep class com.alipay.android.ui.widget.NumberFlowIndicator { <init>(...); }
+
+# view res/layout/voucher_list.xml #generated:5
+-keep class com.alipay.android.ui.widget.PagedHorizontalLayout { <init>(...); }
+
+# view 1184x720/res/layout-1184x720/mainactivity_layout.xml #generated:770
+# view 320x240/res/layout-320x240/mainactivity_layout.xml #generated:769
+# view 480x320/res/layout-480x320/mainactivity_layout.xml #generated:777
+# view 728x480/res/layout-728x480/mainactivity_layout.xml #generated:768
+# view 888x540/res/layout-888x540/mainactivity_layout.xml #generated:780
+# view 960x540/res/layout-960x540/mainactivity_layout.xml #generated:780
+# view 960x640/res/layout-960x640/mainactivity_layout.xml #generated:730
+# view res/layout/mainactivity_layout_adapter_1280.xml #generated:739
+# view res/layout/mainactivity_layout_adapter_800_854.xml #generated:727
+-keep class com.alipay.android.ui.widget.SlidingDrawer { <init>(...); }
+
+# view AndroidManifest.xml #generated:147
+-keep class com.alipay.android.ui.withdraw.WithdrawRootControllerActivity { <init>(...); }
+
+# view res/layout/alipay_barcodepay_guide.xml #generated:69
+# view res/layout/alipay_barcodepay_guide.xml #generated:87
+-keep class com.ant.liao.GifView { <init>(...); }
+
+# view AndroidManifest.xml #generated:555
+-keep class com.baidu.location.f { <init>(...); }
+
+# view res/layout/bd_map.xml #generated:10
+-keep class com.baidu.mapapi.MapView { <init>(...); }
+
+# view AndroidManifest.xml #generated:240
+-keep class com.eg.android.AlipayGphone.AlipayLogin { <init>(...); }
+
+# view res/layout/activity_capture_content.xml #generated:23
+-keep class com.google.zxing.client.BarCodeScanView { <init>(...); }
+
+# view AndroidManifest.xml #generated:354
+-keep class com.google.zxing.client.BarcodeCaptureActivity { <init>(...); }
+
+# view res/layout/activity_capture_content.xml #generated:2
+-keep class com.google.zxing.client.ControllerView { <init>(...); }
+
+# view AndroidManifest.xml #generated:549
+-keep class com.taobao.statistic.Yolanda { <init>(...); }
+
+# view res/layout/web_app.xml #generated:7
+-keep class org.apache.cordova.LinearLayoutSoftKeyboardDetect { <init>(...); }
+
+# onClick res/layout/activity_capture_content.xml #generated:39
+-keepclassmembers class * { *** setFlashlightMode(...); }
+

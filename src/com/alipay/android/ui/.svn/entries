@@ -1,0 +1,76 @@
+10
+
+dir
+2609
+http://svnhz.alipay.net/svn/android-alipayclient/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui
+http://svnhz.alipay.net/svn/android-alipayclient
+
+
+
+2013-03-18T01:21:15.438648Z
+2583
+svnsync
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+c24494b9-7421-46a4-b49b-b21344c15a5f
+
+adapter
+dir
+
+bill
+dir
+
+widget
+dir
+
+transfer
+dir
+
+quickpay
+dir
+
+withdraw
+dir
+
+framework
+dir
+
+guide
+dir
+
+fragment
+dir
+
+beanutil
+dir
+
+aniutil
+dir
+
+bean
+dir
+
+pushwebView
+dir
+
+card
+dir
+
+voucher
+dir
+
+personlcard
+dir
+

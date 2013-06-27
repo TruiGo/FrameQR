@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="@drawable/calculator_bg"
+    >
+
+    <LinearLayout
+        android:id="@+id/push_status"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:clickable="false"
+        android:focusable="false"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img_status"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:src="@drawable/pull_arrow_down"
+            android:scaleType="center"
+            />
+
+        <ImageView
+            android:id="@+id/ind_status"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="1dip"
+        android:layout_height="fill_parent"
+        android:background="@drawable/appwidget_settings_divider"
+        />
+
+    <LinearLayout
+        android:id="@+id/count_heart"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="fill_parent"
+        android:clickable="false"
+        android:focusable="false"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/count_txt"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:scaleType="center"
+            />
+    </LinearLayout>
+
+</LinearLayout>

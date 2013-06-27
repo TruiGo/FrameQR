@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/list_item"
+	android:orientation="vertical"
+	android:layout_width="fill_parent" android:layout_height="65dp"
+	android:paddingLeft="15dp" android:paddingRight="15dp">
+	<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent">
+		<TextView android:text="@string/red_ball" android:textColor="@color/TextColorRed" android:textSize="16sp"
+			android:layout_width="wrap_content" android:layout_height="fill_parent" android:gravity="center_vertical"/>
+		<TextView android:text="TextView" android:id="@+id/red_ball"  android:textColor="@color/TextColorRed"
+			android:layout_width="wrap_content" android:layout_height="fill_parent" android:textSize="16sp" android:gravity="center_vertical"/>
+	</LinearLayout>
+	<LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent">
+		<TextView android:text="@string/blue_ball" android:textColor="@color/TextColorBlue" android:textSize="16sp"
+			android:layout_width="wrap_content" android:layout_height="fill_parent" android:gravity="center_vertical"/>
+		<TextView android:text="TextView" android:id="@+id/blue_ball" android:textColor="@color/TextColorBlue"
+			android:layout_width="wrap_content" android:layout_height="fill_parent" android:textSize="16sp" android:gravity="center_vertical"/>
+	</LinearLayout>
+</LinearLayout>

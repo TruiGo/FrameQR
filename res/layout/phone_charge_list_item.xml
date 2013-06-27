@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="60dp"
+	 android:paddingLeft="15dp" android:paddingRight="15dp"
+	android:id="@+id/list_item" android:orientation="horizontal">
+	<TextView style="@style/AlipayNormalText320x480" android:id="@+id/PhoneFee"
+		android:layout_gravity="center_vertical">
+	</TextView>
+	<TextView style="@style/AlipayNormalText320x480" android:id="@+id/PhoneReal"
+		android:textColor="@color/TextColorGray" android:layout_gravity="center_vertical">
+	</TextView>
+	<TextView style="@style/AlipayNormalText320x480" android:id="@+id/PhoneFlag"
+		android:visibility="gone" android:text="@string/PhoneAbsence"
+		android:textColor="@color/TextColorRed" android:layout_gravity="center_vertical">
+	</TextView>
+</LinearLayout>

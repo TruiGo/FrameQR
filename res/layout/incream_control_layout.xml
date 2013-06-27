@@ -1,0 +1,23 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/controlLayout" android:layout_width="fill_parent"
+	android:layout_height="wrap_content" android:orientation="vertical">
+	<LinearLayout android:id="@+id/control" android:layout_width="fill_parent"
+		android:layout_height="49dp" style="@style/AlipayInputCanvas320x480"
+		android:focusable="true">
+
+		<ImageView android:id="@+id/addMoreImg"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:scaleType="fitXY" android:layout_marginTop="10dp"
+			android:layout_marginLeft="15dp" android:src="@drawable/alipay_button_addcontact"
+			android:duplicateParentState="true">
+		</ImageView>
+		<TextView android:id="@+id/addMoreTextview"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginTop="10dp" android:layout_marginLeft="5dp"
+			android:textSize="16dp" android:textColor="@drawable/alipay_text_color"
+			android:duplicateParentState="true" android:text="@string/addGetpeople"
+			android:layout_toRightOf="@id/addMoreImg" />
+	</LinearLayout>
+	<TextView  android:id="@+id/resulttext" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout> 

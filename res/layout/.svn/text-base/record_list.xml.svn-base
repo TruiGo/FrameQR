@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alipay.android.appHall.uiengine.AnimRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/record_list"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/application_bg"
+    android:orientation="vertical" >
+
+    <!-- 标题 -->
+
+    <include layout="@layout/alipay_subtitle_320_480" />
+
+    <RelativeLayout
+        android:id="@+id/bill_canvas"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/AlipaySubTitle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/bill_list_background"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/divider"
+            layout="@layout/list_divide" />
+
+        <com.alipay.android.comon.component.PullRefreshView
+            android:id="@+id/pull"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/divider" >
+
+            <ListView
+                android:id="@+id/ListViewCanvas"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:cacheColorHint="@color/transparent"
+                android:divider="@color/transparent"
+                android:scrollbars="none" >
+            </ListView>
+        </com.alipay.android.comon.component.PullRefreshView>
+
+        <TextView
+            android:id="@+id/EmptyCanvas"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="2dp"
+            android:drawablePadding="10dp"
+            android:drawableTop="@drawable/no_bill_list_for_card_list"
+            android:gravity="center"
+            android:textColor="@color/text_light_gray"
+            android:textSize="18sp"
+            android:visibility="gone" >
+        </TextView>
+    </RelativeLayout>
+
+</com.alipay.android.appHall.uiengine.AnimRelativeLayout>

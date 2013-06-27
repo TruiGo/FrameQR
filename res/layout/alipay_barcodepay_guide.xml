@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/AlipayBarCodeDisplayLayout"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	
+	android:background="@drawable/application_bg"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- android:background="@drawable/login_bigbg"  -->
+    
+	<include 
+		layout="@layout/alipay_subtitle_320_480" />
+	
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="@drawable/application_bg_white" 
+		android:layout_below="@id/AlipaySubTitle">
+		
+		<!-- 
+		<LinearLayout
+			android:orientation="vertical" 
+			android:layout_marginTop="10dp" 
+			android:layout_marginLeft="10dp" 
+			android:layout_marginRight="10dp" 
+			android:layout_gravity="center_horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<ProgressBar 
+				android:id="@+id/guide_animation" 
+				style="@style/animStyle"
+				android:layout_width="305dp" 
+				android:layout_height="265dp">
+			</ProgressBar>
+		</LinearLayout>	
+		 -->
+		 
+		<LinearLayout
+			android:id="@+id/SwitchLayout"
+			android:layout_marginTop="5dp" 
+			android:layout_marginLeft="5dp" 
+			android:layout_marginRight="5dp" 
+			android:layout_gravity="center_horizontal"
+			android:visibility="gone"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			
+			<WebView
+				xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/guide_view"
+				>
+			</WebView>
+		
+		</LinearLayout>	
+		
+		<LinearLayout
+			android:id="@+id/gifPayGuideLayout"
+			android:layout_marginTop="10dp" 
+			android:layout_marginLeft="10dp" 
+			android:layout_marginRight="10dp" 
+			android:gravity="center_vertical"
+			android:layout_gravity="center_horizontal"
+			android:visibility="gone"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+			
+			<com.ant.liao.GifView
+				android:id="@+id/gifPay"
+				android:layout_height="fill_parent"
+				android:layout_width="fill_parent"
+				android:enabled="false" />
+		
+		</LinearLayout>
+		
+		<LinearLayout
+			android:id="@+id/gifWhereGuideLayout"
+			android:layout_marginTop="10dp" 
+			android:layout_marginLeft="10dp" 
+			android:layout_marginRight="10dp" 
+			android:gravity="center_vertical"
+			android:layout_gravity="center_horizontal"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+			
+			<com.ant.liao.GifView
+				android:id="@+id/gifWhere"
+				android:layout_height="fill_parent"
+				android:layout_width="fill_parent"
+				android:enabled="false" />
+		
+		</LinearLayout>	
+		
+		<RelativeLayout
+			android:id="@+id/GuideShowLayout"
+			style="@style/AlipayInputCanvas320x480"
+			android:layout_above="@id/BottomButtonLayout"
+			android:layout_marginBottom ="5dp">
+			<CheckBox
+				android:id="@+id/GuideShowCheckBox"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="10dp"				
+				android:checked="false">
+			</CheckBox>
+			<TextView
+				android:id="@+id/GuideShowTxt"
+				android:layout_toRightOf="@id/GuideShowCheckBox"
+				android:text="@string/BarcodeGuideShow"
+				style="@style/AlipayDealQueryNameText320x480"
+				android:layout_centerVertical="true"
+				android:layout_width="wrap_content">
+			</TextView>
+		</RelativeLayout>
+		
+		<LinearLayout
+			android:id="@+id/BottomButtonLayout"
+			android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+			android:layout_marginBottom ="3dp"
+			android:layout_marginRight ="3dp" 
+			android:layout_alignParentRight="true"
+			android:layout_alignParentBottom="true"
+		    > 
+		    <Button
+		    	android:id="@+id/ButtonUserGuide"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:paddingTop="6dp"
+		        android:paddingBottom="6dp"
+		        android:textSize="16dp"
+		        android:textColor="@color/TextColorBlack"
+		        android:layout_gravity="right"
+		        style="@style/AlipayBlueButton"
+		        android:background="@drawable/alipay_button_main"
+		    />
+		</LinearLayout>	
+		
+	</RelativeLayout>	
+	
+
+</RelativeLayout>

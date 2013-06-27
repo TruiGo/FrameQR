@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/application_bg"
+    android:gravity="center" >
+
+    <!-- 标题 -->
+
+    <include layout="@layout/alipay_subtitle_320_480" />
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/AlipaySubTitle"
+        android:background="@drawable/quickpay_bg"
+        android:gravity="center"
+        android:id="@+id/needShakeView" >
+        <RelativeLayout
+            android:id="@+id/sendsoundLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView android:id="@+id/rippleImage3"
+		       android:layout_width="wrap_content"
+		       android:layout_height="wrap_content"
+		       android:background="@drawable/quickpay_ripple3"
+		       android:layout_centerInParent="true"
+		       android:visibility="gone"/>
+		   <ImageView android:id="@+id/rippleImage2"
+		       android:layout_width="wrap_content"
+		       android:layout_height="wrap_content"
+		       android:background="@drawable/quickpay_ripple2" 
+		       android:layout_centerInParent="true"
+		       android:visibility="gone"/>
+		   <ImageView android:id="@+id/rippleImage1"
+		       android:layout_width="wrap_content"
+		       android:layout_height="wrap_content"
+		       android:background="@drawable/quickpay_ripple1"
+		       android:layout_centerInParent="true"
+		       android:visibility="gone"/>
+            <ImageView
+                android:id="@+id/imageBgBottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/quickpay_sendsound_bottom_bg" />
+
+            <ImageView
+                android:id="@+id/imageBg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/quickpay_sendsound_bg" />
+
+            <ImageView
+                android:id="@+id/imageLoading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/quickpay_loading_circle"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/sendSound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/quickpay_sendsound_unable" />
+
+            <TextView
+                android:id="@+id/userPrompt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/imageBgBottom"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:textSize="16sp"
+                android:textColor="#666666" />
+            
+            <TextView android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:gravity="center_horizontal"
+                  android:textSize="16sp"
+                  android:textColor="#ff6600"
+                  android:text="@string/connectting"
+                  android:layout_marginTop="20dp"
+                  android:layout_below="@id/imageBgBottom"
+                  android:id="@+id/connecttingText"
+                  android:visibility="gone"
+            />
+           <ImageView android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/quickpay_helptext"
+               android:layout_centerInParent="true"
+               android:id="@+id/quickpayHelpText"
+               android:layout_above="@id/userPrompt"
+               android:layout_marginBottom="10dp"/>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/quickpayHelp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/quickpay_help" />
+        <!-- 帮助提示 -->
+
+    </RelativeLayout>
+    <ImageView
+            android:id="@+id/guideView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:alwaysDrawnWithCache="false"
+            android:fadingEdgeLength="0dp"
+            android:visibility="gone" />
+</RelativeLayout>

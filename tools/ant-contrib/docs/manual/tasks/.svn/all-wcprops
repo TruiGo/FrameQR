@@ -1,0 +1,281 @@
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks
+END
+propertyregex.html
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/propertyregex.html
+END
+get-method_task.html
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/get-method_task.html
+END
+relentless.html
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/relentless.html
+END
+trycatch.html
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/trycatch.html
+END
+assert_task.html
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/assert_task.html
+END
+sortlist.html
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/sortlist.html
+END
+propertyselector.html
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/propertyselector.html
+END
+post-method_task.html
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/post-method_task.html
+END
+for.html
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/for.html
+END
+forget.html
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/forget.html
+END
+compilewithwalls.html
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/compilewithwalls.html
+END
+verifynewprojtutorial.html
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/verifynewprojtutorial.html
+END
+if.html
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/if.html
+END
+stopwatch_task.html
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/stopwatch_task.html
+END
+limit_task.html
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/limit_task.html
+END
+head-method_task.html
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/head-method_task.html
+END
+throw.html
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/throw.html
+END
+antclipse_task.html
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/antclipse_task.html
+END
+timestampselector.html
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/timestampselector.html
+END
+post_task.html
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/post_task.html
+END
+variable_task.html
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/variable_task.html
+END
+get-cookie_task.html
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/get-cookie_task.html
+END
+method_task_common.html
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/method_task_common.html
+END
+runtarget.html
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/runtarget.html
+END
+pathtofileset.html
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/pathtofileset.html
+END
+verifylegacytutorial.html
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/verifylegacytutorial.html
+END
+antfetch_task.html
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/antfetch_task.html
+END
+propertycopy.html
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/propertycopy.html
+END
+inifile.html
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/inifile.html
+END
+urlencode.html
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/urlencode.html
+END
+antcallback_task.html
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/antcallback_task.html
+END
+osfamily.html
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/osfamily.html
+END
+toc.html
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/toc.html
+END
+outofdate.html
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/outofdate.html
+END
+more_conditions.html
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/more_conditions.html
+END
+http-client_type.html
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/http-client_type.html
+END
+shellscript.html
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/shellscript.html
+END
+importurl.html
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/importurl.html
+END
+http-state_type.html
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/http-state_type.html
+END
+verifydesign.html
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/verifydesign.html
+END
+switch.html
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/switch.html
+END
+foreach.html
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/foreach.html
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/index.html
+END
+performance_monitor.html
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/performance_monitor.html
+END
+math_task.html
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/math_task.html
+END
+server_tasks.html
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/tools/ant-contrib/docs/manual/tasks/server_tasks.html
+END

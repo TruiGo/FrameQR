@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/personlcard
+END
+CropImageView.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/personlcard/CropImageView.java
+END
+PersonlCardRootControllerActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 170
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/personlcard/PersonlCardRootControllerActivity.java
+END
+PersonlCardEditAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/personlcard/PersonlCardEditAdapter.java
+END
+LargeAvatarActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/personlcard/LargeAvatarActivity.java
+END
+LargeAvatarViewController.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/personlcard/LargeAvatarViewController.java
+END
+GetAvatarActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/personlcard/GetAvatarActivity.java
+END
+PersonlCardViewController.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/personlcard/PersonlCardViewController.java
+END
+GetAvatarViewController.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/ui/personlcard/GetAvatarViewController.java
+END

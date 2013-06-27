@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">    <LinearLayout 
+        android:id="@+id/ContentLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/debitnote_bg"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <ImageView 
+	        android:id="@+id/billListDivide1"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/bill_list_title"/>
+         <TextView
+                android:id="@+id/companyName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#5599cc"/>
+
+            <TextView
+                android:layout_below="@id/companyName"
+                android:id="@+id/billID"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="123455666"
+                android:textSize="16sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#999999" />
+    </LinearLayout>
+    <ImageView 
+        android:layout_below="@id/ContentLayout"
+	    android:id="@+id/billListDivide2"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/lifepay_history_bottom"
+		android:layout_marginTop="0dp"/>
+</RelativeLayout>

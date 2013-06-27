@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/org/apache/cordova/api
+END
+PluginEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/org/apache/cordova/api/PluginEntry.java
+END
+LOG.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/org/apache/cordova/api/LOG.java
+END
+IPlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/org/apache/cordova/api/IPlugin.java
+END
+PluginManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/org/apache/cordova/api/PluginManager.java
+END
+PluginResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/org/apache/cordova/api/PluginResult.java
+END
+CordovaInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/org/apache/cordova/api/CordovaInterface.java
+END
+Plugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/org/apache/cordova/api/Plugin.java
+END

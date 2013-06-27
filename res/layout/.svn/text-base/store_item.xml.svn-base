@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="wrap_content" >
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/list_right_arrow"
+        android:layout_centerVertical="true" android:layout_alignParentRight="true" android:layout_marginRight="10dp"
+        android:id="@+id/indicator"/>
+    <TextView android:id="@+id/storeName" style="@style/normal_gray_16" android:layout_width="fill_parent"
+        android:textSize="18sp" android:paddingLeft="10dp" android:paddingTop="7dp" 
+        android:layout_toLeftOf="@id/indicator" android:layout_marginRight="8dp"/>
+    <LinearLayout android:layout_toLeftOf="@id/indicator" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:id="@+id/addressContainer" android:paddingTop="5dp"
+        android:layout_below="@id/storeName">
+        <TextView style="@style/normal_gray_16" android:textColor="#999999"
+            android:text="@string/addressText" android:paddingLeft="10dp"/>
+        
+        <TextView android:id="@+id/storeAddress" style="@style/normal_gray_16" android:textColor="#999999"
+	        android:singleLine="false" android:layout_width="fill_parent"
+	        android:layout_toLeftOf="@id/indicator" android:layout_marginRight="8dp"
+	        android:maxLines="2" android:ellipsize="end"/>
+    </LinearLayout>
+    <TextView android:id="@+id/storePhone" style="@style/normal_gray_16" android:singleLine="false"
+        android:paddingLeft="10dp" android:layout_below="@id/addressContainer" android:layout_width="fill_parent"
+        android:layout_marginTop="5dp" android:layout_marginBottom="7dp"  android:layout_toLeftOf="@id/indicator" 
+        android:layout_marginRight="8dp" android:textColor="#999999"/>
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:component="http://schemas.android.com/apk/res/com.eg.android.AlipayGphone"
+    android:id="@+id/patternLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/patternTopLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp" >
+
+            <ViewStub
+                android:id="@+id/patternCheck"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout="@layout/alipay_pattern_check" />
+        </RelativeLayout>
+
+        <ViewStub
+            android:id="@+id/patternSetting"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout="@layout/alipay_pattern_setting" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/patternTopDescription"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/patterntop_color"
+        android:textSize="16dp" />
+
+    <com.alipay.android.comon.component.LockView
+        android:id="@+id/lockView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        component:gridFocused="@drawable/pattern_grid_focused"
+        component:gridNormal="@drawable/pattern_grid_normal" />
+
+    <TextView
+        android:id="@+id/patternBottomDescription"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/pattern_forgetPattern"
+        android:textColor="@color/TextColorWhite"
+        android:textSize="16dp" />
+
+</LinearLayout>

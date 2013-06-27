@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:component="http://schemas.android.com/apk/res/com.eg.android.AlipayGphone"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/patternTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="44dp">
+
+        <TextView
+            android:id="@+id/title_text" 
+            android:maxEms="7"
+            android:shadowColor="#ff000000"
+            style="@style/title_text"
+            />
+
+        <Button
+            android:id="@+id/title_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/title_btn_xml"
+            android:textColor="@android:color/white"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    	<ImageView 
+	    android:id="@+id/TitleShadow"
+	    android:layout_width="fill_parent" android:layout_height="8dp" 
+    	android:background="@drawable/title_shadow" android:contentDescription="shadow"
+    	android:layout_below="@id/patternTitle"/>
+
+    <com.alipay.android.comon.component.LockIndicator
+        android:id="@+id/lockIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TitleShadow"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        component:gridFocused="@drawable/patternindicator_grid_focused"
+        component:gridNormal="@drawable/patternindicator_grid_normal" />
+
+    <View
+        android:id="@+id/patternDiv"
+        android:layout_width="90dp"
+        android:layout_height="2dp"
+        android:layout_below="@id/lockIndicator"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/pattern_solidline" />
+
+</RelativeLayout>

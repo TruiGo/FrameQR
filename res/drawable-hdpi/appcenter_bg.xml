@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <bitmap
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:gravity="fill"
+            android:src="@drawable/application_bg_small_part"
+            android:tileMode="repeat" >
+        </bitmap>
+    </item>
+</layer-list>

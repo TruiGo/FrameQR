@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.alipay.android.appHall.uiengine.AnimRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/animcontent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/application_bg" >
+
+    <include layout="@layout/alipay_subtitle_320_480" />
+
+    <ScrollView
+        android:id="@+id/FullScreen_MyAccountScrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/AlipaySubTitle"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/application_bg_middle_nomal"
+        android:paddingBottom="10dp" >
+
+        <LinearLayout
+            android:id="@+id/AccountLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- 以下为新账户部分 -->
+
+            <LinearLayout
+                android:id="@+id/item_userinfo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/accountinfo_manager"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/account"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp" >
+
+                    <ImageView
+                        android:id="@+id/user_avatar"
+                        android:layout_width="60dp"
+                        android:layout_height="61dp"
+                        android:layout_marginTop="12dp"
+                        android:background="@drawable/default_avatar_ouline"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/default_avatar" />
+
+                    <ImageView
+                        android:id="@+id/plugImg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/user_avatar"
+                        android:layout_alignRight="@+id/user_avatar"
+                        android:src="@drawable/plugimg" />
+
+                    <ImageView
+                        android:id="@+id/rotateImg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignLeft="@+id/user_avatar"
+                        android:layout_alignRight="@+id/user_avatar"
+                        android:layout_below="@+id/user_avatar"
+                        android:src="@drawable/rotateimg" />
+
+                    <LinearLayout
+                        android:id="@+id/loginedArea"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="0px"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="6dp"
+                        android:layout_toRightOf="@id/user_avatar"
+                        android:orientation="vertical" >
+
+                        <!-- 登陆状态显示的账户区 -->
+
+                        <RelativeLayout
+                            android:id="@+id/accountArea"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:id="@+id/realName"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginTop="4dp"
+                                android:ellipsize="end"
+                                android:shadowColor="#ffffffff"
+                                android:shadowDx="0"
+                                android:shadowDy="1"
+                                android:shadowRadius="1"
+                                android:singleLine="true"
+                                android:textColor="#65523b"
+                                android:textSize="16sp" />
+
+                            <LinearLayout
+                                android:id="@+id/systemMessage"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginRight="1dp"
+                                android:layout_marginTop="8dp"
+                                android:orientation="horizontal" >
+
+                                <ImageView
+                                    android:id="@+id/systemMessageImage"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="bottom"
+                                    android:layout_marginRight="6dp"
+                                    android:paddingLeft="12dp"
+                                    android:src="@drawable/main_remind_animation" />
+                            </LinearLayout>
+                        </RelativeLayout>
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="8dp"
+                            android:layout_marginTop="4dp"
+                            android:background="@drawable/accountsolid_line" />
+
+                        <TextView
+                            android:id="@+id/user_account"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="2dp"
+                            android:ellipsize="end"
+                            android:shadowColor="#ffffffff"
+                            android:shadowDx="0"
+                            android:shadowDy="1"
+                            android:shadowRadius="1"
+                            android:singleLine="true"
+                            android:textColor="#65523b"
+                            android:textSize="16sp" />
+
+                        <!-- 登录状态显示的余额区 -->
+
+                        <RelativeLayout
+                            android:id="@+id/subsidiaryInfo"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="6dp"
+                            android:layout_marginTop="2dp"
+                            android:orientation="horizontal" >
+
+                            <LinearLayout
+                                android:id="@+id/money"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="bottom"
+                                android:orientation="horizontal" >
+
+                                <TextView
+                                    android:id="@+id/user_balance_img"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="bottom"
+                                    android:layout_marginBottom="2dp"
+                                    android:layout_marginLeft="6dp"
+                                    android:shadowColor="#ffffffff"
+                                    android:shadowDx="0"
+                                    android:shadowDy="1"
+                                    android:shadowRadius="1"
+                                    android:text="￥"
+                                    android:textColor="#65523b"
+                                    android:textSize="18sp" />
+
+                                <TextView
+                                    android:id="@+id/user_balance_head"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="bottom"
+                                    android:layout_marginBottom="2dp"
+                                    android:layout_marginLeft="2dp"
+                                    android:shadowColor="#ffffffff"
+                                    android:shadowDx="0"
+                                    android:shadowDy="1"
+                                    android:shadowRadius="1"
+                                    android:text=""
+                                    android:textColor="#65523b"
+                                    android:textSize="18sp" />
+
+                                <TextView
+                                    android:id="@+id/user_balance_end"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="bottom"
+                                    android:layout_marginBottom="2dp"
+                                    android:shadowColor="#ffffffff"
+                                    android:shadowDx="0"
+                                    android:shadowDy="1"
+                                    android:shadowRadius="1"
+                                    android:text=""
+                                    android:textColor="#65523b"
+                                    android:textSize="13sp" />
+
+                                <TextView
+                                    android:id="@+id/yuan"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="bottom"
+                                    android:layout_marginBottom="2dp"
+                                    android:shadowColor="#ffffffff"
+                                    android:shadowDx="0"
+                                    android:shadowDy="1"
+                                    android:shadowRadius="1"
+                                    android:text="元"
+                                    android:textColor="#65523b"
+                                    android:textSize="13sp"
+                                    android:visibility="invisible" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/bankCard"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="bottom"
+                                android:layout_marginLeft="15dp"
+                                android:layout_toRightOf="@id/money"
+                                android:orientation="horizontal" >
+
+                                <ImageView
+                                    android:id="@+id/bankCardImage"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="bottom"
+                                    android:layout_marginBottom="4dp"
+                                    android:src="@drawable/bankcardimage" />
+
+                                <TextView
+                                    android:id="@+id/bankCardNumber"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="bottom"
+                                    android:layout_marginBottom="1dp"
+                                    android:layout_marginLeft="4dp"
+                                    android:gravity="bottom"
+                                    android:shadowColor="#ffffffff"
+                                    android:shadowDx="0"
+                                    android:shadowDy="1"
+                                    android:shadowRadius="1"
+                                    android:text="1"
+                                    android:textColor="#65523b"
+                                    android:textSize="14sp" />
+                            </LinearLayout>
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/systemMessageNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginRight="0dp"
+                        android:background="@drawable/systempop"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="#ffffff"
+                        android:textSize="10dp" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginRight="18dp"
+                    android:background="@drawable/account_dividingline_solid" />
+
+                <LinearLayout
+                    android:id="@+id/MoneyLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:orientation="horizontal"
+                    android:paddingBottom="14dp"
+                    android:paddingTop="12dp" >
+
+                    <LinearLayout
+                        android:id="@+id/jifen_layout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingLeft="12dp" >
+
+                        <TextView
+                            android:id="@+id/name2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical|left"
+                            android:gravity="center_vertical|left"
+                            android:shadowColor="#ffffffff"
+                            android:shadowDx="0"
+                            android:shadowDy="1"
+                            android:shadowRadius="1"
+                            android:text="@string/POINTBALANCE"
+                            android:textColor="#65523b"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/value2"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical|left"
+                            android:ellipsize="end"
+                            android:gravity="center_vertical|left"
+                            android:shadowColor="#ffffffff"
+                            android:shadowDx="0"
+                            android:shadowDy="1"
+                            android:shadowRadius="1"
+                            android:singleLine="true"
+                            android:textColor="#65523b"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/line1"
+                        android:layout_width="1dp"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/v_solid" />
+
+                    <LinearLayout
+                        android:id="@+id/hongbao_layout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="4"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingLeft="4dp" >
+
+                        <TextView
+                            android:id="@+id/name3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical|left"
+                            android:gravity="center_vertical|left"
+                            android:shadowColor="#ffffffff"
+                            android:shadowDx="0"
+                            android:shadowDy="1"
+                            android:shadowRadius="1"
+                            android:text="@string/REDBAG"
+                            android:textColor="#65523b"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/value3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical|left"
+                            android:ellipsize="end"
+                            android:gravity="center_vertical|left"
+                            android:shadowColor="#ffffffff"
+                            android:shadowDx="0"
+                            android:shadowDy="1"
+                            android:shadowRadius="1"
+                            android:singleLine="true"
+                            android:textColor="#65523b"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/line2"
+                        android:layout_width="1dp"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center_vertical|right"
+                        android:layout_marginTop="2dp"
+                        android:background="@drawable/v_solid" />
+
+                    <LinearLayout
+                        android:id="@+id/binding_layout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:paddingLeft="4dp" >
+
+                        <TextView
+                            android:id="@+id/name1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical|left"
+                            android:gravity="center_vertical|left"
+                            android:shadowColor="#ffffffff"
+                            android:shadowDx="0"
+                            android:shadowDy="1"
+                            android:shadowRadius="1"
+                            android:text="绑定手机:"
+                            android:textColor="#65523b"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/value1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical|left"
+                            android:ellipsize="end"
+                            android:gravity="center_vertical|left"
+                            android:shadowColor="#ffffffff"
+                            android:shadowDx="0"
+                            android:shadowDy="1"
+                            android:shadowRadius="1"
+                            android:singleLine="true"
+                            android:text=""
+                            android:textColor="#65523b"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <!-- 以下为列表部分 -->
+
+            <LinearLayout
+                android:id="@+id/ListLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal" >
+
+                    <RelativeLayout
+                        android:id="@+id/ItemLayout1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/list_btn_left"
+                        android:padding="12dp" >
+
+                        <ImageView
+                            android:id="@+id/ItemAccountInputIcon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:layout_marginRight="14dp"
+                            android:src="@drawable/chargeicon" />
+
+                        <TextView
+                            android:id="@+id/ItemAccountInput"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_toRightOf="@+id/ItemAccountInputIcon"
+                            android:text="@string/Sub_ItemAccountInput"
+                            android:textColor="#666666"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/ItemLayout2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/list_btn_right"
+                        android:padding="10dp" >
+
+                        <ImageView
+                            android:id="@+id/ItemAccountOutputIcon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:layout_marginRight="14dp"
+                            android:src="@drawable/drawicon" />
+
+                        <TextView
+                            android:id="@+id/ItemAccountOutput"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_toRightOf="@+id/ItemAccountOutputIcon"
+                            android:text="@string/Sub_ItemAccountOutput"
+                            android:textColor="#666666"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:id="@+id/ItemLayout3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/list_btn_top"
+                        android:padding="10dp" >
+
+                        <ImageView
+                            android:id="@+id/ItemBankCardIcon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:layout_marginRight="14dp"
+                            android:src="@drawable/banklisticon" />
+
+                        <TextView
+                            android:id="@+id/ItemBankCard"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_toRightOf="@+id/ItemBankCardIcon"
+                            android:text="@string/bank_card"
+                            android:textColor="#666666"
+                            android:textSize="18sp" />
+
+                        <ImageButton
+                            android:id="@+id/ItemImage3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/list_right_arrow" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/ItemLayout4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/list_btn_m"
+                        android:padding="10dp" >
+
+                        <ImageView
+                            android:id="@+id/ItemJiFenIcon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:layout_marginRight="14dp"
+                            android:src="@drawable/jifenicon" />
+
+                        <TextView
+                            android:id="@+id/ItemJiFen"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_toRightOf="@+id/ItemJiFenIcon"
+                            android:text="@string/score_bao"
+                            android:textColor="#666666"
+                            android:textSize="18sp" />
+
+                        <ImageButton
+                            android:id="@+id/ItemImage4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/list_right_arrow" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/ItemLayout5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/list_btn_m"
+                        android:padding="10dp" >
+
+                        <ImageView
+                            android:id="@+id/ItemPasswordSettingIcon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:layout_marginRight="14dp"
+                            android:src="@drawable/accountsettinicon" />
+
+                        <TextView
+                            android:id="@+id/ItemPasswordSetting"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_toRightOf="@+id/ItemPasswordSettingIcon"
+                            android:text="@string/Sub_ItemPasswordSetting"
+                            android:textColor="#666666"
+                            android:textSize="18sp" />
+
+                        <ImageButton
+                            android:id="@+id/ItemImage4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/list_right_arrow" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/ItemLayout6"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:background="@drawable/list_btn_f"
+                        android:padding="10dp" >
+
+                        <ImageView
+                            android:id="@+id/ItemLogoutIcon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerInParent="true"
+                            android:layout_marginRight="14dp"
+                            android:src="@drawable/accountlogouticon" />
+
+                        <TextView
+                            android:id="@+id/ItemLogout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_toRightOf="@+id/ItemLogoutIcon"
+                            android:text="@string/MenuLogOut"
+                            android:textColor="#666666"
+                            android:textSize="18sp" />
+
+                        <ImageButton
+                            android:id="@+id/ItemImage4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:background="@drawable/list_right_arrow" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/FullScreen_SetPasswordLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/AlipaySubTitle"
+        android:visibility="gone" >
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingBottom="10dp" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/modifyPayPassword"
+                    style="@style/listitem_texttop"
+                    android:text="@string/ModifyPayPassword" />
+
+                <TextView
+                    android:id="@+id/getPayPassword"
+                    style="@style/listitem_textmid"
+                    android:text="@string/GetPayPassword" />
+
+                <TextView
+                    android:id="@+id/modifyLoginPassword"
+                    style="@style/listitem_textbottom"
+                    android:text="@string/ModifyLoginPassword" />
+
+                <TextView
+                    android:id="@+id/noInputPayPassword"
+                    style="@style/listitem_textsingle"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/NoInputPayPassword" />
+
+                <FrameLayout
+                    android:id="@+id/patternPasswordLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp" >
+
+                    <View
+                        android:id="@+id/patternPasswordBG"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent" />
+
+                    <TextView
+                        android:id="@+id/patternPassword"
+                        style="@style/listitem_justtext"
+                        android:text="@string/pattern_pattern" />
+
+                    <ImageView
+                        android:id="@+id/patternToggle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|center"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/pattern_checkbox"
+                        android:scaleType="fitXY" />
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/resetPatternPassword"
+                    style="@style/listitem_textbottom"
+                    android:text="@string/pattern_resetPatternPassword"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+</com.alipay.android.appHall.uiengine.AnimRelativeLayout>

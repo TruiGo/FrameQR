@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/BankInfoItem"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <ImageView 
+        android:id="@+id/BankIcon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_centerVertical="true"
+        />
+    
+    <TextView 
+        android:id="@+id/BankNameItem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_centerVertical="true"
+        android:textColor="@color/TextColorGray"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:textSize="18sp"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:maxEms="6"
+        />
+    <TextView 
+        android:id="@+id/UserNameItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:textColor="@color/TextColorGray"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:maxEms="9"
+        />
+</LinearLayout>

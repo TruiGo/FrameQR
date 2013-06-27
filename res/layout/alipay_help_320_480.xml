@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:background="@drawable/application_bg">
+	<include layout="@layout/alipay_subtitle_320_480" />
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@color/TextColorWhite"
+	    android:layout_below="@id/AlipaySubTitle"
+	    >
+	<WebView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/help_view" 
+		android:layout_below="@id/AlipaySubTitle" android:background="@android:color/transparent"/>
+	</LinearLayout>
+</RelativeLayout>

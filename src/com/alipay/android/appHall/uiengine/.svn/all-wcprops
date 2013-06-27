@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/appHall/uiengine
+END
+NeedSaveListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/appHall/uiengine/NeedSaveListener.java
+END
+SendLogListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/appHall/uiengine/SendLogListener.java
+END
+InputCheckListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/appHall/uiengine/InputCheckListener.java
+END
+PageHasNullInputChecker.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/appHall/uiengine/PageHasNullInputChecker.java
+END
+UIList.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/appHall/uiengine/UIList.java
+END
+CacheFrameLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/appHall/uiengine/CacheFrameLayout.java
+END
+AnimRelativeLayout.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/appHall/uiengine/AnimRelativeLayout.java
+END
+InputBoxListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/appHall/uiengine/InputBoxListener.java
+END
+AppHallForCouponMarket.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/appHall/uiengine/AppHallForCouponMarket.java
+END
+AppHallForAppCenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/android-alipayclient/!svn/ver/2583/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/appHall/uiengine/AppHallForAppCenter.java
+END
+UIMonitorListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/appHall/uiengine/UIMonitorListener.java
+END
+Contact.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/appHall/uiengine/Contact.java
+END
+Computable.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/appHall/uiengine/Computable.java
+END
+UIInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/android-alipayclient/!svn/ver/2376/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/appHall/uiengine/UIInterface.java
+END
+AppHallForHomePage.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/android-alipayclient/!svn/ver/2386/branches/ali00592607_CP_20130219_android-alipayclient/src/com/alipay/android/appHall/uiengine/AppHallForHomePage.java
+END

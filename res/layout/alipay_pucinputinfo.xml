@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:component="http://schemas.android.com/apk/res/com.eg.android.AlipayGphone"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/application_bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/alipay_subtitle_320_480" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/application_bg_white"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:id="@+id/PucChargeRegionLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        style="@style/AlipayTextInfo320x480"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="6dp"
+                        android:text="@string/SelectRegion" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/SelectCityTextView"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/second_level_textview"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/TextColorBlack"
+                        android:textSize="16dp" >
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/SelectCityTip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/TextColorGray"
+                        android:textSize="12dp"
+                        android:visibility="gone" >
+                    </TextView>
+
+                    <Spinner
+                        android:id="@+id/SelectPaymentCompany"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/alipay_dropdown_button"
+                        android:prompt="@string/SelectChargeCompany"
+                        android:textColor="@color/TextColorBlack" >
+                    </Spinner>
+
+                    <TextView
+                        android:id="@+id/SelectPaymentCompanyTip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/TextColorTip"
+                        android:textSize="12dp"
+                        android:visibility="gone" >
+                    </TextView>
+                    
+                    <TextView
+                        android:id="@+id/AgentPayModeCompanyTip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/TextColorTip"
+                        android:textSize="12dp"
+                        android:text="@string/AgentPayModeCompanyTipText"
+                        android:visibility="visible" >
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/PucPaymentInfoLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        style="@style/AlipayTextInfo320x480"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/FillPaymentInfo" >
+                    </TextView>
+
+                    <LinearLayout
+                        android:id="@+id/SelectChargeWayLayout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:addStatesFromChildren="true"
+                        android:background="@drawable/alipay_dropdown_button"
+                        android:paddingRight="0dip" >
+
+                        <TextView
+                            style="@style/AlipayTextInfo320x480"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/SelectChargeWayText"
+                            android:textAppearance="?android:attr/textAppearanceLargeInverse" >
+                        </TextView>
+
+                        <Spinner
+                            android:id="@+id/SelectPaymentWay"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@null"
+                            android:prompt="@string/SelectChargeWay"
+                            android:textColor="@color/TextColorBlack" >
+                        </Spinner>
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/PucNameLayout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:addStatesFromChildren="true"
+                        android:paddingRight="0dip" >
+
+                        <ImageButton
+                            android:id="@+id/scanButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/camera_button"
+                            android:visibility="gone" />
+
+                        <com.alipay.android.comon.component.EditTextWithButton
+                            android:id="@+id/PucNameEditText"
+                            android:layout_width="fill_parent"
+                            android:layout_height="43dp"
+                            android:layout_alignWithParentIfMissing="true"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_toLeftOf="@id/scanButton"
+                            android:addStatesFromChildren="true"
+                            android:background="@drawable/alipay_input"
+                            android:gravity="center"
+                            component:inputTextSize="16dp" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/PucNameTip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/TextColorGray"
+                        android:textSize="12dp"
+                        android:visibility="gone" >
+                    </TextView>
+
+                    <com.alipay.android.comon.component.EditTextWithButton
+                        android:id="@+id/PucNumEditText"
+                        android:layout_width="fill_parent"
+                        android:layout_height="43dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:addStatesFromChildren="true"
+                        android:background="@drawable/alipay_input"
+                        android:gravity="center"
+                        component:inputTextSize="16dp" />
+                    <!-- 固话宽带的提醒 -->
+                    <TextView
+                        android:id="@+id/PucNumTip"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/TextColorGray"
+                        android:textSize="12dp"
+                        android:visibility="gone" >
+                    </TextView>
+                    <TextView
+                        android:id="@+id/PucNumTip2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:textColor="@color/TextColorGray"
+                        android:textSize="12dp"
+                        android:visibility="gone" >
+                    </TextView>
+                    <com.alipay.android.comon.component.EditTextWithButton
+                        android:id="@+id/PucNumEditText2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="43dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
+                        android:addStatesFromChildren="true"
+                        android:background="@drawable/alipay_input"
+                        android:gravity="center"
+                        component:inputTextSize="16dp"
+                        android:visibility="gone" />
+                </LinearLayout>
+                
+                <!-- 缴费提醒设置区 -->
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/SettingTimeLayout"
+                    android:orientation="vertical">
+                        <CheckBox
+	                        android:id="@+id/SettingTimeCheckBox"
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+	                        android:layout_centerVertical="true"
+	                        android:button="@drawable/btn_check"
+	                        android:checked="true" 
+	                        android:text="@string/RemindMe"
+	                        android:textColor="@color/TextColorBlack">
+                        </CheckBox>
+                    <Spinner
+                         android:id="@+id/SelectTime"
+                         android:layout_width="fill_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_gravity="center_vertical"
+                         android:layout_marginRight="10dp"
+                         android:background="@drawable/alipay_dropdown_button"
+                         android:entries="@array/dateSelect"
+                         android:prompt="@string/SelectRemindTime"
+                         android:textColor="@color/TextColorBlack"
+                         android:visibility="gone">
+                        </Spinner>
+                </LinearLayout>
+                
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="6dp"
+                    android:nextFocusUp="@id/PucNumEditText" >
+
+                    <CheckBox
+                        android:id="@+id/PucCheckBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:button="@drawable/btn_check"
+                        android:checked="true"
+                        android:text="@string/AgreePayService"
+                        android:textColor="@color/TextColorBlack" >
+                    </CheckBox>
+
+                    <TextView
+                        android:id="@+id/PucRead"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="6dp"
+                        android:layout_toRightOf="@id/PucCheckBox"
+                        android:text="@string/Read"
+                        android:textColor="@color/TextColorBlue"
+                        android:textSize="16dp" >
+                    </TextView>
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/next"
+                    style="@style/AlipayCashButtonStyle"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="15dp"
+                    android:text="@string/PayYourAccountCheckButtonString" >
+                </Button>
+            </LinearLayout>
+        </ScrollView>
+        
+        <ScrollView
+            android:id="@+id/PucChargeConfirmLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone"  >
+	        <LinearLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginRight="5dp"
+	            android:orientation="vertical">
+	
+	            <LinearLayout
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginTop="10dp" >
+	
+	                <TextView
+	                    style="@style/AlipayDealQueryNameText320x480"
+	                    android:layout_marginLeft="10dp"
+	                    android:text="@string/Region"
+	                    android:textSize="16dp" >
+	                </TextView>
+	
+	                <TextView
+	                    android:id="@+id/RegionId"
+	                    style="@style/AlipayTextInfo320x480"
+	                    android:textSize="16dp" >
+	                </TextView>
+	            </LinearLayout>
+	
+	            <LinearLayout
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginTop="5dp" >
+	
+	                <TextView
+	                    style="@style/AlipayDealQueryNameText320x480"
+	                    android:layout_marginLeft="10dp"
+	                    android:text="@string/ChargeCompany"
+	                    android:textSize="16dp" >
+	                </TextView>
+	
+	                <TextView
+	                    android:id="@+id/ChargeCompanyId"
+	                    style="@style/AlipayTextInfo320x480"
+	                    android:textSize="16dp" >
+	                </TextView>
+	            </LinearLayout>
+	
+	            <LinearLayout
+	                android:id="@+id/ChargeNameLayout"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginTop="5dp" >
+	
+	                <TextView
+	                    android:id="@+id/ChargeName"
+	                    style="@style/AlipayDealQueryNameText320x480"
+	                    android:layout_marginLeft="10dp"
+	                    android:textSize="16dp" >
+	                </TextView>
+	
+	                <TextView
+	                    android:id="@+id/ChargeNameContent"
+	                    style="@style/AlipayTextInfo320x480"
+	                    android:textSize="16dp" >
+	                </TextView>
+	            </LinearLayout>
+	
+	            <LinearLayout
+	                android:id="@+id/ChargeNumLayout"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginTop="5dp"
+	                android:visibility="gone" >
+	
+	                <TextView
+	                    android:id="@+id/ChargeNum"
+	                    style="@style/AlipayDealQueryNameText320x480"
+	                    android:layout_marginLeft="10dp"
+	                    android:textSize="16dp" >
+	                </TextView>
+	
+	                <TextView
+	                    android:id="@+id/ChargeNumContent"
+	                    style="@style/AlipayTextInfo320x480"
+	                    android:textSize="16dp" >
+	                </TextView>
+	            </LinearLayout>
+	
+	            <LinearLayout
+	                android:id="@+id/ArrearsBillLayout"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginTop="5dp"
+	                android:visibility="gone" >
+	
+	                <TextView
+	                    style="@style/AlipayDealQueryNameText320x480"
+	                    android:layout_marginLeft="10dp"
+	                    android:text="@string/ArrearsBill"
+	                    android:textSize="16dp" >
+	                </TextView>
+	
+	                <TextView
+	                    android:id="@+id/ArrearsBillId"
+	                    style="@style/AlipayTextInfo320x480"
+	                    android:textSize="16dp" >
+	                </TextView>
+	            </LinearLayout>
+	
+	            <LinearLayout
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginTop="5dp" >
+	
+	                <TextView
+	                    style="@style/AlipayDealQueryNameText320x480"
+	                    android:layout_marginLeft="10dp"
+	                    android:text="@string/Payment"
+	                    android:textSize="16dp" >
+	                </TextView>
+	
+	                <TextView
+	                    android:id="@+id/PaymentId"
+	                    style="@style/AlipayTextInfo320x480"
+	                    android:textColor="@color/TextColorRed"
+	                    android:textSize="16dp" >
+	                </TextView>
+	            </LinearLayout>
+	            
+	            <!-- 手续费 -->
+	            <LinearLayout
+	                android:id="@+id/ServiceChargeLayout"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginTop="5dp" >
+	
+	                <TextView
+	                    style="@style/AlipayDealQueryNameText320x480"
+	                    android:layout_marginLeft="10dp"
+	                    android:text="@string/ServiceCharge"
+	                    android:textSize="16dp" >
+	                </TextView>
+	
+	                <TextView
+	                    android:id="@+id/ServicePaymentId"
+	                    style="@style/AlipayTextInfo320x480"
+	                    android:textColor="@color/TextColorRed"
+	                    android:textSize="16dp"
+	                    android:text="1元">
+	                </TextView>
+	            </LinearLayout>
+	            
+	            <!-- 总金额 -->
+	             <LinearLayout
+	                android:id="@+id/TotalPaymentLayout"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_marginTop="5dp" >
+	
+	                <TextView
+	                    style="@style/AlipayDealQueryNameText320x480"
+	                    android:layout_marginLeft="10dp"
+	                    android:text="@string/TotalPayment"
+	                    android:textSize="16dp" >
+	                </TextView>
+	
+	                <TextView
+	                    android:id="@+id/TotalPaymentId"
+	                    style="@style/AlipayTextInfo320x480"
+	                    android:textColor="@color/TextColorRed"
+	                    android:textSize="16dp">
+	                </TextView>
+	            </LinearLayout>           
+	            <com.alipay.android.comon.component.EditTextWithButton
+	                 android:id="@+id/ConfirmLayoutPaymentInput"
+	                 android:layout_width="fill_parent"
+	                 android:layout_height="43dp"
+	                 android:layout_marginLeft="10dp"
+	                 android:layout_marginRight="10dp"
+	                 android:layout_marginTop="10dp"
+	                 android:addStatesFromChildren="true"
+	                 android:background="@drawable/alipay_input"
+	                 android:gravity="center"
+	                 component:inputTextSize="16dp"
+	                 android:visibility="gone"
+	                 component:inputHint="@string/PaymentWithout" 
+	                 component:inputType="textDecimal"
+	                 />
+	            <Button
+	                android:id="@+id/Submit"
+	                style="@style/AlipayButtonStyle320x480NoPadding"
+	                android:layout_width="fill_parent"
+	                android:layout_gravity="center"
+	                android:layout_margin="10dp"
+	                android:text="@string/DealQueryEnsurePaying" >
+	            </Button>
+	        </LinearLayout>
+        </ScrollView>
+        <WebView
+            android:id="@+id/registerWebView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/PucChargeSelectedLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="gone" >
+
+            <ListView
+                android:id="@+id/PucChargeSelectedListView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:cacheColorHint="#00000000"
+                android:visibility="visible"
+                android:divider="@drawable/list_divider" >
+            </ListView>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

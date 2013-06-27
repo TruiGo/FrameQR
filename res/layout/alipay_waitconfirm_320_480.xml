@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/DealQueryWaitReceivedCanvas"
+	android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+  
+    <RelativeLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent">
+	    	<LinearLayout
+	    		android:id="@+id/AWCCanvas"
+	    		android:orientation="vertical"
+	    		style="@style/AlipayBGCanvas320x480">
+		    	<RelativeLayout
+					android:id="@+id/WRInfo1"
+					style="@style/AlipayInputCanvas320x480">
+					<TextView
+						android:id="@+id/WRWareNameTitle"
+						android:text="@string/DealQueryWareName"
+						style="@style/AlipayDealQueryNameText320x480">
+					</TextView>
+					<TextView
+						android:id="@+id/WRWareName"
+						android:layout_toRightOf="@id/WRWareNameTitle"
+						style="@style/AlipayDealQueryContentText320x480">
+					</TextView>
+					<ImageView android:layout_below="@id/WRWareName" style="@style/AlipayCutoffLineStyle320x480"/>
+				</RelativeLayout>
+				<RelativeLayout
+					android:id="@+id/WRInfo2"
+					android:layout_below="@id/WRInfo1"
+					style="@style/AlipayInputCanvas320x480">
+					<TextView
+						android:id="@+id/WRFromTitle"
+						android:text="@string/DealQueryFrom"
+						style="@style/AlipayDealQueryNameText320x480">
+					</TextView>
+					<TextView
+						android:id="@+id/WRFrom"
+						android:layout_toRightOf="@id/WRFromTitle"
+						style="@style/AlipayDealQueryContentText320x480">
+					</TextView>
+					<ImageView android:layout_below="@id/WRFrom" style="@style/AlipayCutoffLineStyle320x480"/>
+				</RelativeLayout>
+				<RelativeLayout
+					android:id="@+id/WRInfo3"
+					android:layout_below="@id/WRInfo2"
+					style="@style/AlipayInputCanvas320x480">
+					<TextView
+						android:id="@+id/WRDealObjectTitle"
+						android:text="@string/DealQueryDealObject"
+						style="@style/AlipayDealQueryNameText320x480">
+					</TextView>
+					<TextView
+						android:id="@+id/WRDealObject"
+						android:layout_toRightOf="@id/WRDealObjectTitle"
+						style="@style/AlipayDealQueryContentText320x480">
+					</TextView>
+					<ImageView android:layout_below="@id/WRDealObject" style="@style/AlipayCutoffLineStyle320x480"/>
+				</RelativeLayout>
+				<RelativeLayout
+					android:id="@+id/WRInfo4"
+					android:layout_below="@id/WRInfo3"
+					style="@style/AlipayInputCanvas320x480">
+					<TextView
+						android:id="@+id/WRYourNameTitle"
+						android:text="@string/DealQueryYourName"
+						style="@style/AlipayDealQueryNameText320x480">
+					</TextView>
+					<TextView
+						android:id="@+id/WRYourName"
+						android:layout_toRightOf="@id/WRYourNameTitle"
+						style="@style/AlipayDealQueryContentText320x480">
+					</TextView>
+					<ImageView android:layout_below="@id/WRYourName" style="@style/AlipayCutoffLineStyle320x480"/>
+				</RelativeLayout>
+				<RelativeLayout
+					android:id="@+id/WRInfo5"
+					android:layout_below="@id/WRInfo4"
+					style="@style/AlipayInputCanvas320x480">
+					<TextView
+						android:id="@+id/WRPaidMoneyTitle"
+						android:text="@string/DealQueryPaidMoney"
+						style="@style/AlipayDealQueryNameText320x480">
+					</TextView>
+					<TextView
+						android:id="@+id/WRPaidMoney"
+						android:layout_toRightOf="@id/WRPaidMoneyTitle"
+						style="@style/AlipayDealQueryContentText320x480">
+					</TextView>
+					<ImageView android:layout_below="@id/WRPaidMoney" style="@style/AlipayCutoffLineStyle320x480"/>
+				</RelativeLayout>
+				<RelativeLayout
+					android:id="@+id/WRInfo6"
+					android:layout_below="@id/WRInfo5"
+					style="@style/AlipayInputCanvas320x480">
+					<TextView
+						android:id="@+id/WRUseableMoneyTitle"
+						android:text="@string/DealQueryUseableBalance"
+						style="@style/AlipayDealQueryNameText320x480">
+					</TextView>
+					<TextView
+						android:id="@+id/WRUseableMoney"
+						android:layout_toRightOf="@id/WRUseableMoneyTitle"
+						style="@style/AlipayDealQueryContentText320x480">
+					</TextView>
+					<ImageView android:layout_below="@id/WRUseableMoney" style="@style/AlipayCutoffLineStyle320x480"/>
+				</RelativeLayout>
+				<LinearLayout				
+					android:layout_below="@id/WRInfo6"
+					android:id="@+id/WRInfo7"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:addStatesFromChildren="true"
+			        android:gravity="center"
+			        android:paddingRight="0dip"
+			        android:background="@android:drawable/edit_text"
+			        android:layout_marginLeft ="10dp"
+			        android:layout_marginRight ="10dp"        
+			        android:layout_marginTop = "0dp"
+			        android:layout_marginBottom = "0dp">
+			        <TextView
+			        	android:id="@+id/WPPassword"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:text="@string/DealQueryPayingPasswordHint"
+			            android:textSize="16dp"
+			            android:textColor="@color/TextColorBlack"
+			            android:textAppearance="?android:attr/textAppearanceLargeInverse"
+			        />
+			        <EditText
+			        	android:id="@+id/WRPasswordInput"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_weight="1"
+			            android:singleLine="true"
+			            android:background="@null"
+			            android:password="true"
+			            style="@style/AlipayPayingPasswordInputEditText320x480">
+			        </EditText>
+			    </LinearLayout>				
+	    	</LinearLayout>
+	   
+    	<Button
+			android:id="@+id/WREnsureButton"
+			android:layout_below="@+id/AWCCanvas"
+			android:text="@string/DealQueryConfirmReceived"
+			style="@style/AlipayNormalButtonStyle320x480">
+		</Button>
+		 
+	</RelativeLayout>
+</ScrollView>

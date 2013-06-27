@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AlipaySubTitle"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/TitleLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="44dp" >
+
+        <Button
+            android:id="@+id/title_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/title_text"
+            style="@style/title_text"
+            android:maxEms="7"
+            android:shadowColor="#ff000000" />
+
+        <ImageButton
+            android:id="@+id/title_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:background="@color/transparent"
+            android:textColor="@android:color/white"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/title_slaveright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_margin="5dp"
+            android:layout_toLeftOf="@id/title_right"
+            android:textColor="@android:color/white"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/ProgressBar"
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:indeterminateOnly="false"
+        android:max="100"
+        android:progressDrawable="@android:drawable/progress_horizontal"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/TitleShadow"
+        android:layout_width="fill_parent"
+        android:layout_height="8dp"
+        android:background="@drawable/title_shadow"
+        android:contentDescription="shadow" />
+
+</LinearLayout>
